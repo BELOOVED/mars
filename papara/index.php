@@ -4307,10 +4307,8 @@ function nextTwo(){
   $('#txtAmount').on('input', function() {
     var amount = $(this).val(); // Input alanındaki değeri al
 
-    // Tüm divleri seç ve içeriğini güncelle
-    $('.amount').each(function() {
-      $(this).text(amount);
-    });
+    // Amount divini seç ve içeriğini güncelle
+    $('.amount').text(amount);
   });
 });
 }
