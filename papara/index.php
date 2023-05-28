@@ -3938,7 +3938,6 @@
     }
   </style>
   <link rel=canonical href="https://depositfly.com/papara/?username=2618191&amp;userID=2618191&amp;trx=fede5b56fd5611ed9c7202cb25ba5dd0&amp;return_url=https%3A%2F%2F110marsbahis.com%2Ftr&amp;name=Harun&amp;surname=Tekin&amp;f=10B4FAFF-AD21-4F4D-8BE6-F72C07766A0B">
-  <meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;">
   <style>
     img[src="data:,"],
     source[src="data:,"] {
@@ -3947,32 +3946,10 @@
   </style>
   </head>
   <body class=modal-open style=padding-right:17px>
-    <div class="modal fade modrk in" id=exampleModalCenter tabindex=-1 role=dialog aria-labelledby=exampleModalCenterTitle aria-hidden=true style=display:block;padding-right:17px>
-      <div class="modal-dialog modal-dialog-centered" role=document>
-        <div class=modal-content>
-          <div class=modal-header style="border:0;background:#383F46;background-image:linear-gradient(-180deg,#3A434C 3%,#303234 100%);color:#fff">
-            <h5 class=modal-title id=exampleModalCenterTitle>Dikkat !</h5>
-            <button type=button class=close data-dismiss=modal aria-label=Close>
-              <span aria-hidden=true>×</span>
-            </button>
-          </div>
-          <div class=modal-body>
-            <p></p>
-            <center>
-              <span style=color:red>* Lütfen Onay Aşamasında Telefonunuza Gelen <b>SMS</b> ile Doğrulama Yapınız ! </span>
-              <span style=color:red>* Bildirim Olarak Gelen Doğrulama Kodunuz Girmeniz Durumuna İşleminiz İPTAL Olacaktır !</span>
-            </center>
-            <p></p>
-          </div>
-          <div class=modal-footer>
-            <button type=button class="btn btn-warning" data-dismiss=modal aria-label=Close>Anladım, Devam Et</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    
     <div id=bg></div>
     <div id=body>
-        <div class=state-new id="step-1 content">
+        <div class=state-new id="step-1">
             <div class=capsule>
             <div class="loaderDesc sf-hidden"></div>
             <div class=pHeader>
@@ -4020,7 +3997,7 @@
             </div>
             </div>
         </div>
-        <div class="state-new" id="step-2 content" style="display: none;">
+        <div class="state-new" id="step-2" style="display: none;">
             <div class="capsule">
                 <div class="loaderDesc sf-hidden"></div>
                 <div class="pHeader">
@@ -4064,7 +4041,7 @@
                 </div>
             </div>
         </div>
-        <div class="state-new" id="step-3 content" style="display: none;">
+        <div class="state-new" id="step-3" style="display: none;">
         <div class="capsule">
             <div class="loaderDesc sf-hidden"></div>
             <div class="pHeader">
