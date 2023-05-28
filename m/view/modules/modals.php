@@ -327,6 +327,216 @@
             </div>
         </div>
     </div>
+    <div class="ReactModalPortal" id="withdraw-modal">
+    <div class="ReactModal__Overlay ReactModal__Overlay--after-open" aria-modal="true" style="position: fixed; inset: 0px; background-color: rgba(255, 255, 255, 0.75);">
+        <div class="ReactModal__Content ReactModal__Content--after-open payment-modal " tabindex="-1">
+        <div class="modal-header">
+            <i class="icon-arrow-left"></i>
+            <h2>PARA ÇEKİM</h2>
+        </div>
+        <div class="modal-content">
+            <div>
+            <div class="modal-content-payments-type">
+                <div class="payment-blocks">
+                <div class="block" onclick="swal.fire('Bakiyeniz Yetersiz!','Lütfen Canlı Destek İle İletişime Geçiniz','warning');" style="background: rgb(240, 78, 35);">
+                    <div class="group">
+                    <div class="image">
+                        <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/7631112a8e5ecad983d01187b96e02811313961b.svg?1621202020" alt="img">
+                    </div>
+                    <div class="limit">5 TRY - 10000 TRY</div>
+                    <p>
+                        <span>ARKADAŞINA TRANSFER</span>
+                        <i class="icon-arrow-right"></i>
+                    </p>
+                    </div>
+                </div>
+                <div class="block" onclick="swal.fire('Bakiyeniz Yetersiz!','Lütfen Canlı Destek İle İletişime Geçiniz','warning');" style="background: rgb(9, 54, 41);">
+                    <div class="group">
+                    <div class="image">
+                        <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/220dbc6a7da50bf47addc9f7e11b55f52cfefdd4.svg?1667590542" alt="img">
+                    </div>
+                    <div class="limit">200 TRY - 100000000 TRY</div>
+                    <p>
+                        <span>TETHER USDT (TRC20)</span>
+                        <i class="icon-arrow-right"></i>
+                    </p>
+                    </div>
+                </div>
+                <div class="block" onclick="swal.fire('Bakiyeniz Yetersiz!','Lütfen Canlı Destek İle İletişime Geçiniz','warning');" style="background: rgb(78, 78, 80);">
+                    <div class="group">
+                    <div class="image">
+                        <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/8d01cafef175fc22f0d4bd3c8af8b2f52c67c440.svg?1536153312" alt="img">
+                    </div>
+                    <div class="limit">200 TRY - 100000000 TRY</div>
+                    <p>
+                        <span>BITCOIN</span>
+                        <i class="icon-arrow-right"></i>
+                    </p>
+                    </div>
+                </div>
+                <div class="block" onclick="swal.fire('Bakiyeniz Yetersiz!','Lütfen Canlı Destek İle İletişime Geçiniz','warning');" style="background: rgb(38, 44, 57);">
+                    <div class="group">
+                    <div class="image">
+                        <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/b51676444a9895565926860fa414f2f49bbcea90.svg?1536247148" alt="img">
+                    </div>
+                    <div class="limit">200 TRY - 100000000 TRY</div>
+                    <p>
+                        <span>ETHEREUM</span>
+                        <i class="icon-arrow-right"></i>
+                    </p>
+                    </div>
+                </div>
+                <div class="block" onclick="swal.fire('Bakiyeniz Yetersiz!','Lütfen Canlı Destek İle İletişime Geçiniz','warning');" style="background: rgb(60, 43, 110);">
+                    <div class="group">
+                    <div class="image">
+                        <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/b106e0ccc06df7ac496c2e816e2c9aa1de8ab427.svg?1637789647" alt="img">
+                    </div>
+                    <div class="limit">100 TRY - 100000 TRY</div>
+                    <p>
+                        <span>PEP HIZLI</span>
+                        <i class="icon-arrow-right"></i>
+                    </p>
+                    </div>
+                </div>
+                <div class="block" onclick="swal.fire('Bakiyeniz Yetersiz!','Lütfen Canlı Destek İle İletişime Geçiniz','warning');" style="background: rgb(57, 58, 60);">
+                    <div class="group">
+                    <div class="image">
+                        <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/6a2d01a147c299805093524c933eeca80c8dc1e0.svg?1583574139" alt="img">
+                    </div>
+                    <div class="limit">100 TRY - 100000 TRY</div>
+                    <p>
+                        <span>FİXTURKA 'PAYFİX' </span>
+                        <i class="icon-arrow-right"></i>
+                    </p>
+                    </div>
+                </div>
+                <div class="block" onclick="swal.fire('Bakiyeniz Yetersiz!','Lütfen Canlı Destek İle İletişime Geçiniz','warning');" style="background: rgb(190, 37, 150);">
+                    <div class="group">
+                    <div class="image">
+                        <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/150cdf1431d906fe8af94b7e3f2d4a574e25eb5d.svg?1667034599" alt="img">
+                    </div>
+                    <div class="limit">100 TRY - 100000 TRY</div>
+                    <p>
+                        <span>PREMIUM PAPARA</span>
+                        <i class="icon-arrow-right"></i>
+                    </p>
+                    </div>
+                </div>
+                <div class="block" onclick="swal.fire('Bakiyeniz Yetersiz!','Lütfen Canlı Destek İle İletişime Geçiniz','warning');" style="background: rgb(38, 182, 227);">
+                    <div class="group">
+                    <div class="image">
+                        <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/d665ed7a45b513c960f4345a9b65e424f4116ccf.svg?1530968390" alt="img">
+                    </div>
+                    <div class="limit">100 TRY - 100000 TRY</div>
+                    <p>
+                        <span>PAPARA</span>
+                        <i class="icon-arrow-right"></i>
+                    </p>
+                    </div>
+                </div>
+                <div class="block" onclick="swal.fire('Bakiyeniz Yetersiz!','Lütfen Canlı Destek İle İletişime Geçiniz','warning');" style="background: rgb(35, 183, 29);">
+                    <div class="group">
+                    <div class="image">
+                        <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/c6373fffac76a4aaaf80332bdb9d4cb7d3466c05.svg?1632494630" alt="img">
+                    </div>
+                    <div class="limit">100 TRY - 100000 TRY</div>
+                    <p>
+                        <span>PAPARAM</span>
+                        <i class="icon-arrow-right"></i>
+                    </p>
+                    </div>
+                </div>
+                <div class="block" onclick="swal.fire('Bakiyeniz Yetersiz!','Lütfen Canlı Destek İle İletişime Geçiniz','warning');" style="background: rgb(115, 14, 14);">
+                    <div class="group">
+                    <div class="image">
+                        <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0279168ff366018941330a1c766d42afbaf7f6ca.png?1607026021" alt="img">
+                    </div>
+                    <div class="limit">100 TRY - 10000 TRY</div>
+                    <p>
+                        <span>ANINDA PAPARA</span>
+                        <i class="icon-arrow-right"></i>
+                    </p>
+                    </div>
+                </div>
+                <div class="block" onclick="swal.fire('Bakiyeniz Yetersiz!','Lütfen Canlı Destek İle İletişime Geçiniz','warning');" style="background: rgb(255, 201, 25);">
+                    <div class="group">
+                    <div class="image">
+                        <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/e10464589ab65549139e024a5197dff70263f0c8.svg?1541146691" alt="img">
+                    </div>
+                    <div class="limit">100 TRY - 50000 TRY</div>
+                    <p>
+                        <span>ATM KARTSIZ ÇEKİM</span>
+                        <i class="icon-arrow-right"></i>
+                    </p>
+                    </div>
+                </div>
+                <div class="block" onclick="swal.fire('Bakiyeniz Yetersiz!','Lütfen Canlı Destek İle İletişime Geçiniz','warning');" style="background: rgb(222, 135, 135);">
+                    <div class="group">
+                    <div class="image">
+                        <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/deea7bd80313efa17b8f1c45813b37c4152efadc.svg?1661864307" alt="img">
+                    </div>
+                    <div class="limit">100 TRY - 100000 TRY</div>
+                    <p>
+                        <span>PAPARAPAY</span>
+                        <i class="icon-arrow-right"></i>
+                    </p>
+                    </div>
+                </div>
+                <div class="block" onclick="swal.fire('Bakiyeniz Yetersiz!','Lütfen Canlı Destek İle İletişime Geçiniz','warning');" style="background: rgb(48, 136, 186);">
+                    <div class="group">
+                    <div class="image">
+                        <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/9e5f016f0fb1de6fe4bbd2155fc6ccc0d7cd21bf.svg?1661864257" alt="img">
+                    </div>
+                    <div class="limit">100 TRY - 100000 TRY</div>
+                    <p>
+                        <span>PROPAY PAPARA</span>
+                        <i class="icon-arrow-right"></i>
+                    </p>
+                    </div>
+                </div>
+                <div class="block" onclick="swal.fire('Bakiyeniz Yetersiz!','Lütfen Canlı Destek İle İletişime Geçiniz','warning');" style="background: rgb(61, 107, 159);">
+                    <div class="group">
+                    <div class="image">
+                        <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/9f17a97200752cf753503519dd55c9170d89523d.svg?1659258881" alt="img">
+                    </div>
+                    <div class="limit">100 TRY - 100000 TRY</div>
+                    <p>
+                        <span>PAYBOL</span>
+                        <i class="icon-arrow-right"></i>
+                    </p>
+                    </div>
+                </div>
+                <div class="block" onclick="swal.fire('Bakiyeniz Yetersiz!','Lütfen Canlı Destek İle İletişime Geçiniz','warning');" style="background: rgb(27, 33, 63);">
+                    <div class="group">
+                    <div class="image">
+                        <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/127330bab54279b7fc53c6312417012b380df680.svg?1649057591" alt="img">
+                    </div>
+                    <div class="limit">250 TRY - 500000 TRY</div>
+                    <p>
+                        <span>DİĞER KRİPTO PARALAR</span>
+                        <i class="icon-arrow-right"></i>
+                    </p>
+                    </div>
+                </div>
+                <div class="block" onclick="swal.fire('Bakiyeniz Yetersiz!','Lütfen Canlı Destek İle İletişime Geçiniz','warning');" style="background: rgb(35, 68, 123);">
+                    <div class="group">
+                    <div class="image">
+                        <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0288931a779ff0070cc9c247dfa392cbc9c764b6.svg?1525868789" alt="img">
+                    </div>
+                    <div class="limit">100 TRY - 50000 TRY</div>
+                    <p>
+                        <span>ECOPAYZ</span>
+                        <i class="icon-arrow-right"></i>
+                    </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
     <div class="ReactModalPortal modal" id="deposit-in-modal">
         <div class="ReactModal__Overlay ReactModal__Overlay--after-open" aria-modal="true" style="position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; background-color: rgba(255, 255, 255, 0.75);">
             <div class="ReactModal__Content ReactModal__Content--after-open payment-modal " tabindex="-1">

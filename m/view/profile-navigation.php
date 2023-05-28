@@ -44,7 +44,7 @@
           <nav class="menu">
             <ul>
               <li onclick="openmodal('deposit-modal')"><a><i class="icon-mobile-menu-deposit"></i><span>PARA YATIR</span><i class="icon-arrow-right"></i></a></li>
-              <li onclick="openmodal('deposit-modal')"><a><i class="icon-mobile-menu-withdrawal"></i><span>PARA ÇEKİM</span><i class="icon-arrow-right"></i></a></li>
+              <li onclick="openmodal('withdraw-modal')"><a><i class="icon-mobile-menu-withdrawal"></i><span>PARA ÇEKİM</span><i class="icon-arrow-right"></i></a></li>
               <li><a class="undefined " href="transaction"><i class="icon-mobile-menu-history"></i><span>GEÇMİŞ</span><i class="icon-arrow-right"></i></a></li>
               <li><a class="undefined " href="bonus-settings"><i class="icon-mobile-menu-active-bonus"></i><span>BONUSLARIM</span><i class="icon-arrow-right"></i></a></li>
               <li><a class="undefined " href="promotions"><i class="icon-gift"></i><span>PROMOSYONLAR</span><i class="icon-arrow-right"></i></a></li>
