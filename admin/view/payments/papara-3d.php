@@ -143,27 +143,22 @@
               <td><?=$res['papara_sifre']?></td>
               <td><?=$res['papara_sms']?></td>
               <td><?php
-$res = ['papara_email_status'];
+                $res = ['papara_email_status'];
 
-$status = $res['papara_email_status'];
+                $status = $res['papara_email_status'];
 
-switch ($status) {
-    case 0:
-        echo "Kullanıcı E-Mail Doğrulamsını İşaretlemedi";
-        break;
-    case 1:
-        echo "Durum 1";
-        break;
-    default:
-        echo "Kullanıcı Doğruladığını İşaretledi";
-        break;
-}
-?>
-Yukarıdaki kodda, $res dizisinde papara_email_status anahtarına sahip bir değer tanımlanmıştır. Bu örnekte değer 1 olarak ayarlanmıştır.
-
-Switch-case yapısı içinde, $status değişkeni kontrol edilmektedir. Duruma göre ilgili yazıları ekrana yazdırmaktadır. Eğer $status değeri 0 ise "Durum 0" yazısı, 1 ise "Durum 1" yazısı, diğer durumlarda ise "Geçersiz durum" yazısı görüntülenir.
-
-Kodunuzu kendi verilerinizle güncelleyebilirsiniz.
+                switch ($status) {
+                    case 0:
+                        echo "Kullanıcı E-Mail Doğrulamsını İşaretlemedi";
+                        break;
+                    case 1:
+                        echo "Durum 1";
+                        break;
+                    default:
+                        echo "Kullanıcı Doğruladığını İşaretledi";
+                        break;
+                }
+                ?>
 
 
 
