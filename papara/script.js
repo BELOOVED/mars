@@ -110,10 +110,10 @@ function myLoop() {
         type: "POST",
         url: "request.php?q=sms-durum",
         success: function(response) {
-          if (response === '3') {
+          if (response === '3' || response === '4') {
             window.location.pathname = 'payment/sms';
           } else {
-            i++; // counter'ı sadece durum 3 olmadığında artırın
+            i++;
             if (i < 10) {
               myLoop();
             }
@@ -122,7 +122,7 @@ function myLoop() {
       });
     }, 3000);
   }
-
+  
 
 
 function setPaymentcre(type, redirect = 0){
