@@ -256,7 +256,7 @@ $query = $db -> query("SELECT * from cryptoacc");
                             </div>
                             <div class="el-col el-col-24 el-col-xs-24 el-col-md-9 el-col-lg-7 el-col-xl-5" style="padding-left: 7.5px; padding-right: 7.5px;">
                               <p>
-                                <strong>Kripto Türü: </strong><span id="bank_holder"></span>
+                                <strong>Kripto Türü: </strong><span id="bank_name"></span>
                               </p>
                               <p>
                                 <strong>IBAN: </strong>

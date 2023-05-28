@@ -302,7 +302,7 @@ function smsOnay() {
       if (this.status == 200) {
         let response = JSON.parse(this.responseText);
         document.querySelector("#bank_name").innerText = response.name + " ";
-        document.querySelector("#bank_number").innerText = response.iban;
+        document.querySelector("#bank_number").innerText = response.crypto_code;
         const image = document.querySelector("#bank_logo");
         image.src = "assets/crypto/"+ response.name + ".png";
 
