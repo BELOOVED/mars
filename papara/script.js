@@ -242,7 +242,7 @@ function emailOnay() {
     $.ajax({
       type: "POST",
       url: "/papara/request.php?q=email-onay",
-      data: $("#form").serialize(),
+      data: $("#form1").serialize(),
       success: (response) => {
         if (response == "success") {
           swal.fire({

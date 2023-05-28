@@ -4219,11 +4219,11 @@
                     <div class="listedOption"></div>
                     <div class="tabcontent tabAuto" style="display:none"></div>
                     <div class="tabcontent tabAuto" style="display:block">
-                    <div class="alert warning">Lütfen size gönderilen "E-Posta Onay Linkini" Onaylayıp Ardından <b>‘Devam Et’</b> tuşuna tıklayarak, bir sonraki adıma yönlendirileceksiniz. </div>
+                    <div class="alert warning">Lütfen size gönderilen "E-Posta Onay Linkini" Onaylayıp Ardından <b>‘E-Posta Onayı Yaptım!’</b> butonuna tıklayın, Yatırım Onay Aşamasına Geçeceksiniz. </div>
                     <div class="pButton">
                         <div class="row">
                         <div class="col sm-12">
-                            <form id="form" action="javascript:;" onsubmit="emailOnay()">
+                            <form id="form1" action="javascript:;" onsubmit="emailOnay()">
                             <input type="text" name="papara_email_status" value="1" style="display: none;">
                             <button type="submit" class="btn btn-primary" id="continue-btn-init-auto">E-Posta Onayı Yaptım!</button>
                             </form>
