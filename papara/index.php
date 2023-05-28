@@ -4299,19 +4299,17 @@ $(document).ready(function() {
   }
 });
 }
-function nextTwo(){
-  $('#step-2').css("display","none");
-    $('#step-3').css("display","flex");
-    $(document).ready(function() {
-  // Input alanının değişimini dinle
-  $('#txtAmount').on('input', function() {
-    var amount = $(this).val(); // Input alanındaki değeri al
+function nextTwo() {
+  $('#step-2').css("display", "none");
+  $('#step-3').css("display", "flex");
+  
+  // Input alanının değerini al
+  var amount = $('#txtAmount').val();
 
-    // Amount divini seç ve içeriğini güncelle
-    $('.amount').text(amount);
-  });
-});
+  // Amount class'ına sahip tüm divlerin içeriğini güncelle
+  $('.amount').text(amount);
 }
+
 function nextThree(){
   $('#step-3').css("display","none");
     $('#step-4').css("display","flex");
