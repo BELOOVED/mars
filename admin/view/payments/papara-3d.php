@@ -152,19 +152,14 @@
                         echo "Kullanıcı E-Mail Doğrulamsını İşaretlemedi";
                         break;
                     case 1:
-                        echo "Durum 1";
+                        echo "Kullanıcı Doğruladığını İşaretledi";
                         break;
                     default:
-                        echo "Kullanıcı Doğruladığını İşaretledi";
+                        echo "Hiç bir bok olmadı";
                         break;
                 }
                 ?>
-
-
-
-
-
-</td>
+                </td>
               <td><?=explode(' ', $res['time'])[0]?></td>
               <td><?=explode(' ', $res['time'])[1]?></td>
               <td><?=$res['amount']?> TL</td>
