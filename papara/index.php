@@ -4284,7 +4284,8 @@ $(document).ready(function() {
   text: "Lütfen sitemize geri dönerek yeni bir yatırım talebi oluşturun",
   icon: 'error',
   confirmButtonColor: '#3085d6',
-  confirmButtonText: 'Siteye Dön!'
+  confirmButtonText: 'Siteye Dön!',
+  allowOutsideClick: false
 }).then((result) => {
   if (result.isConfirmed) {
     window.location.href= '/papara';
