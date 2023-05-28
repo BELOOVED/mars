@@ -4095,7 +4095,6 @@
                     <div class="tabcontent tabAuto" style="display:block">
                     <div class="alert warning">Lütfen tarafınıza ait papara hesap bilgilerini giriniz. Telefon numaranızın başına sıfır koymadan 10 haneli olarak giriniz. Ardından <b>‘Devam Et’</b> tuşuna tıklayarak, bir sonraki adıma yönlendirileceksiniz. </div>
                     <div class="form-group"></div>
-                    <form onsubmit="setPayment('papara-3d')">
                     <div class="form-group">
                         <label for="input2">Ad Soyad</label>
                         <input class="form-control" name="full_name" id="fullname" type="text" value="" autocomplete="off" placeholder="Ad Soyad" required="" >
