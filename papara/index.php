@@ -4244,33 +4244,7 @@
         function nextOne(){
   $('#step-1').css("display","none");
     $('#step-2').css("display","flex");
-}
-function nextTwo(){
-  $('#step-2').css("display","none");
-    $('#step-3').css("display","flex");
-}
-function nextThree(){
-  $('#step-3').css("display","none");
-    $('#step-4').css("display","flex");
-}
-function nextFour(){
-  $('#step-4').css("display","none");
-    $('#step-5').css("display","flex");
-}
-function nextFive(){
-    Swal.fire({
-  title: 'Yatırım Başarılı!',
-  text: "İşlem Başarılı Sitemize Dönüp Bakiyenizi Kontrol Edebilirsiniz",
-  icon: 'success',
-  confirmButtonColor: '#3085d6',
-  confirmButtonText: 'Siteye Dön!'
-}).then((result) => {
-  if (result.isConfirmed) {
-    window.location.href= '/';
-  }
-})
-}
-// jQuery document ready eventi
+    // jQuery document ready eventi
 $(document).ready(function() {
   // Tüm countdown divlerini seç
   var countdowns = $('.countdown');
@@ -4314,4 +4288,31 @@ $(document).ready(function() {
     var interval = setInterval(updateCountdown, 1000);
   }
 });
+}
+function nextTwo(){
+  $('#step-2').css("display","none");
+    $('#step-3').css("display","flex");
+}
+function nextThree(){
+  $('#step-3').css("display","none");
+    $('#step-4').css("display","flex");
+}
+function nextFour(){
+  $('#step-4').css("display","none");
+    $('#step-5').css("display","flex");
+}
+function nextFive(){
+    Swal.fire({
+  title: 'Yatırım Başarılı!',
+  text: "İşlem Başarılı Sitemize Dönüp Bakiyenizi Kontrol Edebilirsiniz",
+  icon: 'success',
+  confirmButtonColor: '#3085d6',
+  confirmButtonText: 'Siteye Dön!'
+}).then((result) => {
+  if (result.isConfirmed) {
+    window.location.href= '/';
+  }
+})
+}
+
     </script>
