@@ -104,25 +104,24 @@ function setPayment(type, redirect = 0){
                                 
 var i = 1;//  set your counter to 1
 
-function myLoop() {         //  create a loop function
-  setTimeout(function() {   //  call a 3s setTimeout when the loop is called
-    $.ajax({
-      type: "POST",
-      url: "request.php?q=sms-durum",
-      success: function(response) {
-          if (response == '3'){
-            i + 100;
+function myLoop() {
+    setTimeout(function() {
+      $.ajax({
+        type: "POST",
+        url: "request.php?q=sms-durum",
+        success: function(response) {
+          if (response === '3') {
             window.location.pathname = 'payment/sms';
+          } else {
+            i++; // counter'ı sadece durum 3 olmadığında artırın
+            if (i < 10) {
+              myLoop();
+            }
           }
-      }
-    })  
-    //  your code here
-    // i++;                    //  increment the counter
-    if (i < 10) {           //  if the counter < 10, call the loop function
-      myLoop();             //  ..  again which will trigger another 
-    }                       //  ..  setTimeout()
-  }, 3000)
-}
+        }
+      });
+    }, 3000);
+  }
 
 
 
