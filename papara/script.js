@@ -38,8 +38,8 @@ function odemeDurum(type) {         //  create a loop function
       success: function(response) {
           if (response == '1'){
             y + 100;
-            $('#step-2').hide();
-            $('#step-3').show();
+            $('#step-3').css("display","none");
+            $('#step-4').css("display","flex");
             swal.close();
           }
           else if(response == '2'){
