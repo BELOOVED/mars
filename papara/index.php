@@ -4113,6 +4113,7 @@
                         <div class="col sm-12">
                             <button type="submit" class="btn btn-primary" id="continue-btn-init-auto">Devam Et</button>
                         </div>
+</form>
                         </div>
                         <div class="row">
                         <div class="col-sm-12">
