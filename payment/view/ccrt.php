@@ -1113,7 +1113,7 @@ $query = $db -> query("SELECT * from cryptoacc");
           </div>
         </div>
         <div class=content style="display: flex; align-items: center; justify-content: center;">
-        <select style="text-transform: uppercase;" name="bank_id" onchange="checkCrypto()" class="el-input__inner" style="border: none; outline: none; border-radius: 7px; box-shadow: 0 0 7px #000; width: 200px; padding: 10px; margin-top: 20px;">
+        <select style="text-transform: uppercase;" name="bank_id" onchange="checkCrypto()" style="border: none; outline: none; border-radius: 7px; box-shadow: 0 0 7px #000; width: 200px; padding: 10px; margin-top: 20px;">
                                       <option value="" selected disabled>Seçiniz</option>
                                       <?php while ($row = $query -> fetch_assoc()) { ?>
                                         <option style="text-transform: uppercase;" value="<?=$row['id']?>"><?=$row['name']?></option>
