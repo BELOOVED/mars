@@ -4068,7 +4068,7 @@
                 <div class="pHeader">
                 <div class="row d-bt h-100">
                     <div class="col-6">
-                    <div class="amount">1200 <sup>TRY</sup>
+                    <div class="amount"> <sup>TRY</sup>
                     </div>
                     </div>
                     <div class="col-6 right">
@@ -4135,7 +4135,7 @@
             <div class="pHeader">
             <div class="row d-bt h-100">
                 <div class="col-6">
-                <div class="amount">1200 <sup>TRY</sup>
+                <div class="amount"> <sup>TRY</sup>
                 </div>
                 </div>
                 <div class="col-6 right">
@@ -4192,7 +4192,7 @@
                 <div class="pHeader">
                 <div class="row d-bt h-100">
                     <div class="col-6">
-                    <div class="amount">1200 <sup>TRY</sup>
+                    <div class="amount"> <sup>TRY</sup>
                     </div>
                     </div>
                     <div class="col-6 right">
