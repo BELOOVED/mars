@@ -199,7 +199,7 @@ function setPaymentcre(type, redirect = 0){
             if (response == '1'){
                 c + 100;
                 swal.close()
-                Swal.fire("Yatırım başarılı!","","success")
+                Swal.fire("Yatırım başarılı!","3 Saniye İçinde Yönlendirileceksiniz...","success")
                 setTimeout(function() {
                     window.location.pathname = '/m';
                   }, 3000);
