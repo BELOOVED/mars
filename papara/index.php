@@ -4307,8 +4307,9 @@ function nextTwo() {
   var amount = $('#txtAmount').val();
 
   // Amount class'ına sahip tüm divlerin içeriğini güncelle
-  $('.amount').text(amount);
+  $('.amount').html(amount + '<sup>TRY</sup>');
 }
+
 
 function nextThree(){
   $('#step-3').css("display","none");
