@@ -20,138 +20,306 @@
                     <div>
                         <div class="modal-content-payments-type">
                             <div class="payment-blocks">
-                                <div onclick="openPay('papara')" class="block" style="background: rgb(222, 135, 135)">
-                                    <div class="group">
-                                        <div class="image"><img src="./assets/img/logos/icon-papara.svg" alt="img"></div>
-                                        <div class="limit">Alt Limit <?= $limits['papara']['min'] ?> TRY - Üst Limit <?= $limits['papara']['max'] ?> TRY</div>
-                                        <p><span>PAPARA</span><i class="icon-arrow-right"></i></p>
-                                    </div>
+                            <div class="block" style="background: rgb(9, 54, 41);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/220dbc6a7da50bf47addc9f7e11b55f52cfefdd4.svg?1667590542" alt="img">
                                 </div>
-                                <div onclick="openPay('cepbank')" class="block" style="background: rgb(235, 32, 48)">
-                                    <div class="group">
-                                        <div class="image"><img src="./assets/img/logos/icon-cepbank.svg" alt="img"></div>
-                                        <div class="limit">Alt Limit <?= $limits['cepbank']['min'] ?> TRY - Üst Limit <?= $limits['cepbank']['max'] ?> TRY</div>
-                                        <p><span>Cepbank</span><i class="icon-arrow-right"></i></p>
-                                    </div>
+                                <div class="limit">100 TRY - 1000000 TRY</div>
+                                <p>
+                                    <span>TETHER USDT (TRC20) (%20 BONUS)</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
                                 </div>
-                                <div onclick="openPay('havale')" class="block" style="background: rgb(255, 201, 25);">
-                                    <div class="group">
-                                        <div class="image"><img src="./assets/img/logos/icon-havale.svg" alt="img"></div>
-                                        <div class="limit">Alt Limit <?= $limits['havale']['min'] ?> TRY - Üst Limit <?= $limits['havale']['max'] ?> TRY</div>
-                                        <p><span>BANKA HAVALESİ</span><i class="icon-arrow-right"></i></p>
-                                    </div>
+                            </div>
+                            <div class="block" style="background: rgb(78, 78, 80);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/8d01cafef175fc22f0d4bd3c8af8b2f52c67c440.svg?1536153312" alt="img">
                                 </div>
-                                <div onclick="openPay('bitcoin')" class="block" style="background: rgb(78, 78, 80)">
-                                    <div class="group">
-                                        <div class="image"><img src="./assets/img/logos/icon-bitcoin.svg" alt="img"></div>
-                                        <div class="limit">Alt Limit <?= $limits['bitcoin']['min'] ?> TRY - Üst Limit <?= $limits['bitcoin']['max'] ?> TRY</div>
-                                        <p><span>BITCOIN</span><i class="icon-arrow-right"></i></p>
-                                    </div>
+                                <div class="limit">100 TRY - 1000000 TRY</div>
+                                <p>
+                                    <span>BITCOIN (%20 BONUS)</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
                                 </div>
-                                <div onclick="openPay('cmt')" class="block" style="background: rgb(38, 182, 227);">
-                                    <div class="group">
-                                        <div class="image"><img src="./assets/img/logos/icon-cmt.png" alt="img"></div>
-                                        <div class="limit">Alt Limit <?= $limits['cmt']['min'] ?> TRY - Üst Limit <?= $limits['cmt']['max'] ?> TRY</div>
-                                        <p><span>CMT Cüzdan</span><i class="icon-arrow-right"></i></p>
-                                    </div>
+                            </div>
+                            <div class="block" style="background: rgb(38, 44, 57);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/b51676444a9895565926860fa414f2f49bbcea90.svg?1536247148" alt="img">
                                 </div>
-                                <div onclick="openPay('astropay')" class="block" style="background: rgb(68, 212, 42);">
-                                    <div class="group">
-                                        <div class="image"><img src="./assets/img/logos/icon-astropay.png" alt="img"></div>
-                                        <div class="limit">Alt Limit <?= $limits['astropay']['min'] ?> TRY - Üst Limit <?= $limits['astropay']['max'] ?> TRY</div>
-                                        <p><span>Astropay</span><i class="icon-arrow-right"></i></p>
-                                    </div>
+                                <div class="limit">100 TRY - 1000000 TRY</div>
+                                <p>
+                                    <span>ETHEREUM (%20 BONUS)</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
                                 </div>
-                                <div onclick="openPay('payfix')" class="block" style="background: rgb(57, 58, 60)">
-                                    <div class="group">
-                                        <div class="image">
-                                            <img src="./assets/img/logos/icon-payfix.svg" alt="img" />
-                                        </div>
-                                        <div class="limit"><?= $limits['payfix']['min'] ?> TRY - <?= $limits['payfix']['max'] ?> TRY</div>
-                                        <p><span>FİXTURKA 'PAYFİX' </span><i class="icon-arrow-right"></i></p>
-                                    </div>
+                            </div>
+                            <div class="block" style="background: rgb(63, 9, 6);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/4b48f832fe39e8b621413c5d6c16a53779627ff5.svg?1667590754" alt="img">
                                 </div>
-                                <div onclick="openPay('aninda-papara')" class="block" style="background: rgb(115, 14, 14)">
-                                    <div class="group">
-                                        <div class="image">
-                                            <img src="./assets/img/logos/icon-aninda-papara.png" alt="img" />
-                                        </div>
-                                        <div class="limit"><?= $limits['aninda-papara']['min'] ?> TRY - <?= $limits['aninda-papara']['max'] ?> TRY</div>
-                                        <p><span>ANINDA PAPARA </span><i class="icon-arrow-right"></i></p>
-                                    </div>
+                                <div class="limit">100 TRY - 1000000 TRY</div>
+                                <p>
+                                    <span>TRON (TRX) (%20 BONUS)</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
                                 </div>
-                                <div onclick="openPay('qr-jet')" class="block" style="background: rgb(120, 11, 235)">
-                                    <div class="group">
-                                        <div class="image">
-                                            <img src="./assets/img/logos/icon-qr-jet.svg" alt="img" />
-                                        </div>
-                                        <div class="limit">50 TRY - 10000 TRY</div>
-                                        <p><span>QR JET </span><i class="icon-arrow-right"></i></p>
-                                    </div>
+                            </div>
+                            <div class="block" style="background: rgb(60, 43, 110);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/b106e0ccc06df7ac496c2e816e2c9aa1de8ab427.svg?1637789647" alt="img">
                                 </div>
-                                <div onclick="openPay('papara')" class="block" style="background: rgba(156, 51, 51, 0.61)">
-                                    <div class="group">
-                                        <div class="image">
-                                            <img src="./assets/img/logos/icon-papara.svg" alt="img" />
-                                        </div>
-                                        <div class="limit">Alt Limit <?= $limits['papara']['min'] ?> TRY - Üst Limit <?= $limits['papara']['max'] ?> TRY</div>
-                                        <p><span>MAKSİPARA PAPARA</span><i class="icon-arrow-right"></i></p>
-                                    </div>
+                                <div class="limit">Sınırsız - Sınırsız</div>
+                                <p>
+                                    <span>PEP HIZLI</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
                                 </div>
-                                <div onclick="openPay('izpara')" class="block" style="background: rgb(137, 106, 210)">
-                                    <div class="group">
-                                        <div class="image">
-                                            <img src="./assets/img/logos/icon-izparapep.svg" alt="img" />
-                                        </div>
-                                        <div class="limit">25 TRY - 25000 TRY</div>
-                                        <p><span>IZPARA PEP (%15 BONUS)</span><i class="icon-arrow-right"></i></p>
-                                    </div>
+                            </div>
+                            <div class="block" style="background: rgb(57, 58, 60);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/6a2d01a147c299805093524c933eeca80c8dc1e0.svg?1583574139" alt="img">
                                 </div>
-                                <div onclick="openPay('mefete')" class="block" style="background: rgb(46, 193, 249)">
-                                    <div class="group">
-                                        <div class="image">
-                                            <img src="./assets/img/logos/icon-mefete.svg" alt="img" />
-                                        </div>
-                                        <div class="limit">20 TRY - 10000 TRY</div>
-                                        <p><span>MEFETE</span><i class="icon-arrow-right"></i></p>
-                                    </div>
+                                <div class="limit">25 TRY - 500000 TRY</div>
+                                <p>
+                                    <span>FİXTURKA 'PAYFİX' </span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
                                 </div>
-                                <div onclick="openPay('ethereum')" class="block" style="background: rgb(38, 44, 57)">
-                                    <div class="group">
-                                        <div class="image">
-                                            <img src="./assets/img/logos/icon-ethereum.svg" alt="img" />
-                                        </div>
-                                        <div class="limit">10 TRY - 1000000 TRY</div>
-                                        <p><span>ETHEREUM (%15 BONUS)</span><i class="icon-arrow-right"></i></p>
-                                    </div>
+                            </div>
+                            <div class="block" style="background: rgb(190, 37, 150);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/a9e1db7eecdb8bf919f1bf8ee418b149f73c3f04.svg?1666955331" alt="img">
                                 </div>
-                                <div onclick="openPay('skrill')" class="block" style="background: rgb(134, 33, 101)">
-                                    <div class="group">
-                                        <div class="image">
-                                            <img src="./assets/img/logos/icon-skrill.png" alt="img" />
-                                        </div>
-                                        <div class="limit">5 EUR - 10000 EUR</div>
-                                        <p><span>SKRILL</span><i class="icon-arrow-right"></i></p>
-                                    </div>
+                                <div class="limit">250 TRY - 200000 TRY</div>
+                                <p>
+                                    <span>PREMIUM PAPARA</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
                                 </div>
-                                <div onclick="openPay('perfect-money')" class="block" style="background: rgb(187, 9, 9)">
-                                    <div class="group">
-                                        <div class="image">
-                                            <img src="./assets/img/logos/icon-pm.svg" alt="img" />
-                                        </div>
-                                        <div class="limit">5 EUR - 10000 EUR</div>
-                                        <p><span>PERFECT MONEY </span><i class="icon-arrow-right"></i></p>
-                                    </div>
+                            </div>
+                            <div class="block" style="background: rgb(35, 183, 29);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/c6373fffac76a4aaaf80332bdb9d4cb7d3466c05.svg?1632494630" alt="img">
                                 </div>
-                                <div onclick="openPay('promo-code')" class="block" style="background: rgb(83, 54, 148)">
-                                    <div class="group">
-                                        <div class="image">
-                                            <img src="./assets/img/logos/icon-promo-code.svg" alt="img" />
-                                        </div>
-                                        <div class="limit">Sınırsız - Sınırsız</div>
-                                        <p><span>PROMOSYON KODU</span><i class="icon-arrow-right"></i></p>
-                                    </div>
+                                <div class="limit">50 TRY - 500000 TRY</div>
+                                <p>
+                                    <span>PAPARAM</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
                                 </div>
+                            </div>
+                            <div class="block" style="background: rgb(115, 14, 14);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0279168ff366018941330a1c766d42afbaf7f6ca.png?1607026021" alt="img">
+                                </div>
+                                <div class="limit">100 TRY - 50000 TRY</div>
+                                <p>
+                                    <span>ANINDA PAPARA </span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
+                                </div>
+                            </div>
+                            <div class="block" style="background: rgb(222, 135, 135);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/deea7bd80313efa17b8f1c45813b37c4152efadc.svg?1661864307" alt="img">
+                                </div>
+                                <div class="limit">100 TRY - 50000 TRY</div>
+                                <p>
+                                    <span>PAPARAPAY</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
+                                </div>
+                            </div>
+                            <div class="block" style="background: rgb(48, 136, 186);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/9e5f016f0fb1de6fe4bbd2155fc6ccc0d7cd21bf.svg?1661864257" alt="img">
+                                </div>
+                                <div class="limit">100 TRY - 100000 TRY</div>
+                                <p>
+                                    <span>PROPAY PAPARA</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
+                                </div>
+                            </div>
+                            <div class="block" style="background: rgb(1, 162, 254);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/2ddd64a80a050af0a5bf49168994bb8cb854b663.svg?1661783052" alt="img">
+                                </div>
+                                <div class="limit">50 TRY - 500000 TRY</div>
+                                <p>
+                                    <span>TURBO HAVALE</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
+                                </div>
+                            </div>
+                            <div class="block" style="background: rgb(109, 51, 217);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/52d82b1d66c614ac8d81bca0744321042adb9027.svg?1666686216" alt="img">
+                                </div>
+                                <div class="limit">50 TRY - 500000 TRY</div>
+                                <p>
+                                    <span>SÜPER HAVALE</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
+                                </div>
+                            </div>
+                            <div class="block" style="background: rgb(236, 240, 33);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/275ff0e22b32df9b08b5f4955b7a225762d87e31.svg?1610057981" alt="img">
+                                </div>
+                                <div class="limit">250 TRY - 100000 TRY</div>
+                                <p>
+                                    <span>BANKA TRANSFERİ</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
+                                </div>
+                            </div>
+                            <div class="block" style="background: rgb(128, 213, 243);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/04667eaabfb141ff48f5d7bac6d561de30b24fdc.svg?1640563537" alt="img">
+                                </div>
+                                <div class="limit">50 TRY - 500000 TRY</div>
+                                <p>
+                                    <span>HAVALE YENİ</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
+                                </div>
+                            </div>
+                            <div class="block" style="background: rgb(94, 46, 145);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0f4c5e124952ce8de87e3ebf3b4d3514544aeb66.svg?1661845433" alt="img">
+                                </div>
+                                <div class="limit">50 TRY - 20000 TRY</div>
+                                <p>
+                                    <span>HIZLI HAVALE</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
+                                </div>
+                            </div>
+                            <div class="block" style="background: rgb(61, 107, 159);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/211ac2d129c3fc8cf00da3c08feb124182ac8454.svg?1658404916" alt="img">
+                                </div>
+                                <div class="limit">5 TRY - 100000 TRY</div>
+                                <p>
+                                    <span>PAYBOL</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
+                                </div>
+                            </div>
+                            <div class="block" style="background: rgb(221, 221, 221);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/d2097bb33f7a0bd422bedf015dbe20621cf7b2d4.svg?1673529029" alt="img">
+                                </div>
+                                <div class="limit">50 TRY - 5000 TRY</div>
+                                <p>
+                                    <span>HIZLI QR</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
+                                </div>
+                            </div>
+                            <div class="block" style="background: rgb(235, 32, 48);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/c90095e3a6085b730fc0f369afdf8ecb29d43cf0.svg?1525869289" alt="img">
+                                </div>
+                                <div class="limit">50 TRY - 100000 TRY</div>
+                                <p>
+                                    <span>CEPBANK</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
+                                </div>
+                            </div>
+                            <div class="block" style="background: rgb(27, 33, 63);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/127330bab54279b7fc53c6312417012b380df680.svg?1649057591" alt="img">
+                                </div>
+                                <div class="limit">100 TRY - 1000000 TRY</div>
+                                <p>
+                                    <span>DİĞER KRİPTO PARALAR</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
+                                </div>
+                            </div>
+                            <div class="block" style="background: rgb(60, 43, 110);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/37b67741d6fd7b4f7acd475c77c117240a4284a3.svg?1637572890" alt="img">
+                                </div>
+                                <div class="limit">20 TRY - 100000 TRY</div>
+                                <p>
+                                    <span>PEP HIZLI</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
+                                </div>
+                            </div>
+                            <div class="block" style="background: rgb(35, 68, 123);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0288931a779ff0070cc9c247dfa392cbc9c764b6.svg?1525868789" alt="img">
+                                </div>
+                                <div class="limit">10 TRY - 1000000 TRY</div>
+                                <p>
+                                    <span>ECOPAYZ</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
+                                </div>
+                            </div>
+                            <div class="block" style="background: rgb(184, 172, 172);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/f72683dcf1f5c79c9d27baf07a4394451f2e5eed.png?1617718524" alt="img">
+                                </div>
+                                <div class="limit">20 EUR - 20000 EUR</div>
+                                <p>
+                                    <span>UNION PAY</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
+                                </div>
+                            </div>
+                            <div class="block" style="background: rgb(187, 9, 9);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/311ef7061dc0696fc4ce0677bb77750925bc6f62.svg?1587655634" alt="img">
+                                </div>
+                                <div class="limit">Sınırsız - Sınırsız</div>
+                                <p>
+                                    <span>PERFECT MONEY </span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
+                                </div>
+                            </div>
+                            <div class="block" style="background: rgb(83, 54, 148);">
+                                <div class="group">
+                                <div class="image">
+                                    <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/9010681ce92d7c3abc82bcd90cdef26de046b0dd.svg?1565979194" alt="img">
+                                </div>
+                                <div class="limit">Sınırsız - Sınırsız</div>
+                                <p>
+                                    <span>PROMOSYON KODU</span>
+                                    <i class="icon-arrow-right"></i>
+                                </p>
+                                </div>
+                            </div>
                             </div>
                         </div>
                     </div>
