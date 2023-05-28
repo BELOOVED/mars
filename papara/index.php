@@ -4039,7 +4039,7 @@
                     <input class="form-control" id="txtAmount" type="text" autofocus="" placeholder="Yatırım yapılacak tutarı giriniz" maxlength="6" value="">
                     </div>
                     <div class="pButton">
-                    <button class="btn" id="continue-btn-tutar" return="">Devam Et</button>
+                    <button class="btn" type="button" onclick="nextTwo();" id="continue-btn-tutar" return="">Devam Et</button>
                     </div>
                 </div>
                 <div class="pContent secim-step sf-hidden"></div>
@@ -4117,15 +4117,13 @@
         </div>
         </div>
     </div>
-    <div class="modal-backdrop fade in"></div>
     <script>
         function nextOne(){
   $('#step-1').css("display","none");
     $('#step-2').css("display","flex");
 }
 function nextTwo(){
-  $('#step-1').css;
-    $('#login-step-2').addClass('d-none');
-    $('login-#step-2').removeClass('d-flex');
+  $('#step-2').css("display","none");
+    $('#step-3').css("display","flex");
 }
     </script>
