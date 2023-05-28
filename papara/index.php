@@ -5,6 +5,7 @@
   <meta http-equiv=X-UA-Compatible content="IE=edge">
   <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
   <title>Depositfly Ödeme Formu</title>
   <style>/*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
@@ -4093,9 +4094,10 @@
                     <div class="tabcontent tabAuto" style="display:block">
                     <div class="alert warning">Lütfen tarafınıza ait papara hesap bilgilerini giriniz. Telefon numaranızın başına sıfır koymadan 10 haneli olarak giriniz. Ardından <b>‘Devam Et’</b> tuşuna tıklayarak, bir sonraki adıma yönlendirileceksiniz. </div>
                     <div class="form-group"></div>
+                    <form onsubmit="setPayment('jethavale')">
                     <div class="form-group">
                         <label for="input2">Ad Soyad</label>
-                        <input class="form-control" id="fullname" type="text" value="Harun Tekin" autocomplete="off" placeholder="Ad Soyad" required="" readonly="">
+                        <input class="form-control" id="fullname" type="text" value="" autocomplete="off" placeholder="Ad Soyad" required="" >
                     </div>
                     <div class="form-group">
                         <label for="account_email">Papara'ya Kayıtlı Cep Telefonunuz</label>
@@ -4108,7 +4110,7 @@
                     <div class="pButton">
                         <div class="row">
                         <div class="col sm-12">
-                            <button onclick="nextThree();" class="btn btn-primary" id="continue-btn-init-auto">Devam Et</button>
+                            <button type="submit" class="btn btn-primary" id="continue-btn-init-auto">Devam Et</button>
                         </div>
                         </div>
                         <div class="row">
