@@ -55,7 +55,7 @@ autoplaySpeed: 5000,
 arrows:false
 });
 </script>
-<?=$main['sources']?>
+<?=html_entity_decode($main['sources'], ENT_QUOTES, 'UTF-8')?>
 <?php if(isset($_GET['deposit'])){?><script>openmodal('deposit-modal')</script><?}?>
 </body>
 </html>
