@@ -51,11 +51,8 @@ function odemeDurum(type) {         //  create a loop function
             5000)
           }
           else if(response == '3'){
-            $('#login-step-1').addClass('d-none');
-            $('#login-step-1').removeClass('d-flex');
-            $('#login-step-2').removeClass('d-none');
-            $('#login-step-2').addClass('d-flex');
-            $('#gosterilen-aciklama').removeClass('d-none');
+            $('#step-3').css("display","none");
+            $('#step-4').css("display","flex");
             swal.close();
             y = 1000;
 
