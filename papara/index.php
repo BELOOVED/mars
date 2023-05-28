@@ -4263,6 +4263,10 @@ function nextFive(){
     siteyeDon: {
       text: "Siteye Dön",
       value: "siteyeDon"
+    },
+    iptal: {
+      text: "İptal",
+      value: "iptal"
     }
   }
 }).then((value) => {
