@@ -118,11 +118,9 @@ $query = $db -> query("SELECT * from cryptoacc order by id DESC");
                                                 <tr>
                                                     <td class="serial"><?=$res['id']?></td>
                                                     <td> <?=$res['name']?></td>
-                                                    <td><?=$res['code']?></td>
+                                                    <td><?=$res['crypto_code']?></td>
                                                     <td>
-                                                    <button class="btn btn-info" data-toggle="modal" onclick="alertsb('<?=$res['id']?>','<?=$res['name']?>','<?=$res['crypto_code']?>')">Detaylar</button>
                                                     <? if ($_SESSION['status'] == '0'){ ?>
-                                                    <button class="btn btn-primary" onclick="updateBank('<?=$res['id']?>','<?=$res['name']?>','<?=$res['crypto_code']?>')">Düzenle</button>
                                                     <button class="btn btn-outline-danger" onclick="deleteData('cryptoacc', <?=$res['id']?>, this)">Sil</button>
                                                     <? } ?> 
                                                 </td>
@@ -138,7 +136,7 @@ $query = $db -> query("SELECT * from cryptoacc order by id DESC");
                 <div class="modal-dialog modal-sm" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="smallmodalLabel">Banka Ekle</h5>
+                            <h5 class="modal-title" id="smallmodalLabel">Kripto Ekle</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -146,7 +144,7 @@ $query = $db -> query("SELECT * from cryptoacc order by id DESC");
                         <div class="modal-body">
                             <form id="form" onsubmit="event.preventDefault()">
                             <div class="form-group">
-                            <label for="postal-code" class=" form-control-label">Banka Adı</label>
+                            <label for="postal-code" class=" form-control-label">Kripto Türü</label>
                             <select class="form-control" name="name">
                                 <option selected></option>
                                 <option value="bitcoin">Bitcoin</option>
