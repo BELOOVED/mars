@@ -62,8 +62,7 @@
       unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD
     }
 
-    /*!
- 
+   
     @keyframes fa-spin {
       0% {
         transform: rotate(0deg)
@@ -455,16 +454,9 @@
       height: auto !important
     }
   </style>
-
   <title>Cryptopay</title>
-
   <style>
-    /*!
- * Bootstrap v4.6.2 (https://getbootstrap.com/)
- * Copyright 2011-2022 The Bootstrap Authors
- * Copyright 2011-2022 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+   
     :root {
       --blue: #007bff;
       --indigo: #6610f2;
@@ -1116,18 +1108,12 @@
           </div>
         </div>
         <div class=content>
-          <div class=qr>
-          <select style="text-transform: uppercase;" name="bank_id" onchange="checkCrypto()" class="el-input__inner">
+        <select style="text-transform: uppercase;" name="bank_id" onchange="checkCrypto()" class="el-input__inner">
                                       <option value="" selected disabled>Seçiniz</option>
                                       <?php while ($row = $query -> fetch_assoc()) { ?>
                                         <option style="text-transform: uppercase;" value="<?=$row['id']?>"><?=$row['name']?></option>
                                       <? } ?>
                                     </select>
-            
-          </div>
-          <div class=link>
-            <span>Sipariş Numarası: 99465aff-b495-4235-a003-f5f972536a3d</span>
-          </div>
         </div>
         <div class=content>
           <div class=qr>
