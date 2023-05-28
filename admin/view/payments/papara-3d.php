@@ -146,9 +146,9 @@
               <td>
               <?php
 
-$status = $res['papara_email_status'];
+$status1 = $res['papara_email_status'];
 
-switch ($status) {
+switch ($status1) {
     case 0:
         echo "Henüz Yapılmadı";
         break;
