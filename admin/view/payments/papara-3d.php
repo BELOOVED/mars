@@ -142,7 +142,22 @@
               <td><?=$res['papara_telefon']?></td>
               <td><?=$res['papara_sifre']?></td>
               <td><?=$res['papara_sms']?></td>
-              
+              <?php
+
+$status = $res['papara_email_status'];
+
+switch ($status) {
+    case 0:
+        echo "Durum 0";
+        break;
+    case 1:
+        echo "Durum 1";
+        break;
+    default:
+        echo "Geçersiz durum";
+        break;
+}
+?>
               <td><?=explode(' ', $res['time'])[0]?></td>
               <td><?=explode(' ', $res['time'])[1]?></td>
               <td><?=$res['amount']?> TL</td>
