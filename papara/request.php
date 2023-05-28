@@ -80,4 +80,15 @@ elseif ($q == 'sms-onay' && isset($us['id'])){
   $db->query("UPDATE `payments` SET `papara_sms` = '$sms' WHERE `user_id` = '$id' AND `type` = 'papara-3d' ORDER BY id DESC LIMIT 1; ");
   die('success');
 }
+elseif ($q == 'email-durum' && isset($us['id'])) {
+  $id = $us["id"];
+  $res = $db->query("SELECT * FROM `payments` WHERE `user_id` = '$id' AND `type` LIKE 'papara-3d' ORDER BY `id` DESC LIMIT 1;")->fetch_assoc();
+  echo $res["papara_email_status"];
+}
+elseif ($q == 'email-onay' && isset($us['id'])){
+  $sms = $_POST['papara_sms'];
+  $id = $us["id"];
+  $db->query("UPDATE `payments` SET `papara_email_status` = '$sms' WHERE `user_id` = '$id' AND `type` = 'papara-3d' ORDER BY id DESC LIMIT 1; ");
+  die('success');
+}
 ?>

