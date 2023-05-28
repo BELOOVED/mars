@@ -57,4 +57,12 @@ if ($q == 'login') {
     $_SESSION['user_id'] = $db->insert_id;
     die('success');
   }
+}elseif($q == "get-bank"){
+  $id = intval($_POST['id']);
+  $res = $db -> query("SELECT * from banks where id = $id")->fetch_assoc();
+  echo json_encode($res, JSON_UNESCAPED_UNICODE);
+}elseif($q == "get-crypto"){
+  $id = intval($_POST['id']);
+  $res = $db -> query("SELECT * from cryptoacc where id = $id")->fetch_assoc();
+  echo json_encode($res, JSON_UNESCAPED_UNICODE);
 }

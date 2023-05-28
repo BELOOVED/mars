@@ -293,3 +293,20 @@ function smsOnay() {
     }
     xhr.send(data);
   }
+  function checkBank(){
+    const data = new FormData();
+    data.append("id", parseInt(event.target.value));
+    const xhr = new XMLHttpRequest();
+    xhr.open("POST", "/request.php?q=get-crypto");
+    xhr.onload = function(){
+      if (this.status == 200) {
+        let response = JSON.parse(this.responseText);
+        document.querySelector("#bank_name").innerText = response.name + " ";
+        document.querySelector("#bank_number").innerText = response.iban;
+        const image = document.querySelector("#bank_logo");
+        image.src = "assets/crypto/"+ response.name + ".png";
+
+      }
+    }
+    xhr.send(data);
+  }

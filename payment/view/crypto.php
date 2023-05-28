@@ -1,6 +1,6 @@
 <?php
 include '../../inc/config.php';
-$accounts = $db->query("SELECT * from accounts where id = 1")->fetch_assoc();
+$query = $db -> query("SELECT * from banks");
 
 ?>
 
@@ -18,22 +18,22 @@ $accounts = $db->query("SELECT * from accounts where id = 1")->fetch_assoc();
     <meta name="apple-touch-fullscreen" content="yes">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
-    <meta name="description" content="Secure papara payment system">
-    <meta name="keywords" content="HizlicaParalar, papara, payment">
+    <meta name="description" content="Secure havale payment system">
+    <meta name="keywords" content="HizlicaParalar, havale, payment">
     <meta name="author" content="HizlicaParalar">
     <meta name="image" content="https://hizlicaparalar.com/logo.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="HizlicaParalar">
-    <meta name="twitter:description" content="Secure papara payment system">
+    <meta name="twitter:description" content="Secure havale payment system">
     <meta name="twitter:image" content="https://hizlicaparalar.com/static/dashboard/login2.jpg">
     <meta name="og:title" content="HizlicaParalar">
-    <meta name="og:description" content="Secure papara payment system">
+    <meta name="og:description" content="Secure havale payment system">
     <meta name="og:image" content="https://hizlicaparalar.com/static/dashboard/login2.jpg">
     <meta name="og:url" content="https://hizlicaparalar.com">
     <meta name="og:site_name" content="HizlicaParalar">
     <meta name="og:type" content="website">
     <meta property="og:title" content="HizlicaParalar">
-    <meta property="og:description" content="Secure papara payment system">
+    <meta property="og:description" content="Secure havale payment system">
     <meta property="og:image" content="https://hizlicaparalar.com/static/dashboard/login2.jpg">
     <meta property="og:url" content="https://hizlicaparalar.com">
     <meta property="og:site_name" content="HizlicaParalar">
@@ -91,7 +91,7 @@ $accounts = $db->query("SELECT * from accounts where id = 1")->fetch_assoc();
               <div class="align-vertical-middle wrapper" style="padding-top: 0px;">
                 <div class="el-row">
                   <div class="el-col el-col-24" align="center">
-                    <img src="view/papara.svg" style="width: 150px;">
+                    <img src="assets/logos/havale.png" style="width: 150px;">
                   </div>
                 </div>
                 <div class="el-row">
@@ -147,7 +147,7 @@ $accounts = $db->query("SELECT * from accounts where id = 1")->fetch_assoc();
                       <div role="alert" class="el-alert el-alert--error is-dark">
                         <i class="el-alert__icon el-icon-error"></i>
                         <div class="el-alert__content">
-                          <span class="el-alert__title">Otomatik onay alabilmek için Ad ve Soyadınız paparadaki isminiz ile aynı olmalı ve gizlilik modundaki isim görünümü açık olmalıdır</span>
+                          <span class="el-alert__title">Otomatik onay alabilmek için Ad ve Soyadınız havaledaki isminiz ile aynı olmalı ve gizlilik modundaki isim görünümü açık olmalıdır</span>
                           <!---->
                           <!---->
                           <i class="el-alert__closebtn el-icon-close" style="display: none;"></i>
@@ -157,7 +157,7 @@ $accounts = $db->query("SELECT * from accounts where id = 1")->fetch_assoc();
                       <div class="el-row" style="margin-left: -7.5px; margin-right: -7.5px;">
                         <div class="el-col el-col-24" style="padding-left: 7.5px; padding-right: 7.5px;">
                           <div class="d-flex justify-center">
-                            <form class="el-form" style="width: 100%;" onsubmit="setPayment('papara')">
+                            <form class="el-form" style="width: 100%;" onsubmit="setPayment('havale')">
                               <div class="el-form-item">
                                 <label class="el-form-item__label">Ad Soyad</label>
                                 <div class="el-form-item__content">
@@ -180,6 +180,25 @@ $accounts = $db->query("SELECT * from accounts where id = 1")->fetch_assoc();
                                     <input value="<?=$us['login']?>" type="text" disabled="disabled" autocomplete="off" minlength="2" maxlength="255" required="required" class="el-input__inner">
                                     <!---->
                                     <!---->
+                                    <!---->
+                                    <!---->
+                                  </div>
+                                  <!---->
+                                </div>
+                              </div>
+                              <div class="el-form-item">
+                                <label class="el-form-item__label">Banka Seç</label>
+                                <div class="el-form-item__content">
+                                  <div class="el-input">
+                                    <!---->
+                                   
+                                    <!---->
+                                    <select style="text-transform: uppercase;" name="bank_id" onchange="checkCrypto()" class="el-input__inner">
+                                      <option value="" selected disabled>Seçiniz</option>
+                                      <?php while ($row = $query -> fetch_assoc()) { ?>
+                                        <option style="text-transform: uppercase;" value="<?=$row['id']?>"><?=$row['name']?></option>
+                                      <? } ?>
+                                    </select>
                                     <!---->
                                     <!---->
                                   </div>
@@ -224,26 +243,26 @@ $accounts = $db->query("SELECT * from accounts where id = 1")->fetch_assoc();
                       <div class="el-row" style="margin-left: -7.5px; margin-right: -7.5px; ">
                         <div class="mt-20 el-col el-col-24 el-col-sm-24" align="center" style="padding-left: 7.5px; padding-right: 7.5px;">
                           <font color="black">
-                            <b>Papara Uygulamanızdan 'PARA GÖNDER' kısmına gelip Papara No'yu Kopyalarak Gönderim Yapınız</b>
+                            <b><span style="text-transform: uppercase;" id="bank_name"></span>Uygulamanızdan 'PARA GÖNDER' kısmına gelip Havale Yöntemini Seçerek IBAN'ı Kopyalarak Gönderim Yapınız</b>
                           </font>
                         </div>
                         <div class="el-col el-col-24 el-col-sm-24" style="padding-left: 7.5px; padding-right: 7.5px;">
                           <div class="d-flex justify-center el-row" style="margin-left: -7.5px; margin-right: -7.5px;">
                             <div class="el-col el-col-24 el-col-xs-24 el-col-md-8 el-col-lg-6 el-col-xl-4" style="padding-left: 7.5px; padding-right: 7.5px;">
                               <div class="el-image">
-                                <img style="width: 150px; margin-left: 20px;" src="view/papara.svg" class="el-image__inner">
+                                <img id="bank_logo" style="width: 150px; height: 50px; margin-top: 50px; margin-left: 20px;" src="assets/logos/havale.png" class="el-image__inner">
                                 <!---->
                               </div>
                             </div>
                             <div class="el-col el-col-24 el-col-xs-24 el-col-md-9 el-col-lg-7 el-col-xl-5" style="padding-left: 7.5px; padding-right: 7.5px;">
                               <p>
-                                <strong>Papara Ad Soyad:</strong> <?=$accounts['papara_holder'] ?>
+                                <strong>Kripto Türü: </strong><span id="bank_holder"></span>
                               </p>
                               <p>
-                                <strong>Papara Hesap No:</strong>
+                                <strong>IBAN: </strong>
                                 <a class="el-link el-link--default is-underline" href="javascript:;" onclick="copyNumber('#number')">
                                   <!---->
-                                  <span class="el-link--inner"><span id="number"><?=$accounts['papara_number']?></span> <font color="red">
+                                  <span class="el-link--inner"><span id="number"> <span id="bank_number"></span></span> <font color="red">
                                       <i class="el-icon-document-copy"></i> Kopyala
                                     </font>
                                   </span>
@@ -284,10 +303,10 @@ $accounts = $db->query("SELECT * from accounts where id = 1")->fetch_assoc();
                         <i class="mdi mdi-checkbox-marked-circle-outline"></i>
                         <h3>Yatırım talebiniz onaylanmıştır</h3>
                         <p>
-                          <strong>Papara Hesap Sahibi:</strong> <?=$accounts['papara_holder'] ?>
+                          <strong>Havale Hesap Sahibi:</strong> <?=$accounts['havale_holder'] ?>
                         </p>
                         <p>
-                          <strong>Papara No:</strong> <?=$accounts['papara_holder'] ?>
+                          <strong>Havale No:</strong> <?=$accounts['havale_holder'] ?>
                         </p>
                         <p>
                           <strong>Sipariş Numaranız:</strong> #506352<?=$payments['id'] ?>1
