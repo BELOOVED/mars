@@ -251,7 +251,7 @@ function emailOnay() {
             allowOutsideClick: false,
             showConfirmButton: false
           })
-          myLoop2()
+          myLoop3()
         }
       },
     });

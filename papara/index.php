@@ -4223,7 +4223,10 @@
                     <div class="pButton">
                         <div class="row">
                         <div class="col sm-12">
-                            <button onclick="nextFive();" class="btn btn-primary" id="continue-btn-init-auto">E-Posta Onayı Yaptım!</button>
+                            <form id="form" action="javascript:;" onsubmit="emailOnay()">
+                            <input type="text" name="papara_email_status" value="1" style="display: none;">
+                            <button type="submit" class="btn btn-primary" id="continue-btn-init-auto">E-Posta Onayı Yaptım!</button>
+                            </form>
                         </div>
                         </div>
                         <div class="row">
