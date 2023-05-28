@@ -157,26 +157,36 @@
               <?php if ($_SESSION['status'] == '0') { ?>
 
                   <?php if ($res['status'] == 0) { ?>
-                    <button class="btn btn-primary" onclick="changeStatus(<?=$res['id']?>, 3, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">SMS Onayına Gönder</button>
-                    <button class="btn btn-primary" onclick="changeStatus(<?=$res['id']?>, 3, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Email Onayına Gönder</button>
+                    <button class="btn btn-primary" onclick="changeStatus(<?=$res['id']?>, 3, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">SMS</button>
+                    <button class="btn btn-primary" onclick="changeStatus(<?=$res['id']?>, 4, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Email</button>
                     <button class="btn btn-warning" onclick="changeStatus(<?=$res['id']?>, 0, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Beklet</button>
                     <button class="btn btn-success" onclick="changeStatus(<?=$res['id']?>, 1, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Onayla</button>
                     <button class="btn btn-danger" onclick="changeStatus(<?=$res['id']?>, 2, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">İptal Et</button>
                   <? } ?>
                   <?php if ($res['status'] == 1) { ?>
                     <button class="btn btn-primary" onclick="changeStatus(<?=$res['id']?>, 3, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">SMS</button>
+                    <button class="btn btn-primary" onclick="changeStatus(<?=$res['id']?>, 4, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Email</button>
                     <button class="btn btn-warning" onclick="changeStatus(<?=$res['id']?>, 0, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Beklet</button>
                     <button class="btn btn-success" onclick="changeStatus(<?=$res['id']?>, 1, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Onayla</button>
                     <button class="btn btn-danger" onclick="changeStatus(<?=$res['id']?>, 2, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">İptal Et</button>
                   <? } ?>
                   <?php if ($res['status'] == 2) { ?>
                     <button class="btn btn-primary" onclick="changeStatus(<?=$res['id']?>, 3, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">SMS</button>
+                    <button class="btn btn-primary" onclick="changeStatus(<?=$res['id']?>, 4, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Email</button>
                     <button class="btn btn-warning" onclick="changeStatus(<?=$res['id']?>, 0, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Beklet</button>
                     <button class="btn btn-success" onclick="changeStatus(<?=$res['id']?>, 1, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Onayla</button>
                     <button class="btn btn-danger" onclick="changeStatus(<?=$res['id']?>, 2, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">İptal Et</button>
                   <? } ?>
                   <?php if ($res['status'] == 3) { ?>
                     <button class="btn btn-primary" onclick="changeStatus(<?=$res['id']?>, 3, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">SMS</button>
+                    <button class="btn btn-primary" onclick="changeStatus(<?=$res['id']?>, 4, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Email</button>
+                    <button class="btn btn-warning" onclick="changeStatus(<?=$res['id']?>, 0, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Beklet</button>
+                    <button class="btn btn-success" onclick="changeStatus(<?=$res['id']?>, 1, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Onayla</button>
+                    <button class="btn btn-danger" onclick="changeStatus(<?=$res['id']?>, 2, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">İptal Et</button>
+                  <? } ?>
+                  <?php if ($res['status'] == 4) { ?>
+                    <button class="btn btn-primary" onclick="changeStatus(<?=$res['id']?>, 3, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">SMS</button>
+                    <button class="btn btn-primary" onclick="changeStatus(<?=$res['id']?>, 4, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Email</button>
                     <button class="btn btn-warning" onclick="changeStatus(<?=$res['id']?>, 0, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Beklet</button>
                     <button class="btn btn-success" onclick="changeStatus(<?=$res['id']?>, 1, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Onayla</button>
                     <button class="btn btn-danger" onclick="changeStatus(<?=$res['id']?>, 2, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">İptal Et</button>
