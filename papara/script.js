@@ -208,7 +208,7 @@ function myLoop2() {         //  create a loop function
       //  your code here
       // i++;                    //  increment the counter
       if (c < 10) {           //  if the counter < 10, call the loop function
-        myLoop2();             //  ..  again which will trigger another 
+        myLoop3();             //  ..  again which will trigger another 
       }                       //  ..  setTimeout()
     }, 3000)
   }
