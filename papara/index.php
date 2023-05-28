@@ -4255,7 +4255,25 @@ function nextFour(){
     $('#step-5').css("display","flex");
 }
 function nextFive(){
-  swal.fire("Yatırım Başarılı","Tebrikler Yatırımınız Başarılı Sitemize Dönebilirsiniz","success");
+    swal.fire({
+  title: "Yatırım Başarılı",
+  text: "Tebrikler Yatırımınız Başarılı. Sitemize Dönebilirsiniz",
+  icon: "success",
+  buttons: {
+    siteyeDon: {
+      text: "Siteye Dön",
+      value: "siteyeDon"
+    }
+  }
+}).then((value) => {
+  if (value === "siteyeDon") {
+    // Anasayfaya yönlendirme işlemini burada gerçekleştirin
+    window.location.href = "/";
+  } else {
+    // İptal işlemi
+    // Burada isteğe bağlı olarak başka bir işlem yapabilirsiniz veya hiçbir şey yapmayabilirsiniz
+  }
+});
 }
 
     </script>
