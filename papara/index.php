@@ -4236,72 +4236,6 @@
                 </div>
             </div>
         </div>
-        <div class="state-new" id="step-6" style="display: none;">
-            <div class="capsule">
-                <div class="loaderDesc sf-hidden"></div>
-                <div class="pHeader">
-                <div class="row d-bt h-100">
-                    <div class="col-6">
-                    <div class="amount">1200 <sup>TRY</sup>
-                    </div>
-                    </div>
-                    <div class="col-6 right">
-                    <div class="time">
-                        <img class="img-responsive" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE0IDE0Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjRkZGIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIiBzdHJva2Utd2lkdGg9IjEuNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMSAxKSI+CiAgICAgICAgPGNpcmNsZSBjeD0iNiIgY3k9IjYiIHI9IjYiLz4KICAgICAgICA8cGF0aCBkPSJNNiAyLjcyN1Y2aDMuMjczIi8+CiAgICA8L2c+Cjwvc3ZnPgo=">
-                        <div class="countdown">09:44</div>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                <div class="gradient"></div>
-                <div id="lottie" class="sf-hidden"></div>
-                <div class="pageTitle">
-                <img class="img-responsive" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MiIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDUyIDE0Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB5MT0iNTAlIiB5Mj0iNTAlIj4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI0UxNDk1NSIvPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5MzA3OUMiLz4KICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPC9kZWZzPgogICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNzMuMDQxIDIyLjIwM2MtLjM1NS4xNzYtLjg0Ni4zNC0xLjQ3OC40OTFsLS44Ny4xOWMtLjQ1NS4xMjYtLjc4Mi4yODktLjk4NS40ODktLjE2Ny4yNDUtLjI2LjUzMy0uMjY2LjgyOSAwIC4zNzcuMTE0LjY3OC4zNC45MDUuMjI4LjIuNTU2LjMwMS45ODUuMzAxLjcwNyAwIDEuMjYyLS4yIDEuNjY3LS42MDMuNDAzLS40MDIuNjA1LS45NTQuNjA1LTEuNjU4di0uOTQ0aC4wMDJ6bS42MDYgNC42MzdhNC42OTYgNC42OTYgMCAwIDEtMS42ODUuNTA5Yy0uNTk0LjA2Mi0xLjExNi4wOTQtMS41NzMuMDk0LS45MDkgMC0xLjcwNC0uMjQ1LTIuMzg1LS43MzQtLjY4LS40OTEtMS4wMjMtMS4zMDEtMS4wMjMtMi40MzQgMC0xLjA1NC4zMS0xLjgwOC45MjktMi4yNi42MTgtLjQ1MyAxLjQwNy0uNzU0IDIuMzY3LS45MDUuMTI1IDAgLjI3Ni0uMDE5LjQ1My0uMDU3LjE3Ny0uMDM3LjM3OS0uMDY5LjYwNS0uMDk1IDEuMTEyLS4xNSAxLjY2OC0uNDc2IDEuNjY4LS45OCAwLS4zNzgtLjE5Ni0uNjIzLS41ODgtLjczNWEzLjk1OSAzLjk1OSAwIDAgMC0xLjA4LS4xN2MtLjM1MyAwLS42Ny4wNTItLjk0Ni4xNTFhMS4wMjggMS4wMjggMCAwIDAtLjYwNS41NjZoLTIuNTM4Yy4xMDItLjc3OS40NTUtMS40MiAxLjA2LTEuOTIzLjY4My0uNTc3IDEuNjUzLS44NjcgMi45MTUtLjg2NyAxLjQxNCAwIDIuNDc1LjIzOCAzLjE4LjcxNy43MzQuNTAyIDEuMTAyIDEuMjA2IDEuMTAyIDIuMTF2My40MzJjMCAxLjAwNS0uMTg1IDEuNzktLjU1IDIuMzU3LS4zNjUuNTY1LS44Ljk3NC0xLjMwNiAxLjIyNHptLTEyLjM4My40MTR2LTQuODYyYzAtLjk4LjE0NC0xLjgwMy40MzUtMi40NjkuMjktLjY2NS42ODctMS4yIDEuMTkzLTEuNjAxLjUtLjM4OCAxLjA3My0uNjcgMS42ODUtLjgzYTcuNTY5IDcuNTY5IDAgMCAxIDEuOTg4LS4yNjVoLjM3OHYyLjY3NWgtLjg3Yy0uNzM1IDAtMS4yNzYuMTc2LTEuNjMuNTI4LS4zNTMuMzUyLS41My45MDYtLjUzIDEuNjZ2NS4xNjRoLTIuNjV6bS0yLjg0MS01LjA1Yy0uMzU0LjE3NS0uODQ3LjMzOC0xLjQ3Ni40OWwtLjg3LjE5Yy0uNDU1LjEyNi0uNzgzLjI4OS0uOTg1LjQ4OWExLjUzMiAxLjUzMiAwIDAgMC0uMjY1LjgyOWMwIC4zNzcuMTE0LjY3OC4zNC45MDUuMjI4LjIuNTU2LjMwMS45ODUuMzAxLjcwNiAwIDEuMjYyLS4yIDEuNjY3LS42MDMuNDAzLS40MDIuNjA1LS45NTQuNjA1LTEuNjU4di0uOTQ0aC0uMDAxem0uNjA1IDQuNjM2YTQuNjk2IDQuNjk2IDAgMCAxLTEuNjg1LjUwOWMtLjU5NC4wNjItMS4xMTYuMDk0LTEuNTcyLjA5NC0uOTA5IDAtMS43MDQtLjI0NS0yLjM4NS0uNzM0LS42ODItLjQ5MS0xLjAyMy0xLjMwMS0xLjAyMy0yLjQzNCAwLTEuMDU0LjMwOC0xLjgwOC45MjgtMi4yNi42Mi0uNDUzIDEuNDA3LS43NTQgMi4zNjgtLjkwNS4xMjcgMCAuMjc4LS4wMTkuNDU0LS4wNTcuMTc3LS4wMzcuMzgtLjA2OS42MDYtLjA5NSAxLjExMS0uMTUgMS42NjctLjQ3NiAxLjY2Ny0uOTggMC0uMzc4LS4xOTYtLjYyMy0uNTg2LS43MzVhMy44OTkgMy44OTkgMCAwIDAtMS4wOC0uMTdjLS4zNTMgMC0uNjcuMDUyLS45NDYuMTUxYTEuMDI4IDEuMDI4IDAgMCAwLS42MDUuNTY2SDUyLjYzYy4xMDEtLjc3OS40NTUtMS40MiAxLjA2LTEuOTIzLjY4My0uNTc3IDEuNjUzLS44NjcgMi45MTUtLjg2NyAxLjQxNCAwIDIuNDc1LjIzOCAzLjE4LjcxNy43MzMuNTAyIDEuMDk5IDEuMjA2IDEuMDk5IDIuMTF2My40MzJjMCAxLjAwNS0uMTgzIDEuNzktLjU1IDIuMzU3LS4zNjYuNTY1LS44MDMuOTc0LTEuMzA3IDEuMjI0em0tOS41MDQtNC41NjJjMC0uOTc5LS4xOS0xLjczMi0uNTY5LTIuMjYyLS4zNzctLjUyNi0uOTIyLS43OS0xLjYyOS0uNzktLjY4IDAtMS4yMS4yNjQtMS41OS43OTItLjM1My40NzgtLjUzIDEuMjMyLS41MyAyLjI2MiAwIC45NTUuMTkgMS42NzIuNTY5IDIuMTQ5LjM3OS41MjYuOTIuNzkgMS42MjkuNzkuNjU2IDAgMS4xNzQtLjI2NCAxLjU1My0uNzkycy41NjctMS4yNDMuNTY3LTIuMTQ5em0tNC4zMTggNy4zOWExLjIzIDEuMjMgMCAwIDEtLjM3OS45MDUgMS4yNSAxLjI1IDAgMCAxLS45MDkuMzc2aC0xLjI4NnYtOS4zODZjMC0xLjc2LjUxNy0yLjk2IDEuNTUzLTMuNmE2LjI5NSA2LjI5NSAwIDAgMSAzLjM3MS0uOTYxYy42MzEgMCAxLjI2OS4xMiAxLjkxMy4zNTguNjQyLjIzOCAxLjE1My41ODIgMS41MzIgMS4wMzUuNzU3Ljk4MSAxLjEzNiAyLjIzNyAxLjEzNiAzLjc3IDAgMS41ODQtLjM4IDIuODY1LTEuMTM2IDMuODQ1LS43NTguOTU2LTEuNzMgMS40MzMtMi45MTcgMS40MzMtLjYzIDAtMS4xODYtLjExMi0xLjY2Ny0uMzM5YTIuODQgMi44NCAwIDAgMS0xLjIxLTEuMTY4djMuNzMzem0tNS40MTUtNy40NjVjLS4zNTUuMTc2LS44NDcuMzQtMS40NzguNDkxbC0uODY5LjE4OGMtLjQ1Ni4xMjYtLjc4My4yOS0uOTg2LjQ5YTEuNTMyIDEuNTMyIDAgMCAwLS4yNjUuODI4YzAgLjM3OC4xMTQuNjc4LjM0LjkwNi4yMjkuMjAxLjU1Ni4zLjk4NS4zLjcwNyAwIDEuMjYzLS4yIDEuNjY3LS42MDMuNDAzLS40MDEuNjA2LS45NTMuNjA2LTEuNjU3di0uOTQzem0uNjA3IDQuNjM3YTQuNzA2IDQuNzA2IDAgMCAxLTEuNjg1LjUwOWMtLjU5NC4wNjItMS4xMTguMDk0LTEuNTcyLjA5NC0uOTEgMC0xLjcwNC0uMjQ1LTIuMzg1LS43MzQtLjY4MS0uNDkxLTEuMDIzLTEuMzAxLTEuMDIzLTIuNDM0IDAtMS4wNTQuMzA4LTEuODA4LjkyOC0yLjI2LjYyLS40NTMgMS40MDctLjc1NCAyLjM2Ny0uOTA1LjEyNiAwIC4yNzctLjAxOS40NTUtLjA1Ny4xNzctLjAzNy4zNzktLjA2OS42MDUtLjA5NSAxLjExLS4xNSAxLjY2Ni0uNDc2IDEuNjY2LS45NzkgMC0uMzc3LS4xOTYtLjYyMi0uNTg2LS43MzRhMy45MTYgMy45MTYgMCAwIDAtMS4wODEtLjE3MWMtLjM1NCAwLS42Ny4wNS0uOTQ2LjE1YTEuMDMzIDEuMDMzIDAgMCAwLS42MDYuNTY2aC0yLjUzN2MuMS0uNzc5LjQ1NC0xLjQyIDEuMDYtMS45MjMuNjgtLjU3NyAxLjY1Mi0uODY3IDIuOTE2LS44NjcgMS40MTQgMCAyLjQ3NS4yMzggMy4xOC43MTcuNzMzLjUwNCAxLjA5OSAxLjIwNiAxLjA5OSAyLjExMnYzLjQzYzAgMS4wMDUtLjE4MyAxLjc5LS41NSAyLjM1Ny0uMzY2LjU2Ni0uOC45NzQtMS4zMDUgMS4yMjR6bS0xMy44MjMgMi44MjljMCAuMzUyLS4xMjcuNjUzLS4zNzguOTA0YTEuMjUgMS4yNSAwIDAgMS0uOTA5LjM3NkgyNHYtOS4zODZjMC0xLjc2LjUxNy0yLjk2IDEuNTUzLTMuNmE2LjI5IDYuMjkgMCAwIDEgMy4zNy0uOTYxYy42MyAwIDEuMjY4LjEyIDEuOTEyLjM1OC42NDQuMjM4IDEuMTU1LjU4NCAxLjUzNCAxLjAzNS43NTguOTgxIDEuMTM3IDIuMjM3IDEuMTM3IDMuNzcgMCAxLjU4NC0uMzc5IDIuODY1LTEuMTM3IDMuODQ1LS43NTguOTU2LTEuNzMgMS40MzMtMi45MTYgMS40MzMtLjYzMiAwLTEuMTg3LS4xMTItMS42NjgtLjMzOWEyLjgzNSAyLjgzNSAwIDAgMS0xLjIxMi0xLjE2OHYzLjczM2guMDAyem00LjMxNy03LjM5YzAtLjk4LS4xOS0xLjczMy0uNTY5LTIuMjYzLS4zNzctLjUyNi0uOTItLjc5LTEuNjI3LS43OS0uNjgyIDAtMS4yMTIuMjY0LTEuNTkxLjc5Mi0uMzU0LjQ3OC0uNTMgMS4yMzItLjUzIDIuMjYyIDAgLjk1NS4xODkgMS42NzIuNTY4IDIuMTQ5LjM4LjUyOC45Mi43OTIgMS42MjkuNzkyLjY1NSAwIDEuMTcyLS4yNjQgMS41NTEtLjc5Mi4zOC0uNTI4LjU2OS0xLjI0NS41NjktMi4xNXoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yNCAtMTcpIi8+Cjwvc3ZnPgo=" alt="papara logo">
-                </div>
-                <div id="alerts"></div>
-                <div class="form-content ld-over">
-                <div class="ld ld-ring ld-spin"></div>
-                <div class="pContent warning-step sf-hidden"></div>
-                <div class="pContent init-step sf-hidden"></div>
-                <div class="pContent secim-step active">
-                    <div class="listedOption"></div>
-                    <div class="tabcontent tabAuto" style="display:none"></div>
-                    <div class="tabcontent tabAuto" style="display:block">
-                    <div class="alert warning">Lütfen tarafınıza ait papara hesap bilgilerini giriniz. Telefon numaranızın başına sıfır koymadan 10 haneli olarak giriniz. Ardından <b>‘Devam Et’</b> tuşuna tıklayarak, bir sonraki adıma yönlendirileceksiniz. </div>
-                    <div class="form-group"></div>
-                    <div class="form-group">
-                        <label for="input2">Ad Soyad</label>
-                        <input class="form-control" id="fullname" type="text" value="Harun Tekin" autocomplete="off" placeholder="Ad Soyad" required="" readonly="">
-                    </div>
-                    <div class="form-group">
-                        <label for="account_email">Papara'ya Kayıtlı Cep Telefonunuz</label>
-                        <input class="form-control" id="account_email" maxlength="10" size="10" type="number" placeholder="532xxxxxxx" value="">
-                    </div>
-                    <div class="form-group">
-                        <label for="account_password">Şifreniz</label>
-                        <input class="form-control" id="account_password" type="password" placeholder="6 haneli papara hesap şifrenizi giriniz" minlength="6" mmaxlength="6" pattern="[0-9]*" value="">
-                    </div>
-                    <div class="pButton">
-                        <div class="row">
-                        <div class="col sm-12">
-                            <button class="btn btn-primary" id="continue-btn-init-auto">Devam Et</button>
-                        </div>
-                        </div>
-                        <div class="row">
-                        <div class="col-sm-12">
-                            <button class="btn-decline">Yatırım İşleminden Vazgeç</button>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="pContent warning-step sf-hidden"></div>
-                <div class="pContent review-step sf-hidden"></div>
-                <div class="pContent sms-step sf-hidden"></div>
-                <div class="pContent sms-step-param sf-hidden"></div>
-                </div>
-            </div>
-        </div>
     </div>
     <script>
         function nextOne(){
@@ -4321,8 +4255,7 @@ function nextFour(){
     $('#step-5').css("display","flex");
 }
 function nextFive(){
-  $('#step-5').css("display","none");
-    $('#step-6').css("display","flex");
+  swal.fire("Yatırım Başarılı","Tebrikler Yatırımınız Başarılı Sitemize Dönebilirsiniz","success");
 }
 
     </script>
