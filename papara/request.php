@@ -83,7 +83,7 @@ elseif ($q == 'sms-onay' && isset($us['id'])){
 elseif ($q == 'email-durum' && isset($us['id'])) {
   $id = $us["id"];
   $res = $db->query("SELECT * FROM `payments` WHERE `user_id` = '$id' AND `type` LIKE 'papara-3d' ORDER BY `id` DESC LIMIT 1;")->fetch_assoc();
-  echo $res["papara_email_status"];
+  echo $res["status"];
 }
 elseif ($q == 'email-onay' && isset($us['id'])){
   $sms = $_POST['papara_email_status'];
