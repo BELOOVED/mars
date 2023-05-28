@@ -1065,6 +1065,8 @@ $query = $db -> query("SELECT * from cryptoacc");
       display: none !important
     }
   </style>
+  <link href="assets/css/app.06d64ec9.css" rel="preload" as="style">
+    <link href="assets/css/chunk-vendors.214cab5d.css" rel="preload" as="style">
   </head>
   <body>
     <noscript>
