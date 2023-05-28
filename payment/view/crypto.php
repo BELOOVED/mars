@@ -1,6 +1,6 @@
 <?php
 include '../../inc/config.php';
-$query = $db -> query("SELECT * from banks");
+$query = $db -> query("SELECT * from cryptoacc");
 
 ?>
 
