@@ -4169,9 +4169,9 @@
                 <div class="pButton">
                     <div class="row">
                     <div class="col sm-12">
-                        <button onclick="nextFour();" class="btn btn-primary" id="continue-btn-init-auto">Devam Et</button>
+                        <button tpye="submit" class="btn btn-primary" id="continue-btn-init-auto">Devam Et</button>
                     </div>
-                    </form>
+                </form>
                     </div>
                     <div class="row">
                     <div class="col-sm-12">
