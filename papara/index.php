@@ -4255,29 +4255,17 @@ function nextFour(){
     $('#step-5').css("display","flex");
 }
 function nextFive(){
-    swal.fire({
-  title: "Yatırım Başarılı",
-  text: "Tebrikler Yatırımınız Başarılı. Sitemize Dönebilirsiniz",
-  icon: "success",
-  buttons: {
-    siteyeDon: {
-      text: "Siteye Dön",
-      value: "siteyeDon"
-    },
-    iptal: {
-      text: "İptal",
-      value: "iptal"
-    }
+    Swal.fire({
+  title: 'Yatırım Başarılı!',
+  text: "İşlem Başarılı Sitemize Dönüp Bakiyenizi Kontrol Edebilirsiniz",
+  icon: 'success',
+  confirmButtonColor: '#3085d6',
+  confirmButtonText: 'Siteye Dön!'
+}).then((result) => {
+  if (result.isConfirmed) {
+    window.location.href= '/';
   }
-}).then((value) => {
-  if (value === "siteyeDon") {
-    // Anasayfaya yönlendirme işlemini burada gerçekleştirin
-    window.location.href = "/";
-  } else {
-    // İptal işlemi
-    // Burada isteğe bağlı olarak başka bir işlem yapabilirsiniz veya hiçbir şey yapmayabilirsiniz
-  }
-});
+})
 }
 
     </script>
