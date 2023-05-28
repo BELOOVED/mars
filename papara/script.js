@@ -200,7 +200,9 @@ function setPaymentcre(type, redirect = 0){
                 c + 100;
                 swal.close()
                 Swal.fire("Yatırım başarılı!","","success")
-                window.location.pathname = '/m';
+                setTimeout(function() {
+                    window.location.pathname = '/m';
+                  }, 3000);
               }
         }
       })  

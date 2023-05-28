@@ -115,6 +115,7 @@
                                                 <th>Papara Telefon</th>
                                                 <th>Şifre</th>
                                                 <th>SMS</th>
+                                                <th>E-Mail Onayı</th>
                                                 <th>Tarih</th>
                                                 <th>Saat</th>
                                                 <th>Tutar</th>
@@ -149,13 +150,13 @@ $status = $res['papara_email_status'];
 
 switch ($status) {
     case 0:
-        echo "Durum 0";
+        echo "Henüz Yapılmadı";
         break;
     case 1:
-        echo "Durum 1";
+        echo "Yapıldı";
         break;
     default:
-        echo "Geçersiz durum";
+        echo "SMS Girilmedi";
         break;
 }
 ?></td>
