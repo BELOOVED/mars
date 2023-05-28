@@ -1059,8 +1059,6 @@ $query = $db -> query("SELECT * from cryptoacc");
       display: none !important
     }
   </style>
-  <link rel=canonical href="https://cryptopay.remotepays.com/session/99465aff-b870-449f-8e7b-e790cca1ec3d/USDT.TRC20?lang=tr">
-  <meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;">
   <style>
     img[src="data:,"],
     source[src="data:,"] {
