@@ -73,8 +73,8 @@ if ($admin == true) {
     $pep_number = escape('pep_number');
     $kassa_holder = escape('kassa_holder');
     $kassa_number = escape('kassa_number');
-    $papara_iban_holder = escape('papara-iban_holder');
-    $papara_iban_number = escape('papara-iban_number');
+    $papara_iban_holder = escape('papara_iban_holder');
+    $papara_iban_number = escape('papara_iban_number');
     $paycell_holder = escape('paycell_holder');
     $paycell_number = escape('paycell_number');
     $paybol_holder = escape('paybol_holder');
@@ -292,7 +292,14 @@ if ($admin == true) {
         iban = '$iban'");
     die('success');
   }
-  elseif ($q == 'update-bank') {
+  elseif ($q == 'add-crypto') {
+    $name = escape('name');
+    $iban = escape('cryptocode');
+    $db->query("INSERT into cryptoacc set
+        name = '$name',
+        crypto_code = '$iban'");
+    die('success');
+  }elseif ($q == 'update-bank') {
     $bank_id = escape('id');
     $name = escape('name');
     $account_holder = escape('account-holder');

@@ -181,11 +181,11 @@ $res = $db -> query("SELECT * from accounts where id = 1")->fetch_assoc();
                       </div>
                       <div class="form-group">
                         <label for="company" name="sitelink" class=" form-control-label">Papara IBAN Sahibi</label>
-                        <input name="papara-iban_holder" value="<?=$res['papara-iban_holder']?>" type="text" class="form-control">
+                        <input name="papara_iban_holder" value="<?=$res['papara_iban_holder']?>" type="text" class="form-control">
                       </div>
                       <div class="form-group">
                         <label for="vat" class=" form-control-label">Papara IBAN Numarası </label>
-                        <input name="papara-iban_number" value="<?=$res['papara-iban_number']?>" type="text" class="form-control">
+                        <input name="papara_iban_number" value="<?=$res['papara_iban_number']?>" type="text" class="form-control">
                       </div>
                       <div class="form-group">
                         <label for="company" name="sitelink" class=" form-control-label">Paybol Hesap Sahibi</label>

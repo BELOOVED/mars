@@ -17,6 +17,9 @@
                         <a href="banks"> <i class="menu-icon ti-email"></i>Bankalar </a>
                     </li>
                     <li>
+                        <a href="cryptoacc"> <i class="menu-icon ti-email"></i>Kripto Kodları </a>
+                    </li>
+                    <li>
                         <a href="limits"> <i class="menu-icon ti-email"></i>Yatırım Limitleri</a>
                     </li>
                     <li class="menu-item-has-children dropdown">

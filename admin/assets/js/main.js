@@ -277,10 +277,10 @@ function logIn() {
     openmodal("details-modal");
   }
   
-  function addBank() {
+  function addCrypto() {
     $.ajax({
       type: "POST",
-      url: "request.php?q=add-bank",
+      url: "request.php?q=add-crypto",
       data: $("#form").serialize(),
       success: (response) => {
         if (response == "success") {
