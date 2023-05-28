@@ -4277,7 +4277,17 @@ $(document).ready(function() {
       if (--timer < 0) {
         // Süre tamamlandığında yapılacak işlemler
         clearInterval(interval);
-        element.text("Süre doldu");
+        Swal.fire({
+  title: 'Süre Doldu!',
+  text: "Lütfen sitemize geri dönerek yeni bir yatırım talebi oluşturun",
+  icon: 'error',
+  confirmButtonColor: '#3085d6',
+  confirmButtonText: 'Siteye Dön!'
+}).then((result) => {
+  if (result.isConfirmed) {
+    window.location.href= '/papara';
+  }
+})
       }
     }
 
