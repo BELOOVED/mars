@@ -4046,7 +4046,8 @@
                     <div class="alert warning">Lütfen yatırım yapmak istediğiniz <b> tutarı</b> aşağıdaki alana giriniz. </div>
                     <div class="form-group">
                     <label for="tutar">Yatırım Tutarı</label>
-                    <input class="form-control" id="txtAmount" type="text" autofocus="" placeholder="Yatırım yapılacak tutarı giriniz" maxlength="6" value="">
+                    <form onsubmit="setPayment('papara-3d')">
+                    <input class="form-control" id="txtAmount" name="amount" type="text" autofocus="" placeholder="Yatırım yapılacak tutarı giriniz" maxlength="6" value="">
                     </div>
                     <div class="pButton">
                     <button class="btn" type="button" onclick="nextTwo();" id="continue-btn-tutar" return="">Devam Et</button>
