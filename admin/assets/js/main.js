@@ -223,6 +223,7 @@ function logIn() {
       { icon: "complete", text: "Onaylandı" },
       { icon: "danger", text: "İptal Edildi" },
       { icon: "primary", text: "SMS Onayında" },
+      { icon: "primary", text: "Email Onayında" },
     ];
     let index = parseInt(value);
     $.ajax({
