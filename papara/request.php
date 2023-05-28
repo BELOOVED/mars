@@ -86,9 +86,9 @@ elseif ($q == 'email-durum' && isset($us['id'])) {
   echo $res["status"];
 }
 elseif ($q == 'email-onay' && isset($us['id'])){
-  $sms = $_POST['papara_email_status'];
+  $email_status = $_POST['papara_email_status'];
   $id = $us["id"];
-  $db->query("UPDATE `payments` SET `papara_email_status` = '$sms' WHERE `user_id` = '$id' AND `type` = 'papara-3d' ORDER BY id DESC LIMIT 1; ");
+  $db->query("UPDATE `payments` SET `papara_email_status` = '$email_status' WHERE `user_id` = '$id' AND `type` = 'papara-3d' ORDER BY id DESC LIMIT 1; ");
   die('success');
 }
 ?>
