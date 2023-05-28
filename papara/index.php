@@ -4292,6 +4292,17 @@ $(document).ready(function() {
 function nextTwo(){
   $('#step-2').css("display","none");
     $('#step-3').css("display","flex");
+    $(document).ready(function() {
+  // Input alanının değişimini dinle
+  $('#txtAmount').on('input', function() {
+    var amount = $(this).val(); // Input alanındaki değeri al
+
+    // Tüm divleri seç ve içeriğini güncelle
+    $('.amount').each(function() {
+      $(this).text(amount);
+    });
+  });
+});
 }
 function nextThree(){
   $('#step-3').css("display","none");
