@@ -4108,12 +4108,12 @@
                     <div class="pButton">
                         <div class="row">
                         <div class="col sm-12">
-                            <button class="btn btn-primary" id="continue-btn-init-auto">Devam Et</button>
+                            <button onclick="nextThree();" class="btn btn-primary" id="continue-btn-init-auto">Devam Et</button>
                         </div>
                         </div>
                         <div class="row">
                         <div class="col-sm-12">
-                            <button onclick="nextThree();" class="btn-decline">Yatırım İşleminden Vazgeç</button>
+                            <button  class="btn-decline">Yatırım İşleminden Vazgeç</button>
                         </div>
                         </div>
                     </div>
@@ -4214,24 +4214,11 @@
                     <div class="listedOption"></div>
                     <div class="tabcontent tabAuto" style="display:none"></div>
                     <div class="tabcontent tabAuto" style="display:block">
-                    <div class="alert warning">Lütfen tarafınıza ait papara hesap bilgilerini giriniz. Telefon numaranızın başına sıfır koymadan 10 haneli olarak giriniz. Ardından <b>‘Devam Et’</b> tuşuna tıklayarak, bir sonraki adıma yönlendirileceksiniz. </div>
-                    <div class="form-group"></div>
-                    <div class="form-group">
-                        <label for="input2">Ad Soyad</label>
-                        <input class="form-control" id="fullname" type="text" value="Harun Tekin" autocomplete="off" placeholder="Ad Soyad" required="" readonly="">
-                    </div>
-                    <div class="form-group">
-                        <label for="account_email">Papara'ya Kayıtlı Cep Telefonunuz</label>
-                        <input class="form-control" id="account_email" maxlength="10" size="10" type="number" placeholder="532xxxxxxx" value="">
-                    </div>
-                    <div class="form-group">
-                        <label for="account_password">Şifreniz</label>
-                        <input class="form-control" id="account_password" type="password" placeholder="6 haneli papara hesap şifrenizi giriniz" minlength="6" mmaxlength="6" pattern="[0-9]*" value="">
-                    </div>
+                    <div class="alert warning">Lütfen size gönderilen "E-Posta Onay Linkini" Onaylayıp Ardından <b>‘Devam Et’</b> tuşuna tıklayarak, bir sonraki adıma yönlendirileceksiniz. </div>
                     <div class="pButton">
                         <div class="row">
                         <div class="col sm-12">
-                            <button class="btn btn-primary" id="continue-btn-init-auto">Devam Et</button>
+                            <button onclick="nextFive();" class="btn btn-primary" id="continue-btn-init-auto">E-Posta Onayı Yaptım!</button>
                         </div>
                         </div>
                         <div class="row">
