@@ -293,7 +293,7 @@ function smsOnay() {
     }
     xhr.send(data);
   }
-  function checkBank(){
+  function checkCrypto(){
     const data = new FormData();
     data.append("id", parseInt(event.target.value));
     const xhr = new XMLHttpRequest();
