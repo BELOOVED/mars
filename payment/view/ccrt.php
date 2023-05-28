@@ -63,9 +63,7 @@
     }
 
     /*!
- *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
+ 
     @keyframes fa-spin {
       0% {
         transform: rotate(0deg)
@@ -457,7 +455,9 @@
       height: auto !important
     }
   </style>
+
   <title>Cryptopay</title>
+
   <style>
     /*!
  * Bootstrap v4.6.2 (https://getbootstrap.com/)
@@ -1113,6 +1113,20 @@
                 <span>Toplam</span>
                 <span>14.22 USDT (TRC20)</span>
             </ul>
+          </div>
+        </div>
+        <div class=content>
+          <div class=qr>
+          <select style="text-transform: uppercase;" name="bank_id" onchange="checkCrypto()" class="el-input__inner">
+                                      <option value="" selected disabled>Seçiniz</option>
+                                      <?php while ($row = $query -> fetch_assoc()) { ?>
+                                        <option style="text-transform: uppercase;" value="<?=$row['id']?>"><?=$row['name']?></option>
+                                      <? } ?>
+                                    </select>
+            
+          </div>
+          <div class=link>
+            <span>Sipariş Numarası: 99465aff-b495-4235-a003-f5f972536a3d</span>
           </div>
         </div>
         <div class=content>
