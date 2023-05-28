@@ -9,13 +9,13 @@ date_default_timezone_set('Europe/Istanbul');
 
 // Database Info
 const DB_HOST = "localhost";
-const DB_LOGIN = "marsbahis_123a";
-const DB_PASS = "4Pdc5r09?";
-const DB_NAME = "marsbahis_123a";
+const DB_LOGIN = "admin_marsbahis";
+const DB_PASS = "Usd5c67@5";
+const DB_NAME = "admin_marsbahis";
 const SYSNAME = 'Marsbahis';
 const ENV = 'prod';
 
-const ADMIN_PATH = 'ates';
+const ADMIN_PATH = 'admin';
 const USERID = '201904683453';
 
 include "providers.php";
