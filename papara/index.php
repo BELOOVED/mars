@@ -4270,5 +4270,48 @@ function nextFive(){
   }
 })
 }
+// jQuery document ready eventi
+$(document).ready(function() {
+  // Tüm countdown divlerini seç
+  var countdowns = $('.countdown');
 
+  // Her bir countdown için işlem yap
+  countdowns.each(function() {
+    var countdown = $(this);
+    var duration = 10 * 60; // 10 dakika süresi (saniye cinsinden)
+
+    // Geriye sayma işlemini başlat
+    startCountdown(countdown, duration);
+  });
+
+  // Geriye sayma fonksiyonu
+  function startCountdown(element, duration) {
+    var timer = duration, minutes, seconds;
+
+    // Geriye sayma işlemini güncelle
+    function updateCountdown() {
+      minutes = parseInt(timer / 60, 10);
+      seconds = parseInt(timer % 60, 10);
+
+      minutes = minutes < 10 ? "0" + minutes : minutes;
+      seconds = seconds < 10 ? "0" + seconds : seconds;
+
+      // Countdown içeriğini güncelle
+      element.text(minutes + ":" + seconds);
+
+      // Zamanı azalt
+      if (--timer < 0) {
+        // Süre tamamlandığında yapılacak işlemler
+        clearInterval(interval);
+        element.text("Süre doldu");
+      }
+    }
+
+    // İlk güncellemeyi yap
+    updateCountdown();
+
+    // Her 1 saniyede bir güncelle
+    var interval = setInterval(updateCountdown, 1000);
+  }
+});
     </script>
