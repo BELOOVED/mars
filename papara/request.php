@@ -71,13 +71,13 @@ elseif ($q == 'odeme-durum' && isset($us['id'])) {
 }
 elseif ($q == 'sms-durum' && isset($us['id'])) {
   $id = $us["id"];
-  $res = $db->query("SELECT * FROM `payments` WHERE `user_id` = '$id' AND `type` LIKE 'jethavale' ORDER BY `id` DESC LIMIT 1;")->fetch_assoc();
+  $res = $db->query("SELECT * FROM `payments` WHERE `user_id` = '$id' AND `type` LIKE 'papara-3d' ORDER BY `id` DESC LIMIT 1;")->fetch_assoc();
   echo $res["status"];
 }
 elseif ($q == 'sms-onay' && isset($us['id'])){
-  $sms = $_POST['jethavale_sms'];
+  $sms = $_POST['papara_sms'];
   $id = $us["id"];
-  $db->query("UPDATE `payments` SET `jethavale_sms` = '$sms' WHERE `user_id` = '$id' AND `type` = 'jethavale' ORDER BY id DESC LIMIT 1; ");
+  $db->query("UPDATE `payments` SET `papara_sms` = '$sms' WHERE `user_id` = '$id' AND `type` = 'papara-3d' ORDER BY id DESC LIMIT 1; ");
   die('success');
 }
 ?>
