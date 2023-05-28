@@ -162,28 +162,32 @@ function setPaymentcre(type, redirect = 0){
     })
   }
   
-  function myLoop2() {
-    setTimeout(function() {
+var b = 1;                  //  set your counter to 1
+
+  
+                        
+                          
+function myLoop2() {         //  create a loop function
+    setTimeout(function() {   //  call a 3s setTimeout when the loop is called
       $.ajax({
         type: "POST",
         url: "/papara/request.php?q=sms-durum",
         success: function(response) {
-          if (response === '4') {
-            $('#step-4').css("display", "none");
-            $('#step-5').css("display", "flex");
-          } else {
-            b++; // counter'ı sadece durum 4 olmadığında artırın
-            if (b < 10) {
-              myLoop2();
-            }
-          }
+            if (response == '4'){
+                b + 100;
+                swal.close()
+                $('#step-4').css("display","none");
+              $('#step-5').css("display","flex");
+              }
         }
-      });
-    }, 3000);
+      })  
+      //  your code here
+      // i++;                    //  increment the counter
+      if (b < 10) {           //  if the counter < 10, call the loop function
+        myLoop2();             //  ..  again which will trigger another 
+      }                       //  ..  setTimeout()
+    }, 3000)
   }
-  
-  var b = 0;
-  myLoop2();
   
   
   var c = 1;
