@@ -1,3 +1,8 @@
+<?php
+include '../../inc/config.php';
+$query = $db -> query("SELECT * from cryptoacc");
+
+?>
 <!DOCTYPE html>
 <html lang=tr>
   <meta charset=utf-8>
