@@ -40,7 +40,7 @@
                       <span class="label">Şifre*</span>
                       <div class="password-group">
                         <div class="view-wrap">
-                          <span class="password-progress undefined">
+                          <span class="password-progress TRX">
                           </span>
                           <label class="mask-input">
                             <input id="rinput-pass" name="password" placeholder="Şifre *" type="password" class="input" value="">
@@ -3632,9 +3632,9 @@
                               <div></div>
                               <div class="Select is-clearable is-disabled is-searchable Select--single">
                                 <div class="Select-control">
-                                  <span class="Select-multi-value-wrapper" id="react-select-39--value">undefined<div class="Select-placeholder">Para Birimi</div>undefined<div aria-expanded="false" aria-owns="" aria-activedescendant="react-select-39--value" aria-disabled="true" class="Select-input" role="combobox" tabindex="0" style="border: 0px; width: 1px; display: inline-block;"></div>
+                                  <span class="Select-multi-value-wrapper" id="react-select-39--value">TRX<div class="Select-placeholder">Para Birimi</div>TRX<div aria-expanded="false" aria-owns="" aria-activedescendant="react-select-39--value" aria-disabled="true" class="Select-input" role="combobox" tabindex="0" style="border: 0px; width: 1px; display: inline-block;"></div>
                                   </span>
-                                  <span class="Select-arrow-zone">undefined<span class="Select-arrow"></span>
+                                  <span class="Select-arrow-zone">TRX<span class="Select-arrow"></span>
                                   </span>
                                 </div>
                               </div>
@@ -3711,7 +3711,7 @@
                             <span class="label"> Para Birimi </span>
                             <label class="mask-input">
                               <div></div>
-                              <div class="Select is-clearable is-disabled is-searchable Select--single">undefined<div class="Select-control">undefined<span class="Select-multi-value-wrapper" id="react-select-40--value">undefined<div class="Select-placeholder">Para Birimi</div>undefined<div aria-expanded="false" aria-owns="" aria-activedescendant="react-select-40--value" aria-disabled="true" class="Select-input" role="combobox" tabindex="0" style="border: 0px; width: 1px; display: inline-block;"></div>undefined</span>undefined<span class="Select-arrow-zone">undefined<span class="Select-arrow"></span>undefined</span>undefined</div>
+                              <div class="Select is-clearable is-disabled is-searchable Select--single">TRX<div class="Select-control">TRX<span class="Select-multi-value-wrapper" id="react-select-40--value">TRX<div class="Select-placeholder">Para Birimi</div>TRX<div aria-expanded="false" aria-owns="" aria-activedescendant="react-select-40--value" aria-disabled="true" class="Select-input" role="combobox" tabindex="0" style="border: 0px; width: 1px; display: inline-block;"></div>TRX</span>TRX<span class="Select-arrow-zone">TRX<span class="Select-arrow"></span>TRX</span>TRX</div>
                               </div>
                             </label>
                           </div>
@@ -3721,7 +3721,7 @@
                             <span class="label"> Tutar </span>
                             <div class="currency-symbol">
                               <span class="symbol">USD</span>
-                              <div>undefined<label class="mask-input">undefined<input name="amount" type="number" min="0" step="0.01" class="input" value="">undefined</label>undefined</div>
+                              <div>TRX<label class="mask-input">TRX<input name="amount" type="number" min="0" step="0.01" class="input" value="">TRX</label>TRX</div>
                             </div>
                           </div>
                         </div>
@@ -3777,13 +3777,13 @@
                     <div class="form-cont ">
                       <form>
                         <div class="hide">
-                          <div class="form-label ">undefined<span class="label"> Para Birimi </span>undefined<label class="mask-input">undefined<div></div>undefined<div class="Select is-clearable is-disabled is-searchable Select--single">undefined<div class="Select-control">undefined<span class="Select-multi-value-wrapper" id="react-select-41--value">undefined<div class="Select-placeholder">Para Birimi</div>undefined<div aria-expanded="false" aria-owns="" aria-activedescendant="react-select-41--value" aria-disabled="true" class="Select-input" role="combobox" tabindex="0" style="border: 0px; width: 1px; display: inline-block;"></div>undefined</span>undefined<span class="Select-arrow-zone">undefined<span class="Select-arrow"></span>undefined</span>undefined</div>undefined</div>undefined</label>
+                          <div class="form-label ">TRX<span class="label"> Para Birimi </span>TRX<label class="mask-input">TRX<div></div>TRX<div class="Select is-clearable is-disabled is-searchable Select--single">TRX<div class="Select-control">TRX<span class="Select-multi-value-wrapper" id="react-select-41--value">TRX<div class="Select-placeholder">Para Birimi</div>TRX<div aria-expanded="false" aria-owns="" aria-activedescendant="react-select-41--value" aria-disabled="true" class="Select-input" role="combobox" tabindex="0" style="border: 0px; width: 1px; display: inline-block;"></div>TRX</span>TRX<span class="Select-arrow-zone">TRX<span class="Select-arrow"></span>TRX</span>TRX</div>TRX</div>TRX</label>
                           </div>
                         </div>
                         <div>
-                          <div class="form-label ">undefined<span class="label"> Promosyon Kodu </span>undefined<label class="mask-input">undefined<input name="promo_code" class="input" value="">undefined</label>undefined</div>
+                          <div class="form-label ">TRX<span class="label"> Promosyon Kodu </span>TRX<label class="mask-input">TRX<input name="promo_code" class="input" value="">TRX</label>TRX</div>
                         </div>
-                        <div class="converter">undefined<div class="form-label">undefined<span class="mask-input"></span>undefined</div>
+                        <div class="converter">TRX<div class="form-label">TRX<span class="mask-input"></span>TRX</div>
                         </div>
                         <button onclick="swal.fire('Promosyon Tanımlandı','Bugün ki ilk yatırımınıza özel bonus tanımlandı lütfen canlı destekten bilgi alın.','success',)" class="button inactive-button"> Gönder </button>
                       </form>
