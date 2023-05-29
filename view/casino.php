@@ -1,43 +1,68 @@
 <div class="global-container" onclick="event.preventDefault();loginoralert()">
   <div class="banner-wrap has-winners">
     <div class="banner">
-      <div class="banner-container fade-effect">
-        <div>
-          <a href="#">
-            <img src="/assets/img/carousel/2.jpg" alt="">
-          </a>
+    <div class="banner-container fade-effect">
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/e362b0c919fbad0ac8499030cfbbd8c794f84808_medium.jpg?1685018351" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/cd1c404d7d3bfe51b6deebbd498f6b9cc7708dc2_medium.jpg?1685027612" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/012796a572dea9d5faeebc4fd1d1f6c7386aafed_medium.jpg?1684418808" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/2150a7d40095f00887307384bdae110e5395bc2a_medium.jpg?1683369859" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="/tv-bet">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/af5503d6bf45635a7d3680503ab9589193d101cb_medium.jpg?1682182308" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/499b03f3c420c43b5488872645b67a9c4dda76cf_medium.jpg?1681394592" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/a0151166f76a4ff312b5bb97e1d2f769fa09e152_medium.jpg?1683286701" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/e9eeab3a67229c4cb168f609ae1663ac2a5d021f_medium.jpg?1683286551" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/4fb954362bde7f9ea5540296403b092de3a69386_medium.jpg?1682977033" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/0a5203cffb2aba06a3a78c8fcee1d21dc9ad3772_medium.jpg?1662139136" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/3689dc1f41e322a5ce27446981560d2d88bc4189_medium.jpg?1632733642" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/de3db003af688212639fde4f27cc3e9fead67473_medium.jpg?1680701484" alt="">
+              </a>
+            </div>
         </div>
-        <div>
-          <a href="#">
-            <img src="/assets/img/carousel/3.jpg" alt="">
-          </a>
-        </div>
-        <div>
-          <a href="#" onclick="loginorpay()">
-            <img src="/assets/img/carousel/4.jpg" alt="">
-          </a>
-        </div>
-        <div>
-          <a href="#" onclick="loginorpay()">
-            <img src="/assets/img/carousel/5.jpg" alt="">
-          </a>
-        </div>
-        <div>
-          <a href="/tv-bet">
-            <img src="/assets/img/carousel/6.jpg" alt="">
-          </a>
-        </div>
-        <div>
-          <a href="/promotions">
-            <img src="/assets/img/carousel/8.jpg" alt="">
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src="/assets/img/carousel/9.jpg" alt="">
-          </a>
-        </div>
-      </div>
     </div>
     <div class="banner-winners">
       <h2>Son Kazananlar</h2>
