@@ -119,7 +119,7 @@ if ($mobile) {
                         <div class="search-box"><i class="search-icon icon-search "></i></div>
                         <div class="header-clock">
                           <i class="icon-clock"></i>
-                          <p id="sayacimiz"><?= date("h:i:s") ?></p>
+                          <p id="sayacimiz"></p>
                         </div>
                         <div class="language-switcher"><span>Türkçe<i class="tr icon-down-dir"></i></span></div>
                       </div>
