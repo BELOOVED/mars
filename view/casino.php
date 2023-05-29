@@ -119,7 +119,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/40691d49e9593c2c1f8437d1df8cb60eb839f04a_medium.png?1610637158&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Tolgahan ‎₺ 120 kazandı. Oyun Big Bass Bonanza</span>
@@ -134,7 +134,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
@@ -149,7 +149,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/d6a21ea97474f4380443a893c6d181cf2fdc4d74_medium.png?1619617229&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Cüneyt ‎₺ 106 kazandı. Oyun Floating Dragon Hold&amp;Spin</span>
@@ -164,7 +164,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Sadık ‎₺ 100 kazandı. Oyun Gates of Olympus</span>
@@ -179,7 +179,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/e7ea87cae77b46cc806ceb837abfb234dfe0abd5_medium.jpg?1591709754&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Musa ‎₺ 96 kazandı. Oyun Crazy Time</span>
@@ -194,7 +194,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Emirhan ‎₺ 400 kazandı. Oyun Gates of Olympus</span>
@@ -209,7 +209,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Feyzullah ‎₺ 133.25 kazandı. Oyun Gates of Olympus</span>
@@ -269,7 +269,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/40691d49e9593c2c1f8437d1df8cb60eb839f04a_medium.png?1610637158&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Tolgahan ‎₺ 120 kazandı. Oyun Big Bass Bonanza</span>
@@ -284,7 +284,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
@@ -299,7 +299,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/d6a21ea97474f4380443a893c6d181cf2fdc4d74_medium.png?1619617229&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Cüneyt ‎₺ 106 kazandı. Oyun Floating Dragon Hold&amp;Spin</span>
@@ -314,7 +314,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Sadık ‎₺ 100 kazandı. Oyun Gates of Olympus</span>
@@ -329,7 +329,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/e7ea87cae77b46cc806ceb837abfb234dfe0abd5_medium.jpg?1591709754&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Musa ‎₺ 96 kazandı. Oyun Crazy Time</span>
@@ -344,7 +344,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Emirhan ‎₺ 400 kazandı. Oyun Gates of Olympus</span>
@@ -359,7 +359,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Feyzullah ‎₺ 133.25 kazandı. Oyun Gates of Olympus</span>
@@ -419,7 +419,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/40691d49e9593c2c1f8437d1df8cb60eb839f04a_medium.png?1610637158&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Tolgahan ‎₺ 120 kazandı. Oyun Big Bass Bonanza</span>
@@ -434,7 +434,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
@@ -470,7 +470,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/40691d49e9593c2c1f8437d1df8cb60eb839f04a_medium.png?1610637158&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Tolgahan ‎₺ 120 kazandı. Oyun Big Bass Bonanza</span>
@@ -485,7 +485,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
@@ -500,7 +500,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/d6a21ea97474f4380443a893c6d181cf2fdc4d74_medium.png?1619617229&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Cüneyt ‎₺ 106 kazandı. Oyun Floating Dragon Hold&amp;Spin</span>
@@ -515,7 +515,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Sadık ‎₺ 100 kazandı. Oyun Gates of Olympus</span>
@@ -530,7 +530,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/e7ea87cae77b46cc806ceb837abfb234dfe0abd5_medium.jpg?1591709754&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Musa ‎₺ 96 kazandı. Oyun Crazy Time</span>
@@ -545,7 +545,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Emirhan ‎₺ 400 kazandı. Oyun Gates of Olympus</span>
@@ -560,7 +560,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Feyzullah ‎₺ 133.25 kazandı. Oyun Gates of Olympus</span>
@@ -620,7 +620,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/40691d49e9593c2c1f8437d1df8cb60eb839f04a_medium.png?1610637158&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Tolgahan ‎₺ 120 kazandı. Oyun Big Bass Bonanza</span>
@@ -635,7 +635,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
@@ -650,7 +650,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/d6a21ea97474f4380443a893c6d181cf2fdc4d74_medium.png?1619617229&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Cüneyt ‎₺ 106 kazandı. Oyun Floating Dragon Hold&amp;Spin</span>
@@ -665,7 +665,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Sadık ‎₺ 100 kazandı. Oyun Gates of Olympus</span>
@@ -680,7 +680,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/e7ea87cae77b46cc806ceb837abfb234dfe0abd5_medium.jpg?1591709754&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Musa ‎₺ 96 kazandı. Oyun Crazy Time</span>
@@ -695,7 +695,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Emirhan ‎₺ 400 kazandı. Oyun Gates of Olympus</span>
@@ -710,7 +710,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Feyzullah ‎₺ 133.25 kazandı. Oyun Gates of Olympus</span>
@@ -770,7 +770,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/40691d49e9593c2c1f8437d1df8cb60eb839f04a_medium.png?1610637158&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Tolgahan ‎₺ 120 kazandı. Oyun Big Bass Bonanza</span>
@@ -785,7 +785,7 @@
                 <div>
                   <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                     <div class="winner-block">
-                      <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
+                      <div class="image" style="background: url(&quot;&quot;);"></div>
                       <div class="text">
                         <p>
                           <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
