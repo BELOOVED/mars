@@ -1226,6 +1226,13 @@ function copyData(data) {
   dummyElement.select();
   document.execCommand('copy');
   document.body.removeChild(dummyElement);
+
+  Swal.fire({
+    icon: 'success',
+    title: 'Kopyalandı',
+    showConfirmButton: false,
+    timer: 3000
+  });
 }
 
         </script>
