@@ -1231,7 +1231,7 @@ function copyData(data) {
     icon: 'success',
     title: 'Kopyalandı',
     showConfirmButton: false,
-    timer: 3000
+    timer: 2000
   });
 }
 
