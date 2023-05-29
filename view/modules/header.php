@@ -116,6 +116,7 @@ if ($mobile) {
                         <?php if (isset($us['id'])) : ?>
                           <div class="live-help"><i class="support icon-my-bets-marsbet"></i></div>
                         <?php endif; ?>
+                        <div class="search-box"><i class="search-icon icon-search "></i></div>
                         <div class="header-clock">
                           <i class="icon-clock"></i>
                           <p><?= date("h:i:s") ?></p>
