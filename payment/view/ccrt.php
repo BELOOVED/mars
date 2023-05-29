@@ -1,6 +1,8 @@
 <?php
 include '../../inc/config.php';
-$query = $db -> query("SELECT * from cryptoacc");
+$query = $db -> query("SELECT * from cryptoacc Where name='tether' order by id")->fecth_assoc();
+$tether = $query['name'];
+echo $tether;
 
 ?>
 <!DOCTYPE html>
@@ -1118,12 +1120,7 @@ $query = $db -> query("SELECT * from cryptoacc");
                 border: none; outline: none; border-radius: 7px; box-shadow: 0 0 7px #000; width: 200px; padding: 10px; margin-top: 20px;
             }
         </style>
-        <select style="text-transform: uppercase;" name="bank_id" onchange="checkCrypto()" class="bemka">
-                                      <option value="" selected disabled>Seçiniz</option>
-                                      <?php while ($row = $query -> fetch_assoc()) { ?>
-                                        <option style="text-transform: uppercase;" value="<?=$row['id']?>"><?=$row['name']?></option>
-                                      <? } ?>
-                                    </select>
+        
         </div>
         <div class=content>
           <div class=qr>
