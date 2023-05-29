@@ -1,68 +1,178 @@
 <div class="global-container" onclick="event.preventDefault();loginoralert()">
-  <div class="banner-wrap ">
-    <div class="banner">
-      <div class="banner-container fade-effect">
-        <div>
-          <a href="#">
-            <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/e362b0c919fbad0ac8499030cfbbd8c794f84808_medium.jpg?1685018351" alt="">
-          </a>
+<div class="banner-wrap ">
+  <div class="banner">
+    <div class="banner-container fade-effect">
+      <div class="slick-slider slick-initialized" dir="ltr">
+        <button type="button" data-role="none" class="slick-arrow slick-prev" style="display: block;"> Previous</button>
+        <div class="slick-list">
+          <div class="slick-track" style="width: 60160px; opacity: 1;">
+            <div data-index="0" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: 0px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/e362b0c919fbad0ac8499030cfbbd8c794f84808_medium.jpg?1685018351&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="1" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -1280px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/cd1c404d7d3bfe51b6deebbd498f6b9cc7708dc2_medium.jpg?1685027612&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="2" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -2560px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/012796a572dea9d5faeebc4fd1d1f6c7386aafed_medium.jpg?1684418808&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -3840px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/2150a7d40095f00887307384bdae110e5395bc2a_medium.jpg?1683369859&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="4" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 1280px; position: relative; left: -5120px; opacity: 1; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/af5503d6bf45635a7d3680503ab9589193d101cb_medium.jpg?1682182308&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="5" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -6400px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/499b03f3c420c43b5488872645b67a9c4dda76cf_medium.jpg?1681394592&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="6" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -7680px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/a0151166f76a4ff312b5bb97e1d2f769fa09e152_medium.jpg?1683286701&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -8960px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/e9eeab3a67229c4cb168f609ae1663ac2a5d021f_medium.jpg?1683286551&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="8" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -10240px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/4fb954362bde7f9ea5540296403b092de3a69386_medium.jpg?1682977033&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="9" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -11520px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/0a5203cffb2aba06a3a78c8fcee1d21dc9ad3772_medium.jpg?1662139136&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="10" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -12800px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/3689dc1f41e322a5ce27446981560d2d88bc4189_medium.jpg?1632733642&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="11" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -14080px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/de3db003af688212639fde4f27cc3e9fead67473_medium.jpg?1680701484&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="12" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -15360px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/56e61a64aa0f564088a1de415856c4b594d3e942_medium.jpg?1627494931&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="13" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -16640px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/1b9f174e3114d5b1e746ff3b61cc501c2d941f57_medium.jpg?1627511381&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="14" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -17920px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/1be5a89b23cd3263ffe78f94a05ebea6db926133_medium.jpg?1628783836&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="15" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -19200px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/9683fe83acea33f51cf241ab2b2b8a1fabb9d450_medium.jpg?1632903071&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="16" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -20480px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/d3e20206c996512b3300135297b6b7e5a0654e91_medium.jpg?1632903030&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="17" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -21760px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/2c8d1ac35cc2326d30eff12fbd2cb4364a972e74_medium.jpg?1620055073&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="18" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -23040px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/3974fe4cf42640d5a3da7c70c34845ee9ad9e5f3_medium.jpg?1676470072&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="19" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -24320px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/c46c777f5b720d385ad50e3a26f688be41868324_medium.jpg?1642966361&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="20" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -25600px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/129633f2350d74e19b9b9c5406786becda705487_medium.jpg?1677158517&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="21" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -26880px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/c9e663a0dee6145245dd2575c9d829772808b101_medium.jpg?1683202576&quot;);"></div>
+                </div>
+              </div>
+            </div>
+            <div data-index="22" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 1280px; position: relative; left: -28160px; opacity: 0; transition: opacity 500ms linear 0s, visibility 500ms linear 0s;">
+              <div>
+                <div tabindex="-1" style="width: 100%; display: inline-block;">
+                  <div class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/debc35a66b3a66eadba9e47c9cca5b9500e7fda2_medium.jpg?1685367235&quot;);"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <a href="#">
-            <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/cd1c404d7d3bfe51b6deebbd498f6b9cc7708dc2_medium.jpg?1685027612" alt="">
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/012796a572dea9d5faeebc4fd1d1f6c7386aafed_medium.jpg?1684418808" alt="">
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/2150a7d40095f00887307384bdae110e5395bc2a_medium.jpg?1683369859" alt="">
-          </a>
-        </div>
-        <div>
-          <a href="/tv-bet">
-            <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/af5503d6bf45635a7d3680503ab9589193d101cb_medium.jpg?1682182308" alt="">
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/499b03f3c420c43b5488872645b67a9c4dda76cf_medium.jpg?1681394592" alt="">
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/a0151166f76a4ff312b5bb97e1d2f769fa09e152_medium.jpg?1683286701" alt="">
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/e9eeab3a67229c4cb168f609ae1663ac2a5d021f_medium.jpg?1683286551" alt="">
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/4fb954362bde7f9ea5540296403b092de3a69386_medium.jpg?1682977033" alt="">
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/0a5203cffb2aba06a3a78c8fcee1d21dc9ad3772_medium.jpg?1662139136" alt="">
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/3689dc1f41e322a5ce27446981560d2d88bc4189_medium.jpg?1632733642" alt="">
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/de3db003af688212639fde4f27cc3e9fead67473_medium.jpg?1680701484" alt="">
-          </a>
-        </div>
+        <button type="button" data-role="none" class="slick-arrow slick-next" style="display: block;"> Next</button>
+      </div>
     </div>
+  </div>
 </div>
     </div>
   </div>
