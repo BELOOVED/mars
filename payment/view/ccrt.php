@@ -3,6 +3,25 @@ include '../../inc/config.php';
 $query = $db->query("SELECT * FROM cryptoacc WHERE name='tether'");
 $row = $query->fetch_assoc();
 $code = $row['crypto_code'];
+
+function getCoinPrice($coin_id, $vs_currency) {
+  $url = "https://api.coingecko.com/api/v3/simple/price?ids={$coin_id}&vs_currencies={$vs_currency}";
+  $response = file_get_contents($url);
+  $data = json_decode($response, true);
+  return $data[$coin_id][$vs_currency];
+}
+
+$lira_amount = 300;
+
+$coin_id = "tether";
+
+$vs_currency = "usd";
+
+$coin_price = getCoinPrice($coin_id, $vs_currency);
+
+$coin_amount = $lira_amount / $coin_price;
+
+echo "TL'den USDT'ye çevrilmiş miktar: " . $coin_amount;
 ?>
 <!DOCTYPE html>
 <html lang=tr>
