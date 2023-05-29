@@ -30,6 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $vs_currency = "try";
 
   $coin_price = getCoinPrice($coin_id, $vs_currency);
+  $formatted_coin_price = number_format($coin_price, 2);
 
   if ($coin_price === false) {
     echo "Coin fiyatı alınamadı.";
@@ -1142,12 +1143,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <ul>
               <li>
                 <span>Ödeme Miktarı</span>
-                <span><?=$formatted_amount;?> USDT (TRC20)</span>
+                <span><?php
+                if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                  echo $formatted_amount;
+                }
+                
+                
+                ?> USDT (TRC20)</span>
               </li>
               <li></li>
               <li>
                 <span>Toplam</span>
-                <span><?=$formatted_amount;?> USDT (TRC20)</span>
+                <span><?php
+                if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                  echo $formatted_amount;
+                }
+                
+                
+                ?> USDT (TRC20)</span>
             </ul>
           </div>
         </div>
