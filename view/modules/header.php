@@ -187,9 +187,6 @@ if ($mobile) {
 
 // Sayacı başlat
 sayac();
-Bu kod, sayac() fonksiyonunu çağırdığınızda bir sayacı başlatır. setInterval fonksiyonu ile belirli aralıklarla (1000 milisaniye = 1
-
-
 
 
           </script>
