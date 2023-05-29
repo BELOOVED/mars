@@ -516,7 +516,7 @@
                       <div class="td"> 100 TRY </div>
                       <div class="td"> 1000000 TRY </div>
                     </div>
-                    <div class="tr payment-marscryptotrx">
+                    <div class="tr payment-marscryptotrx" onmouseover="changeContent(4)">
                       <div class="td">
                         <div class="image" style="background: rgb(63, 9, 6);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/4b48f832fe39e8b621413c5d6c16a53779627ff5.svg?1667590754" alt="img" class="middle">
@@ -527,7 +527,7 @@
                       <div class="td"> 100 TRY </div>
                       <div class="td"> 1000000 TRY </div>
                     </div>
-                    <div class="tr payment-peppara">
+                    <div class="tr payment-peppara" onmouseover="changeContent(5)">
                       <div class="td">
                         <div class="image" style="background: rgb(60, 43, 110);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/b106e0ccc06df7ac496c2e816e2c9aa1de8ab427.svg?1637789647" alt="img" class="middle">
@@ -538,7 +538,7 @@
                       <div class="td"> Sınırsız </div>
                       <div class="td"> Sınırsız </div>
                     </div>
-                    <div class="tr payment-fixturka">
+                    <div class="tr payment-fixturka" onmouseover="changeContent(6)">
                       <div class="td">
                         <div class="image" style="background: rgb(57, 58, 60);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/6a2d01a147c299805093524c933eeca80c8dc1e0.svg?1583574139" alt="img" class="middle">
@@ -549,7 +549,7 @@
                       <div class="td"> 25 TRY </div>
                       <div class="td"> 500000 TRY </div>
                     </div>
-                    <div class="tr payment-premiumpapara">
+                    <div class="tr payment-premiumpapara" onmouseover="changeContent(7)">
                       <div class="td">
                         <div class="image" style="background: rgb(190, 37, 150);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/a9e1db7eecdb8bf919f1bf8ee418b149f73c3f04.svg?1666955331" alt="img" class="middle">
@@ -560,8 +560,8 @@
                       <div class="td"> 250 TRY </div>
                       <div class="td"> 200000 TRY </div>
                     </div>
-                    <div class="tr payment-movenpaypapara">
-                      <div class="td">
+                    <div class="tr payment-movenpaypapara" onmouseover="changeContent(8)">
+                      <div class="td"> 
                         <div class="image" style="background: rgb(35, 183, 29);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/c6373fffac76a4aaaf80332bdb9d4cb7d3466c05.svg?1632494630" alt="img" class="middle">
                         </div>
@@ -571,7 +571,7 @@
                       <div class="td"> 50 TRY </div>
                       <div class="td"> 500000 TRY </div>
                     </div>
-                    <div class="tr payment-anindapapara">
+                    <div class="tr payment-anindapapara" onmouseover="changeContent(9)">
                       <div class="td">
                         <div class="image" style="background: rgb(115, 14, 14);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0279168ff366018941330a1c766d42afbaf7f6ca.png?1607026021" alt="img" class="middle">
@@ -582,7 +582,7 @@
                       <div class="td"> 100 TRY </div>
                       <div class="td"> 50000 TRY </div>
                     </div>
-                    <div class="tr payment-paysystem">
+                    <div class="tr payment-paysystem" onmouseover="changeContent(10)">
                       <div class="td">
                         <div class="image" style="background: rgb(222, 135, 135);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/deea7bd80313efa17b8f1c45813b37c4152efadc.svg?1661864307" alt="img" class="middle">
@@ -593,7 +593,7 @@
                       <div class="td"> 100 TRY </div>
                       <div class="td"> 50000 TRY </div>
                     </div>
-                    <div class="tr payment-propay">
+                    <div class="tr payment-propay" onmouseover="changeContent(11)">
                       <div class="td">
                         <div class="image" style="background: rgb(48, 136, 186);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/9e5f016f0fb1de6fe4bbd2155fc6ccc0d7cd21bf.svg?1661864257" alt="img" class="middle">
@@ -604,7 +604,7 @@
                       <div class="td"> 100 TRY </div>
                       <div class="td"> 100000 TRY </div>
                     </div>
-                    <div class="tr payment-turbohavale">
+                    <div class="tr payment-turbohavale" onmouseover="changeContent(12)">
                       <div class="td">
                         <div class="image" style="background: rgb(1, 162, 254);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/2ddd64a80a050af0a5bf49168994bb8cb854b663.svg?1661783052" alt="img" class="middle">
@@ -615,7 +615,7 @@
                       <div class="td"> 50 TRY </div>
                       <div class="td"> 500000 TRY </div>
                     </div>
-                    <div class="tr payment-aonehavale">
+                    <div class="tr payment-aonehavale" onmouseover="changeContent(13)">
                       <div class="td">
                         <div class="image" style="background: rgb(109, 51, 217);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/52d82b1d66c614ac8d81bca0744321042adb9027.svg?1666686216" alt="img" class="middle">
@@ -626,7 +626,7 @@
                       <div class="td"> 50 TRY </div>
                       <div class="td"> 500000 TRY </div>
                     </div>
-                    <div class="tr payment-banktransferalternate">
+                    <div class="tr payment-banktransferalternate" onmouseover="changeContent(14)">
                       <div class="td">
                         <div class="image" style="background: rgb(236, 240, 33);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/275ff0e22b32df9b08b5f4955b7a225762d87e31.svg?1610057981" alt="img" class="middle">
@@ -637,7 +637,7 @@
                       <div class="td"> 250 TRY </div>
                       <div class="td"> 100000 TRY </div>
                     </div>
-                    <div class="tr payment-safirbanktransfer">
+                    <div class="tr payment-safirbanktransfer" onmouseover="changeContent(15)">
                       <div class="td">
                         <div class="image" style="background: rgb(128, 213, 243);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/04667eaabfb141ff48f5d7bac6d561de30b24fdc.svg?1640563537" alt="img" class="middle">
@@ -648,7 +648,7 @@
                       <div class="td"> 50 TRY </div>
                       <div class="td"> 500000 TRY </div>
                     </div>
-                    <div class="tr payment-movenpaybanktransfer">
+                    <div class="tr payment-movenpaybanktransfer" onmouseover="changeContent(16)">
                       <div class="td">
                         <div class="image" style="background: rgb(94, 46, 145);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0f4c5e124952ce8de87e3ebf3b4d3514544aeb66.svg?1661845433" alt="img" class="middle">
@@ -659,7 +659,7 @@
                       <div class="td"> 50 TRY </div>
                       <div class="td"> 20000 TRY </div>
                     </div>
-                    <div class="tr payment-turboyatirim">
+                    <div class="tr payment-turboyatirim" onmouseover="changeContent(17)">
                       <div class="td">
                         <div class="image" style="background: rgb(61, 107, 159);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/211ac2d129c3fc8cf00da3c08feb124182ac8454.svg?1658404916" alt="img" class="middle">
@@ -670,7 +670,7 @@
                       <div class="td"> 5 TRY </div>
                       <div class="td"> 100000 TRY </div>
                     </div>
-                    <div class="tr payment-guvenliqr">
+                    <div class="tr payment-guvenliqr" onmouseover="changeContent(18)">
                       <div class="td">
                         <div class="image" style="background: rgb(221, 221, 221);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/d2097bb33f7a0bd422bedf015dbe20621cf7b2d4.svg?1673529029" alt="img" class="middle">
@@ -681,7 +681,7 @@
                       <div class="td"> 50 TRY </div>
                       <div class="td"> 5000 TRY </div>
                     </div>
-                    <div class="tr payment-cepbank">
+                    <div class="tr payment-cepbank" onmouseover="changeContent(19)">
                       <div class="td">
                         <div class="image" style="background: rgb(235, 32, 48);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/c90095e3a6085b730fc0f369afdf8ecb29d43cf0.svg?1525869289" alt="img" class="middle">
@@ -692,7 +692,7 @@
                       <div class="td"> 50 TRY </div>
                       <div class="td"> 100000 TRY </div>
                     </div>
-                    <div class="tr payment-kriptopay">
+                    <div class="tr payment-kriptopay" onmouseover="changeContent(20)">
                       <div class="td">
                         <div class="image" style="background: rgb(27, 33, 63);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/127330bab54279b7fc53c6312417012b380df680.svg?1649057591" alt="img" class="middle">
@@ -703,7 +703,7 @@
                       <div class="td"> 100 TRY </div>
                       <div class="td"> 1000000 TRY </div>
                     </div>
-                    <div class="tr payment-hetpa">
+                    <div class="tr payment-hetpa" onmouseover="changeContent(21)">
                       <div class="td">
                         <div class="image" style="background: rgb(60, 43, 110);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/37b67741d6fd7b4f7acd475c77c117240a4284a3.svg?1637572890" alt="img" class="middle">
@@ -714,7 +714,7 @@
                       <div class="td"> 20 TRY </div>
                       <div class="td"> 100000 TRY </div>
                     </div>
-                    <div class="tr payment-ecopayz">
+                    <div class="tr payment-ecopayz" onmouseover="changeContent(22)">
                       <div class="td">
                         <div class="image" style="background: rgb(35, 68, 123);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0288931a779ff0070cc9c247dfa392cbc9c764b6.svg?1525868789" alt="img" class="middle">
@@ -725,7 +725,7 @@
                       <div class="td"> 10 TRY </div>
                       <div class="td"> 1000000 TRY </div>
                     </div>
-                    <div class="tr payment-monetix">
+                    <div class="tr payment-monetix" onmouseover="changeContent(23)">
                       <div class="td">
                         <div class="image" style="background: rgb(184, 172, 172);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/f72683dcf1f5c79c9d27baf07a4394451f2e5eed.png?1617718524" alt="img" class="middle">
@@ -736,7 +736,7 @@
                       <div class="td"> 20 EUR </div>
                       <div class="td"> 20000 EUR </div>
                     </div>
-                    <div class="tr payment-perfectmoney">
+                    <div class="tr payment-perfectmoney" onmouseover="changeContent(24)">
                       <div class="td">
                         <div class="image" style="background: rgb(187, 9, 9);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/311ef7061dc0696fc4ce0677bb77750925bc6f62.svg?1587655634" alt="img" class="middle">
@@ -747,7 +747,7 @@
                       <div class="td"> Sınırsız </div>
                       <div class="td"> Sınırsız </div>
                     </div>
-                    <div class="tr payment-promocodebonus">
+                    <div class="tr payment-promocodebonus" onmouseover="changeContent(25)">
                       <div class="td">
                         <div class="image" style="background: rgb(83, 54, 148);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/9010681ce92d7c3abc82bcd90cdef26de046b0dd.svg?1565979194" alt="img" class="middle">
@@ -791,6 +791,50 @@
     degerDegisenDiv.innerHTML = '<div><p><img src="https://d2ps39elv3ruqi.cloudfront.net/images/attachments/files/000/000/436/original/bitcoin.jpg?1536567550" style="width: 300px;" class="fr-fic fr-dib"><br>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır. İşleminizi Bitcoin Network ağı üzerinden yaptığınızdan emin olunuz.</p><p><br></p><p><span class="fr-video fr-fvc fr-dvb fr-draggable" contenteditable="false" draggable="true"><iframe src="https://www.youtube.com/embed/9ki6OhqA108?&amp;ab_channel=Marsbahis&amp;wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable" style="width: 100%; height: auto;"></iframe></span><br></p></div>';
   } else if (divNum === 3) {
     degerDegisenDiv.innerHTML = '<div><p><img src="https://d2ps39elv3ruqi.cloudfront.net/images/attachments/files/000/000/437/original/ethereum.jpg?1536567578" style="width: 300px;" class="fr-fic fr-dib"><br>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır. İşleminizi Ethereum (ERC20) ağı üzerinden yaptığınızdan emin olunuz.</p><p><br></p><p><span class="fr-video fr-fvc fr-dvb fr-draggable" contenteditable="false" draggable="true"><iframe src="https://www.youtube.com/embed/9ki6OhqA108?&amp;ab_channel=Marsbahis&amp;wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable" style="width: 100%; height: auto;"></iframe></span><br></p></div>';
+  }else if (divNum === 4) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/f71015e88f6eeb6b12a642047684e2091ee5051b_original.jpg?1667591089" style="width: 300px;" class="fr-fic fr-dib"><br>TRON (TRX) ile Marsbahis hesabınıza yatırım yapabilirsiniz. İşleminizi TRON ağı üzerinden yaptığınızdan emin olunuz.Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır.</p></div>';
+  }else if (divNum === 5) {
+    degerDegisenDiv.innerHTML = '<div></div>';
+  }else if (divNum === 6) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d2ps39elv3ruqi.cloudfront.net/attachments/7137965572f2b29a0614f4fdf5ab8abf61482567_original.jpg?1582556574" style="width: 300px;" class="fr-fic fr-dib"></p><p>Sadece kendi adınıza ait hesap üzerinden işlem yapabilirsiniz. Farklı hesaplar üzerinden yapılan işlemler iade edilecektir.</p></div>';
+  }else if (divNum === 7) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/05e24c751056101e3663cc993e85a3d1c273d386_original.png?1666955762" style="width: 300px;" class="fr-fic fr-dib">Papara hesabınızdan, Marsbahis hesabınıza 7 gün 24 saat güvenli ve hızlıca yatırım yapabilirsiniz. DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz. <strong>LÜTFEN AÇIKLAMA KISMINI BOŞ BIRAKINIZ</strong></p></div>';
+  }else if (divNum === 8) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d2ps39elv3ruqi.cloudfront.net/images/attachments/files/000/000/391/original/Papara-deposit-content.png?1531924272" class="fr-fic fr-dii"><br><br></p><p>Papara hesabınızdan, Marsbahis hesabınıza 7 gün 24 saat güvenli ve hızlıca yatırım yapabilirsiniz.</p><p>DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz.</p><p><strong>ÖNEMLİ : Paparam yöntemi ile yatırım işlem süresi 10 dk olup bu süre içerisinde PAPARA hesabınıza GİRİŞ YAPMAMANIZ gerekmektedir!</strong></p><p><br></p><p><span contenteditable="false" draggable="true"><span class="fr-video fr-fvc fr-dvi fr-draggable" contenteditable="false"><iframe src="https://www.youtube.com/embed/FoFYRn483s0?&amp;ab_channel=Marsbahis&amp;wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable"></iframe></span></span></p></div>';
+  }else if (divNum === 9) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d2ps39elv3ruqi.cloudfront.net/attachments/17abbe981416216d8b3c3739717c7c4dfaa5a4ba_original.png?1607026830" style="width: 300px;" class="fr-fic fr-dib">Anında Papara yöntemi ile minimum para yatırma limiti 100 TRY"dir.<br><br>ÖNEMLİ: Her yatırım işlemi öncesinde yeni bir hesap numarası alıp işleminizi tamamlamanız gerektiğini önemle hatırlatırız.</p></div>';
+  }else if (divNum === 10) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d2ps39elv3ruqi.cloudfront.net/attachments/30f0b56a808ccb854eaed4b8866798b1eff5a114_original.jpg?1624309464" style="width: 300px;" class="fr-fic fr-dib"><br>Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz.</p></div>';
+  }else if (divNum === 11) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/1448f87b451958811c56c701d69dc2cfd143a4e9_original.jpg?1661864172" style="width: 300px;" class="fr-fic fr-dib">ÖNEMLİ UYARI : Minimum limit altı yapılan yatırımlar hiçbir şekilde kabul edilmeyecek ve iade edilecektir. İade süresi 72 saattir.</p><div data-qa="message-text"><div data-qa="block-kit-renderer"><div dir="auto">DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz.</div></div></div><p><br></p></div>';
+  }else if (divNum === 12) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/1ceec2332b7a5cc1703ad2ec74419ddfcf3ee2c8_original.jpg?1661861257" style="width: 300px;" class="fr-fic fr-dib">ÖNEMLİ : Güncel hesap numaraları, işlem başladıktan sonra otomatik olarak iletilmektedir. Herhangi bir mağduriyet yaşamamak için lütfen her yatırımınızda yeni hesap numarası ile işlem yapınız.&gt;Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Banka hesabı ile yatırım yapabilirsiniz.</p></div>';
+  }else if (divNum === 13) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/5ebf0868410bfb5c80a136c09467aad0b9b67755_original.jpg?1666686166" style="width: 300px;" class="fr-fic fr-dib"><br>SÜPER HAVALE ile haftanın 7 günü 24 saat yatırım yapabilirsiniz. &gt;Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Banka hesabı ile yatırım yapabilirsiniz.</p></div>';
+  }else if (divNum === 14) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d2ps39elv3ruqi.cloudfront.net/images/attachments/files/000/000/167/original/yeni-BankTransfer.png?1525941428" style="width: 300px;" class="fr-fic fr-dib"><br>Banka Transferi, Canlı Destek ekibimiz ile iletişime geçerek güncel havale bilgilerini aldıktan sonra yatırım yapabileceğiniz, hızlı ve güvenilir bir yatırım yöntemidir.</p><p><br></p><p>ÖNEMLİ : Canlı Destek ekibimizden almış olduğunuz hesap bilgisi 3 dakika içerisinde değişebilmektedir. Herhangi bir mağduriyet yaşamamak için yatırımınızı hesap bilgisi aldıktan hemen sonra gerçekleştiriniz!</p></div>';
+  }else if (divNum === 15) {
+    degerDegisenDiv.innerHTML = '<div><p>ÖNEMLİ : Güncel hesap numaraları, işlem başladıktan sonra otomatik olarak iletilmektedir. Herhangi bir mağduriyet yaşamamak için lütfen her yatırımınızda yeni hesap numarası ile işlem yapınız.<br>&gt;Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Banka hesabı ile yatırım yapabilirsiniz.</p><p>5 TRY ve katları olacak şekilde yatırım yapınız, küsuratlı yatırım yapmayınız.</p><p><br></p></div>';
+  }else if (divNum === 16) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/d30fadb31978e445cb45de9463eda1bf61eabd14_original.jpg?1661845396" style="width: 300px;" class="fr-fic fr-dib">HIZLI HAVALE ile haftanın 7 günü 24 saat yatırım yapabilirsiniz.</p><p><strong>&gt;Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Banka hesabı ile yatırım yapabilirsiniz.</strong></p><p><strong><strong>&gt;</strong> Forma girilen tutar ile yatırım tutarınız aynı olması gerekmektedir.&nbsp;</strong></p></div>';
+  }else if (divNum === 17) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/0f134333fc94422f1ac18b75178dc812246d01e5_original.jpg?1658405213" style="width: 300px;" class="fr-fic fr-dib">PAYBOL ile güvenli ve hızlıca yatırım yapabilirsiniz.</p></div>';
+  }else if (divNum === 18) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/bed939f7979367a81c0060d569c429473e9465e0_original.jpg?1673615684" style="width: 300px;" class="fr-fic fr-dib">Hızlı QR ile Marsbahis hesabınıza hızlı ve güvenli şekilde yatırım yatırabilirsiniz. İşlem süresince mobil bankacılıgınıza giriş yapmayınız. Giriş yapmanız durumunda işleminiz otomatik olarak iptal olacaktır.</p></div>';
+  }else if (divNum === 19) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d2ps39elv3ruqi.cloudfront.net/images/attachments/files/000/000/171/original/yeni-CepBank.png?1525941647" style="width: 300px;" class="fr-fic fr-dib">CepBank, son derece güvenli, hızlı ve yaygın kullanılan yatırım yöntemlerinden biridir.</p></div>';
+  }else if (divNum === 20) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d2ps39elv3ruqi.cloudfront.net/attachments/8de97a80f42e115b62ccb787ebea103dbcbed241_original.jpg?1649057627" style="width: 300px;" class="fr-fic fr-dib">Kriptopay ile hızlı ve güvenli şekilde kripto para yatırımı yapabilirsiniz.</p></div>';
+  }else if (divNum === 21) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d2ps39elv3ruqi.cloudfront.net/attachments/39add6d2b8e86f44da78fac724b93a05b7ce0d29_original.jpg?1637572813" style="width: 300px;" class="fr-fic fr-dib"></p></div>';
+  }else if (divNum === 22) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d2ps39elv3ruqi.cloudfront.net/images/attachments/files/000/000/162/original/yeni-ecopayz.png?1525941291" style="width: 300px;" class="fr-fic fr-dib"><br>ecoPayz, müşteri ve işletmelere anında ve güvenle ödeme hizmetleri sunan dünya çapında bir ödeme çözümleri sağlayıcısıdır.</p></div>';
+  }else if (divNum === 23) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d2ps39elv3ruqi.cloudfront.net/attachments/e73d4e68ecd38ff59ed9b6935c5f3bc4a1e89683_original.png?1617718766" style="width: 300px;" class="fr-fic fr-dib"></p><p>UNION PAY kartınızı kullanarak Marsbahis hesabınıza yatırım yapabilirsiniz.</p></div>';
+  }else if (divNum === 24) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d2ps39elv3ruqi.cloudfront.net/attachments/648c650f73df0092289cc5545f073e315119c2b7_original.jpg?1587655044" style="width: 300px;" class="fr-fic fr-dib"></p><p>Perfect Money hesabınızı kullanarak Marsbahis hesabınıza yatırım yapabilirsiniz.</p></div>';
+  }else if (divNum === 25) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d2ps39elv3ruqi.cloudfront.net/attachments/59b4334e2f83873956dfbdae3e2fdbf7c774baff_original.jpg?1565979163" style="width: 300px;" class="fr-fic fr-dib">Size özel promosyon kodunu girerek Marsbahis ayrıcalıklarından faydalanmaya başlayabilirsiniz.</p></div>';
   }
 }
 </script>
