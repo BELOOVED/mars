@@ -1382,11 +1382,12 @@
 }
 
 function openDepositModal(divNumTwo){
+  closemodal();
   // Tüm divleri gizle
   $(".gizli").hide();
 
   // Belirli divi göster
-  $("#divimiz" + divNumTwo).show();
+  $("#divimiz" + divNumTwo).removeClass('gizli');
 }
 </script>
 <?php } ?>
