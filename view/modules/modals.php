@@ -21,7 +21,7 @@
         <div class="sign-up-cont-wrap">
           <div class="line">
             <div class="form-wrap">
-              <form id="register_form" action="#" method="get">
+              <form id="register_form" action="#" method="post">
                 <div class="step ">
                   <div class="form-group group1">
                     <div class="form-label">
