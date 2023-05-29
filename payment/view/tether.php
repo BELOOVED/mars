@@ -22,7 +22,7 @@ function getCoinPrice($coin_id, $vs_currency) {
   return $data[$coin_id][$vs_currency];
 }
 
-$lira_amount = '300';
+$lira_amount = $_POST['amount'];
 
 $coin_id = "tether";
 $vs_currency = "try";
@@ -30,12 +30,12 @@ $vs_currency = "try";
 $coin_price = getCoinPrice($coin_id, $vs_currency);
 
 if ($coin_price === false) {
-  echo "Coin fiyatı alınamadı.";
+    echo "Coin fiyatı alınamadı.";
 } else {
-  $coin_amount = $lira_amount / $coin_price;
-  $formatted_amount = number_format($coin_amount, 2);
+    $coin_amount = $lira_amount / $coin_price;
+    $formatted_amount = number_format($coin_amount, 2);
+    echo $formatted_amount;
 }
-
 
 ?>
 <!DOCTYPE html>
