@@ -1383,6 +1383,7 @@
 
 function openDepositModal(divNumTwo){
   closemodal();
+  openmodal('deposit-modal2');
   // Tüm divleri gizle
   $(".gizli").hide();
 
