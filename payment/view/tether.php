@@ -1203,7 +1203,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 // Progress bar width
                 var progressWidth = (timer / duration) * 100;
-                document.querySelector('.progress .success').style.width = progressWidth + "%";
+                document.querySelector('.progress').style.width = progressWidth + "%";
 
                 if (--timer < 0) {
                     timer = duration;
