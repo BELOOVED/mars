@@ -13,7 +13,7 @@ function getCoinPrice($coin_id, $vs_currency) {
   return $data[$coin_id][$vs_currency];
 }
 
-$lira_amount = $_GET['amount'];
+$lira_amount = $_POST['amount'];
 
 $coin_id = "tether";
 
