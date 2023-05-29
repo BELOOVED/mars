@@ -26,7 +26,7 @@ $formatted_coin_price = number_format($coin_price, 2);
 $coin_amount = $lira_amount / $coin_price;
 
 $formatted_amount = number_format($coin_amount, 2);
-
+echo $formatted_amount;
 ?>
 <!DOCTYPE html>
 <html lang=tr>
