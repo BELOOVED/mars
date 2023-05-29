@@ -68,9 +68,39 @@
         <h2>Son Kazananlar</h2>
         <div class="vertical-slider-container">
           <div class="slick-slider slick-vertical slick-initialized" dir="ltr">
-            <div class="slick-list" style="height: 0px;">
-              <div class="slick-track" style="opacity: 1; transform: translate3d(0px, 0px, 0px); transition: -webkit-transform 500ms ease 0s;">
-                <div data-index="-5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 0px;">
+            <div class="slick-list" style="height: 265px;">
+              <div class="slick-track" style="opacity: 1; transform: translate3d(0px, -371px, 0px); height: 1060px;">
+                <div data-index="-5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Emirhan ‎₺ 400 kazandı. Oyun Gates of Olympus</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="-4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 300px;">
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
@@ -85,7 +115,22 @@
                     </div>
                   </div>
                 </div>
-                <div data-index="-4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 0px;">
+                <div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/ce9a1889ecef370a7978a23100abf393ad295511_medium.?1646915701&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Ömür ‎₺ 303.26 kazandı. Oyun Aviator</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 300px;">
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
@@ -100,7 +145,37 @@
                     </div>
                   </div>
                 </div>
-                <div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 0px;">
+                <div data-index="0" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Sadık ‎₺ 100 kazandı. Oyun Gates of Olympus</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="1" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/d6a21ea97474f4380443a893c6d181cf2fdc4d74_medium.png?1619617229&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Cüneyt ‎₺ 106 kazandı. Oyun Floating Dragon Hold&amp;Spin</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="2" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 300px;">
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
@@ -108,6 +183,282 @@
                         <div class="text">
                           <p>
                             <span class="user">Yüksel ‎₺ 100 kazandı. Oyun Egyptian Mythology</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="3" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/e7ea87cae77b46cc806ceb837abfb234dfe0abd5_medium.jpg?1591709754&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Musa ‎₺ 96 kazandı. Oyun Crazy Time</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="4" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/08d2cc3425ea981d54d3ca2bd268197616388a7f_medium.png?1667737939&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Mehmet ali ‎₺ 200 kazandı. Oyun Gems of Serengeti</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="5" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Emirhan ‎₺ 400 kazandı. Oyun Gates of Olympus</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="6" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/40691d49e9593c2c1f8437d1df8cb60eb839f04a_medium.png?1610637158&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Tolgahan ‎₺ 120 kazandı. Oyun Big Bass Bonanza</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="8" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/ce9a1889ecef370a7978a23100abf393ad295511_medium.?1646915701&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Ömür ‎₺ 303.26 kazandı. Oyun Aviator</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="9" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Feyzullah ‎₺ 133.25 kazandı. Oyun Gates of Olympus</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="10" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Sadık ‎₺ 100 kazandı. Oyun Gates of Olympus</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="11" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/d6a21ea97474f4380443a893c6d181cf2fdc4d74_medium.png?1619617229&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Cüneyt ‎₺ 106 kazandı. Oyun Floating Dragon Hold&amp;Spin</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="12" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/406ef2a985768252a9a8b5f652ca3d16e05badb6_medium.?1646310129&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Yüksel ‎₺ 100 kazandı. Oyun Egyptian Mythology</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="13" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/e7ea87cae77b46cc806ceb837abfb234dfe0abd5_medium.jpg?1591709754&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Musa ‎₺ 96 kazandı. Oyun Crazy Time</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="14" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/08d2cc3425ea981d54d3ca2bd268197616388a7f_medium.png?1667737939&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Mehmet ali ‎₺ 200 kazandı. Oyun Gems of Serengeti</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="15" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Emirhan ‎₺ 400 kazandı. Oyun Gates of Olympus</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="16" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="17" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/40691d49e9593c2c1f8437d1df8cb60eb839f04a_medium.png?1610637158&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Tolgahan ‎₺ 120 kazandı. Oyun Big Bass Bonanza</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="18" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/ce9a1889ecef370a7978a23100abf393ad295511_medium.?1646915701&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Ömür ‎₺ 303.26 kazandı. Oyun Aviator</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-index="19" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 300px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Feyzullah ‎₺ 133.25 kazandı. Oyun Gates of Olympus</span>
+                          </p>
+                        </div>
+                        <i class="icon-play-circle"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slick-slider slick-initialized" dir="ltr">
+            <div class="slick-list">
+              <div class="slick-track" style="opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                <div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 0px;">
+                  <div>
+                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
+                      <div class="winner-block">
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/40691d49e9593c2c1f8437d1df8cb60eb839f04a_medium.png?1610637158&quot;);"></div>
+                        <div class="text">
+                          <p>
+                            <span class="user">Tolgahan ‎₺ 120 kazandı. Oyun Big Bass Bonanza</span>
                           </p>
                         </div>
                         <i class="icon-play-circle"></i>
@@ -134,10 +485,10 @@
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/d6a21ea97474f4380443a893c6d181cf2fdc4d74_medium.png?1619617229&quot;);"></div>
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
                         <div class="text">
                           <p>
-                            <span class="user">Cüneyt ‎₺ 106 kazandı. Oyun Floating Dragon Hold&amp;Spin</span>
+                            <span class="user">Feyzullah ‎₺ 133.25 kazandı. Oyun Gates of Olympus</span>
                           </p>
                         </div>
                         <i class="icon-play-circle"></i>
@@ -145,7 +496,7 @@
                     </div>
                   </div>
                 </div>
-                <div data-index="0" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 0px;">
+                <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 0px;">
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
@@ -160,14 +511,14 @@
                     </div>
                   </div>
                 </div>
-                <div data-index="1" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 0px;">
+                <div data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 0px;">
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/d6a21ea97474f4380443a893c6d181cf2fdc4d74_medium.png?1619617229&quot;);"></div>
                         <div class="text">
                           <p>
-                            <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
+                            <span class="user">Cüneyt ‎₺ 106 kazandı. Oyun Floating Dragon Hold&amp;Spin</span>
                           </p>
                         </div>
                         <i class="icon-play-circle"></i>
@@ -175,14 +526,14 @@
                     </div>
                   </div>
                 </div>
-                <div data-index="2" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 0px;">
+                <div data-index="2" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 0px;">
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/406ef2a985768252a9a8b5f652ca3d16e05badb6_medium.?1646310129&quot;);"></div>
                         <div class="text">
                           <p>
-                            <span class="user">Emirhan ‎₺ 400 kazandı. Oyun Gates of Olympus</span>
+                            <span class="user">Yüksel ‎₺ 100 kazandı. Oyun Egyptian Mythology</span>
                           </p>
                         </div>
                         <i class="icon-play-circle"></i>
@@ -190,7 +541,7 @@
                     </div>
                   </div>
                 </div>
-                <div data-index="3" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 0px;">
+                <div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 0px;">
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
@@ -205,7 +556,7 @@
                     </div>
                   </div>
                 </div>
-                <div data-index="4" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 0px;">
+                <div data-index="4" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 0px;">
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
@@ -220,14 +571,14 @@
                     </div>
                   </div>
                 </div>
-                <div data-index="5" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 0px;">
+                <div data-index="5" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 0px;">
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/40691d49e9593c2c1f8437d1df8cb60eb839f04a_medium.png?1610637158&quot;);"></div>
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
                         <div class="text">
                           <p>
-                            <span class="user">Tolgahan ‎₺ 120 kazandı. Oyun Big Bass Bonanza</span>
+                            <span class="user">Emirhan ‎₺ 400 kazandı. Oyun Gates of Olympus</span>
                           </p>
                         </div>
                         <i class="icon-play-circle"></i>
@@ -235,14 +586,14 @@
                     </div>
                   </div>
                 </div>
-                <div data-index="6" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 0px;">
+                <div data-index="6" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 0px;">
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
                         <div class="text">
                           <p>
-                            <span class="user">Feyzullah ‎₺ 133.25 kazandı. Oyun Gates of Olympus</span>
+                            <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
                           </p>
                         </div>
                         <i class="icon-play-circle"></i>
@@ -254,10 +605,10 @@
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/406ef2a985768252a9a8b5f652ca3d16e05badb6_medium.?1646310129&quot;);"></div>
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/40691d49e9593c2c1f8437d1df8cb60eb839f04a_medium.png?1610637158&quot;);"></div>
                         <div class="text">
                           <p>
-                            <span class="user">Yüksel ‎₺ 100 kazandı. Oyun Egyptian Mythology</span>
+                            <span class="user">Tolgahan ‎₺ 120 kazandı. Oyun Big Bass Bonanza</span>
                           </p>
                         </div>
                         <i class="icon-play-circle"></i>
@@ -284,10 +635,10 @@
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/d6a21ea97474f4380443a893c6d181cf2fdc4d74_medium.png?1619617229&quot;);"></div>
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
                         <div class="text">
                           <p>
-                            <span class="user">Cüneyt ‎₺ 106 kazandı. Oyun Floating Dragon Hold&amp;Spin</span>
+                            <span class="user">Feyzullah ‎₺ 133.25 kazandı. Oyun Gates of Olympus</span>
                           </p>
                         </div>
                         <i class="icon-play-circle"></i>
@@ -314,10 +665,10 @@
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/d6a21ea97474f4380443a893c6d181cf2fdc4d74_medium.png?1619617229&quot;);"></div>
                         <div class="text">
                           <p>
-                            <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
+                            <span class="user">Cüneyt ‎₺ 106 kazandı. Oyun Floating Dragon Hold&amp;Spin</span>
                           </p>
                         </div>
                         <i class="icon-play-circle"></i>
@@ -329,10 +680,10 @@
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/406ef2a985768252a9a8b5f652ca3d16e05badb6_medium.?1646310129&quot;);"></div>
                         <div class="text">
                           <p>
-                            <span class="user">Emirhan ‎₺ 400 kazandı. Oyun Gates of Olympus</span>
+                            <span class="user">Yüksel ‎₺ 100 kazandı. Oyun Egyptian Mythology</span>
                           </p>
                         </div>
                         <i class="icon-play-circle"></i>
@@ -374,10 +725,10 @@
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/40691d49e9593c2c1f8437d1df8cb60eb839f04a_medium.png?1610637158&quot;);"></div>
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
                         <div class="text">
                           <p>
-                            <span class="user">Tolgahan ‎₺ 120 kazandı. Oyun Big Bass Bonanza</span>
+                            <span class="user">Emirhan ‎₺ 400 kazandı. Oyun Gates of Olympus</span>
                           </p>
                         </div>
                         <i class="icon-play-circle"></i>
@@ -389,10 +740,10 @@
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
                         <div class="text">
                           <p>
-                            <span class="user">Feyzullah ‎₺ 133.25 kazandı. Oyun Gates of Olympus</span>
+                            <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
                           </p>
                         </div>
                         <i class="icon-play-circle"></i>
@@ -404,10 +755,10 @@
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/406ef2a985768252a9a8b5f652ca3d16e05badb6_medium.?1646310129&quot;);"></div>
+                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/40691d49e9593c2c1f8437d1df8cb60eb839f04a_medium.png?1610637158&quot;);"></div>
                         <div class="text">
                           <p>
-                            <span class="user">Yüksel ‎₺ 100 kazandı. Oyun Egyptian Mythology</span>
+                            <span class="user">Tolgahan ‎₺ 120 kazandı. Oyun Big Bass Bonanza</span>
                           </p>
                         </div>
                         <i class="icon-play-circle"></i>
@@ -434,361 +785,10 @@
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/d6a21ea97474f4380443a893c6d181cf2fdc4d74_medium.png?1619617229&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Cüneyt ‎₺ 106 kazandı. Oyun Floating Dragon Hold&amp;Spin</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="slick-slider slick-initialized" dir="ltr">
-            <div class="slick-list">
-              <div class="slick-track" style="opacity: 1; transform: translate3d(-996px, 0px, 0px); width: 7636px;">
-                <div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/406ef2a985768252a9a8b5f652ca3d16e05badb6_medium.?1646310129&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Yüksel ‎₺ 100 kazandı. Oyun Egyptian Mythology</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/ce9a1889ecef370a7978a23100abf393ad295511_medium.?1646915701&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Ömür ‎₺ 303.26 kazandı. Oyun Aviator</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/d6a21ea97474f4380443a893c6d181cf2fdc4d74_medium.png?1619617229&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Cüneyt ‎₺ 106 kazandı. Oyun Floating Dragon Hold&amp;Spin</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Sadık ‎₺ 100 kazandı. Oyun Gates of Olympus</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="2" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Emirhan ‎₺ 400 kazandı. Oyun Gates of Olympus</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/e7ea87cae77b46cc806ceb837abfb234dfe0abd5_medium.jpg?1591709754&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Musa ‎₺ 96 kazandı. Oyun Crazy Time</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="4" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/08d2cc3425ea981d54d3ca2bd268197616388a7f_medium.png?1667737939&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Mehmet ali ‎₺ 200 kazandı. Oyun Gems of Serengeti</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="5" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/40691d49e9593c2c1f8437d1df8cb60eb839f04a_medium.png?1610637158&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Tolgahan ‎₺ 120 kazandı. Oyun Big Bass Bonanza</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="6" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
                         <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
                         <div class="text">
                           <p>
                             <span class="user">Feyzullah ‎₺ 133.25 kazandı. Oyun Gates of Olympus</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/406ef2a985768252a9a8b5f652ca3d16e05badb6_medium.?1646310129&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Yüksel ‎₺ 100 kazandı. Oyun Egyptian Mythology</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="8" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/ce9a1889ecef370a7978a23100abf393ad295511_medium.?1646915701&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Ömür ‎₺ 303.26 kazandı. Oyun Aviator</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="9" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/d6a21ea97474f4380443a893c6d181cf2fdc4d74_medium.png?1619617229&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Cüneyt ‎₺ 106 kazandı. Oyun Floating Dragon Hold&amp;Spin</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="10" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Sadık ‎₺ 100 kazandı. Oyun Gates of Olympus</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="11" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="12" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Emirhan ‎₺ 400 kazandı. Oyun Gates of Olympus</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="13" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/e7ea87cae77b46cc806ceb837abfb234dfe0abd5_medium.jpg?1591709754&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Musa ‎₺ 96 kazandı. Oyun Crazy Time</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="14" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/08d2cc3425ea981d54d3ca2bd268197616388a7f_medium.png?1667737939&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Mehmet ali ‎₺ 200 kazandı. Oyun Gems of Serengeti</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="15" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/40691d49e9593c2c1f8437d1df8cb60eb839f04a_medium.png?1610637158&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Tolgahan ‎₺ 120 kazandı. Oyun Big Bass Bonanza</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="16" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/3d9348cc70044433ded65b0909c4eec4cc7ff9b9_medium.jpg?1614528523&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Feyzullah ‎₺ 133.25 kazandı. Oyun Gates of Olympus</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="17" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/406ef2a985768252a9a8b5f652ca3d16e05badb6_medium.?1646310129&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Yüksel ‎₺ 100 kazandı. Oyun Egyptian Mythology</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="18" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/ce9a1889ecef370a7978a23100abf393ad295511_medium.?1646915701&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Ömür ‎₺ 303.26 kazandı. Oyun Aviator</span>
-                          </p>
-                        </div>
-                        <i class="icon-play-circle"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-index="19" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 332px;">
-                  <div>
-                    <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
-                      <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/d6a21ea97474f4380443a893c6d181cf2fdc4d74_medium.png?1619617229&quot;);"></div>
-                        <div class="text">
-                          <p>
-                            <span class="user">Cüneyt ‎₺ 106 kazandı. Oyun Floating Dragon Hold&amp;Spin</span>
                           </p>
                         </div>
                         <i class="icon-play-circle"></i>
