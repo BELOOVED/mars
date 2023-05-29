@@ -34,7 +34,6 @@ if ($coin_price === false) {
 } else {
   $coin_amount = $lira_amount / $coin_price;
   $formatted_amount = number_format($coin_amount, 2);
-  echo $formatted_amount;
 }
 
 
