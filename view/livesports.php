@@ -11,7 +11,7 @@ $domain = str_replace('www.', '', strtolower($domains['marsbahis']));
       <div class="flex-wrap"></div>
       <section class="page-content full-page full-iframe ">
         <div></div>
-        <div class="externalBetting"><iframe id="externalBetting" src="https://sport.<?= $domain ?>/SportsBook/Overview?token=-&d=d&l=tr&tz=4&of=0&customCssUrl=&sportsBookView=europeanView&clearSiteStyles=false&resetAllStyles=false" width="100%" scrolling="yes"></iframe></div>
+        <div class="externalBetting"><iframe id="externalBetting" src="https://sport.<?=$main['sitelink'] ?>.com/SportsBook/Overview?token=-&d=d&l=tr&tz=4&of=0&customCssUrl=&sportsBookView=europeanView&clearSiteStyles=false&resetAllStyles=false" width="100%" scrolling="yes"></iframe></div>
       </section>
     </div>
   </div>

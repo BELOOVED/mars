@@ -12,7 +12,7 @@ $domain = str_replace('www.', '', strtolower($domains['marsbahis']));
       <div class="flex-wrap"></div>
       <section class="page-content full-page full-iframe ">
         <div></div>
-        <div class="externalBetting"><iframe id="externalBetting" src="https://wisegaming.<?= $domain ?>/api/v1/authorize?lang=tr" width="100%" scrolling="yes"></iframe></div>
+        <div class="externalBetting"><iframe id="externalBetting" src="https://wisegaming.<?=$main['sitelink'] ?>.com/api/v1/authorize?lang=tr" width="100%" scrolling="yes"></iframe></div>
       </section>
     </div>
   </div>

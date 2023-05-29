@@ -118,7 +118,7 @@ if ($mobile) {
                                   <div class="outer-container" style="height: 100%;">
                                     <div class="inner-container" style="height: 100%; margin-right: -22px;">
                                       <div class="content-wrapper" style="height: 100%; overflow-y: visible; margin-right: 0px;">
-                                        <a>
+                                        <a href="/messages">
                                           <h2>Marsbahis</h2>
                                           <p>welcome to marsbahis</p>
                                         </a>
