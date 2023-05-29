@@ -109,7 +109,25 @@ if ($mobile) {
                               </div>
                             </div>
                             <div class="header-mail">
-                              <div class="animation-wrap animate"><i class="icon-notifications "></i><span class="notifications">1</span></div>
+                              <div class="animation-wrap animate">
+                                <i class="icon-notifications" id="clickTarget" onclick="notifici()" ></i>
+                                <span class="notifications" >1</span>
+                              </div>
+                              <div class="mailbox-notification-popup" id="notifici" style="display: none;">
+                                <div class="custom-scroll " style="height: 220px;">
+                                  <div class="outer-container" style="height: 100%;">
+                                    <div class="inner-container" style="height: 100%; margin-right: -22px;">
+                                      <div class="content-wrapper" style="height: 100%; overflow-y: visible; margin-right: 0px;">
+                                        <a>
+                                          <h2>Marsbahis</h2>
+                                          <p>welcome to marsbahis</p>
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <button class="button">Tümünü Göster</button>
+                              </div>
                             </div>
                           </div>
                         <? } ?>
@@ -238,5 +256,12 @@ if ($mobile) {
 
 // Her saniyede bir sayacı güncelle
 setInterval(sayac, 1000);
-
+function notifici(){
+  $("#notifici").show();
+  
+  // Belirli bir öğe üzerine tıklandığında show ve hide işlemlerini gerçekleştiren fonksiyon
+  $("#clickTarget").on("click", function() {
+    $("#notifici").toggle();
+  });
+}
           </script>
