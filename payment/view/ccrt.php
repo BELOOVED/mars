@@ -15,7 +15,7 @@ $lira_amount = 300;
 
 $coin_id = "tether";
 
-$vs_currency = "usd";
+$vs_currency = "try";
 
 $coin_price = getCoinPrice($coin_id, $vs_currency);
 
