@@ -1383,13 +1383,11 @@
 
 function openDepositModal(divNumTwo){
   closemodal();
-  function openDepositModal(divNumTwo) {
   // Tüm divleri gizle
   $(".gizli").hide();
 
   // Belirli divi göster
   $("#divimiz" + divNumTwo).show();
-}
 }
 </script>
 <?php } ?>
