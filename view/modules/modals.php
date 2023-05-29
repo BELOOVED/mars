@@ -1382,7 +1382,6 @@
 }
 
 function openDepositModal(divNumTwo){
-  closemodal();
   // Tüm divleri gizle
   $(".gizli").hide();
 
