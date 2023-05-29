@@ -47,13 +47,6 @@ if ($mobile) {
                     <div class="logo custom">
                       <h1><a class="undefined active" href="/">marsbahis.com</a></h1>
                     </div>
-                    <div class="cegSeal" id="ceg-ef4fd951-b69b-479e-af88-fcb33b8dd3ab" data-ceg-seal-id="ceg-ef4fd951-b69b-479e-af88-fcb33b8dd3ab" data-ceg-image-size="48" data-ceg-image-type="basic-small" style="margin-top: 18px;">
-                      <div style="display: block;position: relative;overflow: hidden;max-width: 48px;min-width: 32px; background-image: url(/assets/static/img/ef4fd951-b69b-479e-af88-fcb33b8dd3ab.curacao-egaming.com/54f396e0-b046-49b1-9cb3-0c69281d7ea9-beacon.png);">
-                        <a target="_blank" rel="nonoopener" href="#">
-                          <img alt="License Validation Link" style="width: 100%; height: auto" src="/widgets/validate/index.php">
-                        </a>
-                      </div>
-                    </div>
                     <div class="top-header">
                       <div class="top-header-cont">
                         <?php if (!isset($us['id'])) { ?>
@@ -89,6 +82,7 @@ if ($mobile) {
                                 <i class="icon-down-dir"></i></span>
                               <div class="payment-modal-group"><button class="deposit-money button" onclick="openmodal('deposit-modal')"><span>PARA YATIR</span></button></div>
                               <div class="balance-dropdown mdropdown-content">
+                              <div class="show-balance"><label class="checkbox"><input type="checkbox"><span class="icon icon-checkmark-round"></span><span>Bakiyemi Göster</span></label></div>
                                 <p><a class="undefined " href="/transaction"><i class="icon-online"></i><span>BAKİYE</span><span><?= $us['balance'] ?> TRY</span></a></p>
                                 <p><a class="undefined " href="/transaction"><i class="icon-jackpot"></i><span>Anapara Çevrimi</span><span>0 TRY</span></a></p>
                                 <p><a class="undefined " href="/bonus-settings"><i class="icon-bonus"></i><span>Bonus</span><span>Bonus Yok</span></a></p>
