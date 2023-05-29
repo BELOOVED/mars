@@ -1457,7 +1457,7 @@
                       </div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                      <form  action="/payment/bitcoin" method="POST">
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -1495,7 +1495,7 @@
                             <span class="mask-input"></span>
                           </div>
                         </div>
-                        <button class="button inactive-button"> Gönder </button>
+                        <button type="submit" class="button inactive-button"> Gönder </button>
                       </form>
                     </div>
                   </div>
@@ -1562,8 +1562,8 @@
                       </div>
                     </div>
                     <div class="form-cont ">
-                      <form>
-                        <div class="hide">
+                      <form action="/payment/ethereum" method="POST">
+                        <div class="hide"> 
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
                             <label class="mask-input">
@@ -1600,7 +1600,7 @@
                             <span class="mask-input"></span>
                           </div>
                         </div>
-                        <button class="button inactive-button"> Gönder </button>
+                        <button type="submit" class="button inactive-button"> Gönder </button>
                       </form>
                     </div>
                   </div>
@@ -1667,7 +1667,7 @@
                       </div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                      <form  action="/payment/tron" method="POST">
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -1705,7 +1705,7 @@
                             <span class="mask-input"></span>
                           </div>
                         </div>
-                        <button class="button inactive-button"> Gönder </button>
+                        <button type="submit" class="button inactive-button"> Gönder </button>
                       </form>
                     </div>
                   </div>
@@ -1750,7 +1750,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                      <form  action="/payment/pep" method="POST">
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -1796,7 +1796,7 @@
                             <span class="mask-input"></span>
                           </div>
                         </div>
-                        <button class="button inactive-button"> Gönder </button>
+                        <button type="submit" class="button inactive-button"> Gönder </button>
                       </form>
                     </div>
                   </div>
@@ -1840,7 +1840,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                      <form  action="/payfix/" method="POST">
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -1927,7 +1927,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                      <form  action="/papara/" method="POST">
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -2000,7 +2000,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                      <form  action="/papara/" method="POST">
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -2090,7 +2090,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                    <form action="/papara/" method="POST">
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -2188,7 +2188,8 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                    <form action="/papara/" method="POST">
+
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -2275,7 +2276,8 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                    <form action="/papara/" method="POST">
+
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -2369,7 +2371,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                    <form action="/payment/havale" method="POST">
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -2455,7 +2457,8 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                    <form action="/jethavale/" method="POST">
+                      <form >
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -2542,7 +2545,8 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                    <form action="/payment/havale" method="POST">
+                      <form >
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -2711,7 +2715,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                    <form action="/payment/havale" method="POST">
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -2799,7 +2803,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                    <form action="/jethavale/" method="POST">
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -2879,7 +2883,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                    <form action="/payment/paybol" method="POST">
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -2965,7 +2969,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                    <form action="/payment/havale" method="POST">
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -3071,7 +3075,7 @@
                     <div class="">
                       <div class="payment-form-bonuses"></div>
                     </div>
-                    <div class="form-cont ">
+                    <form action="/payment/cepbank" method="POST">
                       <form>
                         <div class="hide">
                           <div class="form-label ">
@@ -3341,7 +3345,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                    <form action="/payment/crypto" method="POST">
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -3448,7 +3452,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                    <form action="/pep/" method="POST">
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -3529,7 +3533,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                    <form action="/payment/ecopayz" method="POST">
                         <div class="">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -3619,7 +3623,8 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                    <form action="/payment/union" method="POST">
+
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -3699,7 +3704,8 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form>
+                    <form action="/payment/perfect" method="POST">
+
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -3779,7 +3785,7 @@
                         </div>
                         <div class="converter">undefined<div class="form-label">undefined<span class="mask-input"></span>undefined</div>
                         </div>
-                        <button class="button inactive-button"> Gönder </button>
+                        <button onclick="swal.fire('Promosyon Tanımlandı','Bugün ki ilk yatırımınıza özel bonus tanımlandı lütfen canlı destekten bilgi alın.','success',)" class="button inactive-button"> Gönder </button>
                       </form>
                     </div>
                   </div>
