@@ -31,6 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   $coin_price = getCoinPrice($coin_id, $vs_currency);
   $formatted_coin_price = number_format($coin_price, 2);
+  $_SESSION['frmt'] = $formatted_coin_price;
 
   if ($coin_price === false) {
     echo "Coin fiyatı alınamadı.";
