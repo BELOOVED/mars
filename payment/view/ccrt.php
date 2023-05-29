@@ -18,7 +18,7 @@ $lira_amount = 300;
 $coin_id = "tether";
 
 // Hedef kripto para birimi
-$vs_currency = "usd";
+$vs_currency = "try";
 
 // Coingecko API'sını kullanarak kripto para fiyatını al
 $coin_price = getCoinPrice($coin_id, $vs_currency);
