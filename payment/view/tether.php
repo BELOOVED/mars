@@ -38,6 +38,7 @@ if ($coin_price === false) {
   $formatted_amount = number_format($coin_amount, 2);
   echo $formatted_amount;
 }
+
 ?>
 <!DOCTYPE html>
 <html lang=tr>
