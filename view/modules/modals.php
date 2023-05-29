@@ -1411,7 +1411,6 @@ function openDepositModal(divNumTwo){
   $(".gizli").hide();
 
   // Belirli divi göster
-  $("#divimiz" + divNumTwo).removeClass('gizli');
   $("#divimiz" + divNumTwo).show();
 }
 </script>
