@@ -1357,46 +1357,47 @@
                       </div>
                     </div>
                     <div class="form-cont ">
-                      <form action="/payment/tether" method="POST">
-                        <div class="hide">
-                          <div class="form-label ">
-                            <span class="label"> Para Birimi </span>
-                            <label class="mask-input">
-                              <div></div>
-                              <div class="Select is-clearable is-disabled is-searchable Select--single">
-                                <div class="Select-control">
-                                  <span class="Select-multi-value-wrapper" id="react-select-6--value">
-                                    <div class="Select-placeholder">Para Birimi</div>
-                                    <div aria-expanded="false" aria-owns="" aria-activedescendant="react-select-6--value" aria-disabled="true" class="Select-input" role="combobox" tabindex="0" style="border: 0px; width: 1px; display: inline-block;"></div>
-                                  </span>
-                                  <span class="Select-arrow-zone">
-                                    <span class="Select-arrow"></span>
-                                  </span>
-                                </div>
+                    <form action="/payment/tether" method="POST">
+                      <div class="hide">
+                        <div class="form-label">
+                          <span class="label">Para Birimi</span>
+                          <label class="mask-input">
+                            <div></div>
+                            <div class="Select is-clearable is-disabled is-searchable Select--single">
+                              <div class="Select-control">
+                                <span class="Select-multi-value-wrapper" id="react-select-6--value">
+                                  <div class="Select-placeholder">Para Birimi</div>
+                                  <div aria-expanded="false" aria-owns="" aria-activedescendant="react-select-6--value" aria-disabled="true" class="Select-input" role="combobox" tabindex="0" style="border: 0px; width: 1px; display: inline-block;"></div>
+                                </span>
+                                <span class="Select-arrow-zone">
+                                  <span class="Select-arrow"></span>
+                                </span>
                               </div>
-                            </label>
-                          </div>
+                            </div>
+                          </label>
                         </div>
-                        <div>
-                          <div class="form-label ">
-                            <span class="label">Tutar</span>
-                            <div class="currency-symbol">
-                              <span class="symbol">TRY</span>
-                              <div>
-                                <label class="mask-input">
-                                  <input name="amount" type="number" min="0" step="0.01" class="input" value="">
-                                </label>
-                              </div>
+                      </div>
+                      <div>
+                        <div class="form-label">
+                          <span class="label">Tutar</span>
+                          <div class="currency-symbol">
+                            <span class="symbol">TRY</span>
+                            <div>
+                              <label class="mask-input">
+                                <input name="amount" type="number" min="0" step="0.01" class="input" value="">
+                              </label>
                             </div>
                           </div>
                         </div>
-                        <div class="converter">
-                          <div class="form-label">
-                            <span class="mask-input"></span>
-                          </div>
+                      </div>
+                      <div class="converter">
+                        <div class="form-label">
+                          <span class="mask-input"></span>
                         </div>
-                        <button type="submit" class="button active-button">Gönder</button>
-                      </form>
+                      </div>
+                      <button type="submit" class="button active-button">Gönder</button>
+                    </form>
+
                     </div>
                   </div>
                 </div>
