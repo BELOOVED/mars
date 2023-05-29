@@ -1385,7 +1385,7 @@ function openDepositModal(divNumTwo){
   if (divNumTwo === 1) {
     var divimiz = document.getElementById("divimiz1");
     var icerik = divimiz.innerHTML;
-    console.log(icerik);
+    icerik.innerHTML;
   } else if (divNumTwo === 2) {
     degerDegisenDiv.innerHTML = '<div><p><img src="https://d2ps39elv3ruqi.cloudfront.net/images/attachments/files/000/000/436/original/bitcoin.jpg?1536567550" style="width: 300px;" class="fr-fic fr-dib"><br>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır. İşleminizi Bitcoin Network ağı üzerinden yaptığınızdan emin olunuz.</p><p><br></p><p><span class="fr-video fr-fvc fr-dvb fr-draggable" contenteditable="false" draggable="true"><iframe src="https://www.youtube.com/embed/9ki6OhqA108?&amp;ab_channel=Marsbahis&amp;wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable" style="width: 100%; height: auto;"></iframe></span><br></p></div>';
   } else if (divNumTwo === 3) {
