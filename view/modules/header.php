@@ -155,38 +155,24 @@ if ($mobile) {
             </div>
           </div>
           <script>
-            function sayac() {
-  var saat = 0;
-  var dakika = 0;
-  var saniye = 0;
+          function sayac() {
+  var tarih = new Date(); // Şu anki tarih ve saat bilgisini alır
+  var saat = tarih.getHours();
+  var dakika = tarih.getMinutes();
+  var saniye = tarih.getSeconds();
 
-  setInterval(function() {
-    saniye++;
+  var saatStr = (saat < 10) ? "0" + saat : saat;
+  var dakikaStr = (dakika < 10) ? "0" + dakika : dakika;
+  var saniyeStr = (saniye < 10) ? "0" + saniye : saniye;
 
-    if (saniye == 60) {
-      saniye = 0;
-      dakika++;
+  var zaman = saatStr + ":" + dakikaStr + ":" + saniyeStr;
+  console.log(zaman); // Zamanı konsola yazdırabilirsiniz
 
-      if (dakika == 60) {
-        dakika = 0;
-        saat++;
-      }
-    }
-
-    var saatStr = (saat < 10) ? "0" + saat : saat;
-    var dakikaStr = (dakika < 10) ? "0" + dakika : dakika;
-    var saniyeStr = (saniye < 10) ? "0" + saniye : saniye;
-
-    var zaman = saatStr + ":" + dakikaStr + ":" + saniyeStr;
-    console.log(zaman); // Zamanı konsola yazdırabilirsiniz
-
-    // HTML'de belirli bir elementi güncellemek için:
-     document.getElementById("sayacimiz").textContent = zaman;
-  }, 1000); // 1 saniye (1000 milisaniye) aralıklarla çalışacak
+  // HTML'de belirli bir elementi güncellemek için:
+  document.getElementById("sayacimiz").textContent = zaman;
 }
 
-// Sayacı başlat
-sayac();
-
+// Her saniyede bir sayacı güncelle
+setInterval(sayac, 1000);
 
           </script>
