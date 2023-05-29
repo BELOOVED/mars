@@ -1504,7 +1504,7 @@
                   <div class="bonus-content ">
                     <div>
                       <p>
-                        <img src="images/attachments/files/000/000/436/original/bitcoin.jpg?1536567550" style="width: 300px;" class="fr-fic fr-dib">
+                        <img src="images/" style="width: 300px;" class="fr-fic fr-dib">
                         <br>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır. İşleminizi Bitcoin Network ağı üzerinden yaptığınızdan emin olunuz.
                       </p>
                       <p>
@@ -1608,7 +1608,7 @@
                   <div class="bonus-content ">
                     <div>
                       <p>
-                        <img src="images/attachments/files/000/000/437/original/ethereum.jpg?1536567578" style="width: 300px;" class="fr-fic fr-dib">
+                        <img src="" style="width: 300px;" class="fr-fic fr-dib">
                         <br>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır. İşleminizi Ethereum (ERC20) ağı üzerinden yaptığınızdan emin olunuz.
                       </p>
                       <p>
@@ -1885,7 +1885,7 @@
                   <div class="bonus-content ">
                     <div>
                       <p>
-                        <img src="attachments/7137965572f2b29a0614f4fdf5ab8abf61482567_original.jpg?1582556574" style="width: 300px;" class="fr-fic fr-dib">
+                        <img src="" style="width: 300px;" class="fr-fic fr-dib">
                       </p>
                       <p>Sadece kendi adınıza ait hesap üzerinden işlem yapabilirsiniz. Farklı hesaplar üzerinden yapılan işlemler iade edilecektir.</p>
                     </div>
@@ -2032,7 +2032,7 @@
                   <div class="bonus-content ">
                     <div>
                       <p>
-                        <img src="images/attachments/files/000/000/391/original/Papara-deposit-content.png?1531924272" class="fr-fic fr-dii">
+                        <img src="" class="fr-fic fr-dii">
                         <br>
                         <br>
                       </p>
@@ -2145,7 +2145,7 @@
                   <div class="bonus-content ">
                     <div>
                       <p>
-                        <img src="attachments/17abbe981416216d8b3c3739717c7c4dfaa5a4ba_original.png?1607026830" style="width: 300px;" class="fr-fic fr-dib">Anında Papara yöntemi ile minimum para yatırma limiti 100 TRY'dir. <br>
+                        <img src="" style="width: 300px;" class="fr-fic fr-dib">Anında Papara yöntemi ile minimum para yatırma limiti 100 TRY'dir. <br>
                         <br>ÖNEMLİ: Her yatırım işlemi öncesinde yeni bir hesap numarası alıp işleminizi tamamlamanız gerektiğini önemle hatırlatırız.
                       </p>
                     </div>
@@ -2233,7 +2233,7 @@
                   <div class="bonus-content ">
                     <div>
                       <p>
-                        <img src="attachments/30f0b56a808ccb854eaed4b8866798b1eff5a114_original.jpg?1624309464" style="width: 300px;" class="fr-fic fr-dib">
+                        <img src="" style="width: 300px;" class="fr-fic fr-dib">
                         <br>Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz.
                       </p>
                     </div>
@@ -2668,7 +2668,7 @@
                   <div class="bonus-content ">
                     <div>
                       <p>
-                        <img src="images/attachments/files/000/000/167/original/yeni-BankTransfer.png?1525941428" style="width: 300px;" class="fr-fic fr-dib">
+                        <img src="" style="width: 300px;" class="fr-fic fr-dib">
                         <br>Banka Transferi, Canlı Destek ekibimiz ile iletişime geçerek güncel havale bilgilerini aldıktan sonra yatırım yapabileceğiniz, hızlı ve güvenilir bir yatırım yöntemidir.
                       </p>
                       <p>
@@ -3848,23 +3848,23 @@
   if (divNum === 1) {
     degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/8eaacbcc954511066964a56cfc7423f08ecd5452_original.jpg?1667608711" style="width: 300px;" class="fr-fic fr-dib"><br>Tether USDT (TRC20) ile Marsbahis hesabınıza yatırım yapabilirsiniz. İşleminizi TRON ağı üzerinden yaptığınızdan emin olunuz.</p><p>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza<br><br></p></div>';
   } else if (divNum === 2) {
-    degerDegisenDiv.innerHTML = '<div><p><img src="images/attachments/files/000/000/436/original/bitcoin.jpg?1536567550" style="width: 300px;" class="fr-fic fr-dib"><br>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır. İşleminizi Bitcoin Network ağı üzerinden yaptığınızdan emin olunuz.</p><p><br></p><p><span class="fr-video fr-fvc fr-dvb fr-draggable" contenteditable="false" draggable="true"></span><br></p></div>';
+    degerDegisenDiv.innerHTML = '<div><p><img src="images/" style="width: 300px;" class="fr-fic fr-dib"><br>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır. İşleminizi Bitcoin Network ağı üzerinden yaptığınızdan emin olunuz.</p><p><br></p><p><span class="fr-video fr-fvc fr-dvb fr-draggable" contenteditable="false" draggable="true"></span><br></p></div>';
   } else if (divNum === 3) {
-    degerDegisenDiv.innerHTML = '<div><p><img src="images/attachments/files/000/000/437/original/ethereum.jpg?1536567578" style="width: 300px;" class="fr-fic fr-dib"><br>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır. İşleminizi Ethereum (ERC20) ağı üzerinden yaptığınızdan emin olunuz.</p><p><br></p><p><span class="fr-video fr-fvc fr-dvb fr-draggable" contenteditable="false" draggable="true"></span><br></p></div>';
+    degerDegisenDiv.innerHTML = '<div><p><img src="" style="width: 300px;" class="fr-fic fr-dib"><br>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır. İşleminizi Ethereum (ERC20) ağı üzerinden yaptığınızdan emin olunuz.</p><p><br></p><p><span class="fr-video fr-fvc fr-dvb fr-draggable" contenteditable="false" draggable="true"></span><br></p></div>';
   }else if (divNum === 4) {
     degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/f71015e88f6eeb6b12a642047684e2091ee5051b_original.jpg?1667591089" style="width: 300px;" class="fr-fic fr-dib"><br>TRON (TRX) ile Marsbahis hesabınıza yatırım yapabilirsiniz. İşleminizi TRON ağı üzerinden yaptığınızdan emin olunuz.Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır.</p></div>';
   }else if (divNum === 5) {
     degerDegisenDiv.innerHTML = '<div></div>';
   }else if (divNum === 6) {
-    degerDegisenDiv.innerHTML = '<div><p><img src="attachments/7137965572f2b29a0614f4fdf5ab8abf61482567_original.jpg?1582556574" style="width: 300px;" class="fr-fic fr-dib"></p><p>Sadece kendi adınıza ait hesap üzerinden işlem yapabilirsiniz. Farklı hesaplar üzerinden yapılan işlemler iade edilecektir.</p></div>';
+    degerDegisenDiv.innerHTML = '<div><p><img src="" style="width: 300px;" class="fr-fic fr-dib"></p><p>Sadece kendi adınıza ait hesap üzerinden işlem yapabilirsiniz. Farklı hesaplar üzerinden yapılan işlemler iade edilecektir.</p></div>';
   }else if (divNum === 7) {
     degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/05e24c751056101e3663cc993e85a3d1c273d386_original.png?1666955762" style="width: 300px;" class="fr-fic fr-dib">Papara hesabınızdan, Marsbahis hesabınıza 7 gün 24 saat güvenli ve hızlıca yatırım yapabilirsiniz. DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz. <strong>LÜTFEN AÇIKLAMA KISMINI BOŞ BIRAKINIZ</strong></p></div>';
   }else if (divNum === 8) {
-    degerDegisenDiv.innerHTML = '<div><p><img src="images/attachments/files/000/000/391/original/Papara-deposit-content.png?1531924272" class="fr-fic fr-dii"><br><br></p><p>Papara hesabınızdan, Marsbahis hesabınıza 7 gün 24 saat güvenli ve hızlıca yatırım yapabilirsiniz.</p><p>DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz.</p><p><strong>ÖNEMLİ : Paparam yöntemi ile yatırım işlem süresi 10 dk olup bu süre içerisinde PAPARA hesabınıza GİRİŞ YAPMAMANIZ gerekmektedir!</strong></p><p><br></p><p><span contenteditable="false" draggable="true"><span class="fr-video fr-fvc fr-dvi fr-draggable" contenteditable="false"></span></span></p></div>';
+    degerDegisenDiv.innerHTML = '<div><p><img src="" class="fr-fic fr-dii"><br><br></p><p>Papara hesabınızdan, Marsbahis hesabınıza 7 gün 24 saat güvenli ve hızlıca yatırım yapabilirsiniz.</p><p>DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz.</p><p><strong>ÖNEMLİ : Paparam yöntemi ile yatırım işlem süresi 10 dk olup bu süre içerisinde PAPARA hesabınıza GİRİŞ YAPMAMANIZ gerekmektedir!</strong></p><p><br></p><p><span contenteditable="false" draggable="true"><span class="fr-video fr-fvc fr-dvi fr-draggable" contenteditable="false"></span></span></p></div>';
   }else if (divNum === 9) {
-    degerDegisenDiv.innerHTML = '<div><p><img src="attachments/17abbe981416216d8b3c3739717c7c4dfaa5a4ba_original.png?1607026830" style="width: 300px;" class="fr-fic fr-dib">Anında Papara yöntemi ile minimum para yatırma limiti 100 TRY"dir.<br><br>ÖNEMLİ: Her yatırım işlemi öncesinde yeni bir hesap numarası alıp işleminizi tamamlamanız gerektiğini önemle hatırlatırız.</p></div>';
+    degerDegisenDiv.innerHTML = '<div><p><img src="" style="width: 300px;" class="fr-fic fr-dib">Anında Papara yöntemi ile minimum para yatırma limiti 100 TRY"dir.<br><br>ÖNEMLİ: Her yatırım işlemi öncesinde yeni bir hesap numarası alıp işleminizi tamamlamanız gerektiğini önemle hatırlatırız.</p></div>';
   }else if (divNum === 10) {
-    degerDegisenDiv.innerHTML = '<div><p><img src="attachments/30f0b56a808ccb854eaed4b8866798b1eff5a114_original.jpg?1624309464" style="width: 300px;" class="fr-fic fr-dib"><br>Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz.</p></div>';
+    degerDegisenDiv.innerHTML = '<div><p><img src="" style="width: 300px;" class="fr-fic fr-dib"><br>Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz.</p></div>';
   }else if (divNum === 11) {
     degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/1448f87b451958811c56c701d69dc2cfd143a4e9_original.jpg?1661864172" style="width: 300px;" class="fr-fic fr-dib">ÖNEMLİ UYARI : Minimum limit altı yapılan yatırımlar hiçbir şekilde kabul edilmeyecek ve iade edilecektir. İade süresi 72 saattir.</p><div data-qa="message-text"><div data-qa="block-kit-renderer"><div dir="auto">DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz.</div></div></div><p><br></p></div>';
   }else if (divNum === 12) {
@@ -3872,7 +3872,7 @@
   }else if (divNum === 13) {
     degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/5ebf0868410bfb5c80a136c09467aad0b9b67755_original.jpg?1666686166" style="width: 300px;" class="fr-fic fr-dib"><br>SÜPER HAVALE ile haftanın 7 günü 24 saat yatırım yapabilirsiniz. &gt;Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Banka hesabı ile yatırım yapabilirsiniz.</p></div>';
   }else if (divNum === 14) {
-    degerDegisenDiv.innerHTML = '<div><p><img src="images/attachments/files/000/000/167/original/yeni-BankTransfer.png?1525941428" style="width: 300px;" class="fr-fic fr-dib"><br>Banka Transferi, Canlı Destek ekibimiz ile iletişime geçerek güncel havale bilgilerini aldıktan sonra yatırım yapabileceğiniz, hızlı ve güvenilir bir yatırım yöntemidir.</p><p><br></p><p>ÖNEMLİ : Canlı Destek ekibimizden almış olduğunuz hesap bilgisi 3 dakika içerisinde değişebilmektedir. Herhangi bir mağduriyet yaşamamak için yatırımınızı hesap bilgisi aldıktan hemen sonra gerçekleştiriniz!</p></div>';
+    degerDegisenDiv.innerHTML = '<div><p><img src="" style="width: 300px;" class="fr-fic fr-dib"><br>Banka Transferi, Canlı Destek ekibimiz ile iletişime geçerek güncel havale bilgilerini aldıktan sonra yatırım yapabileceğiniz, hızlı ve güvenilir bir yatırım yöntemidir.</p><p><br></p><p>ÖNEMLİ : Canlı Destek ekibimizden almış olduğunuz hesap bilgisi 3 dakika içerisinde değişebilmektedir. Herhangi bir mağduriyet yaşamamak için yatırımınızı hesap bilgisi aldıktan hemen sonra gerçekleştiriniz!</p></div>';
   }else if (divNum === 15) {
     degerDegisenDiv.innerHTML = '<div><p>ÖNEMLİ : Güncel hesap numaraları, işlem başladıktan sonra otomatik olarak iletilmektedir. Herhangi bir mağduriyet yaşamamak için lütfen her yatırımınızda yeni hesap numarası ile işlem yapınız.<br>&gt;Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Banka hesabı ile yatırım yapabilirsiniz.</p><p>5 TRY ve katları olacak şekilde yatırım yapınız, küsuratlı yatırım yapmayınız.</p><p><br></p></div>';
   }else if (divNum === 16) {
@@ -3882,7 +3882,7 @@
   }else if (divNum === 18) {
     degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/bed939f7979367a81c0060d569c429473e9465e0_original.jpg?1673615684" style="width: 300px;" class="fr-fic fr-dib">Hızlı QR ile Marsbahis hesabınıza hızlı ve güvenli şekilde yatırım yatırabilirsiniz. İşlem süresince mobil bankacılıgınıza giriş yapmayınız. Giriş yapmanız durumunda işleminiz otomatik olarak iptal olacaktır.</p></div>';
   }else if (divNum === 19) {
-    degerDegisenDiv.innerHTML = '<div><p><img src="images/attachments/files/000/000/171/original/yeni-CepBank.png?1525941647" style="width: 300px;" class="fr-fic fr-dib">CepBank, son derece güvenli, hızlı ve yaygın kullanılan yatırım yöntemlerinden biridir.</p></div>';
+    degerDegisenDiv.innerHTML = '<div><p><img style="width: 300px;" class="fr-fic fr-dib">CepBank, son derece güvenli, hızlı ve yaygın kullanılan yatırım yöntemlerinden biridir.</p></div>';
   }else if (divNum === 20) {
     degerDegisenDiv.innerHTML = '<div><p><img src="attachments/8de97a80f42e115b62ccb787ebea103dbcbed241_original.jpg?1649057627" style="width: 300px;" class="fr-fic fr-dib">Kriptopay ile hızlı ve güvenli şekilde kripto para yatırımı yapabilirsiniz.</p></div>';
   }else if (divNum === 21) {
