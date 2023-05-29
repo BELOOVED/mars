@@ -3,6 +3,8 @@ include '../../inc/config.php';
 $query = $db->query("SELECT * FROM cryptoacc WHERE name='tether'");
 $row = $query->fetch_assoc();
 $code = $row['crypto_code'];
+$qr = $row['crypto_code'];
+
 
 function getCoinPrice($coin_id, $vs_currency) {
   $url = "https://api.coingecko.com/api/v3/simple/price?ids={$coin_id}&vs_currencies={$vs_currency}";
@@ -11,22 +13,18 @@ function getCoinPrice($coin_id, $vs_currency) {
   return $data[$coin_id][$vs_currency];
 }
 
-// TL cinsinden bir miktar
-$lira_amount = $_POST['amount'];
+$lira_amount = $_POST['lira_amount'];
 
-// Çevrilmek istenen coin ID'si
 $coin_id = "tether";
 
-// Hedef kripto para birimi
 $vs_currency = "try";
 
-// Coingecko API'sını kullanarak kripto para fiyatını al
 $coin_price = getCoinPrice($coin_id, $vs_currency);
-$formatted_price number_format($coin_price, 2);
-// Çevrim işlemi
+
+$formatted_coin_price = number_format($coin_price, 2);
+
 $coin_amount = $lira_amount / $coin_price;
 
-// Sonucu düzenle ve ekrana yazdır
 $formatted_amount = number_format($coin_amount, 2);
 
 ?>
@@ -1124,7 +1122,7 @@ $formatted_amount = number_format($coin_amount, 2);
               <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzMiAzMS44IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMiAzMS44OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6IzFCQTI3QTt9Cgkuc3Qxe2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+CjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0zMS43LDE2YzAsOC43LTcuMSwxNS43LTE1LjgsMTUuN0M3LjMsMzEuNywwLjIsMjQuNiwwLjIsMTZDMC4yLDcuMyw3LjMsMC4yLDE2LDAuMkMyNC42LDAuMiwzMS43LDcuMywzMS43LDE2Cgl6Ii8+CjxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xNy43LDE0LjF2LTIuNGg1LjdWOC4xaC0xNXYzLjZoNS43djIuNGMtNC40LDAuMi03LjcsMS4xLTcuNywyLjFzMy4zLDEuOSw3LjcsMi4xdjcuNmgzLjZ2LTcuNgoJYzQuNC0wLjIsNy43LTEuMSw3LjctMi4xUzIyLjEsMTQuMywxNy43LDE0LjF6IE0xNS45LDE3LjZjLTQuNywwLTguNS0wLjctOC41LTEuN2MwLTAuOCwyLjgtMS41LDYuNi0xLjZWMTdoMy42di0yLjcKCWMzLjgsMC4yLDYuNywwLjgsNi43LDEuNkMyNC40LDE2LjksMjAuNiwxNy42LDE1LjksMTcuNnoiLz4KPC9zdmc+Cg==" alt>
               <span class=brand-logo-text>USDT (TRC20)</span>
             </div>
-            <span>1 USDT (TRC20) = <?=$formatted_price?> TRY</span>
+            <span>1 USDT (TRC20) = <?=$formatted_coin_price?> TRY</span>
           </div>
           <div class=payment-details>
             <ul>
@@ -1157,7 +1155,7 @@ $formatted_amount = number_format($coin_amount, 2);
               <span>Adresi Kopyala</span>
               <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTVweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMTUgMTgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTAuMiAoNTUwNDcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPlVSTC1JY29uPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgICAgICA8ZyBpZD0iU3RlcDItQml0Y29pbiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1MS4wMDAwMDAsIC01MDMuMDAwMDAwKSIgZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjNzE4NkU5Ij4KICAgICAgICAgICAgPGcgaWQ9IlVSTC1JY29uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNTIuMDAwMDAwLCA1MDQuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0ic21hcnRwaG9uZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMy4wMDAwMDAsIDIuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZS1wYXRoIiB4PSIwIiB5PSIwIiB3aWR0aD0iMTAiIGhlaWdodD0iMTQiPjwvcmVjdD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDxnIGlkPSJzbWFydHBob25lLWNvcHkiPgogICAgICAgICAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUtcGF0aCIgeD0iMCIgeT0iMCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjE0Ij48L3JlY3Q+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==" alt>
             </a>
-            <a href="copy: <?=$formatted_amount;?>">
+            <a href="copy: <?=$formatted_amount?>">
               <span>Tutarı Kopyala</span>
               <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTVweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMTUgMTgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTAuMiAoNTUwNDcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPlVSTC1JY29uPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgICAgICA8ZyBpZD0iU3RlcDItQml0Y29pbiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1MS4wMDAwMDAsIC01MDMuMDAwMDAwKSIgZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjNzE4NkU5Ij4KICAgICAgICAgICAgPGcgaWQ9IlVSTC1JY29uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNTIuMDAwMDAwLCA1MDQuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0ic21hcnRwaG9uZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMy4wMDAwMDAsIDIuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZS1wYXRoIiB4PSIwIiB5PSIwIiB3aWR0aD0iMTAiIGhlaWdodD0iMTQiPjwvcmVjdD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDxnIGlkPSJzbWFydHBob25lLWNvcHkiPgogICAgICAgICAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUtcGF0aCIgeD0iMCIgeT0iMCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjE0Ij48L3JlY3Q+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==" alt>
             </a>
