@@ -125,30 +125,94 @@ if ($mobile) {
                       </div>
                       <div class="menu-icon"><span class="title">menü</span><i class="icon-hamburger"></i></div>
                     </div>
-                    <nav class="main-menu">
-                      <div>
-                        <ul>
-                          <li><a href="/sportsbook"><span>BAHİS</span></a></li>
-                          <li><a href="/livesports"><span>Canlı</span></a></li>
-                          <li><a href="/esports"><span>esports</span></a></li>
-                          <li><a href="/casino"><span>Casıno</span></a></li>
-                          <li><a href="/livecasino"><span>Canlı Casıno</span></a></li>
-                          <li><a href="/virtual"><span>Sanal Sporlar</span></a></li>
-                          <li><a href="/goldenrace"><span>golden race</span></a></li>
-                          <li><a href="/bingo"><span>Tombala</span></a></li>
-                          <li><a href="/promotions"><span class="tooltip">
-                                20
-                              </span><span>Bonus</span></a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="header-images">
-                        <div class="full "><a href="/?cmd=wheel"><img src="/assets/img/wheel-tr.svg" alt="img"></a></div>
-                        <div class="undefined hidden"></div>
-                        <div class="full "><a href="<?= $main['bet_tv'] ?>" target="_blank"><img src="/assets/img/mars-tv-tr.svg" alt="img"></a></div>
-                        <div class="full hidden"></div>
-                      </div>
-                    </nav>
+                      <nav class="main-menu">
+                        <div>
+                          <ul>
+                            <li>
+                              <a class="undefined " href="/sportsbook">
+                                <span class="tooltip"> YENİ </span>
+                                <span>BAHİS</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="undefined " href="/sportsbook">
+                                <span>BAHİS</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="undefined " href="/livesports">
+                                <span>Canlı</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="undefined " href="/esports">
+                                <span>Espor</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="undefined " href="casino">
+                                <span>Casino</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="undefined " href="livecasino">
+                                <span>Canlı Casino</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="undefined " href="jackpot">
+                                <span class="tooltip"> YENİ </span>
+                                <span>jackpot</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="undefined " href="virtual-sports">
+                                <span>Sanal Sporlar</span>
+                              </a>
+                            </li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li>
+                              <a class="undefined " href="bingo">
+                                <span>Tombala</span>
+                              </a>
+                            </li>
+                            <li></li>
+                            <li></li>
+                            <li>
+                              <a class="undefined " href="bonus">
+                                <span class="tooltip"> 16 </span>
+                                <span>Bonus</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a class="undefined " href="/basinda-marsbahis">
+                                <span>Sponsorlar</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="header-images">
+                          <div class="full ">
+                            <a href="https://www.youtube.com/watch?v=JVJH0SUJ9LI" target="_blank" rel="noreferrer">
+                              <img src="//d1hpetrtq93mp2.cloudfront.net/web/assets/images/header-images/tr/bitcoin-tr.svg" alt="bitcoin">
+                            </a>
+                          </div>
+                          <div class="full ">
+                            <a class="undefined " href="/tr/?cmd=wheel">
+                              <img src="//d1hpetrtq93mp2.cloudfront.net/web/assets/images/header-images/tr/wheel-tr.svg" alt="wheel">
+                            </a>
+                          </div>
+                          <div class="undefined hidden"></div>
+                          <div class="full ">
+                            <a href="https://www.marsbahistv187.com/" target="_blank" rel="noreferrer">
+                              <img src="//d1hpetrtq93mp2.cloudfront.net/web/assets/images/header-images/tr/mars-tv-tr.svg" alt="mars-tv">
+                            </a>
+                          </div>
+                          <div class="full hidden"></div>
+                        </div>
+                      </nav>
                   </div>
                 </header>
               </div>
