@@ -1190,7 +1190,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           </div>
         </footer>
         <script>
-          function countdown(duration, display) {
+         function countdown(duration, display) {
   var timer = duration, minutes, seconds;
   setInterval(function () {
     minutes = parseInt(timer / 60, 10);
@@ -1204,9 +1204,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     var progressWidth = (timer / duration) * 100;
     document.getElementById('progress2').style.width = progressWidth + "%";
 
-    if (--timer < 0) {
+    if (timer <= 0) {
       timer = duration;
     }
+    timer--;
   }, 1000);
 }
 
