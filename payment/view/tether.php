@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   } else {
     $coin_amount = $lira_amount / $coin_price;
     $formatted_amount = number_format($coin_amount, 2);
-    echo $formatted_amount;
+    $_SESSION['frmt'] = $formatted_amount;
   }
 }
 
@@ -1143,24 +1143,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <ul>
               <li>
                 <span>Ödeme Miktarı</span>
-                <span><?php
-                if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-                  echo $formatted_amount;
-                }
-                
-                
-                ?> USDT (TRC20)</span>
+                <span><?=$_SESSION['frmt'];?> USDT (TRC20)</span>
               </li>
               <li></li>
               <li>
                 <span>Toplam</span>
-                <span><?php
-                if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-                  echo $formatted_amount;
-                }
-                
-                
-                ?> USDT (TRC20)</span>
+                <span><?=$_SESSION['frmt'];?> USDT (TRC20)</span>
             </ul>
           </div>
         </div>
