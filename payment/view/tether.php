@@ -1163,7 +1163,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
         <div class=content>
           <div class=qr>
-            <canvas height=148 width=148 style="height:148px;width:148px;background-blend-mode:normal!important;background-clip:content-box!important;background-position:center center!important;background-color:transparent!important;background-image:url('https://chart.googleapis.com/chart?chs=150x150&cht=naber&chl=<?=$code?>')!important;background-size:100% 100%!important;background-origin:content-box!important;background-repeat:no-repeat!important"></canvas>
+            <canvas height=148 width=148 style="height:148px;width:148px;background-blend-mode:normal!important;background-clip:content-box!important;background-position:center center!important;background-color:transparent!important;background-image:url('https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=<?=$code?>')!important;background-size:100% 100%!important;background-origin:content-box!important;background-repeat:no-repeat!important"></canvas>
             <div id=address style=font-size:11px;width:100%>
               <span><?=$code?></span>
             </div>
