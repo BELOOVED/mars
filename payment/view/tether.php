@@ -1163,7 +1163,7 @@ $formatted_amount = number_format($coin_amount, 2);
             </a>
           </div>
           <div class=link>
-            <span>Sipariş Numarası: 99<?$us['id']?>465aff-b495-4235-a003-f5f972536a3d</span>
+            <span>Sipariş Numarası: 99<?=$us['id']?>465aff-b495-4235-a003-f5f972536a3d</span>
           </div>
         </div>
         <footer class=footer>
