@@ -89,7 +89,7 @@
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
+                        <div class="image" style="background: url(&quot;&quot;);"></div>
                         <div class="text">
                           <p>
                             <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
@@ -239,7 +239,7 @@
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
+                        <div class="image" style="background: url(&quot;&quot;);"></div>
                         <div class="text">
                           <p>
                             <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
@@ -389,7 +389,7 @@
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
+                        <div class="image" style="background: url(&quot;&quot;);"></div>
                         <div class="text">
                           <p>
                             <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
@@ -590,7 +590,7 @@
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
+                        <div class="image" style="background: url(&quot;&quot;);"></div>
                         <div class="text">
                           <p>
                             <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
@@ -740,7 +740,7 @@
                   <div>
                     <div class="slide" tabindex="-1" style="width: 100%; display: inline-block;">
                       <div class="winner-block">
-                        <div class="image" style="background: url(&quot;https://d2ps39elv3ruqi.cloudfront.net/game_images/ace73053c7ff596bc68bf1ac4fcc1281aa9af649_medium.gif?1594136888&quot;);"></div>
+                        <div class="image" style="background: url(&quot;&quot;);"></div>
                         <div class="text">
                           <p>
                             <span class="user">Zeynep ‎₺ 600 kazandı. Oyun Chance Machine 100</span>
