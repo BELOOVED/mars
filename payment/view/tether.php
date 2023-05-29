@@ -1213,7 +1213,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         window.onload = function () {
             var display = document.querySelector('.time');
-            var duration = 900; // 15 minutes
+            var duration = 900; // 15 dakika = 900 saniye
 
             countdown(duration, display);
         };
