@@ -1395,7 +1395,7 @@
                             <span class="mask-input"></span>
                           </div>
                         </div>
-                        <button class="button inactive-button">Gönder</button>
+                        <button type="submit" class="button active-button">Gönder</button>
                       </form>
                     </div>
                   </div>
