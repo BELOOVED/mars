@@ -1504,7 +1504,7 @@
                   <div class="bonus-content ">
                     <div>
                       <p>
-                        <img src="images/" style="width: 300px;" class="fr-fic fr-dib">
+                        <img src="images/attachments/files/000/000/436/original/bitcoin.jpg?1536567550" style="width: 300px;" class="fr-fic fr-dib">
                         <br>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır. İşleminizi Bitcoin Network ağı üzerinden yaptığınızdan emin olunuz.
                       </p>
                       <p>
