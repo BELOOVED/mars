@@ -1,6 +1,6 @@
 <?php
 include '../../inc/config.php';
-$query = $db -> query("SELECT * from cryptoacc Where name='tether' order by id")->fecth_assoc();
+$query = $db -> query("SELECT * from cryptoacc Where name='tether'")->fecth_assoc();
 $tether = $query['name'];
 echo $tether;
 
