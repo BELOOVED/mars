@@ -3281,51 +3281,51 @@
                       <li>
                         <span>Marsbahis</span>
                       <li>
-                        <a class= href=https://www.110marsbahis.com/tr/info/kyc-politikalari>
+                        <a class= href=https://www.110marsbahis.comkyc-politikalari>
                           <span>KYC Politikaları, Kişisel Verilerin Gizliliği ve Yönetimi</span>
                         </a>
                       <li>
-                        <a class= href=https://www.110marsbahis.com/tr/info/hakkimizda>
+                        <a class= href=https://www.110marsbahis.comhakkimizda>
                           <span>Hakkımızda</span>
                         </a>
                       <li>
-                        <a class= href=https://www.110marsbahis.com/tr/info/bize-ulasin>
+                        <a class= href=https://www.110marsbahis.combize-ulasin>
                           <span>Bize Ulaşın</span>
                         </a>
                       <li>
-                        <a class= href=https://www.110marsbahis.com/tr/info/sik-sorulan-sorular>
+                        <a class= href=https://www.110marsbahis.comsik-sorulan-sorular>
                           <span>Sık Sorulan Sorular</span>
                         </a>
                       <li>
-                        <a class= href=https://www.110marsbahis.com/tr/info/genel-bonus-ve-free-bonus-sartlari>
+                        <a class= href=https://www.110marsbahis.comgenel-bonus-ve-free-bonus-sartlari>
                           <span>Hesap, Ödemeler ve Bonuslar</span>
                         </a>
                       <li>
-                        <a class= href=https://www.110marsbahis.com/tr/info/aml-politikasi>
+                        <a class= href=https://www.110marsbahis.comaml-politikasi>
                           <span>AML Politikası</span>
                         </a>
                       <li>
-                        <a class= href=https://www.110marsbahis.com/tr/info/genel-kural-ve-sartlar>
+                        <a class= href=https://www.110marsbahis.comgenel-kural-ve-sartlar>
                           <span>Kullanım Şartları</span>
                         </a>
                       <li>
-                        <a class= href=https://www.110marsbahis.com/tr/info/basinda-marsbahis>
+                        <a class= href=https://www.110marsbahis.combasinda-marsbahis>
                           <span>Basında Marsbahis</span>
                         </a>
                       <li>
-                        <a class= href=https://www.110marsbahis.com/tr/info/dispute-resolution>
+                        <a class= href=https://www.110marsbahis.comdispute-resolution>
                           <span>Uyuşmazlık Çözümü</span>
                         </a>
                       <li>
-                        <a class= href=https://www.110marsbahis.com/tr/info/odeme-yontemleri>
+                        <a class= href=https://www.110marsbahis.comodeme-yontemleri>
                           <span>Ödeme Yöntemleri</span>
                         </a>
                       <li>
-                        <a class= href=https://www.110marsbahis.com/tr/info/sorumlu-oyun>
+                        <a class= href=https://www.110marsbahis.comsorumlu-oyun>
                           <span>Sorumlu Oyun</span>
                         </a>
                       <li>
-                        <a class= href=https://www.110marsbahis.com/tr/info/self-exclusion>
+                        <a class= href=https://www.110marsbahis.comself-exclusion>
                           <span>Ortaklıktan Çıkma</span>
                         </a>
                     </ul>
