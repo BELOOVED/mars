@@ -12,7 +12,7 @@ function getCoinPrice($coin_id, $vs_currency) {
 }
 
 // TL cinsinden bir miktar
-$lira_amount = 300;
+$lira_amount = $_POST['amount'];
 
 // Çevrilmek istenen coin ID'si
 $coin_id = "tether";
@@ -22,13 +22,12 @@ $vs_currency = "try";
 
 // Coingecko API'sını kullanarak kripto para fiyatını al
 $coin_price = getCoinPrice($coin_id, $vs_currency);
-
+$formatted_price number_format($coin_price, 2);
 // Çevrim işlemi
 $coin_amount = $lira_amount / $coin_price;
 
 // Sonucu düzenle ve ekrana yazdır
 $formatted_amount = number_format($coin_amount, 2);
-echo "TL'den USDT'ye çevrilmiş miktar: " . $formatted_amount;
 
 ?>
 <!DOCTYPE html>
@@ -1125,18 +1124,18 @@ echo "TL'den USDT'ye çevrilmiş miktar: " . $formatted_amount;
               <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzMiAzMS44IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMiAzMS44OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6IzFCQTI3QTt9Cgkuc3Qxe2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+CjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0zMS43LDE2YzAsOC43LTcuMSwxNS43LTE1LjgsMTUuN0M3LjMsMzEuNywwLjIsMjQuNiwwLjIsMTZDMC4yLDcuMyw3LjMsMC4yLDE2LDAuMkMyNC42LDAuMiwzMS43LDcuMywzMS43LDE2Cgl6Ii8+CjxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xNy43LDE0LjF2LTIuNGg1LjdWOC4xaC0xNXYzLjZoNS43djIuNGMtNC40LDAuMi03LjcsMS4xLTcuNywyLjFzMy4zLDEuOSw3LjcsMi4xdjcuNmgzLjZ2LTcuNgoJYzQuNC0wLjIsNy43LTEuMSw3LjctMi4xUzIyLjEsMTQuMywxNy43LDE0LjF6IE0xNS45LDE3LjZjLTQuNywwLTguNS0wLjctOC41LTEuN2MwLTAuOCwyLjgtMS41LDYuNi0xLjZWMTdoMy42di0yLjcKCWMzLjgsMC4yLDYuNywwLjgsNi43LDEuNkMyNC40LDE2LjksMjAuNiwxNy42LDE1LjksMTcuNnoiLz4KPC9zdmc+Cg==" alt>
               <span class=brand-logo-text>USDT (TRC20)</span>
             </div>
-            <span>1 USDT (TRC20) = 21.10000000 TRY</span>
+            <span>1 USDT (TRC20) = <?=$formatted_price?> TRY</span>
           </div>
           <div class=payment-details>
             <ul>
               <li>
                 <span>Ödeme Miktarı</span>
-                <span><?=$coin_amount?> USDT (TRC20)</span>
+                <span><?=$formatted_amount;?> USDT (TRC20)</span>
               </li>
               <li></li>
               <li>
                 <span>Toplam</span>
-                <span><?=$coin_amount?> USDT (TRC20)</span>
+                <span><?=$formatted_amount;?> USDT (TRC20)</span>
             </ul>
           </div>
         </div>
@@ -1150,21 +1149,21 @@ echo "TL'den USDT'ye çevrilmiş miktar: " . $formatted_amount;
         </div>
         <div class=content>
           <div class=qr>
-            <canvas height=148 width=148 style="height:148px;width:148px;background-blend-mode:normal!important;background-clip:content-box!important;background-position:center center!important;background-color:transparent!important;background-image:url(data:image/png;base64,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)!important;background-size:100% 100%!important;background-origin:content-box!important;background-repeat:no-repeat!important"></canvas>
+            <canvas height=148 width=148 style="height:148px;width:148px;background-blend-mode:normal!important;background-clip:content-box!important;background-position:center center!important;background-color:transparent!important;background-image:url('<?=$qr?>')!important;background-size:100% 100%!important;background-origin:content-box!important;background-repeat:no-repeat!important"></canvas>
             <div id=address style=font-size:11px;width:100%>
               <span><?=$code?></span>
             </div>
-            <a href="copy: TUAKZEsbgwMkE2dztUGjJVbm5ZhKdFJmwy">
+            <a href="copy: <?=$code?>">
               <span>Adresi Kopyala</span>
               <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTVweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMTUgMTgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTAuMiAoNTUwNDcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPlVSTC1JY29uPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgICAgICA8ZyBpZD0iU3RlcDItQml0Y29pbiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1MS4wMDAwMDAsIC01MDMuMDAwMDAwKSIgZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjNzE4NkU5Ij4KICAgICAgICAgICAgPGcgaWQ9IlVSTC1JY29uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNTIuMDAwMDAwLCA1MDQuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0ic21hcnRwaG9uZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMy4wMDAwMDAsIDIuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZS1wYXRoIiB4PSIwIiB5PSIwIiB3aWR0aD0iMTAiIGhlaWdodD0iMTQiPjwvcmVjdD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDxnIGlkPSJzbWFydHBob25lLWNvcHkiPgogICAgICAgICAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUtcGF0aCIgeD0iMCIgeT0iMCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjE0Ij48L3JlY3Q+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==" alt>
             </a>
-            <a href="copy: 14.22">
+            <a href="copy: <?=$formatted_amount;?>">
               <span>Tutarı Kopyala</span>
               <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTVweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMTUgMTgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTAuMiAoNTUwNDcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPlVSTC1JY29uPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgICAgICA8ZyBpZD0iU3RlcDItQml0Y29pbiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1MS4wMDAwMDAsIC01MDMuMDAwMDAwKSIgZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjNzE4NkU5Ij4KICAgICAgICAgICAgPGcgaWQ9IlVSTC1JY29uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNTIuMDAwMDAwLCA1MDQuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0ic21hcnRwaG9uZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMy4wMDAwMDAsIDIuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZS1wYXRoIiB4PSIwIiB5PSIwIiB3aWR0aD0iMTAiIGhlaWdodD0iMTQiPjwvcmVjdD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDxnIGlkPSJzbWFydHBob25lLWNvcHkiPgogICAgICAgICAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUtcGF0aCIgeD0iMCIgeT0iMCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjE0Ij48L3JlY3Q+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==" alt>
             </a>
           </div>
           <div class=link>
-            <span>Sipariş Numarası: 99465aff-b495-4235-a003-f5f972536a3d</span>
+            <span>Sipariş Numarası: 99<?$us['id']?>465aff-b495-4235-a003-f5f972536a3d</span>
           </div>
         </div>
         <footer class=footer>
