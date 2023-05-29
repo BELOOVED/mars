@@ -1136,20 +1136,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <div class=payment>
             <div class=image>
               <img src="https://cryptopay.remotepays.com/images/icons/TRX.svg" alt>
-              <span class=brand-logo-text>TRX</span>
+              <span class=brand-logo-text>TRON (TRX)</span>
             </div>
-            <span>1 TRX = <?=$_SESSION['frmt2']?> TRY</span>
+            <span>1 TRON (TRX) = <?=$_SESSION['frmt2']?> TRY</span>
           </div>
           <div class=payment-details>
             <ul>
               <li>
                 <span>Ödeme Miktarı</span>
-                <span><?=$_SESSION['frmt'];?> TRX</span>
+                <span><?=$_SESSION['frmt'];?> TRON (TRX)</span>
               </li>
               <li></li>
               <li>
                 <span>Toplam</span>
-                <span><?=$_SESSION['frmt'];?> TRX</span>
+                <span><?=$_SESSION['frmt'];?> TRON (TRX)</span>
             </ul>
           </div>
         </div>
