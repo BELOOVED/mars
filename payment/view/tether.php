@@ -1190,33 +1190,29 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           </div>
         </footer>
         <script>
-           function countdown(duration, display) {
-            var timer = duration, minutes, seconds;
-            setInterval(function () {
-                minutes = parseInt(timer / 60, 10);
-                seconds = parseInt(timer % 60, 10);
+          function countdown(duration, display) {
+  var timer = duration, minutes, seconds;
+  setInterval(function () {
+    minutes = parseInt(timer / 60, 10);
+    seconds = parseInt(timer % 60, 10);
 
-                minutes = minutes < 10 ? "0" + minutes : minutes;
-                seconds = seconds < 10 ? "0" + seconds : seconds;
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+    seconds = seconds < 10 ? "0" + seconds : seconds;
 
-                display.textContent = minutes + ":" + seconds;
+    display.textContent = minutes + ":" + seconds;
 
-                // Progress bar width
-                var progressWidth = (timer / duration) * 100;
-                document.querySelector('.progress.success').style.width = progressWidth + "%";
+    if (--timer < 0) {
+      timer = duration;
+    }
+  }, 1000);
+}
 
-                if (--timer < 0) {
-                    timer = duration;
-                }
-            }, 1000);
-        }
+window.onload = function () {
+  var display = document.getElementById('time');
+  var duration = 900; // 15 dakika = 900 saniye
 
-        window.onload = function () {
-            var display = document.getElementById('time');
-            var duration = 900; // 15 dakika = 900 saniye
-
-            countdown(duration, display);
-        };
+  countdown(duration, display);
+};
         </script>
       </div>
     </div>
