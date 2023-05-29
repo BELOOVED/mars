@@ -184,7 +184,7 @@ if ($mobile) {
                               </a>
                             </li>
                             <li>
-                              <a class="undefined " href="virtual-sports">
+                              <a class="undefined " href="virtualsports">
                                 <span>Sanal Sporlar</span>
                               </a>
                             </li>
@@ -224,7 +224,7 @@ if ($mobile) {
                           </div>
                           <div class="undefined hidden"></div>
                           <div class="full ">
-                            <a href="https://www.marsbahistv187.com/" target="_blank" rel="noreferrer">
+                            <a href="<?=$main['tv_url']?>" target="_blank" rel="noreferrer">
                               <img src="//d1hpetrtq93mp2.cloudfront.net/web/assets/images/header-images/tr/mars-tv-tr.svg" alt="mars-tv">
                             </a>
                           </div>
