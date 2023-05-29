@@ -6,27 +6,39 @@ $code = $row['crypto_code'];
 $qr = $row['crypto_code'];
 
 
+
 function getCoinPrice($coin_id, $vs_currency) {
   $url = "https://api.coingecko.com/api/v3/simple/price?ids={$coin_id}&vs_currencies={$vs_currency}";
   $response = file_get_contents($url);
+  
+  if ($response === false) {
+      return false;
+  }
+  
   $data = json_decode($response, true);
+  
+  if (!isset($data[$coin_id][$vs_currency])) {
+      return false;
+  }
+  
   return $data[$coin_id][$vs_currency];
 }
 
 $lira_amount = $_POST['amount'];
 
 $coin_id = "tether";
-
 $vs_currency = "try";
 
 $coin_price = getCoinPrice($coin_id, $vs_currency);
 
-$formatted_coin_price = number_format($coin_price, 2);
-
-$coin_amount = $lira_amount / $coin_price;
-
-$formatted_amount = number_format($coin_amount, 2);
-echo $formatted_amount;
+if ($coin_price === false) {
+  echo "Coin fiyatı alınamadı.";
+} else {
+  $formatted_coin_price = number_format($coin_price, 2);
+  $coin_amount = $lira_amount / $coin_price;
+  $formatted_amount = number_format($coin_amount, 2);
+  echo $formatted_amount;
+}
 ?>
 <!DOCTYPE html>
 <html lang=tr>
