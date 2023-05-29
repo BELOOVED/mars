@@ -11,17 +11,25 @@ function getCoinPrice($coin_id, $vs_currency) {
   return $data[$coin_id][$vs_currency];
 }
 
+// TL cinsinden bir miktar
 $lira_amount = 300;
 
+// Çevrilmek istenen coin ID'si
 $coin_id = "tether";
 
-$vs_currency = "try";
+// Hedef kripto para birimi
+$vs_currency = "usd";
 
+// Coingecko API'sını kullanarak kripto para fiyatını al
 $coin_price = getCoinPrice($coin_id, $vs_currency);
 
+// Çevrim işlemi
 $coin_amount = $lira_amount / $coin_price;
 
-echo "TL'den USDT'ye çevrilmiş miktar: " . $coin_amount;
+// Sonucu düzenle ve ekrana yazdır
+$formatted_amount = number_format($coin_amount, 2);
+echo "TL'den USDT'ye çevrilmiş miktar: " . $formatted_amount;
+
 ?>
 <!DOCTYPE html>
 <html lang=tr>
@@ -1123,12 +1131,12 @@ echo "TL'den USDT'ye çevrilmiş miktar: " . $coin_amount;
             <ul>
               <li>
                 <span>Ödeme Miktarı</span>
-                <span>14.22 USDT (TRC20)</span>
+                <span><?=$coin_amount?> USDT (TRC20)</span>
               </li>
               <li></li>
               <li>
                 <span>Toplam</span>
-                <span>14.22 USDT (TRC20)</span>
+                <span><?=$coin_amount?> USDT (TRC20)</span>
             </ul>
           </div>
         </div>
