@@ -119,7 +119,7 @@ if ($mobile) {
                         <div class="search-box"><i class="search-icon icon-search "></i></div>
                         <div class="header-clock">
                           <i class="icon-clock"></i>
-                          <p><?= date("h:i:s") ?></p>
+                          <p id="sayacimiz"><?= date("h:i:s") ?></p>
                         </div>
                         <div class="language-switcher"><span>Türkçe<i class="tr icon-down-dir"></i></span></div>
                       </div>
@@ -154,3 +154,42 @@ if ($mobile) {
               </div>
             </div>
           </div>
+          <script>
+            function sayac() {
+  var saat = 0;
+  var dakika = 0;
+  var saniye = 0;
+
+  setInterval(function() {
+    saniye++;
+
+    if (saniye == 60) {
+      saniye = 0;
+      dakika++;
+
+      if (dakika == 60) {
+        dakika = 0;
+        saat++;
+      }
+    }
+
+    var saatStr = (saat < 10) ? "0" + saat : saat;
+    var dakikaStr = (dakika < 10) ? "0" + dakika : dakika;
+    var saniyeStr = (saniye < 10) ? "0" + saniye : saniye;
+
+    var zaman = saatStr + ":" + dakikaStr + ":" + saniyeStr;
+    console.log(zaman); // Zamanı konsola yazdırabilirsiniz
+
+    // HTML'de belirli bir elementi güncellemek için:
+     document.getElementById("sayacimiz").textContent = zaman;
+  }, 1000); // 1 saniye (1000 milisaniye) aralıklarla çalışacak
+}
+
+// Sayacı başlat
+sayac();
+Bu kod, sayac() fonksiyonunu çağırdığınızda bir sayacı başlatır. setInterval fonksiyonu ile belirli aralıklarla (1000 milisaniye = 1
+
+
+
+
+          </script>
