@@ -4,27 +4,62 @@
         <div class="banner-container fade-effect">
             <div>
               <a href="#">
-                <img src="/assets/img/carousel/1.jpg" alt="">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/e362b0c919fbad0ac8499030cfbbd8c794f84808_medium.jpg?1685018351" alt="">
               </a>
             </div>
             <div>
               <a href="#">
-                <img src="/assets/img/carousel/2.jpg" alt="">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/cd1c404d7d3bfe51b6deebbd498f6b9cc7708dc2_medium.jpg?1685027612" alt="">
               </a>
             </div>
             <div>
               <a href="#" onclick="loginorpay()">
-                <img src="/assets/img/carousel/3.jpg" alt="">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/012796a572dea9d5faeebc4fd1d1f6c7386aafed_medium.jpg?1684418808" alt="">
               </a>
             </div>
             <div>
               <a href="#" onclick="loginorpay()">
-                <img src="/assets/img/carousel/4.jpg" alt="">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/2150a7d40095f00887307384bdae110e5395bc2a_medium.jpg?1683369859" alt="">
               </a>
             </div>
             <div>
               <a href="/tv-bet">
-                <img src="/assets/img/carousel/5.jpg" alt="">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/af5503d6bf45635a7d3680503ab9589193d101cb_medium.jpg?1682182308" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/499b03f3c420c43b5488872645b67a9c4dda76cf_medium.jpg?1681394592" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/a0151166f76a4ff312b5bb97e1d2f769fa09e152_medium.jpg?1683286701" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/e9eeab3a67229c4cb168f609ae1663ac2a5d021f_medium.jpg?1683286551" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/4fb954362bde7f9ea5540296403b092de3a69386_medium.jpg?1682977033" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/0a5203cffb2aba06a3a78c8fcee1d21dc9ad3772_medium.jpg?1662139136" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/3689dc1f41e322a5ce27446981560d2d88bc4189_medium.jpg?1632733642" alt="">
+              </a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/slider_images/de3db003af688212639fde4f27cc3e9fead67473_medium.jpg?1680701484" alt="">
               </a>
             </div>
         </div>
@@ -805,8 +840,8 @@
                 <div class="slick-slider slick-initialized" dir="ltr">
                   <button type="button" data-role="none" class="slick-arrow slick-prev" style="display: block;"> Previous</button>
                   <div class="slick-list">
-                    <div class="slick-track" style="width: 3984px; opacity: 1; transform: translate3d(-996px, 0px, 0px);">
-                      <div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 498px;">
+                    <div class="slick-track" style="width: 2544px; opacity: 1; transform: translate3d(-636px, 0px, 0px);">
+                      <div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -829,7 +864,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 498px;">
+                      <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -852,7 +887,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 498px;">
+                      <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -875,7 +910,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 498px;">
+                      <div data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -898,7 +933,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="2" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 498px;">
+                      <div data-index="2" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -921,7 +956,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 498px;">
+                      <div data-index="3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -944,7 +979,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 498px;">
+                      <div data-index="4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -967,7 +1002,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 498px;">
+                      <div data-index="5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1000,8 +1035,8 @@
                 <div class="slick-slider slick-initialized" dir="ltr">
                   <button type="button" data-role="none" class="slick-arrow slick-prev" style="display: block;"> Previous</button>
                   <div class="slick-list">
-                    <div class="slick-track" style="width: 9960px; opacity: 1; transform: translate3d(-996px, 0px, 0px);">
-                      <div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 498px;">
+                    <div class="slick-track" style="width: 6360px; opacity: 1; transform: translate3d(-636px, 0px, 0px);">
+                      <div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1023,7 +1058,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 498px;">
+                      <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1045,7 +1080,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 498px;">
+                      <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1067,7 +1102,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 498px;">
+                      <div data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1089,7 +1124,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="2" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 498px;">
+                      <div data-index="2" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1111,29 +1146,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 498px;">
-                        <div>
-                          <div tabindex="-1" style="width: 100%; display: inline-block;">
-                            <div class="game-block-wrap">
-                              <div class="game-block">
-                                <div class="image-wrap">
-                                  <div class="image" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/b1fc8a393f8e15c9c1465d6ea5d2e73152c54ee4_medium.gif?1677853044&quot;);"></div>
-                                  <div class="overlay">
-                                    <div class="middle">
-                                      <button class="play">
-                                        <i class="icon-play "></i>
-                                        <span>HEMEN OYNA</span>
-                                      </button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <h2>Özel Marsbahis Rulet - Pragmatic Play</h2>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div data-index="4" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 498px;">
+                      <div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1155,7 +1168,29 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="5" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 498px;">
+                      <div data-index="4" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 318px;">
+                        <div>
+                          <div tabindex="-1" style="width: 100%; display: inline-block;">
+                            <div class="game-block-wrap">
+                              <div class="game-block">
+                                <div class="image-wrap">
+                                  <div class="image" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/b1fc8a393f8e15c9c1465d6ea5d2e73152c54ee4_medium.gif?1677853044&quot;);"></div>
+                                  <div class="overlay">
+                                    <div class="middle">
+                                      <button class="play">
+                                        <i class="icon-play "></i>
+                                        <span>HEMEN OYNA</span>
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <h2>Özel Marsbahis Rulet - Pragmatic Play</h2>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-index="5" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1177,7 +1212,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="6" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 498px;">
+                      <div data-index="6" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1199,7 +1234,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 498px;">
+                      <div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1221,7 +1256,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="8" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 498px;">
+                      <div data-index="8" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1243,7 +1278,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="9" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 498px;">
+                      <div data-index="9" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1265,7 +1300,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="10" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 498px;">
+                      <div data-index="10" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1287,7 +1322,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="11" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 498px;">
+                      <div data-index="11" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1309,29 +1344,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="12" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 498px;">
-                        <div>
-                          <div tabindex="-1" style="width: 100%; display: inline-block;">
-                            <div class="game-block-wrap">
-                              <div class="game-block">
-                                <div class="image-wrap">
-                                  <div class="image" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/b1fc8a393f8e15c9c1465d6ea5d2e73152c54ee4_medium.gif?1677853044&quot;);"></div>
-                                  <div class="overlay">
-                                    <div class="middle">
-                                      <button class="play">
-                                        <i class="icon-play "></i>
-                                        <span>HEMEN OYNA</span>
-                                      </button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <h2>Özel Marsbahis Rulet - Pragmatic Play</h2>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div data-index="13" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 498px;">
+                      <div data-index="12" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1353,7 +1366,29 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="14" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 498px;">
+                      <div data-index="13" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 318px;">
+                        <div>
+                          <div tabindex="-1" style="width: 100%; display: inline-block;">
+                            <div class="game-block-wrap">
+                              <div class="game-block">
+                                <div class="image-wrap">
+                                  <div class="image" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/b1fc8a393f8e15c9c1465d6ea5d2e73152c54ee4_medium.gif?1677853044&quot;);"></div>
+                                  <div class="overlay">
+                                    <div class="middle">
+                                      <button class="play">
+                                        <i class="icon-play "></i>
+                                        <span>HEMEN OYNA</span>
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <h2>Özel Marsbahis Rulet - Pragmatic Play</h2>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-index="14" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1375,7 +1410,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="15" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 498px;">
+                      <div data-index="15" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1397,7 +1432,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="16" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 498px;">
+                      <div data-index="16" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
@@ -1419,7 +1454,7 @@
                           </div>
                         </div>
                       </div>
-                      <div data-index="17" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 498px;">
+                      <div data-index="17" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true" style="width: 318px;">
                         <div>
                           <div tabindex="-1" style="width: 100%; display: inline-block;">
                             <div class="game-block-wrap">
