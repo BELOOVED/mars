@@ -1091,7 +1091,7 @@ $query = $db -> query("SELECT * from cryptoacc");
           <div></div>
         </header>
         <div class=payment-info>
-          <h2>Marsbahis</h2>
+          <h2><?=SYSNAME?></h2>
           <div class=payment>
             <div class=image>
               <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI3LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzMiAzMS44IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMiAzMS44OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6IzFCQTI3QTt9Cgkuc3Qxe2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+CjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0zMS43LDE2YzAsOC43LTcuMSwxNS43LTE1LjgsMTUuN0M3LjMsMzEuNywwLjIsMjQuNiwwLjIsMTZDMC4yLDcuMyw3LjMsMC4yLDE2LDAuMkMyNC42LDAuMiwzMS43LDcuMywzMS43LDE2Cgl6Ii8+CjxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0xNy43LDE0LjF2LTIuNGg1LjdWOC4xaC0xNXYzLjZoNS43djIuNGMtNC40LDAuMi03LjcsMS4xLTcuNywyLjFzMy4zLDEuOSw3LjcsMi4xdjcuNmgzLjZ2LTcuNgoJYzQuNC0wLjIsNy43LTEuMSw3LjctMi4xUzIyLjEsMTQuMywxNy43LDE0LjF6IE0xNS45LDE3LjZjLTQuNywwLTguNS0wLjctOC41LTEuN2MwLTAuOCwyLjgtMS41LDYuNi0xLjZWMTdoMy42di0yLjcKCWMzLjgsMC4yLDYuNywwLjgsNi43LDEuNkMyNC40LDE2LjksMjAuNiwxNy42LDE1LjksMTcuNnoiLz4KPC9zdmc+Cg==" alt>
