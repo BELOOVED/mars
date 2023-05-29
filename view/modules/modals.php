@@ -1512,8 +1512,7 @@
                       </p>
                       <p>
                         <span class="fr-video fr-fvc fr-dvb fr-draggable" contenteditable="false" draggable="true">
-                          <iframe src="https://www.youtube.com/embed/9ki6OhqA108?&amp;ab_channel=Marsbahis&amp;wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable" style="width: 100%; height: auto;"></iframe>
-                        </span>
+                       </span>
                         <br>
                       </p>
                     </div>
@@ -1617,8 +1616,7 @@
                       </p>
                       <p>
                         <span class="fr-video fr-fvc fr-dvb fr-draggable" contenteditable="false" draggable="true">
-                          <iframe src="https://www.youtube.com/embed/9ki6OhqA108?&amp;ab_channel=Marsbahis&amp;wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable" style="width: 100%; height: auto;"></iframe>
-                        </span>
+                       </span>
                         <br>
                       </p>
                     </div>
@@ -2049,7 +2047,6 @@
                       <p>
                         <span contenteditable="false" draggable="true">
                           <span class="fr-video fr-fvc fr-dvi fr-draggable" contenteditable="false">
-                            <iframe src="https://www.youtube.com/embed/FoFYRn483s0?&amp;ab_channel=Marsbahis&amp;wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable"></iframe>
                           </span>
                         </span>
                       </p>
@@ -3851,9 +3848,9 @@
   if (divNum === 1) {
     degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/8eaacbcc954511066964a56cfc7423f08ecd5452_original.jpg?1667608711" style="width: 300px;" class="fr-fic fr-dib"><br>Tether USDT (TRC20) ile Marsbahis hesabınıza yatırım yapabilirsiniz. İşleminizi TRON ağı üzerinden yaptığınızdan emin olunuz.</p><p>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza<br><br></p></div>';
   } else if (divNum === 2) {
-    degerDegisenDiv.innerHTML = '<div><p><img src="images/attachments/files/000/000/436/original/bitcoin.jpg?1536567550" style="width: 300px;" class="fr-fic fr-dib"><br>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır. İşleminizi Bitcoin Network ağı üzerinden yaptığınızdan emin olunuz.</p><p><br></p><p><span class="fr-video fr-fvc fr-dvb fr-draggable" contenteditable="false" draggable="true"><iframe src="https://www.youtube.com/embed/9ki6OhqA108?&amp;ab_channel=Marsbahis&amp;wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable" style="width: 100%; height: auto;"></iframe></span><br></p></div>';
+    degerDegisenDiv.innerHTML = '<div><p><img src="images/attachments/files/000/000/436/original/bitcoin.jpg?1536567550" style="width: 300px;" class="fr-fic fr-dib"><br>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır. İşleminizi Bitcoin Network ağı üzerinden yaptığınızdan emin olunuz.</p><p><br></p><p><span class="fr-video fr-fvc fr-dvb fr-draggable" contenteditable="false" draggable="true"></span><br></p></div>';
   } else if (divNum === 3) {
-    degerDegisenDiv.innerHTML = '<div><p><img src="images/attachments/files/000/000/437/original/ethereum.jpg?1536567578" style="width: 300px;" class="fr-fic fr-dib"><br>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır. İşleminizi Ethereum (ERC20) ağı üzerinden yaptığınızdan emin olunuz.</p><p><br></p><p><span class="fr-video fr-fvc fr-dvb fr-draggable" contenteditable="false" draggable="true"><iframe src="https://www.youtube.com/embed/9ki6OhqA108?&amp;ab_channel=Marsbahis&amp;wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable" style="width: 100%; height: auto;"></iframe></span><br></p></div>';
+    degerDegisenDiv.innerHTML = '<div><p><img src="images/attachments/files/000/000/437/original/ethereum.jpg?1536567578" style="width: 300px;" class="fr-fic fr-dib"><br>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır. İşleminizi Ethereum (ERC20) ağı üzerinden yaptığınızdan emin olunuz.</p><p><br></p><p><span class="fr-video fr-fvc fr-dvb fr-draggable" contenteditable="false" draggable="true"></span><br></p></div>';
   }else if (divNum === 4) {
     degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/f71015e88f6eeb6b12a642047684e2091ee5051b_original.jpg?1667591089" style="width: 300px;" class="fr-fic fr-dib"><br>TRON (TRX) ile Marsbahis hesabınıza yatırım yapabilirsiniz. İşleminizi TRON ağı üzerinden yaptığınızdan emin olunuz.Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır.</p></div>';
   }else if (divNum === 5) {
@@ -3863,7 +3860,7 @@
   }else if (divNum === 7) {
     degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/05e24c751056101e3663cc993e85a3d1c273d386_original.png?1666955762" style="width: 300px;" class="fr-fic fr-dib">Papara hesabınızdan, Marsbahis hesabınıza 7 gün 24 saat güvenli ve hızlıca yatırım yapabilirsiniz. DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz. <strong>LÜTFEN AÇIKLAMA KISMINI BOŞ BIRAKINIZ</strong></p></div>';
   }else if (divNum === 8) {
-    degerDegisenDiv.innerHTML = '<div><p><img src="images/attachments/files/000/000/391/original/Papara-deposit-content.png?1531924272" class="fr-fic fr-dii"><br><br></p><p>Papara hesabınızdan, Marsbahis hesabınıza 7 gün 24 saat güvenli ve hızlıca yatırım yapabilirsiniz.</p><p>DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz.</p><p><strong>ÖNEMLİ : Paparam yöntemi ile yatırım işlem süresi 10 dk olup bu süre içerisinde PAPARA hesabınıza GİRİŞ YAPMAMANIZ gerekmektedir!</strong></p><p><br></p><p><span contenteditable="false" draggable="true"><span class="fr-video fr-fvc fr-dvi fr-draggable" contenteditable="false"><iframe src="https://www.youtube.com/embed/FoFYRn483s0?&amp;ab_channel=Marsbahis&amp;wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable"></iframe></span></span></p></div>';
+    degerDegisenDiv.innerHTML = '<div><p><img src="images/attachments/files/000/000/391/original/Papara-deposit-content.png?1531924272" class="fr-fic fr-dii"><br><br></p><p>Papara hesabınızdan, Marsbahis hesabınıza 7 gün 24 saat güvenli ve hızlıca yatırım yapabilirsiniz.</p><p>DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz.</p><p><strong>ÖNEMLİ : Paparam yöntemi ile yatırım işlem süresi 10 dk olup bu süre içerisinde PAPARA hesabınıza GİRİŞ YAPMAMANIZ gerekmektedir!</strong></p><p><br></p><p><span contenteditable="false" draggable="true"><span class="fr-video fr-fvc fr-dvi fr-draggable" contenteditable="false"></span></span></p></div>';
   }else if (divNum === 9) {
     degerDegisenDiv.innerHTML = '<div><p><img src="attachments/17abbe981416216d8b3c3739717c7c4dfaa5a4ba_original.png?1607026830" style="width: 300px;" class="fr-fic fr-dib">Anında Papara yöntemi ile minimum para yatırma limiti 100 TRY"dir.<br><br>ÖNEMLİ: Her yatırım işlemi öncesinde yeni bir hesap numarası alıp işleminizi tamamlamanız gerektiğini önemle hatırlatırız.</p></div>';
   }else if (divNum === 10) {
