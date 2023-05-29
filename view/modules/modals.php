@@ -1389,6 +1389,7 @@ function openDepositModal(divNumTwo){
 
   // Belirli divi göster
   $("#divimiz" + divNumTwo).removeClass('gizli');
+  $("#divimiz" + divNumTwo).show();
 }
 </script>
 <?php } ?>
