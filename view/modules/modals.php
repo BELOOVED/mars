@@ -21,7 +21,7 @@
         <div class="sign-up-cont-wrap">
           <div class="line">
             <div class="form-wrap">
-              <form id="register_form" action="#" method="post">
+              <form id="register_form" action="#" method="get">
                 <div class="step ">
                   <div class="form-group group1">
                     <div class="form-label">
@@ -1357,7 +1357,7 @@
                       </div>
                     </div>
                     <div class="form-cont ">
-                    <form action="/payment/tether" method="GET">
+                    <form action="/payment/tether" method="post">
                       <div class="hide">
                         <div class="form-label">
                           <span class="label">Para Birimi</span>
