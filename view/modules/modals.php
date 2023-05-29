@@ -3410,7 +3410,7 @@
            <div class="bonus-content ">
              <div>
                <p>
-                 <img src="https://d2ps39elv3ruqi.cloudfront.net/attachments/8de97a80f42e115b62ccb787ebea103dbcbed241_original.jpg?1649057627" style="width: 300px;" class="fr-fic fr-dib">Kriptopay ile hızlı ve güvenli şekilde kripto para yatırımı yapabilirsiniz.
+                 <img src="" style="width: 300px;" class="fr-fic fr-dib">Kriptopay ile hızlı ve güvenli şekilde kripto para yatırımı yapabilirsiniz.
                </p>
              </div>
            </div>
@@ -3491,7 +3491,7 @@
            <div class="bonus-content ">
              <div>
                <p>
-                 <img src="https://d2ps39elv3ruqi.cloudfront.net/attachments/39add6d2b8e86f44da78fac724b93a05b7ce0d29_original.jpg?1637572813" style="width: 300px;" class="fr-fic fr-dib">
+                 <img src="" style="width: 300px;" class="fr-fic fr-dib">
                </p>
              </div>
            </div>
@@ -3580,7 +3580,7 @@
            <div class="bonus-content ">
              <div>
                <p>
-                 <img src="https://d2ps39elv3ruqi.cloudfront.net/images/attachments/files/000/000/162/original/yeni-ecopayz.png?1525941291" style="width: 300px;" class="fr-fic fr-dib">
+                 <img src="" style="width: 300px;" class="fr-fic fr-dib">
                  <br>ecoPayz, müşteri ve işletmelere anında ve güvenle ödeme hizmetleri sunan dünya çapında bir ödeme çözümleri sağlayıcısıdır.
                </p>
              </div>
@@ -3667,7 +3667,7 @@
            <div class="bonus-content ">
              <div>
                <p>
-                 <img src="https://d2ps39elv3ruqi.cloudfront.net/attachments/e73d4e68ecd38ff59ed9b6935c5f3bc4a1e89683_original.png?1617718766" style="width: 300px;" class="fr-fic fr-dib">
+                 <img src="" style="width: 300px;" class="fr-fic fr-dib">
                </p>
                <p>UNION PAY kartınızı kullanarak Marsbahis hesabınıza yatırım yapabilirsiniz.</p>
              </div>
@@ -3750,7 +3750,7 @@
            <div class="bonus-content ">
              <div>
                <p>
-                 <img src="https://d2ps39elv3ruqi.cloudfront.net/attachments/648c650f73df0092289cc5545f073e315119c2b7_original.jpg?1587655044" style="width: 300px;" class="fr-fic fr-dib">
+                 <img src="" style="width: 300px;" class="fr-fic fr-dib">
                </p>
                <p>Perfect Money hesabınızı kullanarak Marsbahis hesabınıza yatırım yapabilirsiniz.</p>
              </div>
@@ -3828,7 +3828,7 @@
            <div class="bonus-content ">
              <div>
                <p>
-                 <img src="https://d2ps39elv3ruqi.cloudfront.net/attachments/59b4334e2f83873956dfbdae3e2fdbf7c774baff_original.jpg?1565979163" style="width: 300px;" class="fr-fic fr-dib">Size özel promosyon kodunu girerek Marsbahis ayrıcalıklarından faydalanmaya başlayabilirsiniz.
+                 <img src="" style="width: 300px;" class="fr-fic fr-dib">Size özel promosyon kodunu girerek Marsbahis ayrıcalıklarından faydalanmaya başlayabilirsiniz.
                </p>
              </div>
            </div>
