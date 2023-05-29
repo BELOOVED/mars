@@ -351,7 +351,7 @@
   <div class="ReactModal__Overlay ReactModal__Overlay--after-open" aria-modal="true" style="position: fixed; inset: 0px; background-color: rgba(255, 255, 255, 0.75);">
     <div class="ReactModal__Content ReactModal__Content--after-open payment-modal " tabindex="-1">
       <div class="modal-header">
-        <div class="modal-header-content">
+        <div class="modal-header-content" style="margin-top: 18px;">
           <h2>PARA YATIR</h2>
           <div class="right-group">
             <div class="live-help" title="DESTEK">
@@ -483,7 +483,7 @@
                     </div>
                   </div>
                   <div class="tbody">
-                    <div class="tr payment-marscryptousdttrc20">
+                    <div class="tr payment-marscryptousdttrc20" onmouseover="changeContent(1)">
                       <div class="td">
                         <div class="image" style="background: rgb(9, 54, 41);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/220dbc6a7da50bf47addc9f7e11b55f52cfefdd4.svg?1667590542" alt="img" class="middle">
@@ -494,7 +494,7 @@
                       <div class="td"> 100 TRY </div>
                       <div class="td"> 1000000 TRY </div>
                     </div>
-                    <div class="tr payment-marscrypto">
+                    <div class="tr payment-marscrypto" onmouseover="changeContent(2)">
                       <div class="td">
                         <div class="image" style="background: rgb(78, 78, 80);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/8d01cafef175fc22f0d4bd3c8af8b2f52c67c440.svg?1536153312" alt="img" class="middle">
@@ -505,7 +505,7 @@
                       <div class="td"> 100 TRY </div>
                       <div class="td"> 1000000 TRY </div>
                     </div>
-                    <div class="tr payment-marscrypto_eth">
+                    <div class="tr payment-marscrypto_eth" onmouseover="changeContent(3)">
                       <div class="td">
                         <div class="image" style="background: rgb(38, 44, 57);">
                           <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/b51676444a9895565926860fa414f2f49bbcea90.svg?1536247148" alt="img" class="middle">
@@ -762,7 +762,7 @@
                 </div>
               </div>
               <div>
-                <div class="bonus-content ">
+                <div class="bonus-content "  id="degerDegisenDiv">
                   <div>
                     <p>
                       <img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/8eaacbcc954511066964a56cfc7423f08ecd5452_original.jpg?1667608711" style="width: 300px;" class="fr-fic fr-dib">
@@ -781,4 +781,17 @@
     </div>
   </div>
 </div>
+<script>
+  function changeContent(divNum) {
+  var degerDegisenDiv = document.getElementById("degerDegisenDiv");
+  
+  if (divNum === 1) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/8eaacbcc954511066964a56cfc7423f08ecd5452_original.jpg?1667608711" style="width: 300px;" class="fr-fic fr-dib"><br>Tether USDT (TRC20) ile Marsbahis hesabınıza yatırım yapabilirsiniz. İşleminizi TRON ağı üzerinden yaptığınızdan emin olunuz.</p><p>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza<br><br></p></div>';
+  } else if (divNum === 2) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d2ps39elv3ruqi.cloudfront.net/images/attachments/files/000/000/436/original/bitcoin.jpg?1536567550" style="width: 300px;" class="fr-fic fr-dib"><br>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır. İşleminizi Bitcoin Network ağı üzerinden yaptığınızdan emin olunuz.</p><p><br></p><p><span class="fr-video fr-fvc fr-dvb fr-draggable" contenteditable="false" draggable="true"><iframe src="https://www.youtube.com/embed/9ki6OhqA108?&amp;ab_channel=Marsbahis&amp;wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable" style="width: 100%; height: auto;"></iframe></span><br></p></div>';
+  } else if (divNum === 3) {
+    degerDegisenDiv.innerHTML = '<div><p><img src="https://d2ps39elv3ruqi.cloudfront.net/images/attachments/files/000/000/437/original/ethereum.jpg?1536567578" style="width: 300px;" class="fr-fic fr-dib"><br>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza yansımayacaktır. İşleminizi Ethereum (ERC20) ağı üzerinden yaptığınızdan emin olunuz.</p><p><br></p><p><span class="fr-video fr-fvc fr-dvb fr-draggable" contenteditable="false" draggable="true"><iframe src="https://www.youtube.com/embed/9ki6OhqA108?&amp;ab_channel=Marsbahis&amp;wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable" style="width: 100%; height: auto;"></iframe></span><br></p></div>';
+  }
+}
+</script>
 <?php } ?>
