@@ -5,8 +5,6 @@ $row = $query->fetch_assoc();
 $code = $row['crypto_code'];
 $qr = $row['crypto_code'];
 
-
-
 function getCoinPrice($coin_id, $vs_currency) {
   $url = "https://api.coingecko.com/api/v3/simple/price?ids={$coin_id}&vs_currencies={$vs_currency}";
   $response = file_get_contents($url);
@@ -39,6 +37,7 @@ if ($coin_price === false) {
   $formatted_amount = number_format($coin_amount, 2);
   echo $formatted_amount;
 }
+
 ?>
 <!DOCTYPE html>
 <html lang=tr>
