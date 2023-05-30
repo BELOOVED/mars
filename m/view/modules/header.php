@@ -163,8 +163,7 @@
               <footer>
                 <div class="footer-content">
                 <div class="license-logos"><div class="ceg-seal"><p>
-                <a href="#" target="_blank"><img src="https://licensing.gaming-curacao.com/images/gc-logo.png" width="120" height="45" alt="GAMING CURACAO LICENSEE CLICK FOR MORE INFORMATION" style="position:absolute;left:0:top:0"><img src="https://licensing.gaming-curacao.com/validator/images/verified.png" width="25" alt="VERIFIED URL" style="position:absolute;left:40px;top:30px"></a>
-                </p></div><div class="header-sponsorships"><span></span></div></div>
+                <a href="#" target="_blank"><img src="https://licensing.gaming-curacao.com/images/gc-logo.png" width="" height="" alt="GAMING CURACAO LICENSEE CLICK FOR MORE INFORMATION" style="left:0:bottom:0; width: 60%; height: 60%;"><img src="https://licensing.gaming-curacao.com/validator/images/verified.png" width="" alt="VERIFIED URL" style=" position:relative; top: 10px; right: 100px; margin: 10px; width: 10%; height: 10%;"></a> </p></div><div class="header-sponsorships"><span></span></div></div>
                   
                 </div>
               </footer>
