@@ -166,8 +166,10 @@
                     <div style="margin-top: 18px;">
                       <div style="display: block;position: relative;overflow: hidden;max-width: 64px;min-width: 32px;">
                         <a href="#">
-                          <img alt="License Validation Link" style="width: 100%; height: auto" src="https://licensing.gaming-curacao.com/images/gc-logo.png">
-                          <img src="images/verified.png" width="25" alt="VERIFIED URL" style="position:absolute;left:40px;top:30px">
+                        <img alt="License Validation Link" style="width: 100%; height: auto" src="https://licensing.gaming-curacao.com/images/gc-logo.png">
+                        </a>
+                        <a href="#">
+                        <img src="images/verified.png" width="25" alt="VERIFIED URL" style="position:absolute;left:40px;top:30px">
                         </a>
                       </div>
                     </div>
