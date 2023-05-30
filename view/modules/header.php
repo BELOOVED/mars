@@ -147,7 +147,7 @@ if ($mobile) {
                         <div>
                           <ul>
                             <li>
-                              <a class="undefined " href="/sportsbook">
+                              <a class="undefined " href="/wisegaming">
                                 <span class="tooltip"> YENİ </span>
                                 <span>BAHİS</span>
                               </a>
