@@ -1149,7 +1149,7 @@
                <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form action="/payment/parazula" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -1202,7 +1202,7 @@
                <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form  action="/payment/payfix" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -1252,7 +1252,7 @@
                <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form  action="/payment/papara" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -1296,7 +1296,7 @@
                <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form  action="/papara/" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -1343,7 +1343,7 @@
                <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form  action="/papara/" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -1399,7 +1399,7 @@
                <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form  action="/payment/papara" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -1452,7 +1452,7 @@
                <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form  action="/papara/" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -1505,7 +1505,7 @@
                <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form  action="/jethavale/" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -1558,7 +1558,7 @@
                <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form  action="/jethavale/" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -1611,7 +1611,7 @@
                <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form  action="/payment/havale" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -1626,78 +1626,7 @@
                         </label>
                      </div>
                   </div>
-                  <div>
-                     <div class="form-label ">
-                        <span class="label">Banka Adı</span>
-                        <label class="mask-input">
-                           <div class="select">
-                              <select class="form-control-lg">
-                                 <option disabled="" value="default">Seçiniz...</option>
-                                 <option value="akbank">AKBANK T.A.Ş</option>
-                                 <option value="kuveytturk">KUVEYTTÜRK</option>
-                                 <option value="denizbank">DENİZBANK A.Ş</option>
-                                 <option value="finansbank">FINANSBANK</option>
-                                 <option value="ing">ING BANK A.Ş</option>
-                                 <option value="ziraat">TÜRKİYE CUMHURİYETİ ZİRAAT BANKASI A.Ş</option>
-                                 <option value="garanti">TÜRKİYE GARANTİ BANKASI A.Ş</option>
-                                 <option value="halkbank">TÜRKİYE HALK BANKASI A.Ş</option>
-                                 <option value="isbank">TÜRKİYE İŞ BANKASI A.Ş</option>
-                                 <option value="albaraka">ALBARAKA TÜRK KATILIM BANKASI</option>
-                                 <option value="vakifbank">TÜRKİYE VAKIFLAR BANKASI T.A.O</option>
-                                 <option value="ykb">YAPI VE KREDİ BANKASI A.Ş</option>
-                                 <option value="teb">TEB</option>
-                                 <option value="finanskatilim">TÜRKİYE FİNANS KATILIM BANKASI A.Ş.</option>
-                                 <option value="aktifbank">AKTİF YATIRIM BANKASI A.Ş.</option>
-                                 <option value="ziraatkatilim">ZİRAAT KATILIM BANKASI A.Ş.</option>
-                                 <option value="fibabank">FIBA BANK</option>
-                                 <option value="citybank">Citibank</option>
-                                 <option value="icbc">ICBC</option>
-                                 <option value="burganbank">Burgan Bank</option>
-                                 <option value="bankmellat">Bank Mellat</option>
-                                 <option value="habipbank">Habip Bank</option>
-                                 <option value="rabobank">Rabobank</option>
-                                 <option value="turklandbank">Turkland Bank A.Ş.</option>
-                                 <option value="bankofchinaturkey">Bank of China Turkey</option>
-                                 <option value="sekerbank">ŞEKERBANK A.Ş.</option>
-                              </select>
-                           </div>
-                        </label>
-                     </div>
-                  </div>
-                  <div>
-                     <div class="form-label "><span class="label">T.C. Kimlik Numarası</span><label class="mask-input"><input name="nationality_id" maxlength="11" type="text" class="input" value=""></label></div>
-                  </div>
-                  <div>
-                     <div class="form-label "><span class="label">Transfer Saati</span><label class="mask-input"><input name="transfer_time" placeholder="SS:DD" class="input" value=""></label></div>
-                  </div>
-                  <div>
-                     <div class="form-label ">
-                        <span class="label">Transfer Yöntemi</span>
-                        <div class="group-select"><a class="">ATM</a><a class="">BANK</a><label class="mask-input"><input type="hidden" class="input" value=""></label></div>
-                     </div>
-                  </div>
-                  <div>
-                     <div class="form-label ">
-                        <span class="label">Banka Grubu</span>
-                        <label class="mask-input">
-                           <div class="select">
-                              <select class="form-control-lg">
-                                 <option disabled="" value="default">Seçiniz...</option>
-                                 <option value="A">Group A</option>
-                              </select>
-                           </div>
-                        </label>
-                     </div>
-                  </div>
-                  <div>
-                     <div class="form-label "><span class="label">IBAN</span><label class="mask-input"><input name="iban" class="input" value=""></label></div>
-                  </div>
-                  <div>
-                     <div class="form-label ">
-                        <span class="label">Tutar</span>
-                        <div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" placeholder="Tutar" type="number" min="0" step="0.01" class="input" value=""></label></div>
-                     </div>
-                  </div>
+                  
                   <div class="converter">
                      <div class="form-label"><span class="mask-input"></span></div>
                   </div>
@@ -1727,7 +1656,7 @@
                <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form  action="/payment/havale" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -1774,7 +1703,7 @@
                <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form  action="/payment/paybol" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -1827,7 +1756,7 @@
                <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form  action="/payment/havale" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -1906,7 +1835,7 @@
                <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form action="/payment/cepbank" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -1919,385 +1848,6 @@
                               </select>
                            </div>
                         </label>
-                     </div>
-                  </div>
-                  <div>
-                     <div class="form-label ">
-                        <span class="label">Banka Adı</span>
-                        <label class="mask-input">
-                           <div class="select">
-                              <select class="form-control-lg">
-                                 <option disabled="" value="default">Seçiniz...</option>
-                                 <option value="denizbank">DENİZBANK A.Ş</option>
-                                 <option value="ing">ING BANK A.Ş</option>
-                                 <option value="garanti">TÜRKİYE GARANTİ BANKASI A.Ş</option>
-                                 <option value="isbank">TÜRKİYE İŞ BANKASI A.Ş</option>
-                                 <option value="kuveytturk">KUVEYT TÜRK KATILIM BANKASI A.Ş.</option>
-                                 <option value="finans">QNB FİNANSBANK A.Ş.</option>
-                                 <option value="vakifbank">VAKIFBANK A.Ş.</option>
-                                 <option value="ykb">YAPI VE KREDİ BANKASI A.Ş</option>
-                              </select>
-                           </div>
-                        </label>
-                     </div>
-                  </div>
-                  <div>
-                     <div class="form-label "><span class="label">Ad</span><label class="mask-input"><input name="first_name" placeholder="Ad" type="text" class="input" value=""></label></div>
-                  </div>
-                  <div>
-                     <div class="form-label "><span class="label">Soyad</span><label class="mask-input"><input name="last_name" placeholder="Soyad" type="text" class="input" value=""></label></div>
-                  </div>
-                  <div>
-                     <div class="form-label ">
-                        <span class="label">Gönderen Doğum Tarihi</span>
-                        <div class="birthday">
-                           <div class="form-group">
-                              <div class="select">
-                                 <select class="form-control-lg">
-                                    <option disabled="" value="default">dd</option>
-                                    <option value="1">01</option>
-                                    <option value="2">02</option>
-                                    <option value="3">03</option>
-                                    <option value="4">04</option>
-                                    <option value="5">05</option>
-                                    <option value="6">06</option>
-                                    <option value="7">07</option>
-                                    <option value="8">08</option>
-                                    <option value="9">09</option>
-                                    <option value="10">10</option>
-                                    <option value="11">11</option>
-                                    <option value="12">12</option>
-                                    <option value="13">13</option>
-                                    <option value="14">14</option>
-                                    <option value="15">15</option>
-                                    <option value="16">16</option>
-                                    <option value="17">17</option>
-                                    <option value="18">18</option>
-                                    <option value="19">19</option>
-                                    <option value="20">20</option>
-                                    <option value="21">21</option>
-                                    <option value="22">22</option>
-                                    <option value="23">23</option>
-                                    <option value="24">24</option>
-                                    <option value="25">25</option>
-                                    <option value="26">26</option>
-                                    <option value="27">27</option>
-                                    <option value="28">28</option>
-                                    <option value="29">29</option>
-                                    <option value="30">30</option>
-                                    <option value="31">31</option>
-                                 </select>
-                              </div>
-                              <div class="select">
-                                 <select class="form-control-lg">
-                                    <option disabled="" value="default">mm</option>
-                                    <option value="0">01</option>
-                                    <option value="1">02</option>
-                                    <option value="2">03</option>
-                                    <option value="3">04</option>
-                                    <option value="4">05</option>
-                                    <option value="5">06</option>
-                                    <option value="6">07</option>
-                                    <option value="7">08</option>
-                                    <option value="8">09</option>
-                                    <option value="9">10</option>
-                                    <option value="10">11</option>
-                                    <option value="11">12</option>
-                                 </select>
-                              </div>
-                              <div class="select">
-                                 <select class="form-control-lg">
-                                    <option disabled="" value="default">yyyy</option>
-                                    <option value="2005">2005</option>
-                                    <option value="2004">2004</option>
-                                    <option value="2003">2003</option>
-                                    <option value="2002">2002</option>
-                                    <option value="2001">2001</option>
-                                    <option value="2000">2000</option>
-                                    <option value="1999">1999</option>
-                                    <option value="1998">1998</option>
-                                    <option value="1997">1997</option>
-                                    <option value="1996">1996</option>
-                                    <option value="1995">1995</option>
-                                    <option value="1994">1994</option>
-                                    <option value="1993">1993</option>
-                                    <option value="1992">1992</option>
-                                    <option value="1991">1991</option>
-                                    <option value="1990">1990</option>
-                                    <option value="1989">1989</option>
-                                    <option value="1988">1988</option>
-                                    <option value="1987">1987</option>
-                                    <option value="1986">1986</option>
-                                    <option value="1985">1985</option>
-                                    <option value="1984">1984</option>
-                                    <option value="1983">1983</option>
-                                    <option value="1982">1982</option>
-                                    <option value="1981">1981</option>
-                                    <option value="1980">1980</option>
-                                    <option value="1979">1979</option>
-                                    <option value="1978">1978</option>
-                                    <option value="1977">1977</option>
-                                    <option value="1976">1976</option>
-                                    <option value="1975">1975</option>
-                                    <option value="1974">1974</option>
-                                    <option value="1973">1973</option>
-                                    <option value="1972">1972</option>
-                                    <option value="1971">1971</option>
-                                    <option value="1970">1970</option>
-                                    <option value="1969">1969</option>
-                                    <option value="1968">1968</option>
-                                    <option value="1967">1967</option>
-                                    <option value="1966">1966</option>
-                                    <option value="1965">1965</option>
-                                    <option value="1964">1964</option>
-                                    <option value="1963">1963</option>
-                                    <option value="1962">1962</option>
-                                    <option value="1961">1961</option>
-                                    <option value="1960">1960</option>
-                                    <option value="1959">1959</option>
-                                    <option value="1958">1958</option>
-                                    <option value="1957">1957</option>
-                                    <option value="1956">1956</option>
-                                    <option value="1955">1955</option>
-                                    <option value="1954">1954</option>
-                                    <option value="1953">1953</option>
-                                    <option value="1952">1952</option>
-                                    <option value="1951">1951</option>
-                                    <option value="1950">1950</option>
-                                    <option value="1949">1949</option>
-                                    <option value="1948">1948</option>
-                                    <option value="1947">1947</option>
-                                    <option value="1946">1946</option>
-                                    <option value="1945">1945</option>
-                                    <option value="1944">1944</option>
-                                    <option value="1943">1943</option>
-                                    <option value="1942">1942</option>
-                                    <option value="1941">1941</option>
-                                    <option value="1940">1940</option>
-                                    <option value="1939">1939</option>
-                                    <option value="1938">1938</option>
-                                    <option value="1937">1937</option>
-                                    <option value="1936">1936</option>
-                                    <option value="1935">1935</option>
-                                    <option value="1934">1934</option>
-                                    <option value="1933">1933</option>
-                                    <option value="1932">1932</option>
-                                    <option value="1931">1931</option>
-                                    <option value="1930">1930</option>
-                                    <option value="1929">1929</option>
-                                    <option value="1928">1928</option>
-                                    <option value="1927">1927</option>
-                                    <option value="1926">1926</option>
-                                    <option value="1925">1925</option>
-                                    <option value="1924">1924</option>
-                                    <option value="1923">1923</option>
-                                 </select>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div>
-                     <div class="form-label ">
-                        <span class="label">Gönderen Cep Telefonu</span>
-                        <div class="mask-input">
-                           <div class="form-group group3">
-                              <div class="react-tel-input" data-test-id="src_reacttelephoneinput_test_id_4">
-                                 <input type="tel" class="form-control" autocomplete="tel" placeholder="+1 (702) 123-4567" data-test-id="src_reacttelephoneinput_test_id_5" value="+">
-                                 <div class="flag-dropdown" data-test-id="src_reacttelephoneinput_test_id_6" tabindex="0">
-                                    <div class="selected-flag" title="Turkey (Türkiye): + 90" data-test-id="src_reacttelephoneinput_test_id_7">
-                                       <div class="flag tr" data-test-id="src_reacttelephoneinput_test_id_8" style="background-image: url(&quot;flags.png&quot;);">
-                                          <div class="arrow" data-test-id="src_reacttelephoneinput_test_id_9"></div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div>
-                     <div class="form-label "><span class="label">Gönderen T.C. Kimlik Numarası</span><label class="mask-input"><input name="nationality_id" maxlength="11" type="number" class="input" value=""></label></div>
-                  </div>
-                  <div>
-                     <div class="form-label ">
-                        <span class="label">Alıcı Doğum Tarihi</span>
-                        <div class="birthday">
-                           <div class="form-group">
-                              <div class="select">
-                                 <select class="form-control-lg">
-                                    <option disabled="" value="default">dd</option>
-                                    <option value="1">01</option>
-                                    <option value="2">02</option>
-                                    <option value="3">03</option>
-                                    <option value="4">04</option>
-                                    <option value="5">05</option>
-                                    <option value="6">06</option>
-                                    <option value="7">07</option>
-                                    <option value="8">08</option>
-                                    <option value="9">09</option>
-                                    <option value="10">10</option>
-                                    <option value="11">11</option>
-                                    <option value="12">12</option>
-                                    <option value="13">13</option>
-                                    <option value="14">14</option>
-                                    <option value="15">15</option>
-                                    <option value="16">16</option>
-                                    <option value="17">17</option>
-                                    <option value="18">18</option>
-                                    <option value="19">19</option>
-                                    <option value="20">20</option>
-                                    <option value="21">21</option>
-                                    <option value="22">22</option>
-                                    <option value="23">23</option>
-                                    <option value="24">24</option>
-                                    <option value="25">25</option>
-                                    <option value="26">26</option>
-                                    <option value="27">27</option>
-                                    <option value="28">28</option>
-                                    <option value="29">29</option>
-                                    <option value="30">30</option>
-                                    <option value="31">31</option>
-                                 </select>
-                              </div>
-                              <div class="select">
-                                 <select class="form-control-lg">
-                                    <option disabled="" value="default">mm</option>
-                                    <option value="0">01</option>
-                                    <option value="1">02</option>
-                                    <option value="2">03</option>
-                                    <option value="3">04</option>
-                                    <option value="4">05</option>
-                                    <option value="5">06</option>
-                                    <option value="6">07</option>
-                                    <option value="7">08</option>
-                                    <option value="8">09</option>
-                                    <option value="9">10</option>
-                                    <option value="10">11</option>
-                                    <option value="11">12</option>
-                                 </select>
-                              </div>
-                              <div class="select">
-                                 <select class="form-control-lg">
-                                    <option disabled="" value="default">yyyy</option>
-                                    <option value="2005">2005</option>
-                                    <option value="2004">2004</option>
-                                    <option value="2003">2003</option>
-                                    <option value="2002">2002</option>
-                                    <option value="2001">2001</option>
-                                    <option value="2000">2000</option>
-                                    <option value="1999">1999</option>
-                                    <option value="1998">1998</option>
-                                    <option value="1997">1997</option>
-                                    <option value="1996">1996</option>
-                                    <option value="1995">1995</option>
-                                    <option value="1994">1994</option>
-                                    <option value="1993">1993</option>
-                                    <option value="1992">1992</option>
-                                    <option value="1991">1991</option>
-                                    <option value="1990">1990</option>
-                                    <option value="1989">1989</option>
-                                    <option value="1988">1988</option>
-                                    <option value="1987">1987</option>
-                                    <option value="1986">1986</option>
-                                    <option value="1985">1985</option>
-                                    <option value="1984">1984</option>
-                                    <option value="1983">1983</option>
-                                    <option value="1982">1982</option>
-                                    <option value="1981">1981</option>
-                                    <option value="1980">1980</option>
-                                    <option value="1979">1979</option>
-                                    <option value="1978">1978</option>
-                                    <option value="1977">1977</option>
-                                    <option value="1976">1976</option>
-                                    <option value="1975">1975</option>
-                                    <option value="1974">1974</option>
-                                    <option value="1973">1973</option>
-                                    <option value="1972">1972</option>
-                                    <option value="1971">1971</option>
-                                    <option value="1970">1970</option>
-                                    <option value="1969">1969</option>
-                                    <option value="1968">1968</option>
-                                    <option value="1967">1967</option>
-                                    <option value="1966">1966</option>
-                                    <option value="1965">1965</option>
-                                    <option value="1964">1964</option>
-                                    <option value="1963">1963</option>
-                                    <option value="1962">1962</option>
-                                    <option value="1961">1961</option>
-                                    <option value="1960">1960</option>
-                                    <option value="1959">1959</option>
-                                    <option value="1958">1958</option>
-                                    <option value="1957">1957</option>
-                                    <option value="1956">1956</option>
-                                    <option value="1955">1955</option>
-                                    <option value="1954">1954</option>
-                                    <option value="1953">1953</option>
-                                    <option value="1952">1952</option>
-                                    <option value="1951">1951</option>
-                                    <option value="1950">1950</option>
-                                    <option value="1949">1949</option>
-                                    <option value="1948">1948</option>
-                                    <option value="1947">1947</option>
-                                    <option value="1946">1946</option>
-                                    <option value="1945">1945</option>
-                                    <option value="1944">1944</option>
-                                    <option value="1943">1943</option>
-                                    <option value="1942">1942</option>
-                                    <option value="1941">1941</option>
-                                    <option value="1940">1940</option>
-                                    <option value="1939">1939</option>
-                                    <option value="1938">1938</option>
-                                    <option value="1937">1937</option>
-                                    <option value="1936">1936</option>
-                                    <option value="1935">1935</option>
-                                    <option value="1934">1934</option>
-                                    <option value="1933">1933</option>
-                                    <option value="1932">1932</option>
-                                    <option value="1931">1931</option>
-                                    <option value="1930">1930</option>
-                                    <option value="1929">1929</option>
-                                    <option value="1928">1928</option>
-                                    <option value="1927">1927</option>
-                                    <option value="1926">1926</option>
-                                    <option value="1925">1925</option>
-                                    <option value="1924">1924</option>
-                                    <option value="1923">1923</option>
-                                 </select>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div>
-                     <div class="form-label ">
-                        <span class="label">Alıcı Cep Telefonu</span>
-                        <div class="mask-input">
-                           <div class="form-group group3">
-                              <div class="react-tel-input" data-test-id="src_reacttelephoneinput_test_id_4">
-                                 <input type="tel" class="form-control" autocomplete="tel" placeholder="+1 (702) 123-4567" data-test-id="src_reacttelephoneinput_test_id_5" value="+">
-                                 <div class="flag-dropdown" data-test-id="src_reacttelephoneinput_test_id_6" tabindex="0">
-                                    <div class="selected-flag" title="Turkey (Türkiye): + 90" data-test-id="src_reacttelephoneinput_test_id_7">
-                                       <div class="flag tr" data-test-id="src_reacttelephoneinput_test_id_8" style="background-image: url(&quot;flags.png&quot;);">
-                                          <div class="arrow" data-test-id="src_reacttelephoneinput_test_id_9"></div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div>
-                     <div class="form-label "><span class="label">Alıcı T.C. Kimlik Numarası</span><label class="mask-input"><input name="recipient_ssn" maxlength="11" type="number" class="input" value=""></label></div>
-                  </div>
-                  <div>
-                     <div class="form-label "><span class="label">Referans / Şifre</span><label class="mask-input"><input name="reference_number" class="input" value=""></label></div>
-                  </div>
-                  <div>
-                     <div class="form-label ">
-                        <span class="label">Tutar</span>
-                        <div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div>
                      </div>
                   </div>
                   <div class="converter">
@@ -2332,7 +1882,7 @@
                <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form  action="/payment/crypto" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -2342,29 +1892,6 @@
                               <select class="form-control-lg" disabled="">
                                  <option disabled="" value="default">Seçiniz...</option>
                                  <option value="0">TRY</option>
-                              </select>
-                           </div>
-                        </label>
-                     </div>
-                  </div>
-                  <div>
-                     <div class="form-label ">
-                        <span class="label">Kripto Para Birimi</span>
-                        <label class="mask-input">
-                           <div class="select">
-                              <select class="form-control-lg">
-                                 <option disabled="" value="default">Seçiniz...</option>
-                                 <option value="ADA.BEP2">Cardano (Binance Chain) (ADA)</option>
-                                 <option value="BCH">Bitcoin Cash (BCH)</option>
-                                 <option value="BNB">BNB Coin (BNB)</option>
-                                 <option value="BTG">Bitcoin Gold (BTG)</option>
-                                 <option value="DASH">Dash (DASH)</option>
-                                 <option value="ETC">Ether Classic (ETC)</option>
-                                 <option value="LINK.BEP20">Chainlink (BEP20) (LINK)</option>
-                                 <option value="LTC">Litecoin (LTC)</option>
-                                 <option value="XEM">NEM (XEM)</option>
-                                 <option value="XMR">Monero (XMR)</option>
-                                 <option value="XRP">Ripple (XRP)</option>
                               </select>
                            </div>
                         </label>
@@ -2408,7 +1935,7 @@
                 <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-                <form>
+                <form  action="/payment/pep" method="POST">
                     <div class="hide">
                     <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -2458,7 +1985,7 @@
                 <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-                <form>
+                <form  action="/payment/ecopayz" method="POST">
                     <div class="">
                     <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -2514,7 +2041,7 @@
                 <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-                <form>
+                <form  action="/payment/union" method="POST">
                     <div class="hide">
                     <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -2567,7 +2094,7 @@
                 <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-                <form>
+                <form  action="/payment/perfect" method="POST">
                     <div class="hide">
                     <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -2641,7 +2168,7 @@
                     <div class="converter">
                     <div class="form-label"><span class="mask-input"></span></div>
                     </div>
-                    <button class="button inactive-button"> Gönder </button>
+                    <button type="button" onclick="swal.fire('Bonusunuz Tanımlandı!','Canlı Destekle İletişime Geçip Bonusunuz Hakkında Bilgi Alabilirsiniz','success')" class="button inactive-button"> Gönder </button>
                 </form>
             </div>
         </div>
