@@ -874,7 +874,7 @@
             </div>
         </div>
     </div>
-    div class="ReactModalPortal modal" id="deposit-modal2">
+  <div class="ReactModalPortal modal" id="deposit-modal2">
   <div class="ReactModal__Overlay ReactModal__Overlay--after-open" aria-modal="true" style="position: fixed; inset: 0px; background-color: rgba(255, 255, 255, 0.75);">
     <div class="ReactModal__Content ReactModal__Content--after-open payment-modal  payment-modal-single" tabindex="-1">
       <div class="modal-tabs">
