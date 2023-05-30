@@ -902,7 +902,7 @@
                </div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form action="/payment/tether" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -973,7 +973,7 @@
                </div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form  action="/payment/bitcoin" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -1038,7 +1038,7 @@
                </div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form  action="/payment/ethereum" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>
@@ -1096,7 +1096,7 @@
                </div>
             </div>
             <div class="form-cont ">
-               <form>
+               <form  action="/payment/tron" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span> 
