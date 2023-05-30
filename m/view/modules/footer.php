@@ -4,9 +4,10 @@
     <button class="button sign-in" onclick="openmodal('signin-modal')"><i class="icon-mobile-profile"></i>GİRİŞ Yap</button>
   </div>
 <? }else{ ?>
+  <div class="search-box" id="searchDiv" style="display: none;"><div class="search-window"><div class="search-window-content"><div class="search-header"><h2>Lütfen aramak istediğiniz kelimeyi yazınız</h2><i class="icon-close-round"></i></div><div class="search-input"><span class="icon-wrap"><i class="icon-search middle"></i></span><input type="text" class="input" id="search-window-input" value=""></div><div class="search-result-tabs"></div><div class="search-result"></div></div></div></div>
       <div class="profile-menu">
         <div class="center" style="margin-top: 10px;">
-          <div class="header-mail" onclick="window.location.gref='messages'">
+          <div class="header-mail" onclick="window.location.href='messages'">
             <div class="middle">
               <div class="animation-wrap ">
                 <i class="icon-mobile-inbox"></i>
@@ -34,7 +35,7 @@
               <span>DESTEK</span>
             </div>
           </div>
-          <div class="search-box">
+          <div class="search-box" id="searchButton">
             <div class="middle">
               <i class="search-icon icon-zoom"></i>
               <span>ARA</span>
@@ -43,6 +44,11 @@
         </div>
       </div>
 <? } ?>
+<script>$(document).ready(function() {
+  $("#searchButton").click(function() {
+    $("#searchDiv").toggle();
+  });
+});</script>
 </div>
 </div>
 </div>
