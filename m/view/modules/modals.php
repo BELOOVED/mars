@@ -880,639 +880,78 @@
 <div class="ReactModalPortal modal" id="deposit-modal2">
   <div class="ReactModal__Overlay ReactModal__Overlay--after-open" aria-modal="true" style="position: fixed; inset: 0px; background-color: rgba(255, 255, 255, 0.75);">
     <div class="ReactModal__Content ReactModal__Content--after-open payment-modal  payment-modal-single" tabindex="-1">
-      <div class="modal-tabs">
-        <div class="payment-header-tabs">
-          <style>
-            .payment-header-marscryptousdttrc20 {
-              background: #093629 !important;
-            }
-
-            .payment-header-marscryptousdttrc20 .live-help {
-              border-color: #06261d !important;
-            }
-
-            .payment-header-marscryptousdttrc20 .icon-back-left {
-              color: #07291f;
-            }
-
-            .payment-header-marscryptousdttrc20 .icon-close {
-              color: #07291f !important;
-            }
-
-            .payment-header-marscrypto {
-              background: #4e4e50 !important;
-            }
-
-            .payment-header-marscrypto .live-help {
-              border-color: #373738 !important;
-            }
-
-            .payment-header-marscrypto .icon-back-left {
-              color: #3b3b3c;
-            }
-
-            .payment-header-marscrypto .icon-close {
-              color: #3b3b3c !important;
-            }
-
-            .payment-header-marscrypto_eth {
-              background: #262c39 !important;
-            }
-
-            .payment-header-marscrypto_eth .live-help {
-              border-color: #1b1f28 !important;
-            }
-
-            .payment-header-marscrypto_eth .icon-back-left {
-              color: #1d212b;
-            }
-
-            .payment-header-marscrypto_eth .icon-close {
-              color: #1d212b !important;
-            }
-
-            .payment-header-marscryptotrx {
-              background: #3f0906 !important;
-            }
-
-            .payment-header-marscryptotrx .live-help {
-              border-color: #2c0604 !important;
-            }
-
-            .payment-header-marscryptotrx .icon-back-left {
-              color: #2f0705;
-            }
-
-            .payment-header-marscryptotrx .icon-close {
-              color: #2f0705 !important;
-            }
-
-            .payment-header-peppara {
-              background: #3c2b6e !important;
-            }
-
-            .payment-header-peppara .live-help {
-              border-color: #2a1e4d !important;
-            }
-
-            .payment-header-peppara .icon-back-left {
-              color: #2d2053;
-            }
-
-            .payment-header-peppara .icon-close {
-              color: #2d2053 !important;
-            }
-
-            .payment-header-fixturka {
-              background: #393a3c !important;
-            }
-
-            .payment-header-fixturka .live-help {
-              border-color: #28292a !important;
-            }
-
-            .payment-header-fixturka .icon-back-left {
-              color: #2b2c2d;
-            }
-
-            .payment-header-fixturka .icon-close {
-              color: #2b2c2d !important;
-            }
-
-            .payment-header-premiumpapara {
-              background: #be2596 !important;
-            }
-
-            .payment-header-premiumpapara .live-help {
-              border-color: #851a69 !important;
-            }
-
-            .payment-header-premiumpapara .icon-back-left {
-              color: #8f1c71;
-            }
-
-            .payment-header-premiumpapara .icon-close {
-              color: #8f1c71 !important;
-            }
-
-            .payment-header-movenpaypapara {
-              background: #23b71d !important;
-            }
-
-            .payment-header-movenpaypapara .live-help {
-              border-color: #198014 !important;
-            }
-
-            .payment-header-movenpaypapara .icon-back-left {
-              color: #1a8916;
-            }
-
-            .payment-header-movenpaypapara .icon-close {
-              color: #1a8916 !important;
-            }
-
-            .payment-header-anindapapara {
-              background: #730e0e !important;
-            }
-
-            .payment-header-anindapapara .live-help {
-              border-color: #510a0a !important;
-            }
-
-            .payment-header-anindapapara .icon-back-left {
-              color: #560b0b;
-            }
-
-            .payment-header-anindapapara .icon-close {
-              color: #560b0b !important;
-            }
-
-            .payment-header-paysystem {
-              background: #de8787 !important;
-            }
-
-            .payment-header-paysystem .live-help {
-              border-color: #9b5f5f !important;
-            }
-
-            .payment-header-paysystem .icon-back-left {
-              color: #a76565;
-            }
-
-            .payment-header-paysystem .icon-close {
-              color: #a76565 !important;
-            }
-
-            .payment-header-propay {
-              background: #3088ba !important;
-            }
-
-            .payment-header-propay .live-help {
-              border-color: #225f82 !important;
-            }
-
-            .payment-header-propay .icon-back-left {
-              color: #24668c;
-            }
-
-            .payment-header-propay .icon-close {
-              color: #24668c !important;
-            }
-
-            .payment-header-turbohavale {
-              background: #01a2fe !important;
-            }
-
-            .payment-header-turbohavale .live-help {
-              border-color: #0171b2 !important;
-            }
-
-            .payment-header-turbohavale .icon-back-left {
-              color: #017abf;
-            }
-
-            .payment-header-turbohavale .icon-close {
-              color: #017abf !important;
-            }
-
-            .payment-header-aonehavale {
-              background: #6d33d9 !important;
-            }
-
-            .payment-header-aonehavale .live-help {
-              border-color: #4c2498 !important;
-            }
-
-            .payment-header-aonehavale .icon-back-left {
-              color: #5226a3;
-            }
-
-            .payment-header-aonehavale .icon-close {
-              color: #5226a3 !important;
-            }
-
-            .payment-header-banktransferalternate {
-              background: #ecf021 !important;
-            }
-
-            .payment-header-banktransferalternate .live-help {
-              border-color: #a5a817 !important;
-            }
-
-            .payment-header-banktransferalternate .icon-back-left {
-              color: #b1b419;
-            }
-
-            .payment-header-banktransferalternate .icon-close {
-              color: #b1b419 !important;
-            }
-
-            .payment-header-safirbanktransfer {
-              background: #80d5f3 !important;
-            }
-
-            .payment-header-safirbanktransfer .live-help {
-              border-color: #5a95aa !important;
-            }
-
-            .payment-header-safirbanktransfer .icon-back-left {
-              color: #60a0b6;
-            }
-
-            .payment-header-safirbanktransfer .icon-close {
-              color: #60a0b6 !important;
-            }
-
-            .payment-header-movenpaybanktransfer {
-              background: #5e2e91 !important;
-            }
-
-            .payment-header-movenpaybanktransfer .live-help {
-              border-color: #422066 !important;
-            }
-
-            .payment-header-movenpaybanktransfer .icon-back-left {
-              color: #47236d;
-            }
-
-            .payment-header-movenpaybanktransfer .icon-close {
-              color: #47236d !important;
-            }
-
-            .payment-header-turboyatirim {
-              background: #3d6b9f !important;
-            }
-
-            .payment-header-turboyatirim .live-help {
-              border-color: #2b4b6f !important;
-            }
-
-            .payment-header-turboyatirim .icon-back-left {
-              color: #2e5077;
-            }
-
-            .payment-header-turboyatirim .icon-close {
-              color: #2e5077 !important;
-            }
-
-            .payment-header-guvenliqr {
-              background: #dddddd !important;
-            }
-
-            .payment-header-guvenliqr .live-help {
-              border-color: #9b9b9b !important;
-            }
-
-            .payment-header-guvenliqr .icon-back-left {
-              color: #a6a6a6;
-            }
-
-            .payment-header-guvenliqr .icon-close {
-              color: #a6a6a6 !important;
-            }
-
-            .payment-header-cepbank {
-              background: #eb2030 !important;
-            }
-
-            .payment-header-cepbank .live-help {
-              border-color: #a51622 !important;
-            }
-
-            .payment-header-cepbank .icon-back-left {
-              color: #b01824;
-            }
-
-            .payment-header-cepbank .icon-close {
-              color: #b01824 !important;
-            }
-
-            .payment-header-kriptopay {
-              background: #1b213f !important;
-            }
-
-            .payment-header-kriptopay .live-help {
-              border-color: #13172c !important;
-            }
-
-            .payment-header-kriptopay .icon-back-left {
-              color: #14192f;
-            }
-
-            .payment-header-kriptopay .icon-close {
-              color: #14192f !important;
-            }
-
-            .payment-header-hetpa {
-              background: #3c2b6e !important;
-            }
-
-            .payment-header-hetpa .live-help {
-              border-color: #2a1e4d !important;
-            }
-
-            .payment-header-hetpa .icon-back-left {
-              color: #2d2053;
-            }
-
-            .payment-header-hetpa .icon-close {
-              color: #2d2053 !important;
-            }
-
-            .payment-header-ecopayz {
-              background: #23447b !important;
-            }
-
-            .payment-header-ecopayz .live-help {
-              border-color: #193056 !important;
-            }
-
-            .payment-header-ecopayz .icon-back-left {
-              color: #1a335c;
-            }
-
-            .payment-header-ecopayz .icon-close {
-              color: #1a335c !important;
-            }
-
-            .payment-header-monetix {
-              background: #b8acac !important;
-            }
-
-            .payment-header-monetix .live-help {
-              border-color: #817878 !important;
-            }
-
-            .payment-header-monetix .icon-back-left {
-              color: #8a8181;
-            }
-
-            .payment-header-monetix .icon-close {
-              color: #8a8181 !important;
-            }
-
-            .payment-header-perfectmoney {
-              background: #bb0909 !important;
-            }
-
-            .payment-header-perfectmoney .live-help {
-              border-color: #830606 !important;
-            }
-
-            .payment-header-perfectmoney .icon-back-left {
-              color: #8c0707;
-            }
-
-            .payment-header-perfectmoney .icon-close {
-              color: #8c0707 !important;
-            }
-
-            .payment-header-promocodebonus {
-              background: #533694 !important;
-            }
-
-            .payment-header-promocodebonus .live-help {
-              border-color: #3a2668 !important;
-            }
-
-            .payment-header-promocodebonus .icon-back-left {
-              color: #3e296f;
-            }
-
-            .payment-header-promocodebonus .icon-close {
-              color: #3e296f !important;
-            }
-            .gizli {
-              display: none;
-            }
-          </style>
-          <div onclick="openDepositModal(1)" class="tab-item payment-marscryptousdttrc20">
-            <div class="tab" style="background: rgb(9, 54, 41);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/220dbc6a7da50bf47addc9f7e11b55f52cfefdd4.svg?1667590542" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(2)" class="tab-item payment-marscrypto">
-            <div class="tab" style="background: rgb(78, 78, 80);" >
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/8d01cafef175fc22f0d4bd3c8af8b2f52c67c440.svg?1536153312" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(3)" class="tab-item payment-marscrypto_eth">
-            <div class="tab" style="background: rgb(38, 44, 57);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/b51676444a9895565926860fa414f2f49bbcea90.svg?1536247148" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(4)" class="tab-item payment-marscryptotrx">
-            <div class="tab" style="background: rgb(63, 9, 6);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/4b48f832fe39e8b621413c5d6c16a53779627ff5.svg?1667590754" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(5)" class="tab-item payment-peppara">
-            <div class="tab" style="background: rgb(60, 43, 110);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/b106e0ccc06df7ac496c2e816e2c9aa1de8ab427.svg?1637789647" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(6)" class="tab-item payment-fixturka">
-            <div class="tab" style="background: rgb(57, 58, 60);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/6a2d01a147c299805093524c933eeca80c8dc1e0.svg?1583574139" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(7)" class="tab-item payment-premiumpapara">
-            <div class="tab" style="background: rgb(190, 37, 150);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/a9e1db7eecdb8bf919f1bf8ee418b149f73c3f04.svg?1666955331" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(8)" class="tab-item payment-movenpaypapara">
-            <div class="tab" style="background: rgb(35, 183, 29);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/c6373fffac76a4aaaf80332bdb9d4cb7d3466c05.svg?1632494630" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(9)" class="tab-item payment-anindapapara">
-            <div class="tab" style="background: rgb(115, 14, 14);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0279168ff366018941330a1c766d42afbaf7f6ca.png?1607026021" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(10)" class="tab-item payment-paysystem">
-            <div class="tab" style="background: rgb(222, 135, 135);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/deea7bd80313efa17b8f1c45813b37c4152efadc.svg?1661864307" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(11)" class="tab-item payment-propay">
-            <div class="tab" style="background: rgb(48, 136, 186);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/9e5f016f0fb1de6fe4bbd2155fc6ccc0d7cd21bf.svg?1661864257" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(12)" class="tab-item payment-turbohavale">
-            <div class="tab" style="background: rgb(1, 162, 254);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/2ddd64a80a050af0a5bf49168994bb8cb854b663.svg?1661783052" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(13)" class="tab-item payment-aonehavale">
-            <div class="tab" style="background: rgb(109, 51, 217);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/52d82b1d66c614ac8d81bca0744321042adb9027.svg?1666686216" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(14)" class="tab-item payment-banktransferalternate">
-            <div class="tab" style="background: rgb(236, 240, 33);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/275ff0e22b32df9b08b5f4955b7a225762d87e31.svg?1610057981" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(15)" class="tab-item payment-safirbanktransfer">
-            <div class="tab" style="background: rgb(128, 213, 243);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/04667eaabfb141ff48f5d7bac6d561de30b24fdc.svg?1640563537" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(16)" class="tab-item payment-movenpaybanktransfer">
-            <div class="tab" style="background: rgb(94, 46, 145);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0f4c5e124952ce8de87e3ebf3b4d3514544aeb66.svg?1661845433" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(17)" class="tab-item payment-turboyatirim">
-            <div class="tab" style="background: rgb(61, 107, 159);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/211ac2d129c3fc8cf00da3c08feb124182ac8454.svg?1658404916" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(18)" class="tab-item payment-guvenliqr">
-            <div class="tab" style="background: rgb(221, 221, 221);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/d2097bb33f7a0bd422bedf015dbe20621cf7b2d4.svg?1673529029" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(19)" class="tab-item payment-cepbank">
-            <div class="tab" style="background: rgb(235, 32, 48);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/c90095e3a6085b730fc0f369afdf8ecb29d43cf0.svg?1525869289" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(20)" class="tab-item payment-kriptopay">
-            <div class="tab" style="background: rgb(27, 33, 63);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/127330bab54279b7fc53c6312417012b380df680.svg?1649057591" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(21)" class="tab-item payment-hetpa">
-            <div class="tab" style="background: rgb(60, 43, 110);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/37b67741d6fd7b4f7acd475c77c117240a4284a3.svg?1637572890" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(22)" class="tab-item payment-ecopayz">
-            <div class="tab" style="background: rgb(35, 68, 123);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0288931a779ff0070cc9c247dfa392cbc9c764b6.svg?1525868789" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(23)" class="tab-item payment-monetix">
-            <div class="tab" style="background: rgb(184, 172, 172);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/f72683dcf1f5c79c9d27baf07a4394451f2e5eed.png?1617718524" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(24)" class="tab-item payment-perfectmoney">
-            <div class="tab" style="background: rgb(187, 9, 9);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/311ef7061dc0696fc4ce0677bb77750925bc6f62.svg?1587655634" alt="img" class="middle">
-            </div>
-          </div>
-          <div onclick="openDepositModal(25)" class="tab-item payment-promocodebonus">
-            <div class="tab" style="background: rgb(83, 54, 148);">
-              <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/9010681ce92d7c3abc82bcd90cdef26de046b0dd.svg?1565979194" alt="img" class="middle">
-            </div>
-          </div>
-        </div>
-      </div>
+      
       <div class="modal-content" id="degeridegisendiv2">
         <div id="divimiz1" class="gizli">
-          <div class="modal-payments-single">
-            <div class="modal-header payment-header-marscryptousdttrc20">
-              <div class="modal-header-content">
+            <div class="modal-payments-single">
+            <div class="modal-header">
+                <i class="icon-arrow-left"></i>
+                <i class="icon-close-round"></i>
                 <h2> TETHER USDT (TRC20) (%20 BONUS) - PARA YATIR </h2>
-                <div class="right-group">
-                  <div class="live-help" title="DESTEK">
-                    <i class="support icon-help-rounded"></i>
-                    <p>Canlı Destek</p>
-                  </div>
-                  <i onclick="backDepositModal()" class="icon-back-left"></i>
-                  <i class="icon-close" onclick="closemodal()"></i>
-                </div>
-              </div>
             </div>
-            <div class="single-wrap">
-              <div class="line">
-                <div class="modal-content-payments-single">
-                  <h2>
-                    <span>Alt Limit 100 TRY</span>
-                    <span> - </span>
-                    <span>Üst Limit 1000000 TRY</span>
-                  </h2>
-                  <p class="description"> Tether USDT (TRC20) ile Marsbahis hesabınıza yatırım yapabilirsiniz. İşleminizi TRON ağı üzerinden yaptığınızdan emin olunuz.</p>
-                  <div class="single-payment-block 
-                    <!--payment-marscryptousdttrc20-->">
-                    <div class="">
-                      <div class="payment-form-bonuses">
-                        <div>
-                          <h2>Aktif Bonuslar</h2>
-                          <label class="checkbox">
-                            <input id="bonus_804" type="checkbox" name="bonus_accepted">
-                            <span class="icon icon-checkmark-round"></span>
-                            <span class="text">%20 Yatırım Bonusu (Max 4000 TRY)</span>
-                          </label>
-                        </div>
-                      </div>
+            <div class="text" style="background: rgb(9, 54, 41);">
+                <div class="image">
+                <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/220dbc6a7da50bf47addc9f7e11b55f52cfefdd4.svg?1667590542" alt="img">
+                <h3>Alt Limit 100 TRY - Üst Limit 1000000 TRY</h3>
+                </div>
+                <p class="description"> Tether USDT (TRC20) ile Marsbahis hesabınıza yatırım yapabilirsiniz. İşleminizi TRON ağı üzerinden yaptığınızdan emin olunuz.</p>
+            </div>
+            <div class="form-title">
+                <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+            </div>
+            <div class="modal-content-payments-single">
+                <div class="single-payment-block 
+                            <!--payment-marscryptousdttrc20-->">
+                <div class="">
+                    <div class="payment-form-bonuses">
+                    <div class="bonus-block">
+                        <h2>Aktif Bonuslar</h2>
+                        <label class="checkbox">
+                        <input id="bonus_804" type="checkbox" name="bonus_accepted">
+                        <span class="icon icon-checkmark-round"></span>
+                        <span class="text">%20 Yatırım Bonusu (Max 4000 TRY)</span>
+                        </label>
                     </div>
-                    <div class="form-cont ">
-                    <form action="/payment/tether" method="post">
-                      <div class="hide">
-                        <div class="form-label">
-                          <span class="label">Para Birimi</span>
-                          <label class="mask-input">
+                    </div>
+                </div>
+                <div class="form-cont ">
+                    <form>
+                    <div class="hide">
+                        <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
                             <div></div>
-                            <div class="Select is-clearable is-disabled is-searchable Select--single">
-                              <div class="Select-control">
-                                <span class="Select-multi-value-wrapper" id="react-select-6--value">
-                                  <div class="Select-placeholder">Para Birimi</div>
-                                  <div aria-expanded="false" aria-owns="" aria-activedescendant="react-select-6--value" aria-disabled="true" class="Select-input" role="combobox" tabindex="0" style="border: 0px; width: 1px; display: inline-block;"></div>
-                                </span>
-                                <span class="Select-arrow-zone">
-                                  <span class="Select-arrow"></span>
-                                </span>
-                              </div>
+                            <div class="select">
+                            <select class="form-control-lg" disabled="">
+                                <option disabled="" value="default">Seçiniz...</option>
+                                <option value="0">TRY</option>
+                            </select>
                             </div>
-                          </label>
+                        </label>
                         </div>
-                      </div>
-                      <div>
-                        <div class="form-label">
-                          <span class="label">Tutar</span>
-                          <div class="currency-symbol">
-                            <span class="symbol">TRY</span>
-                            <div>
-                              <label class="mask-input">
-                                <input name="amount" type="number" min="0" step="0.01" class="input" value="">
-                              </label>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="converter">
-                        <div class="form-label">
-                          <span class="mask-input"></span>
-                        </div>
-                      </div>
-                      <button type="submit" class="button active-button">Gönder</button>
-                    </form>
-
                     </div>
-                  </div>
-                </div>
-                <div>
-                  <div class="bonus-content ">
                     <div>
-                      <p>
-                        <img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/8eaacbcc954511066964a56cfc7423f08ecd5452_original.jpg?1667608711" style="width: 300px;" class="fr-fic fr-dib">
-                        <br>Tether USDT (TRC20) ile Marsbahis hesabınıza yatırım yapabilirsiniz. İşleminizi TRON ağı üzerinden yaptığınızdan emin olunuz.
-                      </p>
-                      <p>Lütfen her yatırımınızda sayfanın yönlendirdiği yeni cüzdana gönderim yapınız. Daha önce yatırım yaptığınız eski bir cüzdana gönderim yapmanız durumunda miktar hesabınıza <br>
-                        <br>
-                      </p>
+                        <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol">
+                            <span class="symbol">TRY</span>
+                            <label class="mask-input">
+                            <input name="amount" type="number" min="0" step="0.01" class="input" value="">
+                            </label>
+                        </div>
+                        </div>
                     </div>
-                  </div>
+                    <div class="converter">
+                        <div class="form-label">
+                        <span class="mask-input"></span>
+                        </div>
+                    </div>
+                    <button class="button inactive-button"> Gönder </button>
+                    </form>
                 </div>
-              </div>
+                </div>
             </div>
-          </div>
+            </div>
         </div>
         <div id="divimiz2" class="gizli">
           <div class="modal-payments-single">
