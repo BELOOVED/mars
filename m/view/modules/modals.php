@@ -314,6 +314,7 @@
             </div>
         </div>
     </div>
+</div> 
     <div class="ReactModalPortal modal" id="withdraw-modal">
     <div class="ReactModal__Overlay ReactModal__Overlay--after-open" aria-modal="true" style="position: fixed; inset: 0px; background-color: rgba(255, 255, 255, 0.75);">
         <div class="ReactModal__Content ReactModal__Content--after-open payment-modal " tabindex="-1">
