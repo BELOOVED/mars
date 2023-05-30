@@ -1,6 +1,6 @@
 <div class="active-class">
   <span style="opacity: 0.9;"></span>
-  <div>
+  <div class="">
     <div class="global-container mobile-home-page">
       <div class="banner">
         <div class="banner-container fade-effect">
@@ -35,8 +35,40 @@
       <div class="container">
         <div class="container-content">
           <div class="flex-wrap">
+            <div class="panel-below-slider">
+              <div>
+                <p>
+                  <img src="https://d1hpetrtq93mp2.cloudfront.net/attachments/f5da553563b04a8e8bd432f080b04694b5d4692b_original.png?1684148726" style="width: 100%;" class="fr-fic fr-dib">
+                </p>
+              </div>
+            </div>
+            <div class="panel-redirect-banner">
+              <div>
+                <p>Sitemize erişmek için <span>
+                    <a href="#" rel="noreferrer" target="_blank">bit.ly/marsbahisadres</a>
+                  </span> linkini kullanınız! </p>
+              </div>
+            </div>
+            <div class="panel-product-banners">
+              <h2>Promosyonlar</h2>
+              <div class="horizontal-scroll">
+                <div class="blocks-wrap">
+                  <a class="panel-product-banner-block " href="/tr/bonus-content?bonus_id=400">
+                    <img src="https://d1hpetrtq93mp2.cloudfront.net/product_banners/824977ddd9c9cb763c72085f6627d296b301d76a_medium.jpg?1609804806" alt="Cashback">
+                  </a>
+                  <a class="panel-product-banner-block " href="/tr/info/basinda-marsbahis">
+                    <img src="https://d1hpetrtq93mp2.cloudfront.net/product_banners/f4d57d9d32f92b491d631fefc6456af9dc1ac450_medium.jpg?1684148832" alt="Sponsorluklar">
+                  </a>
+                  <a class="panel-product-banner-block " href="/tr/bonus">
+                    <img src="https://d1hpetrtq93mp2.cloudfront.net/product_banners/72ef30f6ecfa57ea739ef2d3de80f250af2bc4a7_medium.jpg?1632727096" alt="Bitcoin Bonuses">
+                  </a>
+                  <a class="panel-product-banner-block " href="/tr/bonus-content?bonus_id=326">
+                    <img src="https://d1hpetrtq93mp2.cloudfront.net/product_banners/a929dd4aba008a7fd1a67b3af0709273ade45998_medium.jpg?1585754519" alt="%30 Affiliate Komisyonu!">
+                  </a>
+                </div>
+              </div>
+            </div>
             <div class="banner-panel-wrap">
-
               <div class="panel-games">
                 <div class="panel-game-block">
                   <h2>Casıno Oyunları</h2>
@@ -44,21 +76,21 @@
                     <div class="blocks-wrap">
                       <div class="game-block">
                         <div class="image-wrap">
-                          <div class="image" style="background-image: url(&quot;/m/assets/static/img/game_images/fd13d4a78986396e6c437939ec88b591a9fb9a0b_medium.jpg?1535101107&quot;);"></div>
+                          <div class="image" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/ce9a1889ecef370a7978a23100abf393ad295511_medium.?1646915701&quot;);"></div>
                         </div>
-                        <h2>House of Doom</h2>
+                        <h2>Aviator</h2>
                       </div>
                       <div class="game-block">
                         <div class="image-wrap">
-                          <div class="image" style="background-image: url(&quot;/m/assets/static/img/game_images/e1c18ec69bef2c9edc9badb67a9b60a0745a753c_medium.png?1542876519&quot;);"></div>
+                          <div class="image" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/640fedbe43fe203831b6bf157e4fa997d899338d_medium.gif?1626443062&quot;);"></div>
                         </div>
-                        <h2>Barnyard Twister</h2>
+                        <h2>Mars Bonanza</h2>
                       </div>
                       <div class="game-block">
                         <div class="image-wrap">
-                          <div class="image" style="background-image: url(&quot;/m/assets/static/img/game_images/944d06a599ebd66aa5b5ef1a739fd68758c6515b_medium.jpg?1532047871&quot;);"></div>
+                          <div class="image" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/4337a9dcdaabb9be26e13cdc9c80c181fda48c30_medium.?1684756468&quot;);"></div>
                         </div>
-                        <h2>Lost Relics</h2>
+                        <h2>Zeus vs Hades - Gods of War</h2>
                       </div>
                     </div>
                   </div>
@@ -69,50 +101,60 @@
                     <div class="blocks-wrap">
                       <div class="game-block">
                         <div class="image-wrap">
-                          <div class="image" style="background-image: url(&quot;./assets/img/banners/d3e9b86184bffd102786a680b53345c9407cc791_medium.jpg?1565003730&quot;);"></div>
+                          <div class="image" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/b8d6e722e648c0b1958d0ba9d627c27f17d75ad2_medium.jpg?1599661275&quot;);"></div>
+                        </div>
+                        <h2>Evolution Lightning Roulette</h2>
+                      </div>
+                      <div class="game-block">
+                        <div class="image-wrap">
+                          <div class="image" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/83e1650ce8cb91ad875020b674235e00fda9b7a0_medium.jpg?1655507712&quot;);"></div>
                         </div>
                         <h2>Ezugi Türkçe Blackjack</h2>
                       </div>
                       <div class="game-block">
                         <div class="image-wrap">
-                          <div class="image" style="background-image: url(&quot;./assets/img/banners/865c00705a5a6eca9b7c55710af56070ed6b256a_medium.png?1542724135&quot;);"></div>
+                          <div class="image" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/62214dbf58a1f6a240e2bd8babaa99fdadb3a81d_medium.png?1657627435&quot;);"></div>
                         </div>
-                        <h2>Lightning Roulette</h2>
+                        <h2>Boom City</h2>
                       </div>
                       <div class="game-block">
                         <div class="image-wrap">
-                          <div class="image" style="background-image: url(&quot;./assets/img/banners/5bfa4c849ebca9ee7d98bc6c054a99ea236736c2_medium.jpg?1558011648&quot;);"></div>
+                          <div class="image" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/b1fc8a393f8e15c9c1465d6ea5d2e73152c54ee4_medium.gif?1677853044&quot;);"></div>
+                        </div>
+                        <h2>Özel Marsbahis Rulet - Pragmatic Play</h2>
+                      </div>
+                      <div class="game-block">
+                        <div class="image-wrap">
+                          <div class="image" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/d2c0db4234667204db8372a41cb67ceb08aae724_medium.jpg?1652258950&quot;);"></div>
+                        </div>
+                        <h2>XXXtreme Lightning Roulette</h2>
+                      </div>
+                      <div class="game-block">
+                        <div class="image-wrap">
+                          <div class="image" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/5bfa4c849ebca9ee7d98bc6c054a99ea236736c2_medium.jpg?1558011648&quot;);"></div>
                         </div>
                         <h2>Monopoly Live</h2>
                       </div>
                       <div class="game-block">
                         <div class="image-wrap">
-                          <div class="image" style="background-image: url(&quot;./assets/img/banners/634f783b229b8524d21139a2fe0f5de25c8c7a4a_medium.jpg?1558012358&quot;);"></div>
+                          <div class="image" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/79dcbf0faf3deb2fdfb42a390152d505ea37e6a0_medium.gif?1677853011&quot;);"></div>
                         </div>
-                        <h2>Deal or no Deal</h2>
+                        <h2>Özel Marsbahis Blackjack - Pragmatic Play</h2>
+                      </div>
+                      <div class="game-block">
+                        <div class="image-wrap">
+                          <div class="image" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/978e8b8e45d79546fc0b660d92016189a4850a9f_medium.jpg?1641485887&quot;);"></div>
+                        </div>
+                        <h2>Pragmatic Play Türkçe Rulet</h2>
+                      </div>
+                      <div class="game-block">
+                        <div class="image-wrap">
+                          <div class="image" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/game_images/e7ea87cae77b46cc806ceb837abfb234dfe0abd5_medium.jpg?1591709754&quot;);"></div>
+                        </div>
+                        <h2>Crazy Time</h2>
                       </div>
                     </div>
                   </div>
-                </div>
-
-              </div>
-            </div>
-            <div class="panel-product-banners">
-              <h2>PROMOSYONLAR</h2>
-              <div class="horizontal-scroll">
-                <div class="blocks-wrap">
-                  <a class="panel-product-banner-block " href="promotions">
-                    <img src="./assets/img/banners/8c0da6225f0f410b5486e5e4fda1a38a9bfb5c02_medium.jpg?1585754619" alt="img">
-                  </a>
-                  <a class="panel-product-banner-block " href="promotions">
-                    <img src="./assets/img/banners/f17c595d2cd234b615714b2415cb6b4693af8402_medium.jpg?1585754572" alt="img">
-                  </a>
-                  <a class="panel-product-banner-block " href="promotions">
-                    <img src="./assets/img/banners/60701eea681e224da3ae90d0955452fb5896ec84_medium.jpg?1585755483" alt="img">
-                  </a>
-                  <a class="panel-product-banner-block " href="promotions">
-                    <img src="./assets/img/banners/a929dd4aba008a7fd1a67b3af0709273ade45998_medium.jpg?1585754519" alt="img">
-                  </a>
                 </div>
               </div>
             </div>
