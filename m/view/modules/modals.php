@@ -868,218 +868,1785 @@
 <div class="ReactModalPortal modal" id="deposit-modal2">
   <div class="ReactModal__Overlay ReactModal__Overlay--after-open" aria-modal="true" style="position: fixed; inset: 0px; background-color: rgba(255, 255, 255, 0.75);">
     <div class="ReactModal__Content ReactModal__Content--after-open payment-modal  payment-modal-single" tabindex="-1">
-      
-      <div class="modal-content" id="degeridegisendiv2">
-        <div id="divimiz1" class="gizli">
-            <div class="modal-payments-single">
-            <div class="modal-header">
-                <i onclick="backDepositModal()" class="icon-back-left"></i>
-                <i class="icon-close" onclick="closemodal()"></i>
-                <h2> TETHER USDT (TRC20) (%20 BONUS) - PARA YATIR </h2>
-            </div>
-            <div class="text" style="background: rgb(9, 54, 41);">
-                <div class="image">
-                <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/220dbc6a7da50bf47addc9f7e11b55f52cfefdd4.svg?1667590542" alt="img">
-                <h3>Alt Limit 100 TRY - Üst Limit 1000000 TRY</h3>
-                </div>
-                <p class="description"> Tether USDT (TRC20) ile Marsbahis hesabınıza yatırım yapabilirsiniz. İşleminizi TRON ağı üzerinden yaptığınızdan emin olunuz.</p>
-            </div>
-            <div class="form-title">
-                <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
-            </div>
-            <div class="modal-content-payments-single">
-                <div class="single-payment-block 
-                            <!--payment-marscryptousdttrc20-->">
-                <div class="">
-                    <div class="payment-form-bonuses">
-                    <div class="bonus-block">
-                        <h2>Aktif Bonuslar</h2>
-                        <label class="checkbox">
-                        <input id="bonus_804" type="checkbox" name="bonus_accepted">
-                        <span class="icon icon-checkmark-round"></span>
-                        <span class="text">%20 Yatırım Bonusu (Max 4000 TRY)</span>
-                        </label>
-                    </div>
-                    </div>
-                </div>
-                <div class="form-cont ">
-                    <form>
-                    <div class="hide">
-                        <div class="form-label ">
-                        <span class="label">Para Birimi</span>
-                        <label class="mask-input">
-                            <div></div>
-                            <div class="select">
-                            <select class="form-control-lg" disabled="">
-                                <option disabled="" value="default">Seçiniz...</option>
-                                <option value="0">TRY</option>
-                            </select>
-                            </div>
-                        </label>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="form-label ">
-                        <span class="label">Tutar</span>
-                        <div class="currency-symbol">
-                            <span class="symbol">TRY</span>
-                            <label class="mask-input">
-                            <input name="amount" type="number" min="0" step="0.01" class="input" value="">
-                            </label>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="converter">
-                        <div class="form-label">
-                        <span class="mask-input"></span>
-                        </div>
-                    </div>
-                    <button class="button inactive-button"> Gönder </button>
-                    </form>
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div id="divimiz2" class="gizli">
-            <div class="modal-payments-single">
-            <div class="modal-header">
-                <i onclick="backDepositModal()" class="icon-back-left"></i>
-                <i class="icon-close" onclick="closemodal()"></i>
-                <h2> BITCOIN (%20 BONUS) - PARA YATIR </h2>
-            </div>
-            <div class="text" style="background: rgb(78, 78, 80);">
-                <div class="image">
-                <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/8d01cafef175fc22f0d4bd3c8af8b2f52c67c440.svg?1536153312" alt="img">
-                <h3>Alt Limit 100 TRY - Üst Limit 1000000 TRY</h3>
-                </div>
-                <p class="description"> Bitcoin ile yatırım, blockchain teknolojisi sayesinde güvenli yatırım yapmanızı sağlayan, Bitcoin ile işlem yapabileceğiniz bir yatırım yöntemidir. İşleminizi Bitcoin Network ağı üzerinden yaptığınızdan emin olunuz.</p>
-            </div>
-            <div class="form-title">
-                <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
-            </div>
-            <div class="modal-content-payments-single">
-                <div class="single-payment-block 
-                            <!--payment-marscrypto-->">
-                <div class="">
-                    <div class="payment-form-bonuses">
-                    <div class="bonus-block">
-                        <h2>Aktif Bonuslar</h2>
-                        <label class="checkbox">
-                        <input id="bonus_804" type="checkbox" name="bonus_accepted">
-                        <span class="icon icon-checkmark-round"></span>
-                        <span class="text">%20 Yatırım Bonusu (Max 4000 TRY)</span>
-                        </label>
-                    </div>
-                    </div>
-                </div>
-                <div class="form-cont ">
-                    <form>
-                    <div class="hide">
-                        <div class="form-label ">
-                        <span class="label">Para Birimi</span>
-                        <label class="mask-input">
-                            <div></div>
-                            <div class="select">
-                            <select class="form-control-lg" disabled="">
-                                <option disabled="" value="default">Seçiniz...</option>
-                                <option value="0">TRY</option>
-                            </select>
-                            </div>
-                        </label>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="form-label ">
-                        <span class="label">Tutar</span>
-                        <div class="currency-symbol">
-                            <span class="symbol">TRY</span>
-                            <label class="mask-input">
-                            <input name="amount" type="number" min="0" step="0.01" class="input" value="">
-                            </label>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="converter">
-                        <div class="form-label">
-                        <span class="mask-input"></span>
-                        </div>
-                    </div>
-                    <button class="button inactive-button"> Gönder </button>
-                    </form>
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div id="divimiz3" class="gizli">
-          <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> ETHEREUM (%20 BONUS) - PARA YATIR </h2></div><div class="text" style="background: rgb(38, 44, 57);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/b51676444a9895565926860fa414f2f49bbcea90.svg?1536247148" alt="img"><h3>Alt Limit 100 TRY - Üst Limit 1000000 TRY</h3></div><p class="description"> BSC (Binance Smart Coin) üzerinden yapılan işlemler kabul edilmeyecektir. Ethereum ile yatırım, blockchain teknolojisi sayesinde güvenli yatırım yapmanızı sağlayan ve  üçüncü parti sistemlere gerek duyulmayan Ethereum ile işlem yapabileceğiniz bir yatırım yöntemidir. İşleminizi Ethereum (ERC20) ağı üzerinden yaptığınızdan emin olunuz.</p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-marscrypto_eth-->"><div class=""><div class="payment-form-bonuses"><div class="bonus-block"><h2>Aktif Bonuslar</h2><label class="checkbox"><input id="bonus_804" type="checkbox" name="bonus_accepted"><span class="icon icon-checkmark-round"></span><span class="text">%20 Yatırım Bonusu (Max 4000 TRY)</span></label></div></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div><div class="form-label "><span class="label">Tutar</span><div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz4" class="gizli">
-          <div class="modal-payments-single"> <div class="modal-header"> <i onclick="backDepositModal()" class="icon-back-left"></i> <i class="icon-close" onclick="closemodal()"></i> <h2> TRON (TRX) (%20 BONUS) - PARA YATIR </h2> </div> <div class="text" style="background: rgb(63, 9, 6);"> <div class="image"> <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/4b48f832fe39e8b621413c5d6c16a53779627ff5.svg?1667590754" alt="img"> <h3>Alt Limit 100 TRY - Üst Limit 1000000 TRY</h3> </div> <p class="description"> TRON (TRX) ile Marsbahis hesabınıza yatırım yapabilirsiniz. İşleminizi TRON ağı üzerinden yaptığınızdan emin olunuz.</p> </div> <div class="form-title"> <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2> </div> <div class="modal-content-payments-single"> <div class="single-payment-block <!--payment-marscryptotrx-->"> <div class=""> <div class="payment-form-bonuses"> <div class="bonus-block"> <h2>Aktif Bonuslar</h2> <label class="checkbox"> <input id="bonus_804" type="checkbox" name="bonus_accepted"> <span class="icon icon-checkmark-round"></span> <span class="text">%20 Yatırım Bonusu (Max 4000 TRY)</span> </label> </div> </div> </div> <div class="form-cont "> <form> <div class="hide"> <div class="form-label "> <span class="label">Para Birimi</span> <label class="mask-input"> <div></div> <div class="select"> <select class="form-control-lg" disabled=""> <option disabled="" value="default">Seçiniz...</option> <option value="0">TRY</option> </select> </div> </label> </div> </div> <div> <div class="form-label "> <span class="label">Tutar</span> <div class="currency-symbol"> <span class="symbol">TRY</span> <label class="mask-input"> <input name="amount" type="number" min="0" step="0.01" class="input" value=""> </label> </div> </div> </div> <div class="converter"> <div class="form-label"> <span class="mask-input"></span> </div> </div> <button class="button inactive-button"> Gönder </button> </form> </div> </div> </div> </div>                     
-        </div>
-        <div id="divimiz5" class="gizli">
-        <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> TURBO PARAZULA - PARA YATIR </h2></div><div class="text" style="background: rgb(27, 191, 171);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/9b2c59281bc6a02250bd5d00234d15a67df75bcf.png?1670243099" alt="img"><h3>Alt Limit 20 TRY - Üst Limit 100000 TRY</h3></div><p class="description"> TURBO PARAZULA ile Marsbahis hesabınıza 7 gün 24 saat güvenli ve hızlıca yatırım yapabilirsiniz.</p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-turboparazula-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div><div class="form-label "><span class="label">Tutar</span><div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz6" class="gizli">
-          <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> FİXTURKA 'PAYFİX'  - PARA YATIR </h2></div><div class="text" style="background: rgb(57, 58, 60);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/6a2d01a147c299805093524c933eeca80c8dc1e0.svg?1583574139" alt="img"><h3>Alt Limit 25 TRY - Üst Limit 500000 TRY</h3></div><p class="description"> Payfix hesabınızdan, Marsbahis hesabınıza  7/24 güvenli ve hızlıca yatırım yapabilirsiniz. Sadece kendi adınıza ait hesap üzerinden işlem yapabilirsiniz. Farklı hesaplar üzerinden yapılan işlemler iade edilecektir.</p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-fixturka-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div><div class="form-label "><span class="label">Tutar</span><div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz7" class="gizli">
-        <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> PREMIUM PAPARA - PARA YATIR </h2></div><div class="text" style="background: rgb(190, 37, 150);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/a9e1db7eecdb8bf919f1bf8ee418b149f73c3f04.svg?1666955331" alt="img"><h3>Alt Limit 250 TRY - Üst Limit 200000 TRY</h3></div><p class="description"> Papara hesabınızdan, Marsbahis hesabınıza 7 gün 24 saat güvenli ve hızlıca yatırım yapabilirsiniz. DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz. LÜTFEN AÇIKLAMA KISMINI BOŞ BIRAKINIZ.</p></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-premiumpapara-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button "> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz8" class="gizli">
-        <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> PAPARAM - PARA YATIR </h2></div><div class="text" style="background: rgb(35, 183, 29);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/c6373fffac76a4aaaf80332bdb9d4cb7d3466c05.svg?1632494630" alt="img"><h3>Alt Limit 50 TRY - Üst Limit 500000 TRY</h3></div><p class="description"> ÖNEMLİ : Paparam yöntemi ile yatırım işlem süresi 10 dk olup bu süre içerisinde PAPARA hesabınıza GİRİŞ YAPMAMANIZ gerekmektedir!</p></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-movenpaypapara-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button "> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz9" class="gizli">
-        <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> ANINDA PAPARA  - PARA YATIR </h2></div><div class="text" style="background: rgb(115, 14, 14);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0279168ff366018941330a1c766d42afbaf7f6ca.png?1607026021" alt="img"><h3>Alt Limit 100 TRY - Üst Limit 50000 TRY</h3></div><p class="description"> Anında Papara yöntemiyle  Marsbahis hesabınıza  güvenli ve hızlıca yatırım yapabilirsiniz. DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Anında Papara hesabı ile yatırım yapabilirsiniz.</p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-anindapapara-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div><div class="form-label "><span class="label">Ad</span><label class="mask-input"><input name="first_name" disabled="" class="input" value="Harun"></label></div></div><div><div class="form-label "><span class="label">Soyad</span><label class="mask-input"><input name="last_name" disabled="" class="input" value="Tekin"></label></div></div><div><div class="form-label "><span class="label">T.C. Kimlik Numarası</span><label class="mask-input"><input name="ssn" maxlength="11" type="number" class="input" value=""></label></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz10" class="gizli">
-        <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> PAPARAPAY - PARA YATIR </h2></div><div class="text" style="background: rgb(222, 135, 135);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/deea7bd80313efa17b8f1c45813b37c4152efadc.svg?1661864307" alt="img"><h3>Alt Limit 100 TRY - Üst Limit 50000 TRY</h3></div><p class="description"> Papara hesabınızdan, Marsbahis hesabınıza 7 gün 24 saat güvenli ve hızlıca yatırım yapabilirsiniz. DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz.</p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-paysystem-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div><div class="form-label "><span class="label">Tutar</span><div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz11" class="gizli">
-        <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> PROPAY PAPARA - PARA YATIR </h2></div><div class="text" style="background: rgb(48, 136, 186);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/9e5f016f0fb1de6fe4bbd2155fc6ccc0d7cd21bf.svg?1661864257" alt="img"><h3>Alt Limit 100 TRY - Üst Limit 100000 TRY</h3></div><p class="description"> ÖNEMLİ UYARI : Minimum limit altı yapılan yatırımlar hiçbir şekilde kabul edilmeyecek ve iade edilecektir. İade süresi 72 saattir. DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz.</p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-propay-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div><div class="form-label "><span class="label">Tutar</span><div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz12" class="gizli">
-        <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> TURBO HAVALE - PARA YATIR </h2></div><div class="text" style="background: rgb(1, 162, 254);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/2ddd64a80a050af0a5bf49168994bb8cb854b663.svg?1661783052" alt="img"><h3>Alt Limit 50 TRY - Üst Limit 500000 TRY</h3></div><p class="description"> ÖNEMLİ : Güncel hesap numaraları, işlem başladıktan sonra otomatik olarak iletilmektedir. Herhangi bir mağduriyet yaşamamak için lütfen her yatırımınızda yeni hesap numarası ile işlem yapınız. &gt;Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Banka hesabı ile yatırım yapabilirsiniz.</p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-turbohavale-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div><div class="form-label "><span class="label">Tutar</span><div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>  </div>
-        <div id="divimiz13" class="gizli">
-        <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> SÜPER HAVALE - PARA YATIR </h2></div><div class="text" style="background: rgb(109, 51, 217);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/52d82b1d66c614ac8d81bca0744321042adb9027.svg?1666686216" alt="img"><h3>Alt Limit 50 TRY - Üst Limit 500000 TRY</h3></div><p class="description"> SÜPER HAVALE ile haftanın 7 günü 24 saat yatırım yapabilirsiniz.  &gt;Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Banka hesabı ile yatırım yapabilirsiniz.</p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-aonehavale-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div><div class="form-label "><span class="label">Tutar</span><div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz14" class="gizli">
-          <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> BANKA TRANSFERİ - PARA YATIR </h2></div><div class="text" style="background: rgb(236, 240, 33);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/275ff0e22b32df9b08b5f4955b7a225762d87e31.svg?1610057981" alt="img"><h3>Alt Limit 250 TRY - Üst Limit 100000 TRY</h3></div><p class="description"> Güncel banka hesap Bilgilerimiz için lütfen Canlı Destek ekibimiz ile iletişime geçiniz. Banka Transferi ile haftanın 7 günü sabah 09:00 - 05:00 arasında yatırım yapabilirsiniz. ÖNEMLİ : Canlı Destek ekibimizden almış olduğunuz hesap bilgisi 3 dakika içerisinde değişebilmektedir. Herhangi bir mağduriyet yaşamamak için lütfen yatırımınızı hesap bilgisi aldıktan sonra derhal gerçekleştiriniz! </p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-banktransferalternate-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div><div class="form-label "><span class="label">Banka Adı</span><label class="mask-input"><div class="select"><select class="form-control-lg"><option disabled="" value="default">Seçiniz...</option><option value="akbank">AKBANK T.A.Ş</option><option value="kuveytturk">KUVEYTTÜRK</option><option value="denizbank">DENİZBANK A.Ş</option><option value="finansbank">FINANSBANK</option><option value="ing">ING BANK A.Ş</option><option value="ziraat">TÜRKİYE CUMHURİYETİ ZİRAAT BANKASI A.Ş</option><option value="garanti">TÜRKİYE GARANTİ BANKASI A.Ş</option><option value="halkbank">TÜRKİYE HALK BANKASI A.Ş</option><option value="isbank">TÜRKİYE İŞ BANKASI A.Ş</option><option value="albaraka">ALBARAKA TÜRK KATILIM BANKASI</option><option value="vakifbank">TÜRKİYE VAKIFLAR BANKASI T.A.O</option><option value="ykb">YAPI VE KREDİ BANKASI A.Ş</option><option value="teb">TEB</option><option value="finanskatilim">TÜRKİYE FİNANS KATILIM BANKASI A.Ş.</option><option value="aktifbank">AKTİF YATIRIM BANKASI A.Ş.</option><option value="ziraatkatilim">ZİRAAT KATILIM BANKASI A.Ş.</option><option value="fibabank">FIBA BANK</option><option value="citybank">Citibank</option><option value="icbc">ICBC</option><option value="burganbank">Burgan Bank</option><option value="bankmellat">Bank Mellat</option><option value="habipbank">Habip Bank</option><option value="rabobank">Rabobank</option><option value="turklandbank">Turkland Bank A.Ş.</option><option value="bankofchinaturkey">Bank of China Turkey</option><option value="sekerbank">ŞEKERBANK A.Ş.</option></select></div></label></div></div><div><div class="form-label "><span class="label">T.C. Kimlik Numarası</span><label class="mask-input"><input name="nationality_id" maxlength="11" type="text" class="input" value=""></label></div></div><div><div class="form-label "><span class="label">Transfer Saati</span><label class="mask-input"><input name="transfer_time" placeholder="SS:DD" class="input" value=""></label></div></div><div><div class="form-label "><span class="label">Transfer Yöntemi</span><div class="group-select"><a class="">ATM</a><a class="">BANK</a><label class="mask-input"><input type="hidden" class="input" value=""></label></div></div></div><div><div class="form-label "><span class="label">Banka Grubu</span><label class="mask-input"><div class="select"><select class="form-control-lg"><option disabled="" value="default">Seçiniz...</option><option value="A">Group A</option></select></div></label></div></div><div><div class="form-label "><span class="label">IBAN</span><label class="mask-input"><input name="iban" class="input" value=""></label></div></div><div><div class="form-label "><span class="label">Tutar</span><div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" placeholder="Tutar" type="number" min="0" step="0.01" class="input" value=""></label></div></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz15" class="gizli">
-        <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> HIZLI HAVALE - PARA YATIR </h2></div><div class="text" style="background: rgb(94, 46, 145);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0f4c5e124952ce8de87e3ebf3b4d3514544aeb66.svg?1661845433" alt="img"><h3>Alt Limit 50 TRY - Üst Limit 20000 TRY</h3></div><p class="description"> HIZLI HAVALE ile haftanın 7 günü 24 saat yatırım yapabilirsiniz.  &gt;Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Banka hesabı ile yatırım yapabilirsiniz.</p></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-movenpaybanktransfer-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button "> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz16" class="gizli">
-        <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> PAYBOL - PARA YATIR </h2></div><div class="text" style="background: rgb(61, 107, 159);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/211ac2d129c3fc8cf00da3c08feb124182ac8454.svg?1658404916" alt="img"><h3>Alt Limit 5 TRY - Üst Limit 100000 TRY</h3></div><p class="description"> PAYBOL ile güvenli ve hızlıca yatırım yapabilirsiniz.</p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-turboyatirim-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div><div class="form-label "><span class="label">Tutar</span><div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz17" class="gizli">
-          <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> HIZLI QR - PARA YATIR </h2></div><div class="text" style="background: rgb(221, 221, 221);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/d2097bb33f7a0bd422bedf015dbe20621cf7b2d4.svg?1673529029" alt="img"><h3>Alt Limit 50 TRY - Üst Limit 5000 TRY</h3></div><p class="description"> Hızlı QR ile Marsbahis hesabınıza 7/24  hızlı ve güvenli şekilde yatırım yatırabilirsiniz. İşlem süresince mobil bankacılıgınıza giriş yapmayınız. Giriş yapmanız durumunda işleminiz otomatik olarak iptal olacaktır.</p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-guvenliqr-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div><div class="form-label "><span class="label">Banka Adı</span><label class="mask-input"><div class="select"><select class="form-control-lg"><option disabled="" value="default">Seçiniz...</option><option value="garanti">Garanti BBVA QR</option><option value="yapikredi">Yapı Kredi QR</option><option value="akbank">Akbank QR</option><option value="isbank">Türkiye İş Bankası QR</option><option value="ziraatcep">Ziraat CepBank</option><option value="ing">ING Bank QR</option><option value="ziraat">Ziraat Bankası QR</option><option value="denizbank">Denizbank QR</option><option value="teb">TEB QR</option><option value="turkiyefinans">Türkiye Finans QR</option><option value="halkbank">Halkbank QR</option><option value="finansbank">QNB Finansbank QR</option><option value="enpara">ENPARA QR</option><option value="fups">FUPS CÜZDAN QR</option></select></div></label></div></div><div><div class="form-label "><span class="label">Tutar</span><div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz18" class="gizli">
-          <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> CEPBANK - PARA YATIR </h2></div><div class="text" style="background: rgb(235, 32, 48);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/c90095e3a6085b730fc0f369afdf8ecb29d43cf0.svg?1525869289" alt="img"><h3>Alt Limit 50 TRY - Üst Limit 100000 TRY</h3></div><p class="description"> Akbank / Yapı Kredi / Garanti / İş Bankası / Denizbank / Teb Cep / Finansbank / Kuveyt Türk işlemlerinizi  7/24 aşağıdaki formu doldurarak yapabilirsiniz. Minimum para yatırma limiti 50 TRY'dir. Miktarın 50 ve katları olmasına dikkat ediniz. İşleminiz talebinizi oluşturduktan sonra en geç 30 dakika içinde kontrol edilip Marsbahis hesabınıza yansıtılacaktır.</p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-cepbank-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div><div class="form-label "><span class="label">Banka Adı</span><label class="mask-input"><div class="select"><select class="form-control-lg"><option disabled="" value="default">Seçiniz...</option><option value="denizbank">DENİZBANK A.Ş</option><option value="ing">ING BANK A.Ş</option><option value="garanti">TÜRKİYE GARANTİ BANKASI A.Ş</option><option value="isbank">TÜRKİYE İŞ BANKASI A.Ş</option><option value="kuveytturk">KUVEYT TÜRK KATILIM BANKASI A.Ş.</option><option value="finans">QNB FİNANSBANK A.Ş.</option><option value="vakifbank">VAKIFBANK A.Ş.</option><option value="ykb">YAPI VE KREDİ BANKASI A.Ş</option></select></div></label></div></div><div><div class="form-label "><span class="label">Ad</span><label class="mask-input"><input name="first_name" placeholder="Ad" type="text" class="input" value=""></label></div></div><div><div class="form-label "><span class="label">Soyad</span><label class="mask-input"><input name="last_name" placeholder="Soyad" type="text" class="input" value=""></label></div></div><div><div class="form-label "><span class="label">Gönderen Doğum Tarihi</span><div class="birthday"><div class="form-group"><div class="select"><select class="form-control-lg"><option disabled="" value="default">dd</option><option value="1">01</option><option value="2">02</option><option value="3">03</option><option value="4">04</option><option value="5">05</option><option value="6">06</option><option value="7">07</option><option value="8">08</option><option value="9">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option></select></div><div class="select"><select class="form-control-lg"><option disabled="" value="default">mm</option><option value="0">01</option><option value="1">02</option><option value="2">03</option><option value="3">04</option><option value="4">05</option><option value="5">06</option><option value="6">07</option><option value="7">08</option><option value="8">09</option><option value="9">10</option><option value="10">11</option><option value="11">12</option></select></div><div class="select"><select class="form-control-lg"><option disabled="" value="default">yyyy</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1971">1971</option><option value="1970">1970</option><option value="1969">1969</option><option value="1968">1968</option><option value="1967">1967</option><option value="1966">1966</option><option value="1965">1965</option><option value="1964">1964</option><option value="1963">1963</option><option value="1962">1962</option><option value="1961">1961</option><option value="1960">1960</option><option value="1959">1959</option><option value="1958">1958</option><option value="1957">1957</option><option value="1956">1956</option><option value="1955">1955</option><option value="1954">1954</option><option value="1953">1953</option><option value="1952">1952</option><option value="1951">1951</option><option value="1950">1950</option><option value="1949">1949</option><option value="1948">1948</option><option value="1947">1947</option><option value="1946">1946</option><option value="1945">1945</option><option value="1944">1944</option><option value="1943">1943</option><option value="1942">1942</option><option value="1941">1941</option><option value="1940">1940</option><option value="1939">1939</option><option value="1938">1938</option><option value="1937">1937</option><option value="1936">1936</option><option value="1935">1935</option><option value="1934">1934</option><option value="1933">1933</option><option value="1932">1932</option><option value="1931">1931</option><option value="1930">1930</option><option value="1929">1929</option><option value="1928">1928</option><option value="1927">1927</option><option value="1926">1926</option><option value="1925">1925</option><option value="1924">1924</option><option value="1923">1923</option></select></div></div></div></div></div><div><div class="form-label "><span class="label">Gönderen Cep Telefonu</span><div class="mask-input"><div class="form-group group3"><div class="react-tel-input" data-test-id="src_reacttelephoneinput_test_id_4"><input type="tel" class="form-control" autocomplete="tel" placeholder="+1 (702) 123-4567" data-test-id="src_reacttelephoneinput_test_id_5" value="+"><div class="flag-dropdown" data-test-id="src_reacttelephoneinput_test_id_6" tabindex="0"><div class="selected-flag" title="Turkey (Türkiye): + 90" data-test-id="src_reacttelephoneinput_test_id_7"><div class="flag tr" data-test-id="src_reacttelephoneinput_test_id_8" style="background-image: url(&quot;flags.png&quot;);"><div class="arrow" data-test-id="src_reacttelephoneinput_test_id_9"></div></div></div></div></div></div></div></div></div><div><div class="form-label "><span class="label">Gönderen T.C. Kimlik Numarası</span><label class="mask-input"><input name="nationality_id" maxlength="11" type="number" class="input" value=""></label></div></div><div><div class="form-label "><span class="label">Alıcı Doğum Tarihi</span><div class="birthday"><div class="form-group"><div class="select"><select class="form-control-lg"><option disabled="" value="default">dd</option><option value="1">01</option><option value="2">02</option><option value="3">03</option><option value="4">04</option><option value="5">05</option><option value="6">06</option><option value="7">07</option><option value="8">08</option><option value="9">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option></select></div><div class="select"><select class="form-control-lg"><option disabled="" value="default">mm</option><option value="0">01</option><option value="1">02</option><option value="2">03</option><option value="3">04</option><option value="4">05</option><option value="5">06</option><option value="6">07</option><option value="7">08</option><option value="8">09</option><option value="9">10</option><option value="10">11</option><option value="11">12</option></select></div><div class="select"><select class="form-control-lg"><option disabled="" value="default">yyyy</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1975">1975</option><option value="1974">1974</option><option value="1973">1973</option><option value="1972">1972</option><option value="1971">1971</option><option value="1970">1970</option><option value="1969">1969</option><option value="1968">1968</option><option value="1967">1967</option><option value="1966">1966</option><option value="1965">1965</option><option value="1964">1964</option><option value="1963">1963</option><option value="1962">1962</option><option value="1961">1961</option><option value="1960">1960</option><option value="1959">1959</option><option value="1958">1958</option><option value="1957">1957</option><option value="1956">1956</option><option value="1955">1955</option><option value="1954">1954</option><option value="1953">1953</option><option value="1952">1952</option><option value="1951">1951</option><option value="1950">1950</option><option value="1949">1949</option><option value="1948">1948</option><option value="1947">1947</option><option value="1946">1946</option><option value="1945">1945</option><option value="1944">1944</option><option value="1943">1943</option><option value="1942">1942</option><option value="1941">1941</option><option value="1940">1940</option><option value="1939">1939</option><option value="1938">1938</option><option value="1937">1937</option><option value="1936">1936</option><option value="1935">1935</option><option value="1934">1934</option><option value="1933">1933</option><option value="1932">1932</option><option value="1931">1931</option><option value="1930">1930</option><option value="1929">1929</option><option value="1928">1928</option><option value="1927">1927</option><option value="1926">1926</option><option value="1925">1925</option><option value="1924">1924</option><option value="1923">1923</option></select></div></div></div></div></div><div><div class="form-label "><span class="label">Alıcı Cep Telefonu</span><div class="mask-input"><div class="form-group group3"><div class="react-tel-input" data-test-id="src_reacttelephoneinput_test_id_4"><input type="tel" class="form-control" autocomplete="tel" placeholder="+1 (702) 123-4567" data-test-id="src_reacttelephoneinput_test_id_5" value="+"><div class="flag-dropdown" data-test-id="src_reacttelephoneinput_test_id_6" tabindex="0"><div class="selected-flag" title="Turkey (Türkiye): + 90" data-test-id="src_reacttelephoneinput_test_id_7"><div class="flag tr" data-test-id="src_reacttelephoneinput_test_id_8" style="background-image: url(&quot;flags.png&quot;);"><div class="arrow" data-test-id="src_reacttelephoneinput_test_id_9"></div></div></div></div></div></div></div></div></div><div><div class="form-label "><span class="label">Alıcı T.C. Kimlik Numarası</span><label class="mask-input"><input name="recipient_ssn" maxlength="11" type="number" class="input" value=""></label></div></div><div><div class="form-label "><span class="label">Referans / Şifre</span><label class="mask-input"><input name="reference_number" class="input" value=""></label></div></div><div><div class="form-label "><span class="label">Tutar</span><div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz19" class="gizli">
-          <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> DİĞER KRİPTO PARALAR - PARA YATIR </h2></div><div class="text" style="background: rgb(27, 33, 63);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/127330bab54279b7fc53c6312417012b380df680.svg?1649057591" alt="img"><h3>Alt Limit 100 TRY - Üst Limit 1000000 TRY</h3></div><p class="description"> Bitcoin ve Ethereum haricindeki tüm kripto para yatırımlarınızı Kriptopay yöntemi ile gerçekleştirebilirsiniz.</p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-kriptopay-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div><div class="form-label "><span class="label">Kripto Para Birimi</span><label class="mask-input"><div class="select"><select class="form-control-lg"><option disabled="" value="default">Seçiniz...</option><option value="ADA.BEP2">Cardano (Binance Chain) (ADA)</option><option value="BCH">Bitcoin Cash (BCH)</option><option value="BNB">BNB Coin (BNB)</option><option value="BTG">Bitcoin Gold (BTG)</option><option value="DASH">Dash (DASH)</option><option value="ETC">Ether Classic (ETC)</option><option value="LINK.BEP20">Chainlink (BEP20) (LINK)</option><option value="LTC">Litecoin (LTC)</option><option value="XEM">NEM (XEM)</option><option value="XMR">Monero (XMR)</option><option value="XRP">Ripple (XRP)</option></select></div></label></div></div><div><div class="form-label "><span class="label">Tutar</span><div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>
-        <div id="divimiz20" class="gizli">
-        <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> PEP HIZLI - PARA YATIR </h2></div><div class="text" style="background: rgb(60, 43, 110);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/37b67741d6fd7b4f7acd475c77c117240a4284a3.svg?1637572890" alt="img"><h3>Alt Limit 20 TRY - Üst Limit 100000 TRY</h3></div><p class="description"> PEP HIZLI hesabınızdan, Marsbahis hesabınıza 7 gün 24 saat güvenli ve hızlıca yatırım yapabilirsiniz.</p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-hetpa-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div><div class="form-label "><span class="label">T.C. Kimlik Numarası</span><label class="mask-input"><input name="nationality_id" maxlength="11" type="text" class="input" value=""></label></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz21" class="gizli">
-        <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> ECOPAYZ - PARA YATIR </h2></div><div class="text" style="background: rgb(35, 68, 123);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0288931a779ff0070cc9c247dfa392cbc9c764b6.svg?1525868789" alt="img"><h3>Alt Limit 10 TRY - Üst Limit 1000000 TRY</h3></div><p class="description"> www.ecopayz.com üzerinden ücretsiz üye olabileceğiniz ecoPayz online bir cüzdanda paranızı tutabileceğiniz, içerisine Kredi Kartı veya Banka Havalesi ile para yatırıp, Marsbahis'e güvenli ve hızlı para yatırım-çekim işlemlerinde kullanabileceğiniz dünya çapında hizmet veren bir yöntemdir. ecoPayz ile yaptığınız işlemler anında hesabınıza geçecektir ve herhangi bir masraf bulunmamaktadır. </p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-ecopayz-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class=""><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg"><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option><option value="1">EUR</option><option value="2">USD</option><option value="3">GBP</option></select></div></label></div></div><div><div class="form-label "><span class="label">Tutar</span><div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz22" class="gizli">
-        <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> UNION PAY - PARA YATIR </h2></div><div class="text" style="background: rgb(184, 172, 172);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/f72683dcf1f5c79c9d27baf07a4394451f2e5eed.png?1617718524" alt="img"><h3>Alt Limit 20 EUR - Üst Limit 20000 EUR</h3></div><p class="description"> UNION PAY kartınızı kullanarak Marsbahis hesabınıza yatırım yapabilirsiniz.</p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-monetix-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">EUR</option></select></div></label></div></div><div><div class="form-label "><span class="label">Tutar</span><div class="currency-symbol"><span class="symbol">EUR</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz23" class="gizli">
-        <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> PERFECT MONEY  - PARA YATIR </h2></div><div class="text" style="background: rgb(187, 9, 9);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/311ef7061dc0696fc4ce0677bb77750925bc6f62.svg?1587655634" alt="img"><h3>Alt Limit Sınırsız TRY - Üst Limit Sınırsız TRY</h3></div><p class="description"> Perfect Money hesabınızı kullanarak Marsbahis hesabınıza yatırım yapabilirsiniz.</p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-perfectmoney-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">USD</option></select></div></label></div></div><div><div class="form-label "><span class="label">Tutar</span><div class="currency-symbol"><span class="symbol">USD</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>
-        </div>
-        <div id="divimiz24" class="gizli">
-        <div class="modal-payments-single"><div class="modal-header"><i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i><h2> PROMOSYON KODU - PARA YATIR </h2></div><div class="text" style="background: rgb(83, 54, 148);"><div class="image"><img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/9010681ce92d7c3abc82bcd90cdef26de046b0dd.svg?1565979194" alt="img"><h3>Alt Limit Sınırsız TRY - Üst Limit Sınırsız TRY</h3></div><p class="description"> Size özel promosyon kodunu aşağıdaki kutucuğa yazınız.</p></div><div class="form-title"><h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2></div><div class="modal-content-payments-single"><div class="single-payment-block <!--payment-promocodebonus-->"><div class=""><div class="payment-form-bonuses"></div></div><div class="form-cont "><form><div class="hide"><div class="form-label "><span class="label">Para Birimi</span><label class="mask-input"><div> </div><div class="select"><select class="form-control-lg" disabled=""><option disabled="" value="default">Seçiniz...</option><option value="0">TRY</option></select></div></label></div></div><div><div class="form-label "><span class="label">Promosyon Kodu</span><label class="mask-input"><input name="promo_code" class="input" value=""></label></div></div><div class="converter"><div class="form-label"><span class="mask-input"></span></div></div><button class="button inactive-button"> Gönder </button></form></div></div></div></div>
-        </div>
-        
+<div class="modal-content" id="degeridegisendiv2">
+<div id="divimiz1" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i>
+         <i class="icon-close" onclick="closemodal()"></i>
+         <h2> TETHER USDT (TRC20) (%20 BONUS) - PARA YATIR </h2>
       </div>
+      <div class="text" style="background: rgb(9, 54, 41);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/220dbc6a7da50bf47addc9f7e11b55f52cfefdd4.svg?1667590542" alt="img">
+            <h3>Alt Limit 100 TRY - Üst Limit 1000000 TRY</h3>
+         </div>
+         <p class="description"> Tether USDT (TRC20) ile Marsbahis hesabınıza yatırım yapabilirsiniz. İşleminizi TRON ağı üzerinden yaptığınızdan emin olunuz.</p>
+      </div>
+      <div class="form-title">
+         <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block 
+            <!--payment-marscryptousdttrc20-->">
+            <div class="">
+               <div class="payment-form-bonuses">
+                  <div class="bonus-block">
+                     <h2>Aktif Bonuslar</h2>
+                     <label class="checkbox">
+                     <input id="bonus_804" type="checkbox" name="bonus_accepted">
+                     <span class="icon icon-checkmark-round"></span>
+                     <span class="text">%20 Yatırım Bonusu (Max 4000 TRY)</span>
+                     </label>
+                  </div>
+               </div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div></div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol">
+                           <span class="symbol">TRY</span>
+                           <label class="mask-input">
+                           <input name="amount" type="number" min="0" step="0.01" class="input" value="">
+                           </label>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label">
+                        <span class="mask-input"></span>
+                     </div>
+                  </div>
+                  <button class="button inactive-button"> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz2" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i>
+         <i class="icon-close" onclick="closemodal()"></i>
+         <h2> BITCOIN (%20 BONUS) - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(78, 78, 80);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/8d01cafef175fc22f0d4bd3c8af8b2f52c67c440.svg?1536153312" alt="img">
+            <h3>Alt Limit 100 TRY - Üst Limit 1000000 TRY</h3>
+         </div>
+         <p class="description"> Bitcoin ile yatırım, blockchain teknolojisi sayesinde güvenli yatırım yapmanızı sağlayan, Bitcoin ile işlem yapabileceğiniz bir yatırım yöntemidir. İşleminizi Bitcoin Network ağı üzerinden yaptığınızdan emin olunuz.</p>
+      </div>
+      <div class="form-title">
+         <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block 
+            <!--payment-marscrypto-->">
+            <div class="">
+               <div class="payment-form-bonuses">
+                  <div class="bonus-block">
+                     <h2>Aktif Bonuslar</h2>
+                     <label class="checkbox">
+                     <input id="bonus_804" type="checkbox" name="bonus_accepted">
+                     <span class="icon icon-checkmark-round"></span>
+                     <span class="text">%20 Yatırım Bonusu (Max 4000 TRY)</span>
+                     </label>
+                  </div>
+               </div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div></div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol">
+                           <span class="symbol">TRY</span>
+                           <label class="mask-input">
+                           <input name="amount" type="number" min="0" step="0.01" class="input" value="">
+                           </label>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label">
+                        <span class="mask-input"></span>
+                     </div>
+                  </div>
+                  <button class="button inactive-button"> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz3" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <h2> ETHEREUM (%20 BONUS) - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(38, 44, 57);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/b51676444a9895565926860fa414f2f49bbcea90.svg?1536247148" alt="img">
+            <h3>Alt Limit 100 TRY - Üst Limit 1000000 TRY</h3>
+         </div>
+         <p class="description"> BSC (Binance Smart Coin) üzerinden yapılan işlemler kabul edilmeyecektir. Ethereum ile yatırım, blockchain teknolojisi sayesinde güvenli yatırım yapmanızı sağlayan ve  üçüncü parti sistemlere gerek duyulmayan Ethereum ile işlem yapabileceğiniz bir yatırım yöntemidir. İşleminizi Ethereum (ERC20) ağı üzerinden yaptığınızdan emin olunuz.</p>
+      </div>
+      <div class="form-title">
+         <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block <!--payment-marscrypto_eth-->">
+            <div class="">
+               <div class="payment-form-bonuses">
+                  <div class="bonus-block">
+                     <h2>Aktif Bonuslar</h2>
+                     <label class="checkbox"><input id="bonus_804" type="checkbox" name="bonus_accepted"><span class="icon icon-checkmark-round"></span><span class="text">%20 Yatırım Bonusu (Max 4000 TRY)</span></label>
+                  </div>
+               </div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div> </div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label"><span class="mask-input"></span></div>
+                  </div>
+                  <button class="button inactive-button"> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz4" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i> <i class="icon-close" onclick="closemodal()"></i> 
+         <h2> TRON (TRX) (%20 BONUS) - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(63, 9, 6);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/4b48f832fe39e8b621413c5d6c16a53779627ff5.svg?1667590754" alt="img"> 
+            <h3>Alt Limit 100 TRY - Üst Limit 1000000 TRY</h3>
+         </div>
+         <p class="description"> TRON (TRX) ile Marsbahis hesabınıza yatırım yapabilirsiniz. İşleminizi TRON ağı üzerinden yaptığınızdan emin olunuz.</p>
+      </div>
+      <div class="form-title">
+         <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block <!--payment-marscryptotrx-->">
+            <div class="">
+               <div class="payment-form-bonuses">
+                  <div class="bonus-block">
+                     <h2>Aktif Bonuslar</h2>
+                     <label class="checkbox"> <input id="bonus_804" type="checkbox" name="bonus_accepted"> <span class="icon icon-checkmark-round"></span> <span class="text">%20 Yatırım Bonusu (Max 4000 TRY)</span> </label> 
+                  </div>
+               </div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span> 
+                        <label class="mask-input">
+                           <div></div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Tutar</span> 
+                        <div class="currency-symbol"> <span class="symbol">TRY</span> <label class="mask-input"> <input name="amount" type="number" min="0" step="0.01" class="input" value=""> </label> </div>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label"> <span class="mask-input"></span> </div>
+                  </div>
+                  <button class="button inactive-button"> Gönder </button> 
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz5" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <h2> TURBO PARAZULA - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(27, 191, 171);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/9b2c59281bc6a02250bd5d00234d15a67df75bcf.png?1670243099" alt="img">
+            <h3>Alt Limit 20 TRY - Üst Limit 100000 TRY</h3>
+         </div>
+         <p class="description"> TURBO PARAZULA ile Marsbahis hesabınıza 7 gün 24 saat güvenli ve hızlıca yatırım yapabilirsiniz.</p>
+      </div>
+      <div class="form-title">
+         <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block <!--payment-turboparazula-->">
+            <div class="">
+               <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div> </div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label"><span class="mask-input"></span></div>
+                  </div>
+                  <button class="button inactive-button"> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz6" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <h2> FİXTURKA 'PAYFİX'  - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(57, 58, 60);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/6a2d01a147c299805093524c933eeca80c8dc1e0.svg?1583574139" alt="img">
+            <h3>Alt Limit 25 TRY - Üst Limit 500000 TRY</h3>
+         </div>
+         <p class="description"> Payfix hesabınızdan, Marsbahis hesabınıza  7/24 güvenli ve hızlıca yatırım yapabilirsiniz. Sadece kendi adınıza ait hesap üzerinden işlem yapabilirsiniz. Farklı hesaplar üzerinden yapılan işlemler iade edilecektir.</p>
+      </div>
+      <div class="form-title">
+         <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block <!--payment-fixturka-->">
+            <div class="">
+               <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div> </div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label"><span class="mask-input"></span></div>
+                  </div>
+                  <button class="button inactive-button"> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz7" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <h2> PREMIUM PAPARA - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(190, 37, 150);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/a9e1db7eecdb8bf919f1bf8ee418b149f73c3f04.svg?1666955331" alt="img">
+            <h3>Alt Limit 250 TRY - Üst Limit 200000 TRY</h3>
+         </div>
+         <p class="description"> Papara hesabınızdan, Marsbahis hesabınıza 7 gün 24 saat güvenli ve hızlıca yatırım yapabilirsiniz. DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz. LÜTFEN AÇIKLAMA KISMINI BOŞ BIRAKINIZ.</p>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block <!--payment-premiumpapara-->">
+            <div class="">
+               <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div> </div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label"><span class="mask-input"></span></div>
+                  </div>
+                  <button class="button "> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz8" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <h2> PAPARAM - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(35, 183, 29);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/c6373fffac76a4aaaf80332bdb9d4cb7d3466c05.svg?1632494630" alt="img">
+            <h3>Alt Limit 50 TRY - Üst Limit 500000 TRY</h3>
+         </div>
+         <p class="description"> ÖNEMLİ : Paparam yöntemi ile yatırım işlem süresi 10 dk olup bu süre içerisinde PAPARA hesabınıza GİRİŞ YAPMAMANIZ gerekmektedir!</p>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block <!--payment-movenpaypapara-->">
+            <div class="">
+               <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div> </div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label"><span class="mask-input"></span></div>
+                  </div>
+                  <button class="button "> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz9" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <h2> ANINDA PAPARA  - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(115, 14, 14);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0279168ff366018941330a1c766d42afbaf7f6ca.png?1607026021" alt="img">
+            <h3>Alt Limit 100 TRY - Üst Limit 50000 TRY</h3>
+         </div>
+         <p class="description"> Anında Papara yöntemiyle  Marsbahis hesabınıza  güvenli ve hızlıca yatırım yapabilirsiniz. DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Anında Papara hesabı ile yatırım yapabilirsiniz.</p>
+      </div>
+      <div class="form-title">
+         <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block <!--payment-anindapapara-->">
+            <div class="">
+               <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div> </div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label "><span class="label">Ad</span><label class="mask-input"><input name="first_name" disabled="" class="input" value="Harun"></label></div>
+                  </div>
+                  <div>
+                     <div class="form-label "><span class="label">Soyad</span><label class="mask-input"><input name="last_name" disabled="" class="input" value="Tekin"></label></div>
+                  </div>
+                  <div>
+                     <div class="form-label "><span class="label">T.C. Kimlik Numarası</span><label class="mask-input"><input name="ssn" maxlength="11" type="number" class="input" value=""></label></div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label"><span class="mask-input"></span></div>
+                  </div>
+                  <button class="button inactive-button"> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz10" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <h2> PAPARAPAY - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(222, 135, 135);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/deea7bd80313efa17b8f1c45813b37c4152efadc.svg?1661864307" alt="img">
+            <h3>Alt Limit 100 TRY - Üst Limit 50000 TRY</h3>
+         </div>
+         <p class="description"> Papara hesabınızdan, Marsbahis hesabınıza 7 gün 24 saat güvenli ve hızlıca yatırım yapabilirsiniz. DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz.</p>
+      </div>
+      <div class="form-title">
+         <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block <!--payment-paysystem-->">
+            <div class="">
+               <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div> </div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label"><span class="mask-input"></span></div>
+                  </div>
+                  <button class="button inactive-button"> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz11" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <h2> PROPAY PAPARA - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(48, 136, 186);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/9e5f016f0fb1de6fe4bbd2155fc6ccc0d7cd21bf.svg?1661864257" alt="img">
+            <h3>Alt Limit 100 TRY - Üst Limit 100000 TRY</h3>
+         </div>
+         <p class="description"> ÖNEMLİ UYARI : Minimum limit altı yapılan yatırımlar hiçbir şekilde kabul edilmeyecek ve iade edilecektir. İade süresi 72 saattir. DİKKAT! &gt; Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Papara hesabı ile yatırım yapabilirsiniz.</p>
+      </div>
+      <div class="form-title">
+         <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block <!--payment-propay-->">
+            <div class="">
+               <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div> </div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label"><span class="mask-input"></span></div>
+                  </div>
+                  <button class="button inactive-button"> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz12" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <h2> TURBO HAVALE - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(1, 162, 254);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/2ddd64a80a050af0a5bf49168994bb8cb854b663.svg?1661783052" alt="img">
+            <h3>Alt Limit 50 TRY - Üst Limit 500000 TRY</h3>
+         </div>
+         <p class="description"> ÖNEMLİ : Güncel hesap numaraları, işlem başladıktan sonra otomatik olarak iletilmektedir. Herhangi bir mağduriyet yaşamamak için lütfen her yatırımınızda yeni hesap numarası ile işlem yapınız. &gt;Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Banka hesabı ile yatırım yapabilirsiniz.</p>
+      </div>
+      <div class="form-title">
+         <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block <!--payment-turbohavale-->">
+            <div class="">
+               <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div> </div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label"><span class="mask-input"></span></div>
+                  </div>
+                  <button class="button inactive-button"> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz13" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <h2> SÜPER HAVALE - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(109, 51, 217);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/52d82b1d66c614ac8d81bca0744321042adb9027.svg?1666686216" alt="img">
+            <h3>Alt Limit 50 TRY - Üst Limit 500000 TRY</h3>
+         </div>
+         <p class="description"> SÜPER HAVALE ile haftanın 7 günü 24 saat yatırım yapabilirsiniz.  &gt;Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Banka hesabı ile yatırım yapabilirsiniz.</p>
+      </div>
+      <div class="form-title">
+         <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block <!--payment-aonehavale-->">
+            <div class="">
+               <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div> </div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label"><span class="mask-input"></span></div>
+                  </div>
+                  <button class="button inactive-button"> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz14" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <h2> BANKA TRANSFERİ - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(236, 240, 33);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/275ff0e22b32df9b08b5f4955b7a225762d87e31.svg?1610057981" alt="img">
+            <h3>Alt Limit 250 TRY - Üst Limit 100000 TRY</h3>
+         </div>
+         <p class="description"> Güncel banka hesap Bilgilerimiz için lütfen Canlı Destek ekibimiz ile iletişime geçiniz. Banka Transferi ile haftanın 7 günü sabah 09:00 - 05:00 arasında yatırım yapabilirsiniz. ÖNEMLİ : Canlı Destek ekibimizden almış olduğunuz hesap bilgisi 3 dakika içerisinde değişebilmektedir. Herhangi bir mağduriyet yaşamamak için lütfen yatırımınızı hesap bilgisi aldıktan sonra derhal gerçekleştiriniz! </p>
+      </div>
+      <div class="form-title">
+         <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block <!--payment-banktransferalternate-->">
+            <div class="">
+               <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div> </div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Banka Adı</span>
+                        <label class="mask-input">
+                           <div class="select">
+                              <select class="form-control-lg">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="akbank">AKBANK T.A.Ş</option>
+                                 <option value="kuveytturk">KUVEYTTÜRK</option>
+                                 <option value="denizbank">DENİZBANK A.Ş</option>
+                                 <option value="finansbank">FINANSBANK</option>
+                                 <option value="ing">ING BANK A.Ş</option>
+                                 <option value="ziraat">TÜRKİYE CUMHURİYETİ ZİRAAT BANKASI A.Ş</option>
+                                 <option value="garanti">TÜRKİYE GARANTİ BANKASI A.Ş</option>
+                                 <option value="halkbank">TÜRKİYE HALK BANKASI A.Ş</option>
+                                 <option value="isbank">TÜRKİYE İŞ BANKASI A.Ş</option>
+                                 <option value="albaraka">ALBARAKA TÜRK KATILIM BANKASI</option>
+                                 <option value="vakifbank">TÜRKİYE VAKIFLAR BANKASI T.A.O</option>
+                                 <option value="ykb">YAPI VE KREDİ BANKASI A.Ş</option>
+                                 <option value="teb">TEB</option>
+                                 <option value="finanskatilim">TÜRKİYE FİNANS KATILIM BANKASI A.Ş.</option>
+                                 <option value="aktifbank">AKTİF YATIRIM BANKASI A.Ş.</option>
+                                 <option value="ziraatkatilim">ZİRAAT KATILIM BANKASI A.Ş.</option>
+                                 <option value="fibabank">FIBA BANK</option>
+                                 <option value="citybank">Citibank</option>
+                                 <option value="icbc">ICBC</option>
+                                 <option value="burganbank">Burgan Bank</option>
+                                 <option value="bankmellat">Bank Mellat</option>
+                                 <option value="habipbank">Habip Bank</option>
+                                 <option value="rabobank">Rabobank</option>
+                                 <option value="turklandbank">Turkland Bank A.Ş.</option>
+                                 <option value="bankofchinaturkey">Bank of China Turkey</option>
+                                 <option value="sekerbank">ŞEKERBANK A.Ş.</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label "><span class="label">T.C. Kimlik Numarası</span><label class="mask-input"><input name="nationality_id" maxlength="11" type="text" class="input" value=""></label></div>
+                  </div>
+                  <div>
+                     <div class="form-label "><span class="label">Transfer Saati</span><label class="mask-input"><input name="transfer_time" placeholder="SS:DD" class="input" value=""></label></div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Transfer Yöntemi</span>
+                        <div class="group-select"><a class="">ATM</a><a class="">BANK</a><label class="mask-input"><input type="hidden" class="input" value=""></label></div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Banka Grubu</span>
+                        <label class="mask-input">
+                           <div class="select">
+                              <select class="form-control-lg">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="A">Group A</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label "><span class="label">IBAN</span><label class="mask-input"><input name="iban" class="input" value=""></label></div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" placeholder="Tutar" type="number" min="0" step="0.01" class="input" value=""></label></div>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label"><span class="mask-input"></span></div>
+                  </div>
+                  <button class="button inactive-button"> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz15" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <h2> HIZLI HAVALE - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(94, 46, 145);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0f4c5e124952ce8de87e3ebf3b4d3514544aeb66.svg?1661845433" alt="img">
+            <h3>Alt Limit 50 TRY - Üst Limit 20000 TRY</h3>
+         </div>
+         <p class="description"> HIZLI HAVALE ile haftanın 7 günü 24 saat yatırım yapabilirsiniz.  &gt;Marsbahis hesabınıza yalnızca kendi adınıza kayıtlı Banka hesabı ile yatırım yapabilirsiniz.</p>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block <!--payment-movenpaybanktransfer-->">
+            <div class="">
+               <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div> </div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label"><span class="mask-input"></span></div>
+                  </div>
+                  <button class="button "> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz16" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <h2> PAYBOL - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(61, 107, 159);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/211ac2d129c3fc8cf00da3c08feb124182ac8454.svg?1658404916" alt="img">
+            <h3>Alt Limit 5 TRY - Üst Limit 100000 TRY</h3>
+         </div>
+         <p class="description"> PAYBOL ile güvenli ve hızlıca yatırım yapabilirsiniz.</p>
+      </div>
+      <div class="form-title">
+         <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block <!--payment-turboyatirim-->">
+            <div class="">
+               <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div> </div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label"><span class="mask-input"></span></div>
+                  </div>
+                  <button class="button inactive-button"> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz17" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <h2> HIZLI QR - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(221, 221, 221);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/d2097bb33f7a0bd422bedf015dbe20621cf7b2d4.svg?1673529029" alt="img">
+            <h3>Alt Limit 50 TRY - Üst Limit 5000 TRY</h3>
+         </div>
+         <p class="description"> Hızlı QR ile Marsbahis hesabınıza 7/24  hızlı ve güvenli şekilde yatırım yatırabilirsiniz. İşlem süresince mobil bankacılıgınıza giriş yapmayınız. Giriş yapmanız durumunda işleminiz otomatik olarak iptal olacaktır.</p>
+      </div>
+      <div class="form-title">
+         <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block <!--payment-guvenliqr-->">
+            <div class="">
+               <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div> </div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Banka Adı</span>
+                        <label class="mask-input">
+                           <div class="select">
+                              <select class="form-control-lg">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="garanti">Garanti BBVA QR</option>
+                                 <option value="yapikredi">Yapı Kredi QR</option>
+                                 <option value="akbank">Akbank QR</option>
+                                 <option value="isbank">Türkiye İş Bankası QR</option>
+                                 <option value="ziraatcep">Ziraat CepBank</option>
+                                 <option value="ing">ING Bank QR</option>
+                                 <option value="ziraat">Ziraat Bankası QR</option>
+                                 <option value="denizbank">Denizbank QR</option>
+                                 <option value="teb">TEB QR</option>
+                                 <option value="turkiyefinans">Türkiye Finans QR</option>
+                                 <option value="halkbank">Halkbank QR</option>
+                                 <option value="finansbank">QNB Finansbank QR</option>
+                                 <option value="enpara">ENPARA QR</option>
+                                 <option value="fups">FUPS CÜZDAN QR</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label"><span class="mask-input"></span></div>
+                  </div>
+                  <button class="button inactive-button"> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz18" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <h2> CEPBANK - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(235, 32, 48);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/c90095e3a6085b730fc0f369afdf8ecb29d43cf0.svg?1525869289" alt="img">
+            <h3>Alt Limit 50 TRY - Üst Limit 100000 TRY</h3>
+         </div>
+         <p class="description"> Akbank / Yapı Kredi / Garanti / İş Bankası / Denizbank / Teb Cep / Finansbank / Kuveyt Türk işlemlerinizi  7/24 aşağıdaki formu doldurarak yapabilirsiniz. Minimum para yatırma limiti 50 TRY'dir. Miktarın 50 ve katları olmasına dikkat ediniz. İşleminiz talebinizi oluşturduktan sonra en geç 30 dakika içinde kontrol edilip Marsbahis hesabınıza yansıtılacaktır.</p>
+      </div>
+      <div class="form-title">
+         <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block <!--payment-cepbank-->">
+            <div class="">
+               <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div> </div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Banka Adı</span>
+                        <label class="mask-input">
+                           <div class="select">
+                              <select class="form-control-lg">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="denizbank">DENİZBANK A.Ş</option>
+                                 <option value="ing">ING BANK A.Ş</option>
+                                 <option value="garanti">TÜRKİYE GARANTİ BANKASI A.Ş</option>
+                                 <option value="isbank">TÜRKİYE İŞ BANKASI A.Ş</option>
+                                 <option value="kuveytturk">KUVEYT TÜRK KATILIM BANKASI A.Ş.</option>
+                                 <option value="finans">QNB FİNANSBANK A.Ş.</option>
+                                 <option value="vakifbank">VAKIFBANK A.Ş.</option>
+                                 <option value="ykb">YAPI VE KREDİ BANKASI A.Ş</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label "><span class="label">Ad</span><label class="mask-input"><input name="first_name" placeholder="Ad" type="text" class="input" value=""></label></div>
+                  </div>
+                  <div>
+                     <div class="form-label "><span class="label">Soyad</span><label class="mask-input"><input name="last_name" placeholder="Soyad" type="text" class="input" value=""></label></div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Gönderen Doğum Tarihi</span>
+                        <div class="birthday">
+                           <div class="form-group">
+                              <div class="select">
+                                 <select class="form-control-lg">
+                                    <option disabled="" value="default">dd</option>
+                                    <option value="1">01</option>
+                                    <option value="2">02</option>
+                                    <option value="3">03</option>
+                                    <option value="4">04</option>
+                                    <option value="5">05</option>
+                                    <option value="6">06</option>
+                                    <option value="7">07</option>
+                                    <option value="8">08</option>
+                                    <option value="9">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                 </select>
+                              </div>
+                              <div class="select">
+                                 <select class="form-control-lg">
+                                    <option disabled="" value="default">mm</option>
+                                    <option value="0">01</option>
+                                    <option value="1">02</option>
+                                    <option value="2">03</option>
+                                    <option value="3">04</option>
+                                    <option value="4">05</option>
+                                    <option value="5">06</option>
+                                    <option value="6">07</option>
+                                    <option value="7">08</option>
+                                    <option value="8">09</option>
+                                    <option value="9">10</option>
+                                    <option value="10">11</option>
+                                    <option value="11">12</option>
+                                 </select>
+                              </div>
+                              <div class="select">
+                                 <select class="form-control-lg">
+                                    <option disabled="" value="default">yyyy</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2000">2000</option>
+                                    <option value="1999">1999</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1997">1997</option>
+                                    <option value="1996">1996</option>
+                                    <option value="1995">1995</option>
+                                    <option value="1994">1994</option>
+                                    <option value="1993">1993</option>
+                                    <option value="1992">1992</option>
+                                    <option value="1991">1991</option>
+                                    <option value="1990">1990</option>
+                                    <option value="1989">1989</option>
+                                    <option value="1988">1988</option>
+                                    <option value="1987">1987</option>
+                                    <option value="1986">1986</option>
+                                    <option value="1985">1985</option>
+                                    <option value="1984">1984</option>
+                                    <option value="1983">1983</option>
+                                    <option value="1982">1982</option>
+                                    <option value="1981">1981</option>
+                                    <option value="1980">1980</option>
+                                    <option value="1979">1979</option>
+                                    <option value="1978">1978</option>
+                                    <option value="1977">1977</option>
+                                    <option value="1976">1976</option>
+                                    <option value="1975">1975</option>
+                                    <option value="1974">1974</option>
+                                    <option value="1973">1973</option>
+                                    <option value="1972">1972</option>
+                                    <option value="1971">1971</option>
+                                    <option value="1970">1970</option>
+                                    <option value="1969">1969</option>
+                                    <option value="1968">1968</option>
+                                    <option value="1967">1967</option>
+                                    <option value="1966">1966</option>
+                                    <option value="1965">1965</option>
+                                    <option value="1964">1964</option>
+                                    <option value="1963">1963</option>
+                                    <option value="1962">1962</option>
+                                    <option value="1961">1961</option>
+                                    <option value="1960">1960</option>
+                                    <option value="1959">1959</option>
+                                    <option value="1958">1958</option>
+                                    <option value="1957">1957</option>
+                                    <option value="1956">1956</option>
+                                    <option value="1955">1955</option>
+                                    <option value="1954">1954</option>
+                                    <option value="1953">1953</option>
+                                    <option value="1952">1952</option>
+                                    <option value="1951">1951</option>
+                                    <option value="1950">1950</option>
+                                    <option value="1949">1949</option>
+                                    <option value="1948">1948</option>
+                                    <option value="1947">1947</option>
+                                    <option value="1946">1946</option>
+                                    <option value="1945">1945</option>
+                                    <option value="1944">1944</option>
+                                    <option value="1943">1943</option>
+                                    <option value="1942">1942</option>
+                                    <option value="1941">1941</option>
+                                    <option value="1940">1940</option>
+                                    <option value="1939">1939</option>
+                                    <option value="1938">1938</option>
+                                    <option value="1937">1937</option>
+                                    <option value="1936">1936</option>
+                                    <option value="1935">1935</option>
+                                    <option value="1934">1934</option>
+                                    <option value="1933">1933</option>
+                                    <option value="1932">1932</option>
+                                    <option value="1931">1931</option>
+                                    <option value="1930">1930</option>
+                                    <option value="1929">1929</option>
+                                    <option value="1928">1928</option>
+                                    <option value="1927">1927</option>
+                                    <option value="1926">1926</option>
+                                    <option value="1925">1925</option>
+                                    <option value="1924">1924</option>
+                                    <option value="1923">1923</option>
+                                 </select>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Gönderen Cep Telefonu</span>
+                        <div class="mask-input">
+                           <div class="form-group group3">
+                              <div class="react-tel-input" data-test-id="src_reacttelephoneinput_test_id_4">
+                                 <input type="tel" class="form-control" autocomplete="tel" placeholder="+1 (702) 123-4567" data-test-id="src_reacttelephoneinput_test_id_5" value="+">
+                                 <div class="flag-dropdown" data-test-id="src_reacttelephoneinput_test_id_6" tabindex="0">
+                                    <div class="selected-flag" title="Turkey (Türkiye): + 90" data-test-id="src_reacttelephoneinput_test_id_7">
+                                       <div class="flag tr" data-test-id="src_reacttelephoneinput_test_id_8" style="background-image: url(&quot;flags.png&quot;);">
+                                          <div class="arrow" data-test-id="src_reacttelephoneinput_test_id_9"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label "><span class="label">Gönderen T.C. Kimlik Numarası</span><label class="mask-input"><input name="nationality_id" maxlength="11" type="number" class="input" value=""></label></div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Alıcı Doğum Tarihi</span>
+                        <div class="birthday">
+                           <div class="form-group">
+                              <div class="select">
+                                 <select class="form-control-lg">
+                                    <option disabled="" value="default">dd</option>
+                                    <option value="1">01</option>
+                                    <option value="2">02</option>
+                                    <option value="3">03</option>
+                                    <option value="4">04</option>
+                                    <option value="5">05</option>
+                                    <option value="6">06</option>
+                                    <option value="7">07</option>
+                                    <option value="8">08</option>
+                                    <option value="9">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                 </select>
+                              </div>
+                              <div class="select">
+                                 <select class="form-control-lg">
+                                    <option disabled="" value="default">mm</option>
+                                    <option value="0">01</option>
+                                    <option value="1">02</option>
+                                    <option value="2">03</option>
+                                    <option value="3">04</option>
+                                    <option value="4">05</option>
+                                    <option value="5">06</option>
+                                    <option value="6">07</option>
+                                    <option value="7">08</option>
+                                    <option value="8">09</option>
+                                    <option value="9">10</option>
+                                    <option value="10">11</option>
+                                    <option value="11">12</option>
+                                 </select>
+                              </div>
+                              <div class="select">
+                                 <select class="form-control-lg">
+                                    <option disabled="" value="default">yyyy</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2000">2000</option>
+                                    <option value="1999">1999</option>
+                                    <option value="1998">1998</option>
+                                    <option value="1997">1997</option>
+                                    <option value="1996">1996</option>
+                                    <option value="1995">1995</option>
+                                    <option value="1994">1994</option>
+                                    <option value="1993">1993</option>
+                                    <option value="1992">1992</option>
+                                    <option value="1991">1991</option>
+                                    <option value="1990">1990</option>
+                                    <option value="1989">1989</option>
+                                    <option value="1988">1988</option>
+                                    <option value="1987">1987</option>
+                                    <option value="1986">1986</option>
+                                    <option value="1985">1985</option>
+                                    <option value="1984">1984</option>
+                                    <option value="1983">1983</option>
+                                    <option value="1982">1982</option>
+                                    <option value="1981">1981</option>
+                                    <option value="1980">1980</option>
+                                    <option value="1979">1979</option>
+                                    <option value="1978">1978</option>
+                                    <option value="1977">1977</option>
+                                    <option value="1976">1976</option>
+                                    <option value="1975">1975</option>
+                                    <option value="1974">1974</option>
+                                    <option value="1973">1973</option>
+                                    <option value="1972">1972</option>
+                                    <option value="1971">1971</option>
+                                    <option value="1970">1970</option>
+                                    <option value="1969">1969</option>
+                                    <option value="1968">1968</option>
+                                    <option value="1967">1967</option>
+                                    <option value="1966">1966</option>
+                                    <option value="1965">1965</option>
+                                    <option value="1964">1964</option>
+                                    <option value="1963">1963</option>
+                                    <option value="1962">1962</option>
+                                    <option value="1961">1961</option>
+                                    <option value="1960">1960</option>
+                                    <option value="1959">1959</option>
+                                    <option value="1958">1958</option>
+                                    <option value="1957">1957</option>
+                                    <option value="1956">1956</option>
+                                    <option value="1955">1955</option>
+                                    <option value="1954">1954</option>
+                                    <option value="1953">1953</option>
+                                    <option value="1952">1952</option>
+                                    <option value="1951">1951</option>
+                                    <option value="1950">1950</option>
+                                    <option value="1949">1949</option>
+                                    <option value="1948">1948</option>
+                                    <option value="1947">1947</option>
+                                    <option value="1946">1946</option>
+                                    <option value="1945">1945</option>
+                                    <option value="1944">1944</option>
+                                    <option value="1943">1943</option>
+                                    <option value="1942">1942</option>
+                                    <option value="1941">1941</option>
+                                    <option value="1940">1940</option>
+                                    <option value="1939">1939</option>
+                                    <option value="1938">1938</option>
+                                    <option value="1937">1937</option>
+                                    <option value="1936">1936</option>
+                                    <option value="1935">1935</option>
+                                    <option value="1934">1934</option>
+                                    <option value="1933">1933</option>
+                                    <option value="1932">1932</option>
+                                    <option value="1931">1931</option>
+                                    <option value="1930">1930</option>
+                                    <option value="1929">1929</option>
+                                    <option value="1928">1928</option>
+                                    <option value="1927">1927</option>
+                                    <option value="1926">1926</option>
+                                    <option value="1925">1925</option>
+                                    <option value="1924">1924</option>
+                                    <option value="1923">1923</option>
+                                 </select>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Alıcı Cep Telefonu</span>
+                        <div class="mask-input">
+                           <div class="form-group group3">
+                              <div class="react-tel-input" data-test-id="src_reacttelephoneinput_test_id_4">
+                                 <input type="tel" class="form-control" autocomplete="tel" placeholder="+1 (702) 123-4567" data-test-id="src_reacttelephoneinput_test_id_5" value="+">
+                                 <div class="flag-dropdown" data-test-id="src_reacttelephoneinput_test_id_6" tabindex="0">
+                                    <div class="selected-flag" title="Turkey (Türkiye): + 90" data-test-id="src_reacttelephoneinput_test_id_7">
+                                       <div class="flag tr" data-test-id="src_reacttelephoneinput_test_id_8" style="background-image: url(&quot;flags.png&quot;);">
+                                          <div class="arrow" data-test-id="src_reacttelephoneinput_test_id_9"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label "><span class="label">Alıcı T.C. Kimlik Numarası</span><label class="mask-input"><input name="recipient_ssn" maxlength="11" type="number" class="input" value=""></label></div>
+                  </div>
+                  <div>
+                     <div class="form-label "><span class="label">Referans / Şifre</span><label class="mask-input"><input name="reference_number" class="input" value=""></label></div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label"><span class="mask-input"></span></div>
+                  </div>
+                  <button class="button inactive-button"> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz19" class="gizli">
+   <div class="modal-payments-single">
+      <div class="modal-header">
+         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <h2> DİĞER KRİPTO PARALAR - PARA YATIR </h2>
+      </div>
+      <div class="text" style="background: rgb(27, 33, 63);">
+         <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/127330bab54279b7fc53c6312417012b380df680.svg?1649057591" alt="img">
+            <h3>Alt Limit 100 TRY - Üst Limit 1000000 TRY</h3>
+         </div>
+         <p class="description"> Bitcoin ve Ethereum haricindeki tüm kripto para yatırımlarınızı Kriptopay yöntemi ile gerçekleştirebilirsiniz.</p>
+      </div>
+      <div class="form-title">
+         <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+      </div>
+      <div class="modal-content-payments-single">
+         <div class="single-payment-block <!--payment-kriptopay-->">
+            <div class="">
+               <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+               <form>
+                  <div class="hide">
+                     <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                           <div> </div>
+                           <div class="select">
+                              <select class="form-control-lg" disabled="">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="0">TRY</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Kripto Para Birimi</span>
+                        <label class="mask-input">
+                           <div class="select">
+                              <select class="form-control-lg">
+                                 <option disabled="" value="default">Seçiniz...</option>
+                                 <option value="ADA.BEP2">Cardano (Binance Chain) (ADA)</option>
+                                 <option value="BCH">Bitcoin Cash (BCH)</option>
+                                 <option value="BNB">BNB Coin (BNB)</option>
+                                 <option value="BTG">Bitcoin Gold (BTG)</option>
+                                 <option value="DASH">Dash (DASH)</option>
+                                 <option value="ETC">Ether Classic (ETC)</option>
+                                 <option value="LINK.BEP20">Chainlink (BEP20) (LINK)</option>
+                                 <option value="LTC">Litecoin (LTC)</option>
+                                 <option value="XEM">NEM (XEM)</option>
+                                 <option value="XMR">Monero (XMR)</option>
+                                 <option value="XRP">Ripple (XRP)</option>
+                              </select>
+                           </div>
+                        </label>
+                     </div>
+                  </div>
+                  <div>
+                     <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div>
+                     </div>
+                  </div>
+                  <div class="converter">
+                     <div class="form-label"><span class="mask-input"></span></div>
+                  </div>
+                  <button class="button inactive-button"> Gönder </button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="divimiz20" class="gizli">
+    <div class="modal-payments-single">
+        <div class="modal-header">
+        <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+        <h2> PEP HIZLI - PARA YATIR </h2>
+        </div>
+        <div class="text" style="background: rgb(60, 43, 110);">
+        <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/37b67741d6fd7b4f7acd475c77c117240a4284a3.svg?1637572890" alt="img">
+            <h3>Alt Limit 20 TRY - Üst Limit 100000 TRY</h3>
+        </div>
+        <p class="description"> PEP HIZLI hesabınızdan, Marsbahis hesabınıza 7 gün 24 saat güvenli ve hızlıca yatırım yapabilirsiniz.</p>
+        </div>
+        <div class="form-title">
+        <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+        </div>
+        <div class="modal-content-payments-single">
+        <div class="single-payment-block <!--payment-hetpa-->">
+            <div class="">
+                <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+                <form>
+                    <div class="hide">
+                    <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                            <div> </div>
+                            <div class="select">
+                                <select class="form-control-lg" disabled="">
+                                <option disabled="" value="default">Seçiniz...</option>
+                                <option value="0">TRY</option>
+                                </select>
+                            </div>
+                        </label>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="form-label "><span class="label">T.C. Kimlik Numarası</span><label class="mask-input"><input name="nationality_id" maxlength="11" type="text" class="input" value=""></label></div>
+                    </div>
+                    <div class="converter">
+                    <div class="form-label"><span class="mask-input"></span></div>
+                    </div>
+                    <button class="button inactive-button"> Gönder </button>
+                </form>
+            </div>
+        </div>
+        </div>
     </div>
-  </div>
+</div>
+<div id="divimiz21" class="gizli">
+    <div class="modal-payments-single">
+        <div class="modal-header">
+        <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+        <h2> ECOPAYZ - PARA YATIR </h2>
+        </div>
+        <div class="text" style="background: rgb(35, 68, 123);">
+        <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0288931a779ff0070cc9c247dfa392cbc9c764b6.svg?1525868789" alt="img">
+            <h3>Alt Limit 10 TRY - Üst Limit 1000000 TRY</h3>
+        </div>
+        <p class="description"> www.ecopayz.com üzerinden ücretsiz üye olabileceğiniz ecoPayz online bir cüzdanda paranızı tutabileceğiniz, içerisine Kredi Kartı veya Banka Havalesi ile para yatırıp, Marsbahis'e güvenli ve hızlı para yatırım-çekim işlemlerinde kullanabileceğiniz dünya çapında hizmet veren bir yöntemdir. ecoPayz ile yaptığınız işlemler anında hesabınıza geçecektir ve herhangi bir masraf bulunmamaktadır. </p>
+        </div>
+        <div class="form-title">
+        <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+        </div>
+        <div class="modal-content-payments-single">
+        <div class="single-payment-block <!--payment-ecopayz-->">
+            <div class="">
+                <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+                <form>
+                    <div class="">
+                    <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                            <div> </div>
+                            <div class="select">
+                                <select class="form-control-lg">
+                                <option disabled="" value="default">Seçiniz...</option>
+                                <option value="0">TRY</option>
+                                <option value="1">EUR</option>
+                                <option value="2">USD</option>
+                                <option value="3">GBP</option>
+                                </select>
+                            </div>
+                        </label>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol"><span class="symbol">TRY</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div>
+                    </div>
+                    </div>
+                    <div class="converter">
+                    <div class="form-label"><span class="mask-input"></span></div>
+                    </div>
+                    <button class="button inactive-button"> Gönder </button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<div id="divimiz22" class="gizli">
+    <div class="modal-payments-single">
+        <div class="modal-header">
+        <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+        <h2> UNION PAY - PARA YATIR </h2>
+        </div>
+        <div class="text" style="background: rgb(184, 172, 172);">
+        <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/f72683dcf1f5c79c9d27baf07a4394451f2e5eed.png?1617718524" alt="img">
+            <h3>Alt Limit 20 EUR - Üst Limit 20000 EUR</h3>
+        </div>
+        <p class="description"> UNION PAY kartınızı kullanarak Marsbahis hesabınıza yatırım yapabilirsiniz.</p>
+        </div>
+        <div class="form-title">
+        <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+        </div>
+        <div class="modal-content-payments-single">
+        <div class="single-payment-block <!--payment-monetix-->">
+            <div class="">
+                <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+                <form>
+                    <div class="hide">
+                    <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                            <div> </div>
+                            <div class="select">
+                                <select class="form-control-lg" disabled="">
+                                <option disabled="" value="default">Seçiniz...</option>
+                                <option value="0">EUR</option>
+                                </select>
+                            </div>
+                        </label>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol"><span class="symbol">EUR</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div>
+                    </div>
+                    </div>
+                    <div class="converter">
+                    <div class="form-label"><span class="mask-input"></span></div>
+                    </div>
+                    <button class="button inactive-button"> Gönder </button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<div id="divimiz23" class="gizli">
+    <div class="modal-payments-single">
+        <div class="modal-header">
+        <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+        <h2> PERFECT MONEY  - PARA YATIR </h2>
+        </div>
+        <div class="text" style="background: rgb(187, 9, 9);">
+        <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/311ef7061dc0696fc4ce0677bb77750925bc6f62.svg?1587655634" alt="img">
+            <h3>Alt Limit Sınırsız TRY - Üst Limit Sınırsız TRY</h3>
+        </div>
+        <p class="description"> Perfect Money hesabınızı kullanarak Marsbahis hesabınıza yatırım yapabilirsiniz.</p>
+        </div>
+        <div class="form-title">
+        <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+        </div>
+        <div class="modal-content-payments-single">
+        <div class="single-payment-block <!--payment-perfectmoney-->">
+            <div class="">
+                <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+                <form>
+                    <div class="hide">
+                    <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                            <div> </div>
+                            <div class="select">
+                                <select class="form-control-lg" disabled="">
+                                <option disabled="" value="default">Seçiniz...</option>
+                                <option value="0">USD</option>
+                                </select>
+                            </div>
+                        </label>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="form-label ">
+                        <span class="label">Tutar</span>
+                        <div class="currency-symbol"><span class="symbol">USD</span><label class="mask-input"><input name="amount" type="number" min="0" step="0.01" class="input" value=""></label></div>
+                    </div>
+                    </div>
+                    <div class="converter">
+                    <div class="form-label"><span class="mask-input"></span></div>
+                    </div>
+                    <button class="button inactive-button"> Gönder </button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<div id="divimiz24" class="gizli">
+    <div class="modal-payments-single">
+        <div class="modal-header">
+        <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+        <h2> PROMOSYON KODU - PARA YATIR </h2>
+        </div>
+        <div class="text" style="background: rgb(83, 54, 148);">
+        <div class="image">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/9010681ce92d7c3abc82bcd90cdef26de046b0dd.svg?1565979194" alt="img">
+            <h3>Alt Limit Sınırsız TRY - Üst Limit Sınırsız TRY</h3>
+        </div>
+        <p class="description"> Size özel promosyon kodunu aşağıdaki kutucuğa yazınız.</p>
+        </div>
+        <div class="form-title">
+        <h2>LÜTFEN FORMU EKSİKSİZ ŞEKİLDE DOLDURUNUZ</h2>
+        </div>
+        <div class="modal-content-payments-single">
+        <div class="single-payment-block <!--payment-promocodebonus-->">
+            <div class="">
+                <div class="payment-form-bonuses"></div>
+            </div>
+            <div class="form-cont ">
+                <form>
+                    <div class="hide">
+                    <div class="form-label ">
+                        <span class="label">Para Birimi</span>
+                        <label class="mask-input">
+                            <div> </div>
+                            <div class="select">
+                                <select class="form-control-lg" disabled="">
+                                <option disabled="" value="default">Seçiniz...</option>
+                                <option value="0">TRY</option>
+                                </select>
+                            </div>
+                        </label>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="form-label "><span class="label">Promosyon Kodu</span><label class="mask-input"><input name="promo_code" class="input" value=""></label></div>
+                    </div>
+                    <div class="converter">
+                    <div class="form-label"><span class="mask-input"></span></div>
+                    </div>
+                    <button class="button inactive-button"> Gönder </button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
 </div>
 <script>
   function changeContent(divNum) {
