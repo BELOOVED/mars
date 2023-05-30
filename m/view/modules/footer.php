@@ -5,7 +5,7 @@
   </div>
 <? }else{ ?>
       <div class="profile-menu">
-        <div class="center">
+        <div class="center" style="margin-top: 10px;">
           <div class="header-mail" onclick="window.location.gref='messages'">
             <div class="middle">
               <div class="animation-wrap ">
