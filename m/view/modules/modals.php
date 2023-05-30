@@ -872,7 +872,7 @@
 <div id="divimiz1" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i>
          <i class="icon-close" onclick="closemodal()"></i>
          <h2> TETHER USDT (TRC20) (%20 BONUS) - PARA YATIR </h2>
       </div>
@@ -943,7 +943,7 @@
 <div id="divimiz2" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i>
          <i class="icon-close" onclick="closemodal()"></i>
          <h2> BITCOIN (%20 BONUS) - PARA YATIR </h2>
       </div>
@@ -1014,7 +1014,7 @@
 <div id="divimiz3" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
          <h2> ETHEREUM (%20 BONUS) - PARA YATIR </h2>
       </div>
       <div class="text" style="background: rgb(38, 44, 57);">
@@ -1072,7 +1072,7 @@
 <div id="divimiz4" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i> <i class="icon-close" onclick="closemodal()"></i> 
+         <i onclick="backDepositModal()" class="icon-back-left"></i> <i class="icon-close" onclick="closemodal()"></i> 
          <h2> TRON (TRX) (%20 BONUS) - PARA YATIR </h2>
       </div>
       <div class="text" style="background: rgb(63, 9, 6);">
@@ -1130,7 +1130,7 @@
 <div id="divimiz5" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
          <h2> TURBO PARAZULA - PARA YATIR </h2>
       </div>
       <div class="text" style="background: rgb(27, 191, 171);">
@@ -1183,7 +1183,7 @@
 <div id="divimiz6" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
          <h2> FİXTURKA 'PAYFİX'  - PARA YATIR </h2>
       </div>
       <div class="text" style="background: rgb(57, 58, 60);">
@@ -1236,7 +1236,7 @@
 <div id="divimiz7" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
          <h2> PREMIUM PAPARA - PARA YATIR </h2>
       </div>
       <div class="text" style="background: rgb(190, 37, 150);">
@@ -1280,7 +1280,7 @@
 <div id="divimiz8" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
          <h2> PAPARAM - PARA YATIR </h2>
       </div>
       <div class="text" style="background: rgb(35, 183, 29);">
@@ -1324,7 +1324,7 @@
 <div id="divimiz9" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
          <h2> ANINDA PAPARA  - PARA YATIR </h2>
       </div>
       <div class="text" style="background: rgb(115, 14, 14);">
@@ -1380,7 +1380,7 @@
 <div id="divimiz10" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
          <h2> PAPARAPAY - PARA YATIR </h2>
       </div>
       <div class="text" style="background: rgb(222, 135, 135);">
@@ -1433,7 +1433,7 @@
 <div id="divimiz11" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
          <h2> PROPAY PAPARA - PARA YATIR </h2>
       </div>
       <div class="text" style="background: rgb(48, 136, 186);">
@@ -1486,7 +1486,7 @@
 <div id="divimiz12" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
          <h2> TURBO HAVALE - PARA YATIR </h2>
       </div>
       <div class="text" style="background: rgb(1, 162, 254);">
@@ -1539,7 +1539,7 @@
 <div id="divimiz13" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
          <h2> SÜPER HAVALE - PARA YATIR </h2>
       </div>
       <div class="text" style="background: rgb(109, 51, 217);">
@@ -1592,7 +1592,7 @@
 <div id="divimiz14" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
          <h2> BANKA TRANSFERİ - PARA YATIR </h2>
       </div>
       <div class="text" style="background: rgb(236, 240, 33);">
@@ -1711,7 +1711,7 @@
 <div id="divimiz15" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
          <h2> HIZLI HAVALE - PARA YATIR </h2>
       </div>
       <div class="text" style="background: rgb(94, 46, 145);">
@@ -1755,7 +1755,7 @@
 <div id="divimiz16" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
          <h2> PAYBOL - PARA YATIR </h2>
       </div>
       <div class="text" style="background: rgb(61, 107, 159);">
@@ -1808,7 +1808,7 @@
 <div id="divimiz17" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
          <h2> HIZLI QR - PARA YATIR </h2>
       </div>
       <div class="text" style="background: rgb(221, 221, 221);">
@@ -1887,7 +1887,7 @@
 <div id="divimiz18" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
          <h2> CEPBANK - PARA YATIR </h2>
       </div>
       <div class="text" style="background: rgb(235, 32, 48);">
@@ -2313,7 +2313,7 @@
 <div id="divimiz19" class="gizli">
    <div class="modal-payments-single">
       <div class="modal-header">
-         <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+         <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
          <h2> DİĞER KRİPTO PARALAR - PARA YATIR </h2>
       </div>
       <div class="text" style="background: rgb(27, 33, 63);">
@@ -2389,7 +2389,7 @@
 <div id="divimiz20" class="gizli">
     <div class="modal-payments-single">
         <div class="modal-header">
-        <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+        <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
         <h2> PEP HIZLI - PARA YATIR </h2>
         </div>
         <div class="text" style="background: rgb(60, 43, 110);">
@@ -2439,7 +2439,7 @@
 <div id="divimiz21" class="gizli">
     <div class="modal-payments-single">
         <div class="modal-header">
-        <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+        <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
         <h2> ECOPAYZ - PARA YATIR </h2>
         </div>
         <div class="text" style="background: rgb(35, 68, 123);">
@@ -2495,7 +2495,7 @@
 <div id="divimiz22" class="gizli">
     <div class="modal-payments-single">
         <div class="modal-header">
-        <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+        <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
         <h2> UNION PAY - PARA YATIR </h2>
         </div>
         <div class="text" style="background: rgb(184, 172, 172);">
@@ -2548,7 +2548,7 @@
 <div id="divimiz23" class="gizli">
     <div class="modal-payments-single">
         <div class="modal-header">
-        <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+        <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
         <h2> PERFECT MONEY  - PARA YATIR </h2>
         </div>
         <div class="text" style="background: rgb(187, 9, 9);">
@@ -2601,7 +2601,7 @@
 <div id="divimiz24" class="gizli">
     <div class="modal-payments-single">
         <div class="modal-header">
-        <i class="icon-close" onclick="closemodal()"></i><i class="icon-close" onclick="closemodal()"></i>
+        <i onclick="backDepositModal()" class="icon-back-left"></i><i class="icon-close" onclick="closemodal()"></i>
         <h2> PROMOSYON KODU - PARA YATIR </h2>
         </div>
         <div class="text" style="background: rgb(83, 54, 148);">
