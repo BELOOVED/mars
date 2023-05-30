@@ -1838,7 +1838,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form  action="/payfix/" method="POST">
+                      <form  action="/payment/payfix" method="POST">
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -1925,7 +1925,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                      <form  action="/papara/" method="POST">
+                      <form  action="/payment/papara" method="POST">
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -2107,30 +2107,6 @@
                             </label>
                           </div>
                         </div>
-                        <div>
-                          <div class="form-label ">
-                            <span class="label"> Ad </span>
-                            <label class="mask-input">
-                              <input name="first_name" disabled="" class="input" value="Harun">
-                            </label>
-                          </div>
-                        </div>
-                        <div>
-                          <div class="form-label ">
-                            <span class="label"> Soyad </span>
-                            <label class="mask-input">
-                              <input name="last_name" disabled="" class="input" value="Tekin">
-                            </label>
-                          </div>
-                        </div>
-                        <div>
-                          <div class="form-label ">
-                            <span class="label"> T.C. Kimlik Numarası </span>
-                            <label class="mask-input">
-                              <input name="ssn" maxlength="11" type="number" class="input" value="">
-                            </label>
-                          </div>
-                        </div>
                         <div class="converter">
                           <div class="form-label">
                             <span class="mask-input"></span>
@@ -2185,7 +2161,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                    <form action="/papara/" method="POST">
+                    <form action="/payment/papara" method="POST">
 
                         <div class="hide">
                           <div class="form-label ">
@@ -2273,7 +2249,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                    <form action="/papara/" method="POST">
+                    <form action="/payment/papara" method="POST">
 
                         <div class="hide">
                           <div class="form-label ">
@@ -3031,7 +3007,9 @@
                                 <div class="Select-control">
                                   <span class="Select-multi-value-wrapper" id="react-select-35--value">
                                     <div class="Select-placeholder">Para Birimi</div>
-                                    <div aria-expanded="false" aria-owns="" aria-activedescendant="react-select-35--value" aria-disabled="true" class="Select-input" role="combobox" tabindex="0" style="border: 0px; width: 1px; display: inline-block;"></div>
+                                    <div aria-expanded="false" aria-owns="" aria-activedescendant="react-select-35--value" aria-disabled="true" class="Select-input" role="combobox" tabindex="0" style="border: 0px; width: 1px; display: inline-block;">
+                                 
+                                  </div>
                                   </span>
                                   <span class="Select-arrow-zone">
                                     <span class="Select-arrow"></span>
@@ -3039,40 +3017,6 @@
                                 </div>
                               </div>
                             </label>
-                          </div>
-                        </div>
-                        <div>
-                          <div class="form-label ">
-                            <span class="label"> Kripto Para Birimi </span>
-                            <label class="mask-input">
-                              <div class="Select is-clearable is-searchable Select--single">
-                                <div class="Select-control">
-                                  <span class="Select-multi-value-wrapper" id="react-select-36--value">
-                                    <div class="Select-placeholder">Seçiniz...</div>
-                                    <div class="Select-input" style="display: inline-block;">
-                                      <input aria-activedescendant="react-select-36--value" aria-expanded="false" aria-haspopup="false" aria-owns="" role="combobox" value="" style="box-sizing: content-box; width: 5px;">
-                                      <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 13px; font-family: MuseoSans500, NotoSansRegular, serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
-                                    </div>
-                                  </span>
-                                  <span class="Select-arrow-zone">
-                                    <span class="Select-arrow"></span>
-                                  </span>
-                                </div>
-                              </div>
-                            </label>
-                          </div>
-                        </div>
-                        <div>
-                          <div class="form-label ">
-                            <span class="label"> Tutar </span>
-                            <div class="currency-symbol">
-                              <span class="symbol">TRY</span>
-                              <div>
-                                <label class="mask-input">
-                                  <input name="amount" type="number" min="0" step="0.01" class="input" value="">
-                                </label>
-                              </div>
-                            </div>
                           </div>
                         </div>
                         <div class="converter">
@@ -3128,7 +3072,7 @@
                       <div class="payment-form-bonuses"></div>
                     </div>
                     <div class="form-cont ">
-                    <form action="/pep/" method="POST">
+                    <form action="/payment/pep" method="POST">
                         <div class="hide">
                           <div class="form-label ">
                             <span class="label"> Para Birimi </span>
@@ -3210,28 +3154,6 @@
                     </div>
                     <div class="form-cont ">
                     <form action="/payment/ecopayz" method="POST">
-                        <div class="">
-                          <div class="form-label ">
-                            <span class="label"> Para Birimi </span>
-                            <label class="mask-input">
-                              <div></div>
-                              <div class="Select is-clearable is-searchable Select--single">
-                                <div class="Select-control">
-                                  <span class="Select-multi-value-wrapper" id="react-select-38--value">
-                                    <div class="Select-placeholder">Para Birimi</div>
-                                    <div class="Select-input" style="display: inline-block;">
-                                      <input aria-activedescendant="react-select-38--value" aria-expanded="false" aria-haspopup="false" aria-owns="" role="combobox" value="" style="box-sizing: content-box; width: 5px;">
-                                      <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 13px; font-family: MuseoSans500, NotoSansRegular, serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
-                                    </div>
-                                  </span>
-                                  <span class="Select-arrow-zone">
-                                    <span class="Select-arrow"></span>
-                                  </span>
-                                </div>
-                              </div>
-                            </label>
-                          </div>
-                        </div>
                         <div>
                           <div class="form-label ">
                             <span class="label"> Tutar </span>
