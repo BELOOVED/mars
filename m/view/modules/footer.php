@@ -4,36 +4,44 @@
     <button class="button sign-in" onclick="openmodal('signin-modal')"><i class="icon-mobile-profile"></i>GİRİŞ Yap</button>
   </div>
 <? }else{ ?>
-  <div class="profile-menu">
-    <div class="center">
-      <div class="header-mail">
-        <div class="middle">
-          <div class="animation-wrap ">
-            <a href="messages">
-              <i class="icon-mobile-inbox"></i><span>MESAJ KUTUSU</span>
-            </a>
+      <div class="profile-menu">
+        <div class="center">
+          <div class="header-mail" onclick="window.location.gref='messages'">
+            <div class="middle">
+              <div class="animation-wrap ">
+                <i class="icon-mobile-inbox"></i>
+                <span>MESAJ KUTUSU</span>
+              </div>
+            </div>
+          </div>
+          <div class="deposit" onclick="openmodal('deposit-modal')">
+            <div class="middle">
+              <i class="icon-mobile-deposit"></i>
+              <span>PARA YATIR</span>
+            </div>
+          </div>
+          <div class="money-wrap">
+            <div class="middle">
+              <a class="undefined " href="transaction">
+                <i class="icon-wallet"></i>
+                <span> <?=$us['balance']?> TRY </span>
+              </a>
+            </div>
+          </div>
+          <div class="live-help" title="DESTEK">
+            <div class="middle">
+              <i class="support icon-mobile-chat"></i>
+              <span>DESTEK</span>
+            </div>
+          </div>
+          <div class="search-box">
+            <div class="middle">
+              <i class="search-icon icon-zoom"></i>
+              <span>ARA</span>
+            </div>
           </div>
         </div>
       </div>
-      <div class="deposit" onclick="openmodal('deposit-modal')">
-        <div class="middle"><i class="icon-mobile-deposit"></i><span>PARA YATIR</span></div>
-      </div>
-      <div class="money-wrap">
-        <div class="middle">
-          <a class="undefined " href="transaction">
-            <i class="icon-wallet"></i>
-            <span><?=$us['balance']?> TRY</span>
-          </a>
-        </div>
-      </div>
-      <div class="live-help" onclick="openzopim()">
-        <div class="middle"><i class="support icon-mobile-chat"></i><span>DESTEK</span></div>
-      </div>
-      <div class="search-box">
-        <div class="middle"><i class="search-icon icon-zoom"></i><span>ARA</span></div>
-      </div>
-    </div>
-  </div>
 <? } ?>
 </div>
 </div>

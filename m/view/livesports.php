@@ -1,14 +1,18 @@
-<link rel="stylesheet" href="/m/assets/static/cdn-sp.kertn.net-mobile.min.css">
-<link rel="stylesheet" href="/m/assets/static/105.min.css">
-<link rel="stylesheet" href="/m/assets/static/live/live.css">
+<?
+$domains = json_decode($betapi->getSource('/domains'), true);
+$domain = str_replace('www.', '', strtolower($domains['marsbahis']));
+?>
 <div class="global-container ">
   <div class="container">
     <div class="container-content">
       <div class="flex-wrap"></div>
-      <section class="page-content full-page full-iframe digitain-esports digitain">
-      <div></div>
-        <div class="externalBetting"><iframe id="externalBetting" src="https://sport.<?=$main['sitelink'] ?>.com/SportsBook/Overview?token=-&d=d&l=tr&tz=4&of=0&customCssUrl=&sportsBookView=europeanView&clearSiteStyles=false&resetAllStyles=false" width="100%" scrolling="yes"></iframe></div>
-     
+      <section class="page-content full-page full-iframe ">
+        <div></div>
+        <div class="wisegaming">
+          <div id="wisegaming_iframe">
+            <div class="wiseGaming"><iframe src="https://wisegaming.<?=$main['sitelink'] ?>.com/api/v1/authorize?lang=tr" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+          </div>
+        </div>
       </section>
     </div>
   </div>
