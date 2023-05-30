@@ -6,7 +6,7 @@
         <div class="banner-container fade-effect">
           <div>
             <div style="position:absolute">
-              <div onclick="loginorpay()" class="image-wrap" style="background-image: url(&quot;/m/assets/static/img/slider_images/5bd2c4b0e4fa17b9122640e395bcab34efe20a84_medium.jpg&quot;);"></div>
+              <div onclick="loginorpay()" class="image-wrap" style="background-image: url(&quot;https://d1hpetrtq93mp2.cloudfront.net/slider_images/8ac809f79b904f19ef1e31b75853625eb0ac79fd_medium.jpg?1685443062&quot;);"></div>
             </div>
             <div style="position:absolute">
               <div onclick="loginorpay()" class="image-wrap" style="background-image: url(&quot;/m/assets/static/img/slider_images/af03d9a91fec4c6833e69d82f11066b64d8b093c_medium.jpg&quot;);"></div>
