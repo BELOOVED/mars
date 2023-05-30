@@ -43,18 +43,112 @@
               <nav class="main-menu">
                 <div>
                   <ul>
-                    <li><a class="undefined " href="sportsbook"><span class="group"><span>Canlı</span></span></a></li>
-                    <li><a class="undefined " href="sportsbook"><span class="group"><span>BAHİS</span></span></a></li>
-                    <li><a class="undefined " href="esports"><span class="group"><span>esports</span></span></a></li>
-                    <li><a class="undefined " href="casino"><span class="group"><span>Casıno</span></span></a></li>
-                    <li><a class="undefined " href="livecasino"><span class="group"><span>Canlı Casıno</span></span></a></li>
-                    <li><a class="undefined " href="virtual"><span class="group"><span>Sanal Sporlar</span></span></a>
+                    <li>
+                      <a class="undefined " href="wisegaming">
+                        <span class="group">
+                          <span>BAHİS</span>
+                          <span class="tooltip"> YENİ </span>
+                        </span>
+                      </a>
                     </li>
-                    <li><a href="goldenrace" href="goldenrace"><span class="group"><span>Golden Race</span></span></a></li>
-                    <li><a href="bingo"><span class="group"><span>Tombala</span></span></a></li>
-                    <li><a href="promotions"><span class="group"><span>Bonus</span><span class="tooltip">22</span></span></a></li>
-                    <li><a href="javascript:;" onclick="loginorpay()"><span class="group"><span>Şans Çarkı</span></span></a></li>
-                    <li><a href="<?= $main['bet_tv'] ?>" target="_blank"><span class="group"><span>MB TV</span></span></a></li>
+                    <li>
+                      <a class="undefined " href="sportsbook">
+                        <span class="group">
+                          <span>BAHİS</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="undefined " href="livesports">
+                        <span class="group">
+                          <span>Canlı</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="undefined " href="esports">
+                        <span class="group">
+                          <span>Espor</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="undefined " href="casino">
+                        <span class="group">
+                          <span>Casino</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="undefined " href="livecasino">
+                        <span class="group">
+                          <span>Canlı Casino</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="undefined " href="jackpot">
+                        <span class="group">
+                          <span>jackpot</span>
+                          <span class="tooltip"> YENİ </span>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="undefined " href="virtualsports">
+                        <span class="group">
+                          <span>Sanal Sporlar</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li>
+                      <a class="undefined " href="bingo">
+                        <span class="group">
+                          <span>Tombala</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li></li>
+                    <li></li>
+                    <li>
+                      <a class="undefined " href="bonus">
+                        <span class="group">
+                          <span>Bonus</span>
+                          <span class="tooltip">17</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="undefined " href="basinda-marsbahis">
+                        <span class="group">
+                          <span>Sponsorlar</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/watch?v=JVJH0SUJ9LI" target="_blank" rel="noreferrer">
+                        <span class="group">
+                          <span>bitcoin</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="undefined " href="/tr/?cmd=wheel">
+                        <span class="group">
+                          <span>Şans Çarkı</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.<?$main['tv_url']?>.com/" target="_blank" rel="noreferrer">
+                        <span class="group">
+                          <span>MB TV</span>
+                        </span>
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </nav>
@@ -72,22 +166,13 @@
                     <div style="margin-top: 18px;">
                       <div style="display: block;position: relative;overflow: hidden;max-width: 64px;min-width: 32px;">
                         <a href="#">
-                          <img alt="License Validation Link" style="width: 100%; height: auto" src="./assets/img/91eae19bb33ec0e17bc97be692fb8744-mobile.marsbahis239.png">
+                          <img alt="License Validation Link" style="width: 100%; height: auto" src="https://licensing.gaming-curacao.com/images/gc-logo.png">
+                          <img src="images/verified.png" width="25" alt="VERIFIED URL" style="position:absolute;left:40px;top:30px">
                         </a>
                       </div>
                     </div>
                   </div>
-                  <div class="license-logos"></div>
-                  <div class="footer-logo"></div>
-                  <div class="copy-block">
-                    <h2>Telif Hakkı © <a class="undefined active" href="/">#EvdeKal - Marsbahis</a></h2>
-                    <h2>Tüm hakları saklıdır</h2>
-                    <div class="license ">
-                      <div>
-                        <p>www.marsbahis.com kayıtlı adresi Chuchubiweg 17, Curaçao ve 129958 kayıt numarali Alpha Entertainment BV bünyesinde yer almaktadır. Alpha Entertainment BV Curacao Egaming tarafından lisanslı olup hizmet vermektedir.</p>
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
               </footer>
             </div>

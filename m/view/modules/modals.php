@@ -597,7 +597,6 @@
             <span class="back" onclick="closemodal()"><i class="icon-arrow-left"></i></span>
             <h2>GİRİŞ YAP</h2>
             <div class="sign-in-form">
-                <div class="sign-in-logo"></div>
                 <form id="login_form" onsubmit="event.preventDefault()">
                     <div class="loginSteps">
                         <div id="step_1">
@@ -646,10 +645,7 @@
                     <div class="step ">
                         <div class="text">
                             <h2>Üye Ol</h2>
-                            <p>Hesap açmak için 18 yaşından büyük olmalısınız</p>
-                            <p class="required">*İşaretli alanların doldurulması zorunludur</p>
                         </div>
-                        <span class="logo"></span>
                         <div class="form-group group1">
                             <div class="form-label "><span class="label">Kullanıcı Adı</span><label class="mask-input"><input name="login" placeholder="Kullanıcı Adı *" type="text" class="input" value=""></label></div>
                             <div class="form-label "><span class="label">E-posta</span><label class="mask-input"><input name="email" placeholder="E-posta" type="email" class="input" value=""></label></div>
