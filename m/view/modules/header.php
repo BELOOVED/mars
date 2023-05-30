@@ -162,17 +162,9 @@
               </div>
               <footer>
                 <div class="footer-content">
-                  <div class="seal-wrapper" style="padding-top: 16px; display: flex; justify-content: center;">
-                    <div style="margin-top: 18px;">
-                      <div style="display: block;position: relative;overflow: hidden;max-width: 64px;min-width: 32px;">
-                        <a href="#">
-                        <img src="https://licensing.gaming-curacao.com/images/gc-logo.png" width="120" height="45" alt="GAMING CURACAO LICENSEE CLICK FOR MORE INFORMATION" style="position:absolute;left:0:top:0">
-                        <img src="https://licensing.gaming-curacao.com/validator/images/verified.png" width="25" alt="VERIFIED URL" style="position:absolute;left:40px;top:30px">
-
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+                <div class="license-logos"><div class="ceg-seal"><p>
+                <a href="#" target="_blank"><img src="/images/gc-logo.png" width="120" height="45" alt="GAMING CURACAO LICENSEE CLICK FOR MORE INFORMATION" style="position:absolute;left:0:top:0"><img src="images/verified.png" width="25" alt="VERIFIED URL" style="position:absolute;left:40px;top:30px"></a>
+                </p></div><div class="header-sponsorships"><span></span></div></div>
                   
                 </div>
               </footer>
