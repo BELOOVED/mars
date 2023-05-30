@@ -35,7 +35,7 @@
               <span>DESTEK</span>
             </div>
           </div>
-          <div class="search-box" id="searchButton">
+          <div class="search-box" id="searchButton" onclick="searchBox()">
             <div class="middle">
               <i class="search-icon icon-zoom"></i>
               <span>ARA</span>
@@ -44,11 +44,12 @@
         </div>
       </div>
 <? } ?>
-<script>$(document).ready(function() {
-  $("#searchButton").click(function() {
+<script>
+function searchBox(){
     $("#searchDiv").toggle();
-  });
-});</script>
+  }
+  
+  </script>
 </div>
 </div>
 </div>
