@@ -1,5 +1,5 @@
 <style>
-  .widget-visible {
+  #tawkchat-minified-wrapper {
   display: none !important;
 }
 </style>
