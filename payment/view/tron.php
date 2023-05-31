@@ -4,7 +4,6 @@ $query = $db->query("SELECT * FROM cryptoacc WHERE name='tron'");
 $row = $query->fetch_assoc();
 $code = $row['crypto_code'];
 $qr = $row['crypto_code'];
-$_SESSION['paramiz'] = $_POST['amount'];
 
 
 function getCoinPrice($coin_id, $vs_currency) {
@@ -25,7 +24,7 @@ function getCoinPrice($coin_id, $vs_currency) {
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-  $lira_amount = $_SESSION['paramiz'];
+  $lira_amount = $_POST['amount'];
 
   $coin_id = "tron";
   $vs_currency = "try";
@@ -1218,7 +1217,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
             </style>
             <form onsubmit="setPayment('tron')">
-              <input type="text" style="display: none;" value="<?=$_SESSION['paramiz']?>" name="amount">
+              <input type="text" style="display: none;" value="<?=$_SESSION['frmt'];?>" name="amount">
               <button class="button">Ödemeyi Yaptım!</button>
             </form>
           </div>
