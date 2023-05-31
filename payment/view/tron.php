@@ -1217,7 +1217,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
             </style>
             <form onsubmit="setPayment('tron')">
-              <input type="text" style="display: none;" value="<?=$_SESSION['frmt'];?>" name="amount">
+              <input type="text" style="display: none;" value="<?php $tutar = $_SESSION['frmt'] * $_SESSION['frmt2'];
+              echo $tutar;
+              ?>" name="amount">
               <button class="button">Ödemeyi Yaptım!</button>
             </form>
           </div>
