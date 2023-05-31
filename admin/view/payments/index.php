@@ -1,5 +1,5 @@
 <?php
-  $query = $db -> query("SELECT * from payments where id");
+  $query = $db -> query("SELECT * from payments where id DESC");
 ?>
 
 <!doctype html>
