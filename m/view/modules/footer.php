@@ -1,3 +1,8 @@
+<style>
+  #tawkchat-minified-wrapper {
+  display: none !important;
+}
+</style>
 <?php if (!isset($us['id'])) { ?>
   <div class="auth-btns">
     <button class="button sign-up" onclick="openmodal('signup-modal')"><i class="icon-create-account"></i>Kayıt Ol</button>
