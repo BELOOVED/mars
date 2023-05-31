@@ -40,9 +40,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $_SESSION['frmt'] = $formatted_amount;
   }
 }
-global $lira_amount;
+echo $lira_amount;
+echo $lira_amount;
 
 ?>
+<?=$lira_amount?>
 <!DOCTYPE html>
 <html lang=tr>
   <meta charset=utf-8>
