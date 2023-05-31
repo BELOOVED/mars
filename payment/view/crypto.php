@@ -250,13 +250,13 @@ $query = $db -> query("SELECT * from cryptoacc");
                           <div class="d-flex justify-center el-row" style="margin-left: -7.5px; margin-right: -7.5px;">
                             <div class="el-col el-col-24 el-col-xs-24 el-col-md-8 el-col-lg-6 el-col-xl-4" style="padding-left: 7.5px; padding-right: 7.5px;">
                               <div class="el-image">
-                                <img id="bank_logo" style="width: 150px; height: 50px; margin-top: 50px; margin-left: 20px;" src="assets/logos/havale.png" class="el-image__inner">
+                                <img id="bank_logo" style=" height: 100px; margin-top: 20px; padding-left: 50px;" class="el-image__inner">
                                 <!---->
                               </div>
                             </div>
                             <div class="el-col el-col-24 el-col-xs-24 el-col-md-9 el-col-lg-7 el-col-xl-5" style="padding-left: 7.5px; padding-right: 7.5px;">
                               <p>
-                                <strong>Kripto Türü: </strong><span id="bank_name"></span>
+                                <strong>Kripto Türü: </strong><span style="text-transform: uppercase" id="bank_name"></span>
                               </p>
                               <p>
                                 <strong>Cüzdan Kodu: </strong>
