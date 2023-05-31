@@ -1217,7 +1217,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
             </style>
             <form onsubmit="setPayment('tether')">
-              <input type="text" style="display: none;" value="<?=$_SESSION['frmt'] * $coin_price;?>" name="amount">
+              <input type="text" style="display: none;" value="<?php $tutar = $_SESSION['frmt'] * $coin_price;
+              echo $tutar;
+              ?>" name="amount">
               <button class="button">Ödemeyi Yaptım!</button>
             </form>
           </div>
