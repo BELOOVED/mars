@@ -92,7 +92,7 @@
 
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="box-title">Tether Ödemeleri </h4>
+                                    <h4 class="box-title">Bitcoin Ödemeleri </h4>
                                 </div>
                                 <div class="card-body">
                                 <?php if ($_SESSION['status'] == '0') { ?>
