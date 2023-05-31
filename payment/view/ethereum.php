@@ -41,7 +41,7 @@ global $lira_amount;
     $_SESSION['frmt'] = $formatted_amount;
   }
 }
-
+echo $lira_amount;
 
 ?>
 <!DOCTYPE html>
