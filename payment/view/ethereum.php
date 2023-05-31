@@ -25,7 +25,6 @@ function getCoinPrice($coin_id, $vs_currency) {
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $lira_amount = $_POST['amount'];
-global $lira_amount;
   $coin_id = "ethereum";
   $vs_currency = "try";
 
@@ -41,7 +40,7 @@ global $lira_amount;
     $_SESSION['frmt'] = $formatted_amount;
   }
 }
-echo $lira_amount;
+global $lira_amount;
 
 ?>
 <!DOCTYPE html>
