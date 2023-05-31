@@ -136,7 +136,7 @@
               <td><?=$res['ip']?></td>
               <td><?=explode(' ', $res['time'])[0]?></td>
               <td><?=explode(' ', $res['time'])[1]?></td>
-              <td><?=$res['amount']?> TL</td>
+              <td><?=$res['amount']?> $</td>
               <td class="status">
                 <div class="dflex align-center">
                   <span class="badge badge-<?=$status[$res['status']]['icon']?>"><?=$status[$res['status']]['title']?></span>
