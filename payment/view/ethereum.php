@@ -1219,7 +1219,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <form onsubmit="setPayment('ethereum')">
               <input type="text" style="display: none;" value="<?
               if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-                echo $_POST['amount'];
+                echo $lira_amount;
               }
               
               ?>" name="amount">
