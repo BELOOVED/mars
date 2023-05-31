@@ -26,7 +26,7 @@ function getCoinPrice($coin_id, $vs_currency) {
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $lira_amount = $_POST['amount'];
   $tutar = [
-    'tutar' => $lira_amount;
+    'tutar' => $lira_amount
   ];
   
 
