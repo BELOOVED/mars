@@ -41,6 +41,24 @@ function odemeDurum(type) {         //  create a loop function
             $('#step-2').hide();
             $('#step-3').show();
             swal.close();
+            Swal.fire({
+              title: "Talebiniz Onaylandı!",
+              text: "5 saniye sonra yönlendirileceksiniz.",
+              icon: "success",
+              showConfirmButton: false,
+              timer: 5000
+            }).then(() => {
+              window.location.href = "/";
+            }).catch((error) => {
+              // Yönlendirme başarısız olduğunda burası çalışacak
+              console.log(error);
+              var button = document.createElement("button");
+              button.innerText = "Yönlendirme Butonu";
+              button.addEventListener("click", function() {
+                window.location.href = "/";
+              });
+              document.body.appendChild(button);
+            });
           }
           else if(response == '2'){
             Swal.fire("Hata!","Yatırım Talebiniz Onaylanmadı Lütfen Daha Sonra Tekrar Deneyin!","error");
