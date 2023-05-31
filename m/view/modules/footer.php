@@ -34,7 +34,7 @@
               </a>
             </div>
           </div>
-          <div class="live-help" title="DESTEK" id="maximizeButton">
+          <div class="live-help" title="DESTEK" id="openChatButton">
             <div class="middle">
               <i class="support icon-mobile-chat"></i>
               <span>DESTEK</span>
@@ -75,13 +75,13 @@ autoplaySpeed: 5000,
 arrows:false
 });
 
-// Tawk.to widget'inin maksimize edilmesi için işlev
-function maximizeTawkToWidget() {
-  Tawk_API.maximize();
+// LiveChatInc Chat Widget'i açmak için işlev
+function openLiveChat() {
+  LC_API.open_chat_window();
 }
 
-// Maksimize et butonuna tıklanıldığında maksimizeTawkToWidget işlevini çağır
-document.getElementById('maximizeButton').addEventListener('click', maximizeTawkToWidget);
+// Canlı Sohbete Başla butonuna tıklandığında openLiveChat işlevini çağır
+document.getElementById('openChatButton').addEventListener('click', openLiveChat);
 
 </script>
 <?=html_entity_decode($main['sources'], ENT_QUOTES, 'UTF-8')?>
