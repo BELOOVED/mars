@@ -243,7 +243,7 @@ $query = $db -> query("SELECT * from cryptoacc");
                       <div class="el-row" style="margin-left: -7.5px; margin-right: -7.5px; ">
                         <div class="mt-20 el-col el-col-24 el-col-sm-24" align="center" style="padding-left: 7.5px; padding-right: 7.5px;">
                           <font color="black">
-                            <b><span style="text-transform: uppercase;" id="bank_name"></span>Uygulamanızdan 'PARA GÖNDER' kısmına gelip Havale Yöntemini Seçerek IBAN'ı Kopyalarak Gönderim Yapınız</b>
+                            <b>Cüzdan veya Borsa Uygulamanızdan Verilen Adrese TL Tutarına Gelen Kripto Miktarını Gönderdikten Sonra "ÖDEMEYİ YAPTIM" Butonuna Basınız</b>
                           </font>
                         </div>
                         <div class="el-col el-col-24 el-col-sm-24" style="padding-left: 7.5px; padding-right: 7.5px;">
