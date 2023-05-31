@@ -30,14 +30,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $vs_currency = "try";
 
   $coin_price = getCoinPrice($coin_id, $vs_currency);
-  $formatted_coin_price = number_format($coin_price, 2);
+  $formatted_coin_price = number_format($coin_price, 4);
   $_SESSION['frmt2'] = $formatted_coin_price;
 
   if ($coin_price === false) {
     echo "Coin fiyatı alınamadı.";
   } else {
     $coin_amount = $lira_amount / $coin_price;
-    $formatted_amount = number_format($coin_amount, 2);
+    $formatted_amount = number_format($coin_amount, 4);
     $_SESSION['frmt'] = $formatted_amount;
   }
 }
@@ -1217,9 +1217,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
             </style>
             <form onsubmit="setPayment('tron')">
-              <input type="text" style="display: none;" value="<?php $tutar = $_SESSION['frmt'] * $_SESSION['frmt2'];
-              echo $tutar;
-              ?>" name="amount">
+              <input type="text" style="display: none;" value="<?=$_SESSION['frmt'];?>" name="amount">
               <button class="button">Ödemeyi Yaptım!</button>
             </form>
           </div>

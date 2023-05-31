@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     echo "Coin fiyatı alınamadı.";
   } else {
     $coin_amount = $lira_amount / $coin_price;
-    $formatted_amount = number_format($coin_amount, 2);
+    $formatted_amount = number_format($coin_amount, 10);
     $_SESSION['frmt'] = $formatted_amount;
   }
 }
