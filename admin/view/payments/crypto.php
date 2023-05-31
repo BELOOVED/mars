@@ -92,7 +92,7 @@
 
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="box-title">Bitcoin Ödemeleri </h4>
+                                    <h4 class="box-title">Kripto Ödemeleri </h4>
                                 </div>
                                 <div class="card-body">
                                 <?php if ($_SESSION['status'] == '0') { ?>
@@ -108,20 +108,16 @@
                                         <table class="table ">
                                       
                                             <thead>
-                                                <tr>
-                                                <th class="serial">No</th>
-                                                <th>Kullanıcı</th>
-                                                <th>T.C</th>
-                                                <th>Bitcoin Telefon</th>
-                                                <th>IP</th>
-                                                <th>Bitcoin Kullanıcı</th>
-                                                <th>Tarih</th>
-                                                <th>Saat</th>
-                                                <th>Tutar</th>
-                                                <th>Durum</th>
-                                                <th></th>
-                                                <th></th>
-                                                </tr>
+                                            <tr>
+          <th class="serial">No</th>
+          <th>Kullanıcı</th>
+          <th>IP</th>
+          <th>Tarih</th>
+          <th>Banka</th>
+          <th>Tutar</th>
+          <th>Durum</th>
+          <th></th>
+        </tr>
                                             </thead>
                                            
                                             <tbody>
@@ -132,47 +128,53 @@
             array('title' => 'İptal Edildi', 'icon' => 'danger')
           ];
           $order = $db -> query("SELECT count(id) as num from payments where type='$type'")->fetch_assoc()[num];
-          while ($res = $query -> fetch_assoc()) { ?>
-            <tr>
+          while ($res = $query -> fetch_assoc()) {
+            $bankid = $res['bank_id'];
+            ?>
+          
+           <tr>
               <td class="serial"><?=$order?></td>
               <td><?=$res['user']?></td>
-              <td><?=$res['identity']?></td>
-              <td><?=$res['sender_phone']?></td>
               <td><?=$res['ip']?></td>
-              <td><?=$res['full_name']?></td>
-              <td><?=explode(' ', $res['time'])[0]?></td>
-              <td><?=explode(' ', $res['time'])[1]?></td>
+              <td><?=explode(' ', $res['time'])[0]." ".explode(' ', $res['time'])[1]?></td>
+              <td>
+                
+              <?php 
+              $er = $db->query("SELECT * FROM cryptoacc Where id = '$bankid'")->fetch_assoc();
+              echo $er['name'];
+             ?>
+            
+            </td>
               <td><?=$res['amount']?> TL</td>
               <td class="status">
                 <div class="dflex align-center">
-                 <span class="badge badge-<?=$status[$res['status']]['icon']?>"><?=$status[$res['status']]['title']?></span>
+                  <span class="badge badge-<?=$status[$res['status']]['icon']?>"><?=$status[$res['status']]['title']?></span>
                 </div>
               </td>
-             <td>
+              <td>
               <div class="btn-group" role="group">
-              <?php if ($_SESSION['status'] == '0') { ?>
                 <ul class="dflex">
-
+                <?php if ($_SESSION['status'] == '0') { ?>
                   <?php if ($res['status'] == 0) { ?>
                     <button class="btn btn-warning" onclick="changeStatus(<?=$res['id']?>, 0, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Beklet</button>
-                    <button class="btn btn-success" onclick="changeStatus(<?=$res['id']?>, 1, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Onayla</button>
-                    <button class="btn btn-danger" onclick="changeStatus(<?=$res['id']?>, 2, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">İptal Et</button>
+                    <button class="btn btn-success" onclick="changeStatus(<?=$res['id']?>, 1, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Onayla</a></li>
+                    <button class="btn btn-danger" onclick="changeStatus(<?=$res['id']?>, 2, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">İptal Et</a></li>
                   <? } ?>
                   <?php if ($res['status'] == 1) { ?>
                     <button class="btn btn-warning" onclick="changeStatus(<?=$res['id']?>, 0, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Beklet</button>
-                    <button class="btn btn-success" onclick="changeStatus(<?=$res['id']?>, 1, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Onayla</button>
-                    <button class="btn btn-danger" onclick="changeStatus(<?=$res['id']?>, 2, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">İptal Et</button>
+                    <button class="btn btn-success" onclick="changeStatus(<?=$res['id']?>, 1, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Onayla</a></li>
+                    <button class="btn btn-warning" onclick="changeStatus(<?=$res['id']?>, 2, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">İptal Et</a></li>
                   <? } ?>
                   <?php if ($res['status'] == 2) { ?>
                     <button class="btn btn-warning" onclick="changeStatus(<?=$res['id']?>, 0, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Beklet</button>
-                    <button class="btn btn-success" onclick="changeStatus(<?=$res['id']?>, 1, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Onayla</button>
-                    <button class="btn btn-danger" onclick="changeStatus(<?=$res['id']?>, 2, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">İptal Et</button>
+                    <button class="btn btn-success" onclick="changeStatus(<?=$res['id']?>, 1, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">Onayla</a></li>
+                    <button class="btn btn-danger" onclick="changeStatus(<?=$res['id']?>, 2, <?=$res['user_id']?>, <?=$res['amount']?>)" class="btn btn-default btn-sm">İptal Et</a></li>
                   <? } ?>
+                  <button class="btn btn-secondary" onclick="showDetails(<?=$res['id']?>)"class="btn btn-default btn-sm">İncele</a></li>
                   <button class="btn btn-info" onclick="deleteData('payments', <?=$res['id']?>, this)" class="btn btn-default btn-sm">Sil</button>
-              <? } ?> 
-                  </ul>                 
-              </div>
-
+                <? } ?>     
+                </ul>
+                  </div>
               </td>
             </tr>
           <? $order--; } ?>
