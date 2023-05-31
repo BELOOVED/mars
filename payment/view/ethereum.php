@@ -25,26 +25,25 @@ function getCoinPrice($coin_id, $vs_currency) {
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $lira_amount = $_POST['amount'];
+
   $coin_id = "ethereum";
   $vs_currency = "try";
 
   $coin_price = getCoinPrice($coin_id, $vs_currency);
-  $formatted_coin_price = number_format($coin_price, 4);
+  $formatted_coin_price = number_format($coin_price, 2);
   $_SESSION['frmt2'] = $formatted_coin_price;
 
   if ($coin_price === false) {
     echo "Coin fiyatı alınamadı.";
   } else {
     $coin_amount = $lira_amount / $coin_price;
-    $formatted_amount = number_format($coin_amount, 10);
+    $formatted_amount = number_format($coin_amount, 2);
     $_SESSION['frmt'] = $formatted_amount;
   }
 }
-echo $lira_amount;
-echo $lira_amount;
+
 
 ?>
-<?=$lira_amount?>
 <!DOCTYPE html>
 <html lang=tr>
   <meta charset=utf-8>
@@ -1172,7 +1171,7 @@ echo $lira_amount;
               <span>Adresi Kopyala</span>
               <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTVweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMTUgMTgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTAuMiAoNTUwNDcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPlVSTC1JY29uPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgICAgICA8ZyBpZD0iU3RlcDItQml0Y29pbiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1MS4wMDAwMDAsIC01MDMuMDAwMDAwKSIgZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjNzE4NkU5Ij4KICAgICAgICAgICAgPGcgaWQ9IlVSTC1JY29uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNTIuMDAwMDAwLCA1MDQuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0ic21hcnRwaG9uZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMy4wMDAwMDAsIDIuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZS1wYXRoIiB4PSIwIiB5PSIwIiB3aWR0aD0iMTAiIGhlaWdodD0iMTQiPjwvcmVjdD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDxnIGlkPSJzbWFydHBob25lLWNvcHkiPgogICAgICAgICAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUtcGF0aCIgeD0iMCIgeT0iMCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjE0Ij48L3JlY3Q+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==" alt>
             </a>
-            <a href="#" onclick="copyData('<?=$lira_amount?>')">
+            <a href="#" onclick="copyData('<?=$_SESSION['frmt'];?>')">
               <span>Tutarı Kopyala</span>
               <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTVweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMTUgMTgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTAuMiAoNTUwNDcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPlVSTC1JY29uPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgICAgICA8ZyBpZD0iU3RlcDItQml0Y29pbiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1MS4wMDAwMDAsIC01MDMuMDAwMDAwKSIgZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjNzE4NkU5Ij4KICAgICAgICAgICAgPGcgaWQ9IlVSTC1JY29uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNTIuMDAwMDAwLCA1MDQuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0ic21hcnRwaG9uZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMy4wMDAwMDAsIDIuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZS1wYXRoIiB4PSIwIiB5PSIwIiB3aWR0aD0iMTAiIGhlaWdodD0iMTQiPjwvcmVjdD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDxnIGlkPSJzbWFydHBob25lLWNvcHkiPgogICAgICAgICAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUtcGF0aCIgeD0iMCIgeT0iMCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjE0Ij48L3JlY3Q+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==" alt>
             </a>
@@ -1218,7 +1217,12 @@ echo $lira_amount;
 }
             </style>
             <form onsubmit="setPayment('ethereum')">
-              <input type="text" style="display: none;" value="<?php echo $lira_amount;?>" name="amount">
+              <input type="text" style="display: none;" value="<?
+              if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                echo $_POST['amount'];
+              }
+              
+              ?>" name="amount">
               <button class="button">Ödemeyi Yaptım!</button>
             </form>
           </div>
