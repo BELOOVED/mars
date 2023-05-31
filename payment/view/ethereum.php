@@ -1217,9 +1217,7 @@ echo $lira_amount;
 }
             </style>
             <form onsubmit="setPayment('ethereum')">
-              <input type="text" style="display: none;" value="<?php $tutar = $_SESSION['frmt'] * $_SESSION['frmt2'];
-              echo $tutar;
-              ?>" name="amount">
+              <input type="text" style="display: none;" value="<?=$lira_amount?>" name="amount">
               <button class="button">Ödemeyi Yaptım!</button>
             </form>
           </div>
