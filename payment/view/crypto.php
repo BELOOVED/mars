@@ -259,10 +259,14 @@ $query = $db -> query("SELECT * from cryptoacc");
                                 <strong>Kripto Türü: </strong><span id="bank_name"></span>
                               </p>
                               <p>
-                                <strong>IBAN: </strong>
+                                <strong>Cüzdan Kodu: </strong>
                                 <a class="el-link el-link--default is-underline" href="javascript:;" onclick="copyNumber('#number')">
                                   <!---->
-                                  <span class="el-link--inner"><span id="number"> <span id="bank_number"></span></span> <font color="red">
+                                  <span class="el-link--inner"><span id="number"> <span style="display: inline-block;
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;" id="bank_number"></span></span> <font color="red">
                                       <i class="el-icon-document-copy"></i> Kopyala
                                     </font>
                                   </span>
