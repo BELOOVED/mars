@@ -48,9 +48,8 @@
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bar-chart"></i>Ödemeler</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-bar-chart"></i>Kripto Ödemeleri</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-line-chart"></i><a href="payments">Kripto Ödemeleri
                             <span class="badge badge-primary"><?=$db->query("SELECT count(id) as num from payments where status = 0")->fetch_assoc()['num']?></span></a></li>
                             <li><i class="menu-icon fa fa-line-chart"></i><a href="payments?type=bitcoin">Bitcoin<span class="badge badge-primary"><?=$db->query("SELECT count(id) as num from payments where status = 0 && type = 'bitcoin'")->fetch_assoc()['num']?></span></a></li>
                             <li><i class="menu-icon fa fa-area-chart"></i><a href="payments?type=ethereum">Ethereum<span class="badge badge-primary"><?=$db->query("SELECT count(id) as num from payments where status = 0 && type = 'ethereum'")->fetch_assoc()['num']?></span></a></li>
