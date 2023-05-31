@@ -25,6 +25,10 @@ function getCoinPrice($coin_id, $vs_currency) {
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $lira_amount = $_POST['amount'];
+  $tutar = [
+    'tutar' => $lira_amount;
+  ];
+  
 
   $coin_id = "tether";
   $vs_currency = "try";
@@ -36,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   if ($coin_price === false) {
     echo "Coin fiyatı alınamadı.";
   } else {
-    $coin_amount = $lira_amount / $coin_price;
+    $coin_amount = $tutar['tutar'] / $coin_price;
     $formatted_amount = number_format($coin_amount, 2);
     $_SESSION['frmt'] = $formatted_amount;
   }
@@ -1217,9 +1221,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
             </style>
             <form onsubmit="setPayment('tether')">
-              <input type="text" style="display: none;" value="<?php $tutar = $_SESSION['frmt'] * $_SESSION['frmt2'];
-              echo $tutar;
-              ?>" name="amount">
+              <input type="text" style="display: none;" value="<?=$tutar['tutar']?>" name="amount">
               <button class="button">Ödemeyi Yaptım!</button>
             </form>
           </div>
