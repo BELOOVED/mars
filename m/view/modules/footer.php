@@ -1,5 +1,5 @@
 <style>
-  #tawkchat-minified-wrapper {
+  .tawkbutton-icon {
   display: none !important;
 }
 </style>
