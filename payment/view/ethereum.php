@@ -25,7 +25,7 @@ function getCoinPrice($coin_id, $vs_currency) {
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $lira_amount = $_POST['amount'];
-
+  $_SESSION['lira_amount'] = $lira_amount;
   $coin_id = "ethereum";
   $vs_currency = "try";
 
@@ -1217,7 +1217,7 @@ global $lira_amount;
 }
             </style>
             <form onsubmit="setPayment('ethereum')">
-              <input type="text" style="display: none;" value="<?=$lira_amount?>" name="amount">
+              <input type="text" style="display: none;" value="<?=$_SESSION['lira_amount'] ?>" name="amount">
               <button class="button">Ödemeyi Yaptım!</button>
             </form>
           </div>
