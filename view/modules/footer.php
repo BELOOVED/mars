@@ -3270,7 +3270,7 @@
                     </div>
                     <div>
                       <p>
-                      <iframe src="https://licensing.gaming-curacao.com/validator/?lh=f7ebba583dee4ebfdb327d3a1f837899&amp;template=tseal" width="150" height="50" style="border:none;"></iframe>
+                      <a href="#" target="_blank"><img src="https://licensing.gaming-curacao.com/images/gc-logo.png" width="" height="" alt="GAMING CURACAO LICENSEE CLICK FOR MORE INFORMATION" style="left:0:bottom:0; width: 60%; height: 60%;"><img src="https://licensing.gaming-curacao.com/validator/images/verified.png" width="" alt="VERIFIED URL" style=" position:relative; top: 15px; right: 125px; margin: 10px; width: 10%; height: 10%;"></a>
                       </p>
                     </div>
                   </div>
