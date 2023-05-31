@@ -141,7 +141,7 @@
               <td><?=explode(' ', $res['time'])[0]." ".explode(' ', $res['time'])[1]?></td>
               <td><?=$res['sender_phone']?></td>
               <td><?php 
-              $er = $db->query("SELECT * FROM cryptoacc Where id = '$bankid'")->fetch_assoc();
+              $er = $db->query("SELECT * FROM banks Where id = '$bankid'")->fetch_assoc();
               echo $er['name'];
              ?></td>
               <td><?=$res['amount']?> TL</td>

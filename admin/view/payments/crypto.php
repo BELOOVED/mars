@@ -113,7 +113,7 @@
           <th>Kullanıcı</th>
           <th>IP</th>
           <th>Tarih</th>
-          <th>Banka</th>
+          <th>Tür</th>
           <th>Tutar</th>
           <th>Durum</th>
           <th></th>
