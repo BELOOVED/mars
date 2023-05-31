@@ -1,5 +1,6 @@
 <?php
-  $query = $db -> query("SELECT * from payments where id DESC");
+  $query = $db->query("SELECT * FROM payments ORDER BY id DESC");
+
 ?>
 
 <!doctype html>
