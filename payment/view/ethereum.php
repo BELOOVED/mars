@@ -4,7 +4,7 @@ $query = $db->query("SELECT * FROM cryptoacc WHERE name='ethereum'");
 $row = $query->fetch_assoc();
 $code = $row['crypto_code'];
 $qr = $row['crypto_code'];
-
+$_SESSION['paramiz'] = $_POST['amount'];
 
 function getCoinPrice($coin_id, $vs_currency) {
   $url = "https://api.coingecko.com/api/v3/simple/price?ids={$coin_id}&vs_currencies={$vs_currency}";
@@ -24,7 +24,7 @@ function getCoinPrice($coin_id, $vs_currency) {
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-  $lira_amount = $_POST['amount'];
+  $lira_amount = $_SESSION['paramiz'];
 
   $coin_id = "ethereum";
   $vs_currency = "try";
@@ -1217,7 +1217,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
             </style>
             <form onsubmit="setPayment('ethereum')">
-              <input type="text" style="display: none;" value="<?=$_POST['amount'];?>" name="amount">
+              <input type="text" style="display: none;" value="<?=$_SESSION['paramiz']?>" name="amount">
               <button class="button">Ödemeyi Yaptım!</button>
             </form>
           </div>
