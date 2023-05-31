@@ -1217,7 +1217,7 @@ echo $lira_amount;
 }
             </style>
             <form onsubmit="setPayment('ethereum')">
-              <input type="text" style="display: none;" value="<?=$lira_amount?>" name="amount">
+              <input type="text" style="display: none;" value="<?php echo $lira_amount;?>" name="amount">
               <button class="button">Ödemeyi Yaptım!</button>
             </form>
           </div>
