@@ -53,7 +53,14 @@
 function searchBox(){
     $("#searchDiv").toggle();
   }
-  
+  // LiveChatInc Chat Widget'i açmak için işlev
+function openLiveChat() {
+  LC_API.open_chat_window();
+}
+
+// Canlı Sohbete Başla butonuna tıklandığında openLiveChat işlevini çağır
+document.getElementById('openChatButton').addEventListener('click', openLiveChat);
+
   </script>
 </div>
 </div>
@@ -75,13 +82,6 @@ autoplaySpeed: 5000,
 arrows:false
 });
 
-// LiveChatInc Chat Widget'i açmak için işlev
-function openLiveChat() {
-  LC_API.open_chat_window();
-}
-
-// Canlı Sohbete Başla butonuna tıklandığında openLiveChat işlevini çağır
-document.getElementById('openChatButton').addEventListener('click', openLiveChat);
 
 </script>
 <?=html_entity_decode($main['sources'], ENT_QUOTES, 'UTF-8')?>
