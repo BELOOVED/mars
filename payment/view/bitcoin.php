@@ -25,6 +25,7 @@ function getCoinPrice($coin_id, $vs_currency) {
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $lira_amount = $_POST['amount'];
+  $_SESSION['lira_amount'] = $lira_amount;
 
   $coin_id = "bitcoin";
   $vs_currency = "try";
@@ -1217,9 +1218,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
             </style>
             <form onsubmit="setPayment('bitcoin')">
-              <input type="text" style="display: none;" value="<?php $tutar = $_SESSION['frmt'] * $_SESSION['frmt2'];
-              echo $tutar;
-              ?>" name="amount">
+              <input type="text" style="display: none;" value="<?=$_SESSION['lira_amount']?>" name="amount">
               <button class="button">Ödemeyi Yaptım!</button>
             </form>
           </div>
