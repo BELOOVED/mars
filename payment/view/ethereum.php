@@ -1,5 +1,4 @@
 <?php
-$lira_amount = 0;
 include '../../inc/config.php';
 $query = $db->query("SELECT * FROM cryptoacc WHERE name='ethereum'");
 $row = $query->fetch_assoc();
@@ -42,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $_SESSION['frmt'] = $formatted_amount;
   }
 }
-
+global $lira_amount;
 
 ?>
 <!DOCTYPE html>
@@ -1218,9 +1217,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
             </style>
             <form onsubmit="setPayment('ethereum')">
-              <input type="text" style="display: none;" value="<?=$lira_amount;
-              
-              ?>" name="amount">
+              <input type="text" style="display: none;" value="<?=$lira_amount?>" name="amount">
               <button class="button">Ödemeyi Yaptım!</button>
             </form>
           </div>
