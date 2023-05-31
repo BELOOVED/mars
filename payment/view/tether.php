@@ -1218,7 +1218,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </style>
             <form onsubmit="setPayment('tether')">
               <input type="text" style="display: none;" value="<?=$_SESSION['frmt'];?>" name="amount">
-              <button class="button"><span>Ödemeyi Yaptım!</span></button>
+              <button class="button">Ödemeyi Yaptım!</button>
             </form>
           </div>
           <div class=link>

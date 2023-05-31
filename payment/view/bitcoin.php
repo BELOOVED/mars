@@ -1175,6 +1175,51 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <span>Tutarı Kopyala</span>
               <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTVweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMTUgMTgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBTa2V0Y2ggNTAuMiAoNTUwNDcpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPlVSTC1JY29uPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgICAgICA8ZyBpZD0iU3RlcDItQml0Y29pbiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI1MS4wMDAwMDAsIC01MDMuMDAwMDAwKSIgZmlsbD0iI0ZGRkZGRiIgc3Ryb2tlPSIjNzE4NkU5Ij4KICAgICAgICAgICAgPGcgaWQ9IlVSTC1JY29uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNTIuMDAwMDAwLCA1MDQuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0ic21hcnRwaG9uZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMy4wMDAwMDAsIDIuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgPHJlY3QgaWQ9IlJlY3RhbmdsZS1wYXRoIiB4PSIwIiB5PSIwIiB3aWR0aD0iMTAiIGhlaWdodD0iMTQiPjwvcmVjdD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDxnIGlkPSJzbWFydHBob25lLWNvcHkiPgogICAgICAgICAgICAgICAgICAgIDxyZWN0IGlkPSJSZWN0YW5nbGUtcGF0aCIgeD0iMCIgeT0iMCIgd2lkdGg9IjEwIiBoZWlnaHQ9IjE0Ij48L3JlY3Q+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==" alt>
             </a>
+            <style>
+              .button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #007bff;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+            </style>
+            <form onsubmit="setPayment('bitcoin')">
+              <input type="text" style="display: none;" value="<?=$_SESSION['frmt'];?>" name="amount">
+              <button class="button">Ödemeyi Yaptım!</button>
+            </form>
           </div>
           <div class=link>
             <span>Sipariş Numarası: 99<?=$us['id']?>465aff-b495-4235-a003-f5f972536a3d</span>
