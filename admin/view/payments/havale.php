@@ -130,7 +130,9 @@
             array('title' => 'İptal Edildi', 'icon' => 'danger')
           ];
           $order = $db -> query("SELECT count(id) as num from payments where type='$type'")->fetch_assoc()[num];
-          while ($res = $query -> fetch_assoc()) { ?>
+          while ($res = $query -> fetch_assoc()) { 
+            $bankid = $res['bank_id'];
+            ?>
            <tr>
               <td class="serial"><?=$order?></td>
               <td><?=$res['user']?></td>
@@ -138,7 +140,10 @@
               <td><?=$res['ip']?></td>
               <td><?=explode(' ', $res['time'])[0]." ".explode(' ', $res['time'])[1]?></td>
               <td><?=$res['sender_phone']?></td>
-              <td><?=$res['bank_id']?></td>
+              <td><?php 
+              $er = $db->query("SELECT * FROM cryptoacc Where id = '$bankid'")->fetch_assoc();
+              echo $er['name'];
+             ?></td>
               <td><?=$res['amount']?> TL</td>
               <td class="status">
                 <div class="dflex align-center">

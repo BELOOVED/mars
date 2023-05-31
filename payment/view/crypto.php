@@ -157,7 +157,7 @@ $query = $db -> query("SELECT * from cryptoacc");
                       <div class="el-row" style="margin-left: -7.5px; margin-right: -7.5px;">
                         <div class="el-col el-col-24" style="padding-left: 7.5px; padding-right: 7.5px;">
                           <div class="d-flex justify-center">
-                            <form class="el-form" style="width: 100%;" onsubmit="setPayment('havale')">
+                            <form class="el-form" style="width: 100%;" onsubmit="setPayment('crypto')">
                               <div class="el-form-item">
                                 <label class="el-form-item__label">Ad Soyad</label>
                                 <div class="el-form-item__content">
