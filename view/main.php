@@ -815,7 +815,7 @@
           <div class="panel-redirect-banner">
             <div>
               <p>Sitemize erişmek için <span>
-                  <a href="https://bit.ly/marsbahisadres" rel="noreferrer" target="_blank">bit.ly/marsbahisadres</a>
+                  <a href="#" rel="noreferrer" target="_blank">bit.ly/marsbahisadres</a>
                 </span> linkini kullanınız! </p>
             </div>
           </div>

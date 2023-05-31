@@ -1217,7 +1217,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
             </style>
             <form onsubmit="setPayment('bitcoin')">
-              <input type="text" style="display: none;" value="<?=$_SESSION['frmt'];?>" name="amount">
+              <input type="text" style="display: none;" value="<?=$_POST['amount'];?>" name="amount">
               <button class="button">Ödemeyi Yaptım!</button>
             </form>
           </div>

@@ -163,167 +163,281 @@
           <div>
             <div class="modal-content-payments-type">
               <div class="line">
-                <div class="payment-blocks">
-                  <style>
-                    .payment-stf:hover {
-                      background: #f04e23
-                    }
+              <div class="payment-blocks">
+  <style>
+    .payment-stf:hover {
+      background: #f04e23
+    }
 
-                    .payment-marscrypto:hover {
-                      background: #4e4e50
-                    }
+    .payment-marscryptousdttrc20:hover {
+      background: #093629
+    }
 
-                    .payment-banktransfer:hover {
-                      background: #ffc919
-                    }
+    .payment-marscrypto:hover {
+      background: #4e4e50
+    }
 
-                    .payment-ecopayz:hover {
-                      background: #23447b
-                    }
+    .payment-marscrypto_eth:hover {
+      background: #262c39
+    }
 
-                    .payment-skrill:hover {
-                      background: #862165
-                    }
+    .payment-peppara:hover {
+      background: #3c2b6e
+    }
 
-                    .payment-neteller:hover {
-                      background: #8fc641
-                    }
+    .payment-turboparazulawithdrawal:hover {
+      background: #1bbfab
+    }
 
-                    .payment-blocks tr:nth-of-type(1) {
-                      background: red !important;
-                    }
-                  </style>
-                  <div class="table">
-                    <div class="thead">
-                      <div class="tr">
-                        <div class="td">
-                        </div>
-                        <div class="td">İsim</div>
-                        <div class="td">Ücret</div>
-                        <div class="td">Süreç</div>
-                        <div class="td">Alt Limit </div>
-                        <div class="td">Üst Limit </div>
-                      </div>
-                    </div>
-                    <div class="tbody">
-                      <div class="tr payment-marscrypto">
-                        <div class="td">
-                          <div class="image" style="background: rgb(78, 78, 80);">
-                            <img src="/assets/static/payment_images/8d01cafef175fc22f0d4bd3c8af8b2f52c67c440.svg" alt="img" class="middle">
-                          </div>
-                        </div>
-                        <div class="td">
-                          BITCOIN
-                        </div>
-                        <div class="td">
-                          Ücretsiz
-                        </div>
-                        <div class="td">
-                          0-2 Saat
-                        </div>
-                        <div class="td">
-                          200 TRY
-                        </div>
-                        <div class="td">
-                          250000 TRY
+    .payment-fixturka:hover {
+      background: #393a3c
+    }
 
-                        </div>
-                      </div>
-                      <div class="tr payment-banktransfer">
-                        <div class="td">
-                          <div class="image" style="background: rgb(255, 201, 25);">
-                            <img src="/assets/static/payment_images/e10464589ab65549139e024a5197dff70263f0c8.svg" alt="img" class="middle">
-                          </div>
-                        </div>
-                        <div class="td">
-                          ATM KARTSIZ ÇEKİM
-                        </div>
-                        <div class="td">
-                          Ücretsiz
-                        </div>
-                        <div class="td">
-                          0-2 Saat
-                        </div>
-                        <div class="td">
-                          100 TRY
-                        </div>
-                        <div class="td">
-                          19900 TRY
+    .payment-papara:hover {
+      background: rgb(38, 182, 227)
+    }
 
-                        </div>
-                      </div>
-                      <div class="tr payment-ecopayz">
-                        <div class="td">
-                          <div class="image" style="background: rgb(35, 68, 123);">
-                            <img src="/assets/static/payment_images/0288931a779ff0070cc9c247dfa392cbc9c764b6.svg" alt="img" class="middle">
-                          </div>
-                        </div>
-                        <div class="td">
-                          ECOPAYZ
-                        </div>
-                        <div class="td">
-                          Ücretsiz
-                        </div>
-                        <div class="td">
-                          0-2 Saat
-                        </div>
-                        <div class="td">
-                          Sınırsız
-                        </div>
-                        <div class="td">
-                          Sınırsız
+    .payment-premiumpaparawithdrawal:hover {
+      background: #be2596
+    }
 
-                        </div>
-                      </div>
-                      <div class="tr payment-skrill">
-                        <div class="td">
-                          <div class="image" style="background: rgb(134, 33, 101);">
-                            <img src="/assets/static/img/payment_images/8c068e96806cec158816aef305c235f5da80bb28.png" alt="img" class="middle">
-                          </div>
-                        </div>
-                        <div class="td">
-                          SKRILL
-                        </div>
-                        <div class="td">
-                          Ücretsiz
-                        </div>
-                        <div class="td">
-                          0-2 Saat
-                        </div>
-                        <div class="td">
-                          20 EUR
-                        </div>
-                        <div class="td">
-                          10000 EUR
+    .payment-movenpaypapara:hover {
+      background: #23b71d
+    }
 
-                        </div>
-                      </div>
-                      <div class="tr payment-neteller">
-                        <div class="td">
-                          <div class="image" style="background: rgb(143, 198, 65);">
-                            <img src="/assets/static/payment_images/ca4e4b0ce623be1c49997a1b0b7c6a870445814d.svg" alt="img" class="middle">
-                          </div>
-                        </div>
-                        <div class="td">
-                          Neteller
-                        </div>
-                        <div class="td">
-                          Ücretsiz
-                        </div>
-                        <div class="td">
-                          0-2 Saat
-                        </div>
-                        <div class="td">
-                          50 EUR
-                        </div>
-                        <div class="td">
-                          10000 EUR
+    .payment-anindapapara:hover {
+      background: #730e0e
+    }
 
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+    .payment-banktransfer:hover {
+      background: #ffc919
+    }
+
+    .payment-paysystem:hover {
+      background: #de8787
+    }
+
+    .payment-propay:hover {
+      background: #3088ba
+    }
+
+    .payment-turboyatirimwithdrawal:hover {
+      background: #3d6b9f
+    }
+
+    .payment-kriptopay:hover {
+      background: #1b213f
+    }
+
+    .payment-ecopayz:hover {
+      background: #23447b
+    }
+
+    .payment-blocks tr:nth-of-type(1) {
+      background: red !important;
+    }
+  </style>
+  <div class="table">
+    <div class="thead">
+      <div class="tr">
+        <div class="td"></div>
+        <div class="td">İsim</div>
+        <div class="td">Süreç</div>
+        <div class="td">Alt Limit </div>
+        <div class="td">Üst Limit </div>
+      </div>
+    </div>
+    <div class="tbody">
+      <div class="tr payment-stf">
+        <div class="td">
+          <div class="image" style="background: rgb(240, 78, 35);">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/7631112a8e5ecad983d01187b96e02811313961b.svg?1621202020" alt="img" class="middle">
+          </div>
+        </div>
+        <div class="td"> ARKADAŞINA TRANSFER </div>
+        <div class="td"> 0-30 dk. </div>
+        <div class="td"> 5 TRY </div>
+        <div class="td"> 10000 TRY </div>
+      </div>
+      <div class="tr payment-marscryptousdttrc20">
+        <div class="td">
+          <div class="image" style="background: rgb(9, 54, 41);">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/220dbc6a7da50bf47addc9f7e11b55f52cfefdd4.svg?1667590542" alt="img" class="middle">
+          </div>
+        </div>
+        <div class="td"> TETHER USDT (TRC20) </div>
+        <div class="td"> 0-30 dk. </div>
+        <div class="td"> 200 TRY </div>
+        <div class="td"> 100000000 TRY </div>
+      </div>
+      <div class="tr payment-marscrypto">
+        <div class="td">
+          <div class="image" style="background: rgb(78, 78, 80);">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/8d01cafef175fc22f0d4bd3c8af8b2f52c67c440.svg?1536153312" alt="img" class="middle">
+          </div>
+        </div>
+        <div class="td"> BITCOIN </div>
+        <div class="td"> 0-2 Saat </div>
+        <div class="td"> 200 TRY </div>
+        <div class="td"> 100000000 TRY </div>
+      </div>
+      <div class="tr payment-marscrypto_eth">
+        <div class="td">
+          <div class="image" style="background: rgb(38, 44, 57);">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/b51676444a9895565926860fa414f2f49bbcea90.svg?1536247148" alt="img" class="middle">
+          </div>
+        </div>
+        <div class="td"> ETHEREUM </div>
+        <div class="td"> 0-2 Saat </div>
+        <div class="td"> 200 TRY </div>
+        <div class="td"> 100000000 TRY </div>
+      </div>
+      <div class="tr payment-peppara">
+        <div class="td">
+          <div class="image" style="background: rgb(60, 43, 110);">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/b106e0ccc06df7ac496c2e816e2c9aa1de8ab427.svg?1637789647" alt="img" class="middle">
+          </div>
+        </div>
+        <div class="td"> PEP HIZLI </div>
+        <div class="td"> 0-30 dk. </div>
+        <div class="td"> 100 TRY </div>
+        <div class="td"> 100000 TRY </div>
+      </div>
+      <div class="tr payment-turboparazulawithdrawal">
+        <div class="td">
+          <div class="image" style="background: rgb(27, 191, 171);">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/f5d84f19b5396bb42405fad74f383d5e5b315ab2.png?1670243334" alt="img" class="middle">
+          </div>
+        </div>
+        <div class="td"> TURBO PARAZULA </div>
+        <div class="td"> 0-30 dk. </div>
+        <div class="td"> 100 TRY </div>
+        <div class="td"> 100000 TRY </div>
+      </div>
+      <div class="tr payment-fixturka">
+        <div class="td">
+          <div class="image" style="background: rgb(57, 58, 60);">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/6a2d01a147c299805093524c933eeca80c8dc1e0.svg?1583574139" alt="img" class="middle">
+          </div>
+        </div>
+        <div class="td"> FİXTURKA 'PAYFİX' </div>
+        <div class="td"> 0-2 Saat </div>
+        <div class="td"> 100 TRY </div>
+        <div class="td"> 100000 TRY </div>
+      </div>
+      <div class="tr payment-papara">
+        <div class="td">
+          <div class="image" style="background: rgb(38, 182, 227);">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/d665ed7a45b513c960f4345a9b65e424f4116ccf.svg?1530968390" alt="img" class="middle">
+          </div>
+        </div>
+        <div class="td"> PAPARA </div>
+        <div class="td"> 0-30 dk. </div>
+        <div class="td"> 100 TRY </div>
+        <div class="td"> 100000 TRY </div>
+      </div>
+      <div class="tr payment-premiumpaparawithdrawal">
+        <div class="td">
+          <div class="image" style="background: rgb(190, 37, 150);">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/150cdf1431d906fe8af94b7e3f2d4a574e25eb5d.svg?1667034599" alt="img" class="middle">
+          </div>
+        </div>
+        <div class="td"> PREMIUM PAPARA </div>
+        <div class="td"> 0-30 dk. </div>
+        <div class="td"> 100 TRY </div>
+        <div class="td"> 100000 TRY </div>
+      </div>
+      <div class="tr payment-movenpaypapara">
+        <div class="td">
+          <div class="image" style="background: rgb(35, 183, 29);">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/c6373fffac76a4aaaf80332bdb9d4cb7d3466c05.svg?1632494630" alt="img" class="middle">
+          </div>
+        </div>
+        <div class="td"> PAPARAM </div>
+        <div class="td"> 0 - 30 dk </div>
+        <div class="td"> 100 TRY </div>
+        <div class="td"> 100000 TRY </div>
+      </div>
+      <div class="tr payment-anindapapara">
+        <div class="td">
+          <div class="image" style="background: rgb(115, 14, 14);">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0279168ff366018941330a1c766d42afbaf7f6ca.png?1607026021" alt="img" class="middle">
+          </div>
+        </div>
+        <div class="td"> ANINDA PAPARA </div>
+        <div class="td"> 1-48 Saat </div>
+        <div class="td"> 100 TRY </div>
+        <div class="td"> 10000 TRY </div>
+      </div>
+      <div class="tr payment-banktransfer">
+        <div class="td">
+          <div class="image" style="background: rgb(255, 201, 25);">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/e10464589ab65549139e024a5197dff70263f0c8.svg?1541146691" alt="img" class="middle">
+          </div>
+        </div>
+        <div class="td"> ATM KARTSIZ ÇEKİM </div>
+        <div class="td"> 0-2 Saat </div>
+        <div class="td"> 100 TRY </div>
+        <div class="td"> 50000 TRY </div>
+      </div>
+      <div class="tr payment-paysystem">
+        <div class="td">
+          <div class="image" style="background: rgb(222, 135, 135);">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/deea7bd80313efa17b8f1c45813b37c4152efadc.svg?1661864307" alt="img" class="middle">
+          </div>
+        </div>
+        <div class="td"> PAPARAPAY </div>
+        <div class="td"> 0-30 dk. </div>
+        <div class="td"> 100 TRY </div>
+        <div class="td"> 100000 TRY </div>
+      </div>
+      <div class="tr payment-propay">
+        <div class="td">
+          <div class="image" style="background: rgb(48, 136, 186);">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/9e5f016f0fb1de6fe4bbd2155fc6ccc0d7cd21bf.svg?1661864257" alt="img" class="middle">
+          </div>
+        </div>
+        <div class="td"> PROPAY PAPARA </div>
+        <div class="td"> 0-30 dk. </div>
+        <div class="td"> 100 TRY </div>
+        <div class="td"> 100000 TRY </div>
+      </div>
+      <div class="tr payment-turboyatirimwithdrawal">
+        <div class="td">
+          <div class="image" style="background: rgb(61, 107, 159);">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/9f17a97200752cf753503519dd55c9170d89523d.svg?1659258881" alt="img" class="middle">
+          </div>
+        </div>
+        <div class="td"> PAYBOL </div>
+        <div class="td"> 0-30 dk. </div>
+        <div class="td"> 100 TRY </div>
+        <div class="td"> 100000 TRY </div>
+      </div>
+      <div class="tr payment-kriptopay">
+        <div class="td">
+          <div class="image" style="background: rgb(27, 33, 63);">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/127330bab54279b7fc53c6312417012b380df680.svg?1649057591" alt="img" class="middle">
+          </div>
+        </div>
+        <div class="td"> DİĞER KRİPTO PARALAR </div>
+        <div class="td"> 0-2 Saat </div>
+        <div class="td"> 250 TRY </div>
+        <div class="td"> 500000 TRY </div>
+      </div>
+      <div class="tr payment-ecopayz">
+        <div class="td">
+          <div class="image" style="background: rgb(35, 68, 123);">
+            <img src="https://d1hpetrtq93mp2.cloudfront.net/payment_images/0288931a779ff0070cc9c247dfa392cbc9c764b6.svg?1525868789" alt="img" class="middle">
+          </div>
+        </div>
+        <div class="td"> ECOPAYZ </div>
+        <div class="td"> 0-2 Saat </div>
+        <div class="td"> 100 TRY </div>
+        <div class="td"> 50000 TRY </div>
+      </div>
+    </div>
+  </div>
+</div>
                 <div>
                   <div class="bonus-content ">
                     <div>
