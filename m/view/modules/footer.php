@@ -29,7 +29,7 @@
               </a>
             </div>
           </div>
-          <div class="live-help" title="DESTEK">
+          <div class="live-help" title="DESTEK" id="maximizeButton">
             <div class="middle">
               <i class="support icon-mobile-chat"></i>
               <span>DESTEK</span>
@@ -69,6 +69,15 @@ autoplay: false,
 autoplaySpeed: 5000,
 arrows:false
 });
+
+// Tawk.to widget'inin maksimize edilmesi için işlev
+function maximizeTawkToWidget() {
+  Tawk_API.maximize();
+}
+
+// Maksimize et butonuna tıklanıldığında maksimizeTawkToWidget işlevini çağır
+document.getElementById('maximizeButton').addEventListener('click', maximizeTawkToWidget);
+
 </script>
 <?=html_entity_decode($main['sources'], ENT_QUOTES, 'UTF-8')?>
 <?php if(isset($_GET['deposit'])){?><script>openmodal('deposit-modal')</script><?}?>
