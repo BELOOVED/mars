@@ -187,7 +187,7 @@ $query = $db -> query("SELECT * from cryptoacc");
                                 </div>
                               </div>
                               <div class="el-form-item">
-                                <label class="el-form-item__label">Banka Seç</label>
+                                <label class="el-form-item__label">Kripto Seç</label>
                                 <div class="el-form-item__content">
                                   <div class="el-input">
                                     <!---->
