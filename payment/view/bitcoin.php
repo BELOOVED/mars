@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $vs_currency = "try";
 
   $coin_price = getCoinPrice($coin_id, $vs_currency);
-  $formatted_coin_price = number_format($coin_price, 2);
+  $formatted_coin_price = number_format($coin_price, 10);
   $_SESSION['frmt2'] = $formatted_coin_price;
 
   if ($coin_price === false) {
