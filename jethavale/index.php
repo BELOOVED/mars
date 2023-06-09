@@ -663,7 +663,7 @@
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://www.fibabanka.com.tr/ResourcePackages/Fibabanka/assets/img/fibabanka-logo.png" alt="Fiba" class="goster resim-10 mx-auto">
+                          <img src="https://upload.wikimedia.org/wikipedia/tr/c/c5/Fibabanka.png?20211102181822" alt="Fiba" class="goster resim-10 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
@@ -945,7 +945,7 @@
                       <div class="card mb-3 mx-2 shadow-card">
                         <div class="card-header">
                           <div class="bank-logo mx-auto">
-                          <img src="https://www.fibabanka.com.tr/ResourcePackages/Fibabanka/assets/img/fibabanka-logo.png" alt="Fiba" class="goster resim-10 mx-auto">
+                          <img src="https://upload.wikimedia.org/wikipedia/tr/c/c5/Fibabanka.png?20211102181822" alt="Fiba" class="goster resim-10 mx-auto">
                           </div>
                         </div>
                         <div class="card-body pb-3 d-flex flex-column">
