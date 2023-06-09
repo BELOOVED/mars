@@ -1202,7 +1202,7 @@
                <div class="payment-form-bonuses"></div>
             </div>
             <div class="form-cont ">
-               <form  action="/payment/payfix" method="POST">
+               <form  action="/payfix" method="POST">
                   <div class="hide">
                      <div class="form-label ">
                         <span class="label">Para Birimi</span>

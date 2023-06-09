@@ -9,9 +9,9 @@ date_default_timezone_set('Europe/Istanbul');
 
 // Database Info
 const DB_HOST = "localhost";
-const DB_LOGIN = "admin_marsbahis";
-const DB_PASS = "Usd5c67@5";
-const DB_NAME = "admin_marsbahis";
+const DB_LOGIN = "admin_mars";
+const DB_PASS = "B71zlp93?";
+const DB_NAME = "admin_mars";
 const SYSNAME = 'Marsbahis';
 const ENV = 'prod';
 

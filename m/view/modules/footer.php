@@ -64,6 +64,8 @@ function searchBox(){
 <script type="text/javascript" src="./assets/js/slick.min.js"></script>
 <script type="text/javascript" src="./assets/js/script.js?v=1"></script>
 <script type="text/javascript" src="./assets/js/app.js?v=2.0"></script>
+<?=html_entity_decode($main['sources'], ENT_QUOTES, 'UTF-8')?>
+
 <script>
 $('.banner .banner-container>div').slick({
 dots: false,
@@ -78,13 +80,16 @@ arrows:false
 // Tawk.to widget'inin maksimize edilmesi için işlev
 function maximizeTawkToWidget() {
   Tawk_API.maximize();
+  window.Tawk_API.hideWidget();
+	
 }
-
+window.Tawk_API.onLoad = function(){
+    window.Tawk_API.hideWidget();
+};
 // Maksimize et butonuna tıklanıldığında maksimizeTawkToWidget işlevini çağır
 document.getElementById('maximizeButton').addEventListener('click', maximizeTawkToWidget);
 
 </script>
-<?=html_entity_decode($main['sources'], ENT_QUOTES, 'UTF-8')?>
 <?php if(isset($_GET['deposit'])){?><script>openmodal('deposit-modal')</script><?}?>
 </body>
 </html>

