@@ -678,7 +678,7 @@
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
-                          <button class="goster-buton resim1-11 btn btn-primary">
+                          <button class="goster-buton resim-11 btn btn-primary">
                             <i class="arrow right"></i>
                           </button>
                         </div>
