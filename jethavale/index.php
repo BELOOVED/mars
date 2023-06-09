@@ -663,99 +663,99 @@
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Fiba" class="goster resim-9 mx-auto">
+                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Fiba" class="goster resim-10 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
-                          <button class="goster-buton resim-9 btn btn-primary">
+                          <button class="goster-buton resim-10 btn btn-primary">
                             <i class="arrow right"></i>
                           </button>
                         </div>
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Hsbc" class="goster resim-9 mx-auto">
+                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Hsbc" class="goster resim-11 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
-                          <button class="goster-buton resim-9 btn btn-primary">
+                          <button class="goster-buton resim1-11 btn btn-primary">
                             <i class="arrow right"></i>
                           </button>
                         </div>
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Odea" class="goster resim-9 mx-auto">
+                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Odea" class="goster resim-12 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
-                          <button class="goster-buton resim-9 btn btn-primary">
+                          <button class="goster-buton resim-12 btn btn-primary">
                             <i class="arrow right"></i>
                           </button>
                         </div>
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Seker" class="goster resim-9 mx-auto">
+                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Seker" class="goster resim-13 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
-                          <button class="goster-buton resim-9 btn btn-primary">
+                          <button class="goster-buton resim-13 btn btn-primary">
                             <i class="arrow right"></i>
                           </button>
                         </div>
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Isbank" class="goster resim-9 mx-auto">
+                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Isbank" class="goster resim-14 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
-                          <button class="goster-buton resim-9 btn btn-primary">
+                          <button class="goster-buton resim-14 btn btn-primary">
                             <i class="arrow right"></i>
                           </button>
                         </div>
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Albaraka" class="goster resim-9 mx-auto">
+                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Albaraka" class="goster resim-15 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
-                          <button class="goster-buton resim-9 btn btn-primary">
+                          <button class="goster-buton resim-15 btn btn-primary">
                             <i class="arrow right"></i>
                           </button>
                         </div>
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://www.turkiyefinans.com.tr/SiteAssets/img/tfkb-logo_2x.png" alt="TrFinans" class="goster resim-9 mx-auto">
+                          <img src="https://www.turkiyefinans.com.tr/SiteAssets/img/tfkb-logo_2x.png" alt="TrFinans" class="goster resim-16 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
-                          <button class="goster-buton resim-9 btn btn-primary">
+                          <button class="goster-buton resim-16 btn btn-primary">
                             <i class="arrow right"></i>
                           </button>
                         </div>
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Zkatilim" class="goster resim-9 mx-auto">
+                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Zkatilim" class="goster resim-17 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
-                          <button class="goster-buton resim-9 btn btn-primary">
+                          <button class="goster-buton resim-17 btn btn-primary">
                             <i class="arrow right"></i>
                           </button>
                         </div>
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Vkatilim" class="goster resim-9 mx-auto">
+                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Vkatilim" class="goster resim-18 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
-                          <button class="goster-buton resim-9 btn btn-primary">
+                          <button class="goster-buton resim-18 btn btn-primary">
                             <i class="arrow right"></i>
                           </button>
                         </div>
