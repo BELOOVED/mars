@@ -685,7 +685,7 @@
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://www.odeabank.com.tr/_assets/img/logo.svg" alt="Odea" class="goster resim-12 mx-auto">
+                          <img src="https://files.sikayetvar.com/lg/cmp/31/31373.svg?1522650125" alt="Odea" class="goster resim-12 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
@@ -707,7 +707,7 @@
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://gorsel.isbank.com.tr/sttk/StaticFiles/Isbank/images/logo/isbankDlogo.png" alt="Isbank" class="goster resim-14 mx-auto">
+                          <img src="https://files.sikayetvar.com/lg/cmp/46/462.svg?1522650125g" alt="Isbank" class="goster resim-14 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
@@ -985,7 +985,7 @@
                       <div class="card mb-3 mx-2 shadow-card">
                         <div class="card-header">
                           <div class="bank-logo mx-auto">
-                          <img src="https://www.odeabank.com.tr/_assets/img/logo.svg" alt="Odea" class="goster resim-12 mx-auto">
+                          <img src="https://files.sikayetvar.com/lg/cmp/31/31373.svg?1522650125" alt="Odea" class="goster resim-12 mx-auto">
                           </div>
                         </div>
                         <div class="card-body pb-3 d-flex flex-column">
@@ -1025,7 +1025,7 @@
                       <div class="card mb-3 mx-2 shadow-card">
                         <div class="card-header">
                           <div class="bank-logo mx-auto">
-                          <img src="https://gorsel.isbank.com.tr/sttk/StaticFiles/Isbank/images/logo/isbankDlogo.png" alt="Isbank" class="goster resim-14 mx-auto">
+                          <img src="https://files.sikayetvar.com/lg/cmp/46/462.svg?1522650125" alt="Isbank" class="goster resim-14 mx-auto">
                           </div>
                         </div>
                         <div class="card-body pb-3 d-flex flex-column">
