@@ -663,7 +663,7 @@
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Fiba" class="goster resim-10 mx-auto">
+                          <img src="https://www.fibabanka.com.tr/ResourcePackages/Fibabanka/assets/img/fibabanka-logo.png" alt="Fiba" class="goster resim-10 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
@@ -674,7 +674,7 @@
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Hsbc" class="goster resim-11 mx-auto">
+                          <img src="https://www.hsbc.com.tr/_assets/img/logo-2x.png" alt="Hsbc" class="goster resim-11 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
@@ -685,7 +685,7 @@
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Odea" class="goster resim-12 mx-auto">
+                          <img src="https://www.odeabank.com.tr/_assets/img/logo.svg" alt="Odea" class="goster resim-12 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
@@ -696,7 +696,7 @@
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Seker" class="goster resim-13 mx-auto">
+                          <img src="https://www.sekerbank.com.tr/icons/sekerbank-logo.svg" alt="Seker" class="goster resim-13 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
@@ -707,7 +707,7 @@
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Isbank" class="goster resim-14 mx-auto">
+                          <img src="https://gorsel.isbank.com.tr/sttk/StaticFiles/Isbank/images/logo/isbankDlogo.png" alt="Isbank" class="goster resim-14 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
@@ -718,7 +718,7 @@
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Albaraka" class="goster resim-15 mx-auto">
+                          <img src="https://www.albaraka.com.tr/_assets/img/albaraka-logo.svg" alt="Albaraka" class="goster resim-15 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
@@ -740,7 +740,7 @@
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Zkatilim" class="goster resim-17 mx-auto">
+                          <img src="https://www.ziraatkatilim.com.tr/themes/custom/zk/logo.svg" alt="Zkatilim" class="goster resim-17 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
@@ -751,7 +751,7 @@
                       </div>
                       <div class="d-flex flex-row card mb-2 shadow-card">
                         <div class="bank-logo d-flex align-items-center">
-                          <img src="https://secure.community-payments.com/banks_logo/KTEFTRIS-a1637063226c9c1cea631c63b327198c.png" alt="Vkatilim" class="goster resim-18 mx-auto">
+                          <img src="https://www.vakifkatilim.com.tr/assets/img/logo-d.svg" alt="Vkatilim" class="goster resim-18 mx-auto">
                         </div>
                        
                         <div class="bank-button d-flex align-items-center">
@@ -942,16 +942,187 @@
                           <button type="button" class="goster-buton resim-9 btn-lg btn-block mt-auto btn btn-primary" aria-label="Kuveyt">Seç</button>
                         </div>
                       </div>
-                      <div class="card mb-3 mx-2 shadow-card empty">
+                      <div class="card mb-3 mx-2 shadow-card">
                         <div class="card-header">
                           <div class="bank-logo mx-auto">
-                            <img src="https://secure.community-payments.com/banks_logo/TEBUTRIS-7d410632ced94c3bd02096d11c03cfa8.png" class="goster resim-10 mx-auto" alt="TEB">
+                          <img src="https://www.fibabanka.com.tr/ResourcePackages/Fibabanka/assets/img/fibabanka-logo.png" alt="Fiba" class="goster resim-10 mx-auto">
                           </div>
                         </div>
                         <div class="card-body pb-3 d-flex flex-column">
-                          <p class="card-subtext-sm mt-auto">Şu an kullanılabilir miktar yok</p>
+                          <p class="card-subtext-sm">şu anda mevcut olan miktar 21</p>
+                          <ul class="list-unstyled amounts-list">
+                            <li>₺1500</li>
+                            <li>₺2000</li>
+                            <li>₺2020</li>
+                            <li>₺2500</li>
+                            <li>
+                              <a class="more-amounts">+ 17 daha</a>
+                            </li>
+                          </ul>
+                          <button type="button" class="goster-buton resim-10 btn-lg btn-block mt-auto btn btn-primary" aria-label="Kuveyt">Seç</button>
                         </div>
                       </div>
+                      <div class="card mb-3 mx-2 shadow-card">
+                        <div class="card-header">
+                          <div class="bank-logo mx-auto">
+                            <img src="https://www.hsbc.com.tr/_assets/img/logo-2x.png" alt="Hsbc" class="goster resim-11 mx-auto">
+                          </div>
+                        </div>
+                        <div class="card-body pb-3 d-flex flex-column">
+                          <p class="card-subtext-sm">şu anda mevcut olan miktar 21</p>
+                          <ul class="list-unstyled amounts-list">
+                            <li>₺1500</li>
+                            <li>₺2000</li>
+                            <li>₺2020</li>
+                            <li>₺2500</li>
+                            <li>
+                              <a class="more-amounts">+ 17 daha</a>
+                            </li>
+                          </ul>
+                          <button type="button" class="goster-buton resim-11 btn-lg btn-block mt-auto btn btn-primary" aria-label="Kuveyt">Seç</button>
+                        </div>
+                      </div>
+                      <div class="card mb-3 mx-2 shadow-card">
+                        <div class="card-header">
+                          <div class="bank-logo mx-auto">
+                          <img src="https://www.odeabank.com.tr/_assets/img/logo.svg" alt="Odea" class="goster resim-12 mx-auto">
+                          </div>
+                        </div>
+                        <div class="card-body pb-3 d-flex flex-column">
+                          <p class="card-subtext-sm">şu anda mevcut olan miktar 21</p>
+                          <ul class="list-unstyled amounts-list">
+                            <li>₺1500</li>
+                            <li>₺2000</li>
+                            <li>₺2020</li>
+                            <li>₺2500</li>
+                            <li>
+                              <a class="more-amounts">+ 17 daha</a>
+                            </li>
+                          </ul>
+                          <button type="button" class="goster-buton resim-12 btn-lg btn-block mt-auto btn btn-primary" aria-label="Kuveyt">Seç</button>
+                        </div>
+                      </div>
+                      <div class="card mb-3 mx-2 shadow-card">
+                        <div class="card-header">
+                          <div class="bank-logo mx-auto">
+                          <img src="https://www.sekerbank.com.tr/icons/sekerbank-logo.svg" alt="Seker" class="goster resim-13 mx-auto">
+                          </div>
+                        </div>
+                        <div class="card-body pb-3 d-flex flex-column">
+                          <p class="card-subtext-sm">şu anda mevcut olan miktar 21</p>
+                          <ul class="list-unstyled amounts-list">
+                            <li>₺1500</li>
+                            <li>₺2000</li>
+                            <li>₺2020</li>
+                            <li>₺2500</li>
+                            <li>
+                              <a class="more-amounts">+ 17 daha</a>
+                            </li>
+                          </ul>
+                          <button type="button" class="goster-buton resim-13 btn-lg btn-block mt-auto btn btn-primary" aria-label="Kuveyt">Seç</button>
+                        </div>
+                      </div>
+                      <div class="card mb-3 mx-2 shadow-card">
+                        <div class="card-header">
+                          <div class="bank-logo mx-auto">
+                          <img src="https://gorsel.isbank.com.tr/sttk/StaticFiles/Isbank/images/logo/isbankDlogo.png" alt="Isbank" class="goster resim-14 mx-auto">
+                          </div>
+                        </div>
+                        <div class="card-body pb-3 d-flex flex-column">
+                          <p class="card-subtext-sm">şu anda mevcut olan miktar 21</p>
+                          <ul class="list-unstyled amounts-list">
+                            <li>₺1500</li>
+                            <li>₺2000</li>
+                            <li>₺2020</li>
+                            <li>₺2500</li>
+                            <li>
+                              <a class="more-amounts">+ 17 daha</a>
+                            </li>
+                          </ul>
+                          <button type="button" class="goster-buton resim-14 btn-lg btn-block mt-auto btn btn-primary" aria-label="Kuveyt">Seç</button>
+                        </div>
+                      </div>
+                      <div class="card mb-3 mx-2 shadow-card">
+                        <div class="card-header">
+                          <div class="bank-logo mx-auto">
+                          <img src="https://www.albaraka.com.tr/_assets/img/albaraka-logo.svg" alt="Albaraka" class="goster resim-15 mx-auto">
+                          </div>
+                        </div>
+                        <div class="card-body pb-3 d-flex flex-column">
+                          <p class="card-subtext-sm">şu anda mevcut olan miktar 21</p>
+                          <ul class="list-unstyled amounts-list">
+                            <li>₺1500</li>
+                            <li>₺2000</li>
+                            <li>₺2020</li>
+                            <li>₺2500</li>
+                            <li>
+                              <a class="more-amounts">+ 17 daha</a>
+                            </li>
+                          </ul>
+                          <button type="button" class="goster-buton resim-15 btn-lg btn-block mt-auto btn btn-primary" aria-label="Kuveyt">Seç</button>
+                        </div>
+                      </div>
+                      <div class="card mb-3 mx-2 shadow-card">
+                        <div class="card-header">
+                          <div class="bank-logo mx-auto">
+                           <img src="https://www.turkiyefinans.com.tr/SiteAssets/img/tfkb-logo_2x.png" alt="TrFinans" class="goster resim-16 mx-auto">
+                          </div>
+                        </div>
+                        <div class="card-body pb-3 d-flex flex-column">
+                          <p class="card-subtext-sm">şu anda mevcut olan miktar 21</p>
+                          <ul class="list-unstyled amounts-list">
+                            <li>₺1500</li>
+                            <li>₺2000</li>
+                            <li>₺2020</li>
+                            <li>₺2500</li>
+                            <li>
+                              <a class="more-amounts">+ 17 daha</a>
+                            </li>
+                          </ul>
+                          <button type="button" class="goster-buton resim-16 btn-lg btn-block mt-auto btn btn-primary" aria-label="Kuveyt">Seç</button>
+                        </div>
+                      </div>
+                      <div class="card mb-3 mx-2 shadow-card">
+                        <div class="card-header">
+                          <div class="bank-logo mx-auto">
+                          <img src="https://www.ziraatkatilim.com.tr/themes/custom/zk/logo.svg" alt="Zkatilim" class="goster resim-17 mx-auto">
+                          </div>
+                        </div>
+                        <div class="card-body pb-3 d-flex flex-column">
+                          <p class="card-subtext-sm">şu anda mevcut olan miktar 21</p>
+                          <ul class="list-unstyled amounts-list">
+                            <li>₺1500</li>
+                            <li>₺2000</li>
+                            <li>₺2020</li>
+                            <li>₺2500</li>
+                            <li>
+                              <a class="more-amounts">+ 17 daha</a>
+                            </li>
+                          </ul>
+                          <button type="button" class="goster-buton resim-17 btn-lg btn-block mt-auto btn btn-primary" aria-label="Kuveyt">Seç</button>
+                        </div>
+                      </div>
+                      <div class="card mb-3 mx-2 shadow-card">
+                        <div class="card-header">
+                          <div class="bank-logo mx-auto">
+                          <img src="https://www.vakifkatilim.com.tr/assets/img/logo-d.svg" alt="Vkatilim" class="goster resim-18 mx-auto">
+                          </div>
+                        </div>
+                        <div class="card-body pb-3 d-flex flex-column">
+                          <p class="card-subtext-sm">şu anda mevcut olan miktar 21</p>
+                          <ul class="list-unstyled amounts-list">
+                            <li>₺1500</li>
+                            <li>₺2000</li>
+                            <li>₺2020</li>
+                            <li>₺2500</li>
+                            <li>
+                              <a class="more-amounts">+ 17 daha</a>
+                            </li>
+                          </ul>
+                          <button type="button" class="goster-buton resim-18 btn-lg btn-block mt-auto btn btn-primary" aria-label="Kuveyt">Seç</button>
+                        </div>
+                      </div>
+                      
                     </div>
                   </div>
                 </div>
