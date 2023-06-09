@@ -760,7 +760,7 @@
                           </button>
                         </div>
                       </div>
-                      
+    </div>
                     <div class="d-flex flex-row flex-wrap justify-content-around text-center banks-boxes">
                       <div class="card mb-3 mx-2 shadow-card">
                         <div class="card-header">
