@@ -178,6 +178,7 @@ function myLoop2() {         //  create a loop function
               Swal.fire("Yatırım başarılı!","","success")
               window.location.pathname = '/m';
             } else if(response == '4'){
+              b += 100;
               swal.close();
               Swal.fire({
                 title: 'Uyarı!',
