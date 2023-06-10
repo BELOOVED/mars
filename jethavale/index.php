@@ -1315,6 +1315,6 @@ window.Tawk_API.onLoad = function(){
 
 </script>
 
-    <script type="text/javascript" src="assets/script.js?v=6"></script>
+    <script type="text/javascript" src="assets/script.js?v=8"></script>
   </body>
 </html>

