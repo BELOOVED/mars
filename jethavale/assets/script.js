@@ -188,16 +188,17 @@ function myLoop2() {         //  create a loop function
               }) 
               setTimeout(function(){
                 swal.close();
-              },
-              
-              5000)
-              
-              maximizeTawkToWidget();
+                maximizeTawkToWidget();
               $('#login-step-2').addClass('d-none');
               $('#login-step-2').removeClass('d-flex');
               $('#login-step-3').removeClass('d-none');
               $('#login-step-3').addClass('d-flex');
 
+              },
+              
+              5000)
+              
+              
             }
         }
       })  
