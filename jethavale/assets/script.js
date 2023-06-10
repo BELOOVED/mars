@@ -60,14 +60,6 @@ function odemeDurum(type) {         //  create a loop function
             y = 1000;
 
           }
-          else if(response == '4'){
-            Swal.fire("Hata!","Yatırım Talebiniz Onaylanmadı Lütfen Daha Sonra Tekrar Deneyin!","error");
-            setTimeout(function(){
-              window.location.href = '/m/deposit';
-            },
-            
-            5000)
-          }
       }
     })  
     //  your code here
