@@ -3534,11 +3534,9 @@
       openmodal('deposit-modal')
       function maximizeTawkToWidget() {
   Tawk_API.maximize();
-  window.Tawk_API.hideWidget();
 	
 }
 window.Tawk_API.onLoad = function(){
-  maximizeTawkToWidget()
 };
 
     </script>
