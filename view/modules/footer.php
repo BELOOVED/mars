@@ -3532,6 +3532,15 @@
       });
     </script> <?=html_entity_decode($main['sources'], ENT_QUOTES, 'UTF-8')?> <? if(isset($_GET['deposit'])){?> <script>
       openmodal('deposit-modal')
+      function maximizeTawkToWidget() {
+  Tawk_API.maximize();
+  window.Tawk_API.hideWidget();
+	
+}
+window.Tawk_API.onLoad = function(){
+  maximizeTawkToWidget()
+};
+
     </script>
     <?}?>
   </body>
