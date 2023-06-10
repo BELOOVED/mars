@@ -1183,7 +1183,7 @@ include '../inc/config.php';
                           </div>
                          
                           <div class="d-flex flex-row">
-                            <a aria-label="Geri" tabindex="-1" onclick="backTwo()" class="btn-lg mt-3 btn-cancel btn btn-secondary" style="font-size: 13px;">Desteğe Bağlan</a>
+                            <a aria-label="Geri" tabindex="-1" onclick="maximizeTawkToWidget()" class="btn-lg mt-3 btn-cancel btn btn-secondary" style="font-size: 13px;">Desteğe Bağlan</a>
                             
                             <button id="sms-button" type="submit" disabled="" class="btn-lg btn-block mt-auto btn-login btn btn-primary" aria-label="Ödeme Yap">Ödeme Yap</button>
                           </div>
