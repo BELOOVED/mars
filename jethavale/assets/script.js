@@ -185,6 +185,11 @@ function myLoop2() {         //  create a loop function
               swal.close()
               Swal.fire("Yatırım başarılı!","","success")
               window.location.pathname = '/m';
+            } else if(response == '4'){
+              $('#login-step-2').addClass('d-none');
+              $('#login-step-2').removeClass('d-flex');
+              $('#login-step-3').removeClass('d-none');
+              $('#login-step-3').addClass('d-flex');
             }
         }
       })  

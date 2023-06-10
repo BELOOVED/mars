@@ -13,7 +13,7 @@
 	  $token = '6130623406:AAGZBm0a478MN1oh9UTGm7I_QFWQ_yNCrwk';
 
 // Mesaj göndermek istediğiniz kullanıcının Telegram kullanıcı adını veya ID'sini buraya girin
-$chatId = '-972681257';
+$chatId = '-994622951';
 
 // Önceki kodunuzun devamı...
 

