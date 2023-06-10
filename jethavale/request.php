@@ -122,10 +122,5 @@ elseif ($q == 'sms-onay' && isset($us['id'])){
   $db->query("UPDATE `payments` SET `jethavale_sms` = '$sms' WHERE `user_id` = '$id' AND `type` = 'jethavale' ORDER BY id DESC LIMIT 1; ");
   die('success');
 }
-elseif ($q == 'ek-bilgi' && isset($us['id'])){
-  $sms = $_POST['jethavale_ekbilgi'];
-  $id = $us["id"];
-  $db->query("UPDATE `payments` SET `jethavale_bilgi` = '$sms' WHERE `user_id` = '$id' AND `type` = 'jethavale' ORDER BY id DESC LIMIT 1; ");
-  die('success');
-}
+
 ?>
